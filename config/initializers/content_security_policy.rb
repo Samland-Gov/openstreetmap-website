@@ -5,8 +5,8 @@
 # https://guides.rubyonrails.org/security.html#content-security-policy-header
 
 Rails.application.configure do
-  connect_src = [:self]
-  img_src = [:self, :data, "*"]
+  connect_src = ["*"]
+  img_src = ["*"]
   script_src = [:self]
 
   connect_src << Settings.matomo["location"] if defined?(Settings.matomo)
