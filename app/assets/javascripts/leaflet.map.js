@@ -13,7 +13,6 @@ L.extend(L.LatLngBounds.prototype, {
 
 L.OSM.Map = L.Map.extend({
   initialize: function (id, options) {
-    options["crs"] = L.CRS.Simple;
     L.Map.prototype.initialize.call(this, id, options);
 
     this.baseLayers = [];
