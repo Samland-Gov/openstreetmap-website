@@ -29,7 +29,7 @@ $(document).ready(function () {
     zoomControl: false,
     layerControl: false,
     contextmenu: true,
-    worldCopyJump: true,
+    worldCopyJump: false,
     crs: L.CRS.Simple
   });
 
