@@ -5,7 +5,10 @@ L.OSM.TileLayer = L.TileLayer.extend({
     url: 'https://files.minersonline.uk/tiles/m_cmp1/tiles/minecraft_overworld/{z}/{x}_{y}.png',
     attribution: '© <a href="https://minersonline.uk" target="_blank">Miners Online</a>',
     crs: L.CRS.Simple,
-    maxZoom: 5,
+    tileSize: 512,
+    minNativeZoom: 0,
+    maxNativeZoom: 5,
+    errorTileUrl: 'https://files.minersonline.uk/tiles/m_cmp1/images/clear.png',
     preferCanvas: true,
     noWrap: true
   },
