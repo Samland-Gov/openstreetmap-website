@@ -17,18 +17,22 @@ module GeoRecord
   # This scaling factor is used to convert between the float lat/lon that is
   # returned by the API, and the integer lat/lon equivalent that is stored in
   # the database.
-  SCALE = 10000000
+  #
+  # In Samland, we want a direct mapping between the two, so we use a scale of 1
+  # (which essentially disables the scaling). So, 1 lat/lon = one block.
+  SCALE = 1
 
   included do
     scope :bbox, ->(bbox) { where(OSM.sql_for_area(bbox, "#{table_name}.")) }
     before_save :update_tile
   end
 
-  # Is this node within -90 >= latitude >= 90 and -180 >= longitude >= 180
+  # Is this node within -30000000 >= latitude >= 30000000 and -30000000 >= longitude >= 30000000
+  # A minecraft world has a max horizontal size of 30,000,000 blocks.
   # * returns true/false
   def in_world?
-    return false if lat < -90 || lat > 90
-    return false if lon < -180 || lon > 180
+    return false if lat < -30000000 || lat > 30000000
+    return false if lon < -30000000 || lon > 30000000
 
     true
   end
