@@ -345,7 +345,7 @@ de:
         reopened_at_html: '%{when} reaktiviert'
         reopened_at_by_html: '%{when} von %{user} reaktiviert'
       rss:
-        title: OpenStreetMap-Hinweise
+        title: Samland Street Map-Hinweise
         description_all: Eine Liste der gemeldeten, kommentierten oder geschlossenen
           Notizen
         description_area: Übersicht der gemeldeten, kommentierten oder geschlossen
@@ -365,13 +365,13 @@ de:
         warning: Achtung! Der Vorgang der Kontolöschung ist endgültig und kann nicht
           rückgängig gemacht werden.
         delete_account: Konto löschen
-        delete_introduction: 'Du kannst dein OpenStreetMap-Konto über die unten stehende
+        delete_introduction: 'Du kannst dein Samland Street Map-Konto über die unten stehende
           Schaltfläche löschen. Bitte beachte die folgenden Details:'
         delete_profile: Deine Profilinformationen, einschließlich deines Avatars,
           deiner Beschreibung und deines Wohnorts, werden entfernt.
         delete_display_name: Dein Benutzername wird entfernt und kann von anderen
           Konten wiederverwendet werden.
-        retain_caveats: 'Einige Informationen über dich bleiben jedoch auf OpenStreetMap
+        retain_caveats: 'Einige Informationen über dich bleiben jedoch auf Samland Street Map
           erhalten, auch nachdem dein Konto gelöscht wurde:'
         retain_edits: Deine Änderungen an der Kartendatenbank, sofern vorhanden, bleiben
           erhalten.
@@ -575,8 +575,8 @@ de:
           %{author}
         commented_at_by_html: '%{when} von %{user} aktualisiert'
       show:
-        title_all: Diskussion zum OpenStreetMap-Änderungssatz
-        title_particular: Diskussion zum OpenStreetMap-Änderungssatz Nr. %{changeset_id}
+        title_all: Diskussion zum Samland Street Map-Änderungssatz
+        title_particular: Diskussion zum Samland Street Map-Änderungssatz Nr. %{changeset_id}
       timeout:
         sorry: Leider ist die Liste der Kommentare der Änderungssätze, die du angefordert
           hast, für den Abruf zu lang.
@@ -730,14 +730,14 @@ de:
       location: 'Ort:'
     feed:
       user:
-        title: OpenStreetMap Blogeinträge von %{user}
-        description: Letzte OpenStreetMap Blogeinträge von %{user}
+        title: Samland Street Map Blogeinträge von %{user}
+        description: Letzte Samland Street Map Blogeinträge von %{user}
       language:
-        title: OpenStreetMap Blogeinträge in %{language_name}
-        description: Letzte Blogeinträge von Benutzern von OpenStreetMap in %{language_name}
+        title: Samland Street Map Blogeinträge in %{language_name}
+        description: Letzte Blogeinträge von Benutzern von Samland Street Map in %{language_name}
       all:
-        title: OpenStreetMap Blogbeiträge
-        description: Neueste Blogeinträge von OpenStreetMap-Nutzern
+        title: Samland Street Map Blogbeiträge
+        description: Neueste Blogeinträge von Samland Street Map-Nutzern
     subscribe:
       heading: Folgende Tagebucheintragsdiskussion abonnieren?
       button: Diskussion abonnieren
@@ -793,25 +793,25 @@ de:
       contact_url: https://wiki.openstreetmap.org/wiki/DE:Kommunikationskan%C3%A4le
       contact_url_title: Erklärung verschiedener Kontaktkanäle
       contact: Kontakt
-      contact_the_community_html: Bitte nimm %{contact_link} mit der OpenStreetMap-Community
+      contact_the_community_html: Bitte nimm %{contact_link} mit der Samland Street Map-Community
         auf, wenn du einen defekten Link / Fehler gefunden hast. Notiere dir die genaue
         URL deiner Anfrage.
     bad_request:
       title: Ungültige Anfrage
-      description: Die angeforderte Operation auf dem OpenStreetMap-Server ist ungültig
+      description: Die angeforderte Operation auf dem Samland Street Map-Server ist ungültig
         (HTTP 400).
     forbidden:
       title: Verboten
-      description: Die von dir angeforderte Aktion auf dem OpenStreetMap-Server ist
+      description: Die von dir angeforderte Aktion auf dem Samland Street Map-Server ist
         nur für Administratoren verfügbar (HTTP 403)
     internal_server_error:
       title: Anwendungsfehler
-      description: Der OpenStreetMap-Server ist auf eine unerwartete Bedingung gestoßen,
+      description: Der Samland Street Map-Server ist auf eine unerwartete Bedingung gestoßen,
         die ihn daran gehindert hat, die Anfrage zu erfüllen (HTTP 500)
     not_found:
       title: Datei nicht gefunden
       description: Konnte keine Datei-/Verzeichnis-/API-Operation mit diesem Namen
-        auf dem OpenStreetMap-Server finden (HTTP 404)
+        auf dem Samland Street Map-Server finden (HTTP 404)
   friendships:
     make_friend:
       heading: '%{user} als Freund hinzufügen?'
@@ -1736,7 +1736,7 @@ de:
       provide_details: Bitte die erforderlichen Einzelheiten angeben
   layouts:
     logo:
-      alt_text: OpenStreetMap Logo
+      alt_text: Samland Street Map Logo
     home: Gehe zum Heimatstandort
     logout: Abmelden
     log_in: Anmelden
@@ -1749,18 +1749,18 @@ de:
     gps_traces: GPS-Tracks
     user_diaries: Benutzer-Blogs
     edit_with: Bearbeiten mit %{editor}
-    intro_header: Willkommen bei OpenStreetMap!
-    intro_text: OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir
+    intro_header: Willkommen bei Samland Street Map!
+    intro_text: Samland Street Map ist eine Karte der Welt, erstellt von Menschen wie dir
       und frei verwendbar unter einer offenen Lizenz.
     hosting_partners_2024_html: Das Hosting wird von %{fastly}, %{corpmembers} und
       anderen %{partners} unterstützt.
     partners_fastly: Fastly
-    partners_corpmembers: OSMF-Unternehmensmitglieder
+    partners_corpmembers: SSM-Unternehmensmitglieder
     partners_partners: Partnern
     tou: Nutzungsbedingungen
-    osm_offline: Die OpenStreetMap-Datenbank ist im Moment wegen wichtiger Wartungsarbeiten
+    osm_offline: Die Samland Street Map-Datenbank ist im Moment wegen wichtiger Wartungsarbeiten
       nicht verfügbar.
-    osm_read_only: Die OpenStreetMap-Datenbank ist im Moment wegen wichtiger Wartungsarbeiten
+    osm_read_only: Die Samland Street Map-Datenbank ist im Moment wegen wichtiger Wartungsarbeiten
       im „Nur-Lesen-Modus“.
     nothing_to_preview: Es existiert keine Vorschau.
     help: Hilfe
@@ -1771,12 +1771,12 @@ de:
     more: Mehr
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap-Tagebucheintrag #%{id}'
-      subject: '[OpenStreetMap] %{user} hat zu einem Blogeintrag kommentiert'
+      description: 'Samland Street Map-Tagebucheintrag #%{id}'
+      subject: '[Samland Street Map] %{user} hat zu einem Blogeintrag kommentiert'
       hi: Hallo %{to_user},
-      header: '%{from_user} hat zu dem OpenStreetMap-Blogeintrag mit dem Thema %{subject}
+      header: '%{from_user} hat zu dem Samland Street Map-Blogeintrag mit dem Thema %{subject}
         kommentiert:'
-      header_html: '%{from_user} hat zu dem OpenStreetMap-Blogeintrag mit dem Thema
+      header_html: '%{from_user} hat zu dem Samland Street Map-Blogeintrag mit dem Thema
         %{subject} kommentiert:'
       footer: Hier gehts zum Kommentar %{readurl}, du kannst ihn kommentieren %{commenturl}
         oder dem Autor unter %{replyurl} antworten.
@@ -1787,11 +1787,11 @@ de:
       footer_unsubscribe_html: Du kannst dich von der Diskussion auf %{unsubscribeurl}
         abmelden.
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Hallo %{to_user},
-      header: '%{from_user} hat dir eine Nachricht über OpenStreetMap mit dem Betreff
+      header: '%{from_user} hat dir eine Nachricht über Samland Street Map mit dem Betreff
         %{subject} gesendet:'
-      header_html: '%{from_user} hat dir eine Nachricht über OpenStreetMap mit dem
+      header_html: '%{from_user} hat dir eine Nachricht über Samland Street Map mit dem
         Betreff %{subject} gesendet:'
       footer: Du kannst auch die Nachricht unter %{readurl} lesen und dem Autor unter
         %{replyurl} antworten
@@ -1799,7 +1799,7 @@ de:
         unter %{replyurl} antworten
     friendship_notification:
       hi: Hallo %{to_user},
-      subject: '[OpenStreetMap] %{user} hat dich als Freund hinzugefügt'
+      subject: '[Samland Street Map] %{user} hat dich als Freund hinzugefügt'
       had_added_you: '%{user} hat dich als Freund hinzugefügt.'
       see_their_profile: Du kannst sein/ihr Profil unter %{userurl} ansehen.
       see_their_profile_html: Du kannst sein/ihr Profil unter %{userurl} ansehen.
@@ -1826,7 +1826,7 @@ de:
       more_info_html: Weitere Informationen über Fehler bei GPX-Importen und wie sie
         vermieden werden können finden sich in %{url}
       import_failures_url: https://wiki.openstreetmap.org/wiki/DE:GPX#Warum_wurde_meine_GPX-Datei_nicht_richtig_hochgeladen.3F
-      subject: '[OpenStreetMap] GPX-Import Fehler'
+      subject: '[Samland Street Map] GPX-Import Fehler'
     gpx_success:
       hi: Hallo %{to_user},
       loaded:
@@ -1837,9 +1837,9 @@ de:
         unter %{url}.
       all_your_traces_html: Alle deine erfolgreich hochgeladenen GPX-Traces findest
         du unter %{url}.
-      subject: '[OpenStreetMap] GPX-Import erfolgreich'
+      subject: '[Samland Street Map] GPX-Import erfolgreich'
     signup_confirm:
-      subject: '[OpenStreetMap] Willkommen bei OpenStreetMap'
+      subject: '[Samland Street Map] Willkommen bei Samland Street Map'
       greeting: Hallo!
       created: Jemand (hoffentlich du) erstellte gerade bei %{site_url} ein Benutzerkonto.
       confirm: 'Bevor wir etwas unternehmen, benötigen wir eine Bestätigung, dass
@@ -1848,27 +1848,27 @@ de:
       welcome: Nach der Bestätigung deines Benutzerkontos geben wir dir zusätzliche
         Informationen, um anzufangen.
     email_confirm:
-      subject: '[OpenStreetMap] Deine E-Mail-Adresse bestätigen'
+      subject: '[Samland Street Map] Deine E-Mail-Adresse bestätigen'
       greeting: Hallo,
       hopefully_you: Jemand (hoffentlich du) will seine E-Mail-Adresse auf %{server_url}
         zu „%{new_address}“ ändern.
       click_the_link: Wenn du das bist, bestätige bitte deine E-Mail-Adresse mit dem
         Link unten.
     lost_password:
-      subject: '[OpenStreetMap] Anfrage zum Passwort zurücksetzen'
+      subject: '[Samland Street Map] Anfrage zum Passwort zurücksetzen'
       greeting: Hallo,
       hopefully_you: Jemand (wahrscheinlich du) hat eine Zurücksetzung des Passworts
         für das openstreetmap.org-Konto an diese E-Mail-Adresse angefordert.
       click_the_link: Wenn du das bist, klicke bitte auf den Link unten, um dein Passwort
         zurückzusetzen.
     note_comment_notification:
-      description: 'OpenStreetMap-Notiz #%{id}'
+      description: 'Samland Street Map-Notiz #%{id}'
       anonymous: Ein anonymer Benutzer
       greeting: Hallo,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hat einen von dir gemeldeten Hinweis
+        subject_own: '[Samland Street Map] %{commenter} hat einen von dir gemeldeten Hinweis
           kommentiert'
-        subject_other: '[OpenStreetMap] %{commenter} hat einen Hinweis kommentiert,
+        subject_other: '[Samland Street Map] %{commenter} hat einen Hinweis kommentiert,
           an dem du interessiert bist'
         your_note: '%{commenter} hat einen von dir gemeldeten Hinweis in der Nähe
           von %{place} kommentiert.'
@@ -1880,9 +1880,9 @@ de:
           hattest, einen weiteren Kommentar hinterlegt. Der Hinweis ist in der Nähe
           von %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} hat ein von dir gemeldetes Problem
+        subject_own: '[Samland Street Map] %{commenter} hat ein von dir gemeldetes Problem
           gelöst'
-        subject_other: '[OpenStreetMap] %{commenter} hat ein gemeldetes Problem gelöst,
+        subject_other: '[Samland Street Map] %{commenter} hat ein gemeldetes Problem gelöst,
           an dem du interessiert bist'
         your_note: '%{commenter} hat ein von dir gemeldetes Problem in der Nähe von
           %{place} gelöst.'
@@ -1893,8 +1893,8 @@ de:
         commented_note_html: '%{commenter} hat ein Problem/Thema gelöst, zu dem Du
           kommentiert hattest. Der Hinweis war in der Nähe von %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} hat einen Hinweis von dir reaktiviert'
-        subject_other: '[OpenStreetMap] %{commenter} hat einen Hinweis, an dem du
+        subject_own: '[Samland Street Map] %{commenter} hat einen Hinweis von dir reaktiviert'
+        subject_other: '[Samland Street Map] %{commenter} hat einen Hinweis, an dem du
           interessiert bist, reaktiviert'
         your_note: '%{commenter} hat einen Hinweis von dir in der Nähe von %{place}
           reaktiviert.'
@@ -1907,12 +1907,12 @@ de:
       details: Antworte oder erfahre mehr über die Notiz unter %{url}.
       details_html: Antworte oder erfahre mehr über die Notiz unter %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMap-Änderungssatz #%{id}'
+      description: 'Samland Street Map-Änderungssatz #%{id}'
       hi: Hallo %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hat einen deiner Änderungssätze
+        subject_own: '[Samland Street Map] %{commenter} hat einen deiner Änderungssätze
           diskutiert'
-        subject_other: '[OpenStreetMap] %{commenter} hat zu einem Änderungssatz kommentiert,
+        subject_other: '[Samland Street Map] %{commenter} hat zu einem Änderungssatz kommentiert,
           an dem du interessiert bist'
         your_changeset: '%{commenter} hinterließ einen Diskussionsbeitrag  um %{time}
           zu einem deiner Änderungssätze'
@@ -1936,7 +1936,7 @@ de:
       heading: Bitte überprüfe deine E-Mails!
       introduction_1: Wir haben dir eine Bestätigungs-E-Mail zugesandt.
       introduction_2: Bitte bestätige dein Benutzerkonto, indem du den Link in der
-        Bestätigungs-E-Mail anklickst. Dann kannst Du beginnen, bei OpenStreetMap
+        Bestätigungs-E-Mail anklickst. Dann kannst Du beginnen, bei Samland Street Map
         mitzuarbeiten.
       press confirm button: Zur Aktivierung Deines Benutzerkontos klicke bitte unten
         auf „Bestätigen“.
@@ -2119,7 +2119,7 @@ de:
   sessions:
     new:
       tab_title: Anmelden
-      login_to_authorize_html: Melde dich bei OpenStreetMap an, um auf %{client_app_name}
+      login_to_authorize_html: Melde dich bei Samland Street Map an, um auf %{client_app_name}
         zuzugreifen.
       email or username: E-Mail-Adresse oder Benutzername
       password: Passwort
@@ -2131,7 +2131,7 @@ de:
       auth failure: Mit diesen Daten leider keine Anmeldung möglich.
     destroy:
       title: Abmelden
-      heading: Von OpenStreetMap abmelden
+      heading: Von Samland Street Map abmelden
       logout_button: Abmelden
     suspended_flash:
       suspended: Sorry, dein Konto wurde aufgrund verdächtiger Aktivitäten gesperrt.
@@ -2179,33 +2179,33 @@ de:
         newer: Neuere Benutzer
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} Mitwirkende'
+      heading_html: '%{copyright}Samland Street Map %{br} Mitwirkende'
       used_by_html: '%{name} stellt Kartendaten für tausende von Webseiten, Apps und
         andere Geräte zur Verfügung'
       lede_text: |-
-        OpenStreetMap wird von einer Vielzahl von Mappern erstellt, die Daten zu
+        Samland Street Map wird von einer Vielzahl von Mappern erstellt, die Daten zu
         Wegen, Gebäuden und allerlei Weiterem weltweit erfassen und pflegen.
       local_knowledge_title: Lokales Wissen
       local_knowledge_html: |-
-        OpenStreetMap legt Wert auf lokales Wissen. Autoren benutzen
+        Samland Street Map legt Wert auf lokales Wissen. Autoren benutzen
         Luftbilder, GPS-Geräte und Feldkarten zur Verifizierung, sodass OSM
         korrekt und aktuell ist.
       community_driven_title: Gemeinschaftsbetrieben
       community_driven_1_html: |-
-        Die OpenStreetMap-Gemeinschaft ist vielfältig, leidenschaftlich und wächst jeden Tag.
+        Die Samland Street Map-Gemeinschaft ist vielfältig, leidenschaftlich und wächst jeden Tag.
         Unsere Mitwirkenden sind begeisterte Kartierer, GIS-Fachleute, Ingenieure
         die die OSM-Server betreiben, humanitäre Helfer, die von Katastrophen betroffene Gebiete kartieren,
         und vieles mehr.
         Um mehr über die Gemeinschaft zu erfahren, besuche den %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, und die
         Website der %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap Blog
+      community_driven_osm_blog: Samland Street Map Blog
       community_driven_user_diaries: Benutzertagebücher
       community_driven_community_blogs: Community-Blogs
       community_driven_osm_foundation: OSM-Stiftung
       open_data_title: Open Data
-      open_data_1_html: 'OpenStreetMap ist %{open_data}: Es steht dir frei, sie für
-        jeden Zweck zu nutzen, solange du OpenStreetMap und seine Mitwirkenden erwähnst.
+      open_data_1_html: 'Samland Street Map ist %{open_data}: Es steht dir frei, sie für
+        jeden Zweck zu nutzen, solange du Samland Street Map und seine Mitwirkenden erwähnst.
         Wenn du die Daten auf bestimmte Weise veränderst oder darauf aufbaust, darfst
         du das Ergebnis nur unter derselben Lizenz weitergeben. Siehe den %{copyright_license_link}
         für weitere Informationen.'
@@ -2214,18 +2214,18 @@ de:
       legal_title: Rechtliche Hinweise
       legal_1_1_html: |-
         Diese Website und viele andere damit zusammenhängende Dienste werden formell von der
-        %{openstreetmap_foundation_link} (OSMF)
-        im Namen der Gemeinschaft betrieben. Die Nutzung aller von der OSMF betriebenen Dienste unterliegt
+        %{openstreetmap_foundation_link} (SSM)
+        im Namen der Gemeinschaft betrieben. Die Nutzung aller von der SSM betriebenen Dienste unterliegt
         unseren %{terms_of_use_link}, %{aup_link} und unserer %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Stiftung
+      legal_1_1_openstreetmap_foundation: Samland Street Map Stiftung
       legal_1_1_terms_of_use: Nutzungsbedingungen
       legal_1_1_aup: Richtlinien für die akzeptable Nutzung
       legal_1_1_privacy_policy: Datenschutzrichtlinie
       legal_2_1_html: Bitte kontaktiere %{contact_the_osmf_link}, wenn du Lizenz-,
         Urheberrechts- oder andere rechtliche Fragen hast.
-      legal_2_1_contact_the_osmf: OSMF kontaktieren
-      legal_2_2_html: OpenStreetMap, das Lupenlogo und State of the Map sind %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: eingetragenes Markenzeichen der OSMF
+      legal_2_1_contact_the_osmf: SSM kontaktieren
+      legal_2_2_html: Samland Street Map, das Lupenlogo und State of the Map sind %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: eingetragenes Markenzeichen der SSM
       partners_title: Partner
     copyright:
       title: Urheberrecht und Lizenz
@@ -2244,14 +2244,14 @@ de:
         mapping_link: mit dem Kartieren anfangen
       legal_babble:
         introduction_1_html: |-
-          OpenStreetMap%{registered_trademark_link} sind %{open_data} (open data), lizenziert unter der
-          %{odc_odbl_link} (ODbL) von der %{osm_foundation_link} (OSMF).
+          Samland Street Map%{registered_trademark_link} sind %{open_data} (open data), lizenziert unter der
+          %{odc_odbl_link} (ODbL) von der %{osm_foundation_link} (SSM).
         introduction_1_open_data: offene Daten
         introduction_1_odc_odbl: Open Data Commons Open Database-Lizenz
-        introduction_1_osm_foundation: OpenStreetMap Stiftung
+        introduction_1_osm_foundation: Samland Street Map Stiftung
         introduction_2_html: |-
           Es steht dir frei, unsere Daten zu kopieren, weiterzugeben,
-          zu übermitteln sowie anzupassen, sofern du OpenStreetMap
+          zu übermitteln sowie anzupassen, sofern du Samland Street Map
           und seine Mitwirkenden als Quelle angibst. Für den Fall, dass
           du auf Basis unserer Daten Anpassungen vornimmst oder sie
           als Grundlage für weitere Bearbeitungen verwendest, kannst
@@ -2262,11 +2262,11 @@ de:
           (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Namensnennung – Weitergabe
           unter gleichen Bedingungen 2.0
-        credit_title_html: Wie auf die Urheberschaft von OpenStreetMap hinzuweisen
+        credit_title_html: Wie auf die Urheberschaft von Samland Street Map hinzuweisen
           ist
-        credit_1_html: 'Wenn du OpenStreetMap-Daten verwendest, musst du die folgenden
+        credit_1_html: 'Wenn du Samland Street Map-Daten verwendest, musst du die folgenden
           zwei Bedingungen erfüllen:'
-        credit_2_1: Nennung von OpenStreetMap, indem du unseren Urheberrechts-Hinweis
+        credit_2_1: Nennung von Samland Street Map, indem du unseren Urheberrechts-Hinweis
           anzeigst.
         credit_2_2: Mache deutlich, dass die Daten unter der Open Database-Lizenz
           verfügbar sind.
@@ -2282,19 +2282,19 @@ de:
           Alternativ und als Anforderung, wenn Du OSM in einer Datenform verbreitest,
           kannst Du die Lizenz(en) direkt benennen und verlinken. In Medien, in denen
           Links nicht möglich sind (z. B. gedruckte Werke), empfehlen wir, Leser auf
-          openstreetmap.org (vielleicht durch das Erweitern von 'OpenStreetMap' auf
+          openstreetmap.org (vielleicht durch das Erweitern von 'Samland Street Map' auf
           diese vollständige Adresse) und auf opendatacommons.org zu verweisen. In
           diesem Beispiel erscheint der Hinweis in der Ecke der Karte.
         credit_4_1_this_copyright_page: diese Copyright-Seite
         attribution_example:
-          alt: Beispiel, wie man auf OpenStreetMap auf einer Webseite hinweist
+          alt: Beispiel, wie man auf Samland Street Map auf einer Webseite hinweist
           title: Namensnennung-Beispiel
         more_title_html: Weitere Informationen
         more_1_1_html: Weitere Informationen zur Nutzung unserer Daten und zur Gutschrift
           findest du unter %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: OSMF-Lizenzseite
+        more_1_1_osmf_licence_page: SSM-Lizenzseite
         more_2_1_html: |-
-          Obwohl es sich bei OpenStreetMap um offene Daten handelt, können wir keine kostenlose Karten-API für Dritte bereitstellen.
+          Obwohl es sich bei Samland Street Map um offene Daten handelt, können wir keine kostenlose Karten-API für Dritte bereitstellen.
           Siehe unsere %{api_usage_policy_link}, %{tile_usage_policy_link} und %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: API-Nutzungsrichtlinie
         more_2_1_tile_usage_policy: Nutzungsrichtlinie für Kacheln
@@ -2385,34 +2385,34 @@ de:
           2010–2023.
         contributors_gb_united_kingdom: Vereinigtes Königreich
         contributors_2_html: Weitere Einzelheiten zu diesen und anderen Quellen, die
-          zur Verbesserung von OpenStreetMap verwendet wurden, findest du unter %{contributors_page_link}
-          im OpenStreetMap-Wiki.
+          zur Verbesserung von Samland Street Map verwendet wurden, findest du unter %{contributors_page_link}
+          im Samland Street Map-Wiki.
         contributors_2_contributors_page: Quellenhinweise
-        contributors_footer_2_html: Die Einbeziehung von Daten bei OpenStreetMap bedeutet
-          nicht, dass der ursprüngliche Datenlieferant OpenStreetMap unterstützt,
+        contributors_footer_2_html: Die Einbeziehung von Daten bei Samland Street Map bedeutet
+          nicht, dass der ursprüngliche Datenlieferant Samland Street Map unterstützt,
           Gewährleistung dafür gibt oder die Haftung dafür übernimmt.
         infringement_title_html: Urheberrechtsverletzung
-        infringement_1_html: Die Mitwirkenden von OpenStreetMap weisen wir darauf
+        infringement_1_html: Die Mitwirkenden von Samland Street Map weisen wir darauf
           hin, dass keinesfalls Daten aus urheberrechtlich geschützten Quellen verwendet
           werden dürfen (z. B. Google Maps oder gedruckte Kartenwerke), ohne vorher
           die ausdrückliche Erlaubnis des Rechteinhabers erhalten zu haben.
         infringement_2_1_html: Wenn du glaubst, dass urheberrechtlich geschütztes
-          Material unangemessen zur OpenStreetMap-Datenbank oder dieser Website hinzugefügt
+          Material unangemessen zur Samland Street Map-Datenbank oder dieser Website hinzugefügt
           wurde, lies bitte %{takedown_procedure_link} oder reiche die Beschwerde
           direkt bei über %{online_filing_page_link} ein.
         infringement_2_1_takedown_procedure: Takedown-Verfahren
         infringement_2_1_online_filing_page: Online-Einreichungsseite
         trademarks_title: Warenzeichen
         trademarks_1_1_html: |-
-          OpenStreetMap, das Lupenlogo und State of the Map sind eingetragene Marken der
-          OpenStreetMap Foundation. Wenn du Fragen zu der Verwendung der Marken hast, lies bitte unsere
+          Samland Street Map, das Lupenlogo und State of the Map sind eingetragene Marken der
+          Samland Street Map. Wenn du Fragen zu der Verwendung der Marken hast, lies bitte unsere
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Richtlinie für Warenzeichen
     index:
       js_1: Dein Browser unterstützt kein JavaScript oder du hast es deaktiviert.
-      js_2: OpenStreetMap nutzt JavaScript für die Kartendarstellung.
+      js_2: Samland Street Map nutzt JavaScript für die Kartendarstellung.
       license:
-        copyright: Copyright OpenStreetMap und Mitwirkende, unter einer offenen Lizenz
+        copyright: Copyright Samland Street Map und Mitwirkende, unter einer offenen Lizenz
       remote_failed: Der Aufruf des Editors ist fehlgeschlagen. Stelle sicher, dass
         JOSM oder Merkaartor gestartet ist und die Remote-Control-Option aktiviert
         ist.
@@ -2428,20 +2428,20 @@ de:
       title: Exportieren
       manually_select: Einen anderen Bereich manuell auswählen
       licence: Lizenz
-      licence_details_html: OpenStreetMap-Daten sind unter %{odbl_link} (ODbL) lizenziert.
+      licence_details_html: Samland Street Map-Daten sind unter %{odbl_link} (ODbL) lizenziert.
       odbl: Open Data Commons Open Database-Lizenz
       too_large:
         advice: 'Falls der obenstehende Export fehlschlägt, erwäge bitte, eine der
           unten aufgelisteten Quellen zu verwenden:'
-        body: Dieser Bereich ist zu groß, um als OpenStreetMap-XML-Daten exportiert
+        body: Dieser Bereich ist zu groß, um als Samland Street Map-XML-Daten exportiert
           zu werden. Bitte heranzoomen, einen kleineren Bereich wählen oder eine der
           folgenden Quellen für Massendatendownloads nutzen.
         planet:
           title: Planet OSM
-          description: Regelmäßig aktualisierte Kopien der kompletten OpenStreetMap-Datenbank
+          description: Regelmäßig aktualisierte Kopien der kompletten Samland Street Map-Datenbank
         overpass:
           title: Overpass API
-          description: Diese Bounding Box von einem Mirror der OpenStreetMap-Datenbank
+          description: Diese Bounding Box von einem Mirror der Samland Street Map-Datenbank
             herunterladen
         geofabrik:
           title: Geofabrik Downloads
@@ -2449,7 +2449,7 @@ de:
             ausgewählten Städten.
         other:
           title: Andere Quellen
-          description: Zusätzliche Quellen sind im OpenStreetMap-Wiki gelistet
+          description: Zusätzliche Quellen sind im Samland Street Map-Wiki gelistet
       export_button: Export
     fixthemap:
       title: Ein Problem melden / Die Karte korrigieren
@@ -2459,7 +2459,7 @@ de:
           title: Teil der Gemeinschaft werden
           explanation_html: |-
             Falls du bei unseren Kartendaten ein Problem bemerkt hast wie das Fehlen einer Straße oder deiner Adresse,
-            ist der beste Weg zum Weitermachen der Beitritt zur OpenStreetMap-Gemeinschaft und das Beheben der Daten durch dich selbst.
+            ist der beste Weg zum Weitermachen der Beitritt zur Samland Street Map-Gemeinschaft und das Beheben der Daten durch dich selbst.
         add_a_note:
           instructions_1_html: |-
             Klicke einfach auf %{note_icon} oder das gleiche Symbol in der Kartenanzeige.
@@ -2471,16 +2471,16 @@ de:
           für weitere rechtliche Informationen oder wende dich an die entsprechende
           %{working_group_link}."
         copyright: Copyright-Seite
-        working_group: OSMF-Arbeitsgruppe
+        working_group: SSM-Arbeitsgruppe
     help:
       title: Hilfe erhalten
       introduction: |-
-        OpenStreetMap hat mehrere Quellen zum Lernen, Stellen und Beantworten von Fragen über das Projekt
+        Samland Street Map hat mehrere Quellen zum Lernen, Stellen und Beantworten von Fragen über das Projekt
         und zum gemeinsamen Diskutieren und Dokumentieren von Kartierungsthemen.
       welcome:
         url: /welcome
-        title: Willkommen bei OpenStreetMap
-        description: Beginne mit dieser Schnellanleitung, die die OpenStreetMap-Grundlagen
+        title: Willkommen bei Samland Street Map
+        description: Beginne mit dieser Schnellanleitung, die die Samland Street Map-Grundlagen
           abdeckt.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/DE:Beginners%27_guide
@@ -2489,7 +2489,7 @@ de:
       community:
         title: Hilfe- und Community-Forum
         description: Ein gemeinsamer Ort, um Hilfe zu erhalten und Gespräche über
-          OpenStreetMap zu führen.
+          Samland Street Map zu führen.
       mailing_lists:
         title: Mailinglisten
         description: Stelle eine Frage und diskutiere interessante Sachen zu einem
@@ -2501,17 +2501,17 @@ de:
       switch2osm:
         title: Zu OSM wechseln
         description: Hilfe für auf Karten und anderen Diensten gegründeten Unternehmen
-          und Organisationen, die zu OpenStreetMap wechseln.
+          und Organisationen, die zu Samland Street Map wechseln.
       welcomemat:
         title: Für Organisationen
-        description: Mit einer Organisation für OpenStreetMap Pläne entwicken? Finde
+        description: Mit einer Organisation für Samland Street Map Pläne entwicken? Finde
           auf der Willkommensseite heraus, was du wissen musst.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/DE:Hauptseite
-        title: OpenStreetMap Wiki
+        title: Samland Street Map Wiki
         description: Durchsuche das Wiki für eine ausführliche OSM-Dokumentation.
     potlatch:
-      removed: Deine Standard OpenStreetMap Editor ist Potlatch. Da die Entwicklung
+      removed: Deine Standard Samland Street Map Editor ist Potlatch. Da die Entwicklung
         des Adobe Flash Player eingestellt wurde, ist Potlatch nicht mehr für die
         Nutzung im Browser verfügbar.
       desktop_application_html: Du kannst Potlatch von %{download_link} weiterhin
@@ -2522,10 +2522,10 @@ de:
       change_preferences: Einstellungen hier ändern
     any_questions:
       title: Fragen?
-      paragraph_1_html: 'OpenStreetMap bietet verschiedene Ressourcen, um mehr über
+      paragraph_1_html: 'Samland Street Map bietet verschiedene Ressourcen, um mehr über
         das Projekt zu erfahren, Fragen zu stellen und zu beantworten sowie gemeinsam
         Themen rund um das Kartieren zu diskutieren und zu dokumentieren. Schau mal
-        hier: %{help_link}. Planst Du, OpenStreetMap in einer Organisation zu verwenden?
+        hier: %{help_link}. Planst Du, Samland Street Map in einer Organisation zu verwenden?
         Dann findest Du hier auch das Willkommenspaket: %{welcome_mat_link}.'
       get_help_here: Hilfe hier erhalten
       welcome_mat: Schau Dir das Willkommenspaket an
@@ -2632,11 +2632,11 @@ de:
     welcome:
       title: Willkommen!
       introduction: |-
-        Willkommen bei OpenStreetMap, der weltweiten freien und editierbaren Karte. Mit deiner Anmeldung ist alles so weit, dass du anfangen kannst die Karte zu bearbeiten.
+        Willkommen bei Samland Street Map, der weltweiten freien und editierbaren Karte. Mit deiner Anmeldung ist alles so weit, dass du anfangen kannst die Karte zu bearbeiten.
         Hier sind noch eine paar nützliche zusätzliche Informationen.
       whats_on_the_map:
         title: Was gehört in die Karte?
-        on_the_map_html: OpenStreetMap ist ein Ort, um Dinge zu kartieren, die sowohl
+        on_the_map_html: Samland Street Map ist ein Ort, um Dinge zu kartieren, die sowohl
           %{real_and_current} sind. Hier findest Du Millionen von Gebäuden, Straßen
           und anderen Details über Orte. Du kannst diejenigen Merkmale kartieren,
           die für Dich interessant sind.
@@ -2648,7 +2648,7 @@ de:
         doesnt: nicht
       basic_terms:
         title: Grundbegriffe fürs Mapping
-        paragraph_1: OpenStreetMap nutzt ein paar spezifische Begriffe. Hier sind
+        paragraph_1: Samland Street Map nutzt ein paar spezifische Begriffe. Hier sind
           ein paar davon, die nützlich sein dürften.
         an_editor_html: Ein %{editor} ist ein Programm oder eine Website, mit der
           du die Karte bearbeiten kannst.
@@ -2665,7 +2665,7 @@ de:
       rules:
         title: Regeln!
         para_1_html: |-
-          OpenStreetMap hat nur wenige formale Regeln, aber wir erwarten von allen Teilnehmern, dass sie mit der Community zusammenarbeiten und kommunizieren. Wenn du andere Aktivitäten als die manuelle Bearbeitung in Betracht ziehst, lies und befolge bitte die Richtlinien zu
+          Samland Street Map hat nur wenige formale Regeln, aber wir erwarten von allen Teilnehmern, dass sie mit der Community zusammenarbeiten und kommunizieren. Wenn du andere Aktivitäten als die manuelle Bearbeitung in Betracht ziehst, lies und befolge bitte die Richtlinien zu
           %{imports_link} und %{automated_edits_link}.
         imports: Importe
         automated_edits: Automatisierte Bearbeitungen
@@ -2685,7 +2685,7 @@ de:
     communities:
       title: Gemeinschaften
       lede_text: |-
-        Menschen auf der ganzen Welt tragen zu OpenStreetMap bei oder verwenden es.
+        Menschen auf der ganzen Welt tragen zu Samland Street Map bei oder verwenden es.
         Während viele als Einzelpersonen mitmachen, haben andere Gemeinschaften gebildet.
         Diese Gruppen existieren in verschiedenen Größen und repräsentieren geografische Einheiten von kleinen Städten bis hin zu großen länderübergreifenden Regionen. Sie können sowohl formell als auch informell sein.
       local_chapters:
@@ -2693,8 +2693,8 @@ de:
         about_text: Lokale Verbände sind Gruppen auf Landes- oder Regionsebene, die
           den Schritt unternommen haben, eine formelle gemeinnützige Organisation
           zu gründen. Sie repräsentieren die Beitragenden des Gebietes gegenüber der
-          lokalen Regierung, Firmen oder den Medien. Sie sind vertraglich an die OpenStreetMap
-          Foundation (OSMF) gebunden, der Inhaberin der OpenStreetMap Urheber- und
+          lokalen Regierung, Firmen oder den Medien. Sie sind vertraglich an die Samland Street Map
+          Foundation (SSM) gebunden, der Inhaberin der Samland Street Map Urheber- und
           Markenrechte.
         list_text: 'Folgende Gemeinschaften sind offiziell als lokale Verbände eingetragen:'
       other_groups:
@@ -2800,7 +2800,7 @@ de:
       message: Das Upload-System und der Speicher für GPX-Dateien ist derzeit nicht
         verfügbar
     georss:
-      title: OpenStreetMap-GPS-Tracks
+      title: Samland Street Map-GPS-Tracks
     description:
       description_with_count:
         one: GPX-Datei mit einem Punkt von %{user}
@@ -2812,7 +2812,7 @@ de:
       cookies_needed: Es scheint als hättest du Cookies ausgeschaltet. Bitte aktiviere
         Cookies, bevor du fortfährst.
     setup_user_auth:
-      blocked_zero_hour: Du hast eine dringende Nachricht auf der OpenStreetMap-Webseite.
+      blocked_zero_hour: Du hast eine dringende Nachricht auf der Samland Street Map-Webseite.
         Du musst sie zuerst lesen, bevor du deine Bearbeitungen speichern kannst.
       blocked: Dein Zugriff auf die API wurde gesperrt. Bitte melde dich auf der Web-Oberfläche
         an, um mehr zu erfahren.
@@ -2871,7 +2871,7 @@ de:
     permissions:
       missing: Du hast den Anwendungszugriff auf diese Einrichtung nicht zugelassen.
     scopes:
-      openid: Melde Dich mit OpenStreetMap an
+      openid: Melde Dich mit Samland Street Map an
       read_prefs: Benutzereinstellungen lesen
       write_prefs: Benutzereinstellungen verändern
       write_diary: Tagebucheinträge und Kommentare erstellen und Freunde finden
@@ -2942,7 +2942,7 @@ de:
     new:
       title: Registrieren
       tab_title: Registrieren
-      signup_to_authorize_html: Melde dich bei OpenStreetMap an, um auf %{client_app_name}
+      signup_to_authorize_html: Melde dich bei Samland Street Map an, um auf %{client_app_name}
         zuzugreifen.
       no_auto_account_create: Im Moment ist das automatische Erstellen eines Benutzerkontos
         leider nicht möglich.
@@ -2951,12 +2951,12 @@ de:
       support: Support
       about:
         header: Frei und editierbar.
-        paragraph_1: Im Gegensatz zu anderen Karten wird OpenStreetMap vollständig
+        paragraph_1: Im Gegensatz zu anderen Karten wird Samland Street Map vollständig
           von Leuten wie dir erstellt und kann von jedem kostenlos repariert, aktualisiert,
           heruntergeladen und verwendet werden.
         paragraph_2: Registriere dich, um mit deinem Beitrag zu beginnen.
-        welcome: Willkommen bei OpenStreetMap
-      duplicate_social_email: Wenn du bereits ein OpenStreetMap-Konto hast und einen
+        welcome: Willkommen bei Samland Street Map
+      duplicate_social_email: Wenn du bereits ein Samland Street Map-Konto hast und einen
         Identitätsanbieter eines Drittanbieters verwenden möchtest, melde dich bitte
         mit deinem Passwort an und ändere die Einstellungen deines Kontos.
       display name description: Dein öffentlich angezeigter Benutzername. Er kann
@@ -2965,7 +2965,7 @@ de:
         html: Mit deiner Registrierung stimmest du unseren %{tou_link}, %{privacy_policy_link}
           und %{contributor_terms_link} zu.
         privacy_policy: Datenschutzrichtlinie
-        privacy_policy_title: OSMF-Datenschutzrichtlinie einschließlich Abschnitt
+        privacy_policy_title: SSM-Datenschutzrichtlinie einschließlich Abschnitt
           zu E-Mail-Adressen
         contributor_terms: Bedingungen für Mitwirkende
       continue: Registrieren
@@ -2973,7 +2973,7 @@ de:
         hast!
       email_help:
         privacy_policy: Datenschutzrichtlinie
-        privacy_policy_title: OSMF-Datenschutzrichtlinie mit Abschnitt über E-Mail-Adressen
+        privacy_policy_title: SSM-Datenschutzrichtlinie mit Abschnitt über E-Mail-Adressen
         html: Deine Adresse wird nicht öffentlich angezeigt. Weitere Informationen
           findest du in unserer %{privacy_policy_link}.
       consider_pd_html: Ich betrachte meine Beiträge als %{consider_pd_link}.
@@ -2992,7 +2992,7 @@ de:
       read_ct: Ich habe obige Bedingungen für Mitwirkende gelesen und stimme ihnen
         zu
       tou_explain_html: Die %{tou_link} regeln die Benutzung der Webseite und anderer
-        Infrastruktur, die von der OSMF zur Verfügung gestellt wird. Klicke bitte
+        Infrastruktur, die von der SSM zur Verfügung gestellt wird. Klicke bitte
         auf den Link, lies den Text und stimme dann zu.
       read_tou: Ich habe die Nutzungsbedingungen gelesen und stimme ihnen zu
       consider_pd: Zusätzlich zu den oben genannten Bedingungen betrachte ich meine
@@ -3139,9 +3139,9 @@ de:
       invalid_scope: Ungültiger Bereich
       unknown_error: Authentifizierung fehlgeschlagen
     auth_association:
-      heading: Deine ID ist noch nicht mit einem OpenStreetMap-Konto verknüpft.
+      heading: Deine ID ist noch nicht mit einem Samland Street Map-Konto verknüpft.
       option_1: |-
-        Falls du neu auf OpenStreetMap bist, erstelle bitte
+        Falls du neu auf Samland Street Map bist, erstelle bitte
         mithilfe des unten stehenden Formulars ein neues Benutzerkonto.
       option_2: |-
         Falls du bereits ein Benutzerkonto hast, kannst du dich bei deinem Konto
@@ -3348,7 +3348,7 @@ de:
       add: Hinweis/Fehler melden
     new_readonly:
       title: Neuer Hinweis
-      warning: Es können keine neuen Notizen erstellt werden, da sich die OpenStreetMap-API
+      warning: Es können keine neuen Notizen erstellt werden, da sich die Samland Street Map-API
         derzeit im schreibgeschützten Modus befindet.
     notes_paging_nav:
       showing_page: Seite %{page}
@@ -3408,16 +3408,16 @@ de:
         gps: Öffentliche GPS-Tracks
         overlays: Overlays zur Fehlersuche aktivieren
         title: Ebenen
-      openstreetmap_contributors: OpenStreetMap Mitwirkende
+      openstreetmap_contributors: Samland Street Map Mitwirkende
       make_a_donation: Spenden
       website_and_api_terms: Website und API-Bedingungen
       cyclosm_credit: Kachelstil von %{cyclosm_link}, gehostet von %{osm_france_link}
-      osm_france: OpenStreetMap Frankreich
+      osm_france: Samland Street Map Frankreich
       thunderforest_credit: Kacheln mit freundlicher Genehmigung von %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: Kacheln mit freundlicher Genehmigung von %{tracestrack_link}
       hotosm_credit: Kachelstil von %{hotosm_link}, gehostet von %{osm_france_link}
-      hotosm_name: Humanitäres OpenStreetMap Team
+      hotosm_name: Humanitäres Samland Street Map Team
     site:
       edit_tooltip: Karte bearbeiten
       edit_disabled_tooltip: Zum Bearbeiten muss eine höhere Zoomstufe gewählt werden

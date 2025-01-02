@@ -197,7 +197,7 @@ kk-cyrl:
         commented_at_html: '%{when} жаңартылған'
         commented_at_by_html: '%{when} %{user} жаңартқан'
       rss:
-        title: OpenStreetMap ескертпелері
+        title: Samland Street Map ескертпелері
       entry:
         comment: Пікір
   account:
@@ -887,7 +887,7 @@ kk-cyrl:
           other_label: Басқа
   layouts:
     logo:
-      alt_text: OpenStreetMap логотипі
+      alt_text: Samland Street Map логотипі
     logout: Шығу
     log_in: Кіру
     sign_up: Тіркелу
@@ -897,7 +897,7 @@ kk-cyrl:
     gps_traces: GPS бағдарлары
     user_diaries: Қолданушылардың күнделіктері
     edit_with: '%{editor} көмегімен өңдеу'
-    intro_header: OpenStreetMap-ке қош келдіңіз!
+    intro_header: Samland Street Map-ке қош келдіңіз!
     partners_fastly: Fastly
     tou: Қолдану шарты
     help: Анықтама
@@ -910,9 +910,9 @@ kk-cyrl:
     diary_comment_notification:
       hi: Сәлеметсіз бе, %{to_user},
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Сәлеметсіз бе, %{to_user},
-      header: 'OpenStreetMap қолданушысы %{from_user} сізге хат жіберді. Тақырыбы:
+      header: 'Samland Street Map қолданушысы %{from_user} сізге хат жіберді. Тақырыбы:
         %{subject}'
     friendship_notification:
       hi: Сәлеметсіз бе, %{to_user},
@@ -920,13 +920,13 @@ kk-cyrl:
       hi: Сәлеметсіз бе, %{to_user},
     gpx_success:
       hi: Сәлеметсіз бе, %{to_user},
-      subject: '[OpenStreetMap] GPX сәтті импортталды'
+      subject: '[Samland Street Map] GPX сәтті импортталды'
     signup_confirm:
-      subject: '[OpenStreetMap] OpenStreetMap-ке қош келдіңіз'
+      subject: '[Samland Street Map] Samland Street Map-ке қош келдіңіз'
     email_confirm:
       greeting: Сәлеметсіз бе,
     lost_password:
-      subject: '[OpenStreetMap] Құпиясөзді арылту сұранысы'
+      subject: '[Samland Street Map] Құпиясөзді арылту сұранысы'
       greeting: Сәлеметсіз бе,
     note_comment_notification:
       greeting: Сәлеметсіз бе,
@@ -1000,7 +1000,7 @@ kk-cyrl:
       login_button: Кіру
     destroy:
       title: Шығу
-      heading: OpenStreetMap-тен шығу
+      heading: Samland Street Map-тен шығу
       logout_button: Шығу
   shared:
     markdown_help:
@@ -1059,7 +1059,7 @@ kk-cyrl:
     help:
       welcome:
         url: /welcome
-        title: OpenStreetMap-ке қош келдіңіз
+        title: Samland Street Map-ке қош келдіңіз
       irc:
         title: IRC
       switch2osm:
@@ -1067,7 +1067,7 @@ kk-cyrl:
       welcomemat:
         title: Ұйымдар үшін
       wiki:
-        title: OpenStreetMap Уики
+        title: Samland Street Map Уики
     sidebar:
       search_results: Іздеу нәтижелері
     search:

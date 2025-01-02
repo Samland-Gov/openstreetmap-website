@@ -387,7 +387,7 @@ nds:
       more_results: Mehr
   layouts:
     logo:
-      alt_text: OpenStreetMap-Logo
+      alt_text: Samland Street Map-Logo
     logout: afmellen
     log_in: anmellen
     sign_up: Nee Brukerkonto opstellen

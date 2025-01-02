@@ -185,7 +185,7 @@ lv:
         reopened_at_html: Atkal aktivizēts %{when} atpakaļ
         reopened_at_by_html: '%{user} atkal aktivizēja %{when} atpakaļ'
       rss:
-        title: OpenStreetMap Piezīmes
+        title: Samland Street Map Piezīmes
         description_area: Piezīmju saraksts, kuras noziņotas, komentētas vai atrisinātas
           tavā apvidū [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: RSS barotne piezīmei %{id}
@@ -329,8 +329,8 @@ lv:
         comment: 'Jauni komentāri par autora: %{author} pārmaiņām %{changeset_id}'
         commented_at_by_html: '%{user} atjaunoja %{when} atpakaļ'
       show:
-        title_all: Diskusija par izmaiņām OpenStreetMap
-        title_particular: 'Diskusija par OpenStreetMap izmaiņām #%{changeset_id}'
+        title_all: Diskusija par izmaiņām Samland Street Map
+        title_particular: 'Diskusija par Samland Street Map izmaiņām #%{changeset_id}'
   changesets:
     changeset:
       no_edits: (nav labojumu)
@@ -452,15 +452,15 @@ lv:
       location: 'Atrašanās vieta:'
     feed:
       user:
-        title: Lietotāja %{user} OpenStreetMap dienasgrāmatas ieraksti
-        description: Neseni %{user} OpenStreetMap dienasgrāmatas ieraksti
+        title: Lietotāja %{user} Samland Street Map dienasgrāmatas ieraksti
+        description: Neseni %{user} Samland Street Map dienasgrāmatas ieraksti
       language:
-        title: OpenStreetMap dienasgrāmatas ieraksti valodā %{language_name}
-        description: Neseno dienasgrāmatu ieraksti no OpenStreetMap lietotājiem iekš
+        title: Samland Street Map dienasgrāmatas ieraksti valodā %{language_name}
+        description: Neseno dienasgrāmatu ieraksti no Samland Street Map lietotājiem iekš
           %{language_name}
       all:
-        title: OpenStreetMap dienasgrāmatu ieraksti
-        description: Pēdējie dienasgrāmatu ieraksti no OpenStreetMap lietotājiem
+        title: Samland Street Map dienasgrāmatu ieraksti
+        description: Pēdējie dienasgrāmatu ieraksti no Samland Street Map lietotājiem
   diary_comments:
     page:
       post: Publicēt
@@ -1165,7 +1165,7 @@ lv:
       new_reports: Jauni ziņojumi
   layouts:
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: Samland Street Map logo
     home: Doties uz mājas atrašanās vietu
     logout: Iziet
     log_in: Ieiet
@@ -1177,14 +1177,14 @@ lv:
     gps_traces: GPS trases
     user_diaries: Lietotāju dienasgrāmatas
     edit_with: Rediģēt ar %{editor}
-    intro_header: Laipni lūdzam OpenStreetMap!
-    intro_text: OpenStreetMap ir pasaules karte, kuru veido cilvēki kā tu, un tā ir
+    intro_header: Laipni lūdzam Samland Street Map!
+    intro_text: Samland Street Map ir pasaules karte, kuru veido cilvēki kā tu, un tā ir
       bezmaksas lietošanai zem atvērtas licences.
     partners_partners: partneri
     tou: Lietošanas noteikumi
-    osm_offline: OpenStreetMap datubāze šobrīd nav pieejama, tiek veikti svarīgi datubāzes
+    osm_offline: Samland Street Map datubāze šobrīd nav pieejama, tiek veikti svarīgi datubāzes
       apkalpošanas darbi.
-    osm_read_only: OpenStreetMap datubāze šobrīd ir pieejama tikai-lasāmā režīmā,
+    osm_read_only: Samland Street Map datubāze šobrīd ir pieejama tikai-lasāmā režīmā,
       jo tiek veikti svarīgi datubāzes apkalpes darbi.
     help: Palīdzība
     about: Par
@@ -1194,30 +1194,30 @@ lv:
     more: Vairāk
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} komentēja jūsu dienasgrāmatas ierakstu'
+      subject: '[Samland Street Map] %{user} komentēja jūsu dienasgrāmatas ierakstu'
       hi: Sveiks %{to_user},
-      header: '%{from_user} komentēja jūsu neseno  OpenStreetMap dienasgrāmatas ierakstu
+      header: '%{from_user} komentēja jūsu neseno  Samland Street Map dienasgrāmatas ierakstu
         ar virsrakstu %{subject}:'
       footer: Jūs varat izlasīt komentāru saitē %{readurl}, kā arī komentēt saitē
         %{commenturl} vai atbildēt saitē %{replyurl}
     message_notification:
       hi: Sveiks %{to_user},
-      header: 'OpenStreetMap lietotājs %{from_user} ir jums nosūtījis ziņu ar tematu
+      header: 'Samland Street Map lietotājs %{from_user} ir jums nosūtījis ziņu ar tematu
         %{subject}:'
       footer_html: Tu arī vari izlasīt ziņojumu iekš %{readurl} un atbildēt iekš %{replyurl}
     friendship_notification:
       hi: Sveiks, %{to_user}
-      subject: '[OpenStreetMap] %{user} pievienoja Jūs kā draugu'
-      had_added_you: '%{user} pievienoja jūs kā draugu OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} pievienoja Jūs kā draugu'
+      had_added_you: '%{user} pievienoja jūs kā draugu Samland Street Map.'
       see_their_profile: Jūs variet redzēt viņu profilu %{userurl}.
       befriend_them: Jūs variet viņus arī pievienot par draugiem %{befriendurl}.
     gpx_failure:
       failed_to_import: 'imports neizdevās. Kļūda:'
-      subject: '[OpenStreetMap] GPX importēšanas kļūme'
+      subject: '[Samland Street Map] GPX importēšanas kļūme'
     gpx_success:
-      subject: '[OpenStreetMap] GPX imports paveikts'
+      subject: '[Samland Street Map] GPX imports paveikts'
     signup_confirm:
-      subject: '[OpenStreetMap] Laipni lūgti OpenStreetMap'
+      subject: '[Samland Street Map] Laipni lūgti Samland Street Map'
       greeting: Sveicināti!
       created: Kāds (cerams tu) tikko izveidoja lietotāju %{site_url}.
       confirm: 'Pirms mēs turpinām, mums vajag pārliecināties, ka pieprasījums nāca
@@ -1226,14 +1226,14 @@ lv:
       welcome: Kad tu apstiprināsi savu lietotāju, mēs tev dosim papildus informāciju,
         lai tu varētu sākt kartēt.
     email_confirm:
-      subject: '[OpenStreetMap] Apstipriniet savu e-pasta adresi'
+      subject: '[Samland Street Map] Apstipriniet savu e-pasta adresi'
       greeting: Sveicināti,
       hopefully_you: Kāds (cerams Tu) vēlas mainīt savu e-pasta adresi %{server_url}
         uz %{new_address}.
       click_the_link: Ja tas esat jūs, lūdzu klikšķiniet uz zemāk esošās saites lai
         apstiprinātu e-pasta adreses nomaiņu.
     lost_password:
-      subject: '[OpenStreetMap] Paroles atiestatīšanas pieprasījums'
+      subject: '[Samland Street Map] Paroles atiestatīšanas pieprasījums'
       greeting: Sveicināti,
       hopefully_you: Kāds (iespējams Tu) ir pieprasījis paroles atjaunošanu ar šo
         e-pasta adresi reģistrētam openstreetmap.org lietotājam.
@@ -1243,36 +1243,36 @@ lv:
       anonymous: 'Anonīms lietotājs:'
       greeting: Sveiks,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ir komentējis kādu no tavām piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir komentējis kādu no piezīmēm,
+        subject_own: '[Samland Street Map] %{commenter} ir komentējis kādu no tavām piezīmēm'
+        subject_other: '[Samland Street Map] %{commenter} ir komentējis kādu no piezīmēm,
           kas tevi interesē'
         your_note: '%{commenter} ir atstājis komentāru uz kādas no tavām kartes piezīmēm
           netālu no %{place}.'
         commented_note: '%{commenter} ir atstājis komentāru uz kādu no tevis komentētām
           kartes piezīmēm. Piezīme ir netālu no %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} ir atrisinājis kādu no tavām piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir atrisinājis kādu piezīmi,
+        subject_own: '[Samland Street Map] %{commenter} ir atrisinājis kādu no tavām piezīmēm'
+        subject_other: '[Samland Street Map] %{commenter} ir atrisinājis kādu piezīmi,
           kas tevi interesē'
-        your_note: '[OpenStreetMap] %{commenter} ir atrisinājis kādu no tavām piezīmēm
+        your_note: '[Samland Street Map] %{commenter} ir atrisinājis kādu no tavām piezīmēm
           netālu no %{place}.'
-        commented_note: '[OpenStreetMap] %{commenter} ir atrisinājis kādu piezīmi,
+        commented_note: '[Samland Street Map] %{commenter} ir atrisinājis kādu piezīmi,
           kur esi komentējis. Piezīme ir netālu no %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu no tavām
+        subject_own: '[Samland Street Map] %{commenter} ir atkal aktivizējis kādu no tavām
           piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu piezīmi,
+        subject_other: '[Samland Street Map] %{commenter} ir atkal aktivizējis kādu piezīmi,
           kas tevi interesē'
-        your_note: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu no tavām
+        your_note: '[Samland Street Map] %{commenter} ir atkal aktivizējis kādu no tavām
           piezīmēm netālu no %{place}.'
-        commented_note: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu piezīmi,
+        commented_note: '[Samland Street Map] %{commenter} ir atkal aktivizējis kādu piezīmi,
           kur esi komentējis. Piezīme ir netālu no %{place}.'
       details: Vairāk informācijas par piezīmēm var atrast %{url}.
     changeset_comment_notification:
       hi: Sveiks, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ir komentējis kādu no tavām izmaiņām'
-        subject_other: '[OpenStreetMap] %{commenter} ir komentējis kādu no izmaiņām,
+        subject_own: '[Samland Street Map] %{commenter} ir komentējis kādu no tavām izmaiņām'
+        subject_other: '[Samland Street Map] %{commenter} ir komentējis kādu no izmaiņām,
           kas jūs interesē'
         your_changeset: '%{commenter} komentēja vienu no jūsu izmaiņām, kas tika veiktas
           %{time}'
@@ -1434,7 +1434,7 @@ lv:
       auth failure: Diemžēl nevarēja ieiet ar šiem datiem
     destroy:
       title: Iziet
-      heading: Iziet no OpenStreetMap
+      heading: Iziet no Samland Street Map
       logout_button: Iziet
     suspended_flash:
       suspended: Atvainojiet, jūsu konta darbība ir apturēta aizdomīgu darbību dēļ.
@@ -1454,14 +1454,14 @@ lv:
         newer: Jaunākas Trases
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} datu sniedzēji'
+      heading_html: '%{copyright}Samland Street Map %{br} datu sniedzēji'
       used_by_html: '%{name} darbina kartes datus simtiem mājaslapu, mobilajās aplikācijās
         un aparatūras ierīcēs'
-      lede_text: OpenStreetMap būvē kartētāju kopiena, kuri iegulda un uztur datus
+      lede_text: Samland Street Map būvē kartētāju kopiena, kuri iegulda un uztur datus
         par ceļiem, takām, kafejnīcām, dzelzceļa stacijām un daudz ko vairāk visā
         pasaulē.
       local_knowledge_title: Vietējo zināšanas
-      local_knowledge_html: OpenStreetMap liek uzsvaru uz vietējo zināšanām. Datu
+      local_knowledge_html: Samland Street Map liek uzsvaru uz vietējo zināšanām. Datu
         veidotāji lieto satelītbildes, GPS ierīces, un parastas papīra kartes, lai
         pārliecinātos ka OSM ir precīzs un aktuāls.
       community_driven_title: Kopienas virzīts
@@ -1482,12 +1482,12 @@ lv:
         native_link: latviskā versija
         mapping_link: sākt kartēt
       legal_babble:
-        credit_title_html: Kā atsaukties uz OpenStreetMap
+        credit_title_html: Kā atsaukties uz Samland Street Map
         credit_1_html: |-
-          Mēs pieprasām, ka tu izmanto atsauci &ldquo;&copy; OpenStreetMap
+          Mēs pieprasām, ka tu izmanto atsauci &ldquo;&copy; Samland Street Map
           veidotāji&rdquo;.
         attribution_example:
-          alt: Piemērs, kā OpenStreetMap apzīmēt web lapā
+          alt: Piemērs, kā Samland Street Map apzīmēt web lapā
           title: Atsauces piemērs
         more_title_html: Uzzināt vairāk
         contributors_title_html: Mūsu veidotāji
@@ -1512,8 +1512,8 @@ lv:
         contributors_za_south_africa: Dienvidāfrika
         contributors_gb_united_kingdom: Apvienotā Karaliste
         contributors_footer_2_html: |2-
-            Datu ievietošana OpenStreetMap nenozīmē ka oriģinālais
-            datu avots sniedz atbalstu OpenStreetMap, dod garantiju, vai
+            Datu ievietošana Samland Street Map nenozīmē ka oriģinālais
+            datu avots sniedz atbalstu Samland Street Map, dod garantiju, vai
             pieņem jebkādu atbildību.
         infringement_title_html: Autortiesību pārkāpums
         infringement_1_html: "OSM veidotājiem tiek atgādināts, nekad neizmantot datus
@@ -1523,9 +1523,9 @@ lv:
     index:
       js_1: Vai nu jūs lietojat pārlūkprogrammu, kas neatbalsta JavaScript, vai arī
         jūsu pārlūkprogrammā JavaScript ir atslēgts.
-      js_2: OpenStreetMap kartes rādīšanai lieto JavaScript.
+      js_2: Samland Street Map kartes rādīšanai lieto JavaScript.
       license:
-        copyright: Autortiesības OpenStreetMap un tā veidotāji, zem atvērtas licences
+        copyright: Autortiesības Samland Street Map un tā veidotāji, zem atvērtas licences
       remote_failed: Rediģēšana neizdevās - pārbaudi, ka JOSM vai Merkaartor ir ieslēgts
         un attālinātās vadības iespēja ir aktivizēta
     edit:
@@ -1542,21 +1542,21 @@ lv:
       too_large:
         advice: 'Ja augstāk esošais eksports neizdodas, lūdzu apsver iespēj lietot
           kādu no zemāk minētajiem avotiem:'
-        body: Šis apgabals ir pārāk liels, lai to eksportētu kā OpenStreetMap XML
+        body: Šis apgabals ir pārāk liels, lai to eksportētu kā Samland Street Map XML
           datus. Lūdzu tuvini vai izvēlies mazāku apgabalu.
         planet:
           title: OSM Planēta
-          description: Regulāri atjauninātas kopijas no pilnās OpenStreetMap datubāzes
+          description: Regulāri atjauninātas kopijas no pilnās Samland Street Map datubāzes
         overpass:
           title: Overpass API
-          description: Lejupielādē šo apgabalu no OpenStreetMap datubāzes spoguļa
+          description: Lejupielādē šo apgabalu no Samland Street Map datubāzes spoguļa
         geofabrik:
           title: Geofabrik Lejupielādes
           description: Regulāri atjaunoti izgriezumi no kontinentiem, valstīm, un
             izvēlētām pilsētām
         other:
           title: Citi Avoti
-          description: Papildus avoti, kas norādīti OpenStreetMap wiki
+          description: Papildus avoti, kas norādīti Samland Street Map wiki
       export_button: Eksportēt
     fixthemap:
       title: Ziņot par problēmu / Labot karti
@@ -1566,17 +1566,17 @@ lv:
           title: Pievienojies kopienai
           explanation_html: Konstatējot problēmas ar mūsu kartes datiem, piemēram
             trūkstošu ceļu vai adresi, labākais variants, kā rīkoties ir pievienoties
-            OpenStreetMap kopienai un pievienot vai atjaunot datus jums pašam.
+            Samland Street Map kopienai un pievienot vai atjaunot datus jums pašam.
       other_concerns:
         title: Citas bažas
     help:
       title: Palīdzības saņemšana
-      introduction: OpenStreetMap ir vairāki resursi, lai uzzinātu par projektu, uzdotu
+      introduction: Samland Street Map ir vairāki resursi, lai uzzinātu par projektu, uzdotu
         un atbildētu uz jautājumiem, un diskutētu un dokumentētu kartēšanas tēmas.
       welcome:
         url: /sveicināts
-        title: Laipni lūgti OpenStreetMap
-        description: Sāc ar šo īso ceļvedi, kurš aptver OpenStreetMap pamatus.
+        title: Laipni lūgti Samland Street Map
+        description: Sāc ar šo īso ceļvedi, kurš aptver Samland Street Map pamatus.
       beginners_guide:
         url: http://wiki.openstreetmap.org/wiki/Lv:Beginners%27_guide
         title: Iesācēja Rokasgrāmata
@@ -1592,13 +1592,13 @@ lv:
         description: Interaktīvais čats dažādās valodās par dažādām tēmām.
       switch2osm:
         title: switch2osm
-        description: Palīdzība uzņēmumiem un organizācijām, kuras pāriet uz OpenStreetMap
+        description: Palīdzība uzņēmumiem un organizācijām, kuras pāriet uz Samland Street Map
           balstītajām kartēm un citiem pakalpojumiem.
       welcomemat:
         title: Organizācijām
       wiki:
-        title: OpenStreetMap Wiki
-        description: Pārlūkojiet wiki, lai iegūtu padziļinātu OpenStreetMap dokumentāciju.
+        title: Samland Street Map Wiki
+        description: Pārlūkojiet wiki, lai iegūtu padziļinātu Samland Street Map dokumentāciju.
     potlatch:
       change_preferences: Mainiet savus uzstādījumus šeit
     any_questions:
@@ -1675,14 +1675,14 @@ lv:
           toilets: Tualetes
     welcome:
       title: Laipni lūdzam!
-      introduction: Sveicināts OpenStreetMap, bezmaksas un rediģējamā pasaules karte.
+      introduction: Sveicināts Samland Street Map, bezmaksas un rediģējamā pasaules karte.
         Tagad, kad esi piereģistrējies, tu vari sākt kartēt. Šeit ir neliela pamācībā
         ar svarīgākajām lietām, kuras tev jāzina.
       whats_on_the_map:
         title: Kas ir uz kartes
       basic_terms:
         title: Pamatnoteikumi kartēšanai
-        paragraph_1: OpenStreetMap ir pašai savs profesionālais žargons. Šeit ir daži
+        paragraph_1: Samland Street Map ir pašai savs profesionālais žargons. Šeit ir daži
           atslēgvārdi, kas var noderēt.
         node: punkts
         way: ceļš
@@ -1698,7 +1698,7 @@ lv:
     communities:
       title: Kopienas
       lede_text: |-
-        OpenStreetMap veido vai izmanto cilvēki no visas pasaules.
+        Samland Street Map veido vai izmanto cilvēki no visas pasaules.
         Daudzi piedalās individuāli, bet citi ir izveidojuši kopienas.
         Šīs grupas ir dažāda lieluma un pārstāv dažādas ģeogrāfiskās teritorijas - no mazām pilsētām līdz lieliem daudzvalstu reģioniem.
         Tās var būt arī formālas vai neformālas.
@@ -1781,7 +1781,7 @@ lv:
       heading: GPX bezsaistes glabātuve
       message: GPX datņu glabātuve un augšupielādes sistēma pašlaik nav pieejama.
     georss:
-      title: OpenStreetMap GPS Trases
+      title: Samland Street Map GPS Trases
     description:
       description_with_count:
         one: GPX fails ar %{count} punktu no %{user}
@@ -1792,7 +1792,7 @@ lv:
       cookies_needed: Izskatā, ka jums cookies ir atslēgti, pirms turpināt, lūdzu,
         ieslēdziet tos savā pārlūkprogrammā.
     setup_user_auth:
-      blocked_zero_hour: Jums ir pienākusi svarīga ziņa tīmekļa vietnē OpenStreetMap.
+      blocked_zero_hour: Jums ir pienākusi svarīga ziņa tīmekļa vietnē Samland Street Map.
         Jums ir jāizlasa ziņa pirms jūs saglabāsiet savas izmaiņas.
       blocked: Tev ir liegta piekļuve API. Lūdzu autorizējies mājaslapas interfeisā,
         lai uzzinātu vairāk.
@@ -1933,8 +1933,8 @@ lv:
       unknown_signature_algorithm: Nezināms paraksta algoritms
       invalid_scope: Nederīgs lauks
     auth_association:
-      heading: Jūsu ID nav vēl asociēts ar OpenStreetMap kontu.
-      option_1: Ja jūs tikko iepazināties ar OpenStreetMap tad lūdzu izveidojiet jaunu
+      heading: Jūsu ID nav vēl asociēts ar Samland Street Map kontu.
+      option_1: Ja jūs tikko iepazināties ar Samland Street Map tad lūdzu izveidojiet jaunu
         kontu izmantojot zemāk esošo formu.
       option_2: Ja jums jau ir konts, jūs varat ieiet savā kontā izmantojot jūsu lietotājvārdu
         un paroli un tad sasaistīt savu kontu ar jūsu ID lietotāja iestatījumos.

@@ -268,7 +268,7 @@ fa:
         reopened_at_html: '%{when} دوباره فعال شد'
         reopened_at_by_html: '%{when} %{user} به جریانش انداخت'
       rss:
-        title: یادداشت‌های OpenStreetMap
+        title: یادداشت‌های Samland Street Map
         description_area: فهرستی از یادداشت‌های گزارش‌شده، نظردار یا بسته‌شده در منطقهٔ
           شما [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: خوراک rss برای یادداشت %{id}
@@ -448,8 +448,8 @@ fa:
         comment: نظر جدید روی بستهٔ تغییر %{changeset_id} از %{author}
         commented_at_by_html: '%{when} %{user} روزآمدش کرد'
       show:
-        title_all: بحث بستهٔ تغییر OpenStreetMap
-        title_particular: 'بحث بستهٔ تغییر #%{changeset_id} در OpenStreetMap'
+        title_all: بحث بستهٔ تغییر Samland Street Map
+        title_particular: 'بحث بستهٔ تغییر #%{changeset_id} در Samland Street Map'
       timeout:
         sorry: شوربختانه بازیابی نظرات بستهٔ تغییر که درخواست نموده‌اید، خیلی طولانی
           شد.
@@ -581,14 +581,14 @@ fa:
       location: 'مکان:'
     feed:
       user:
-        title: ‫روزنوشت‌های %{user} در OpenStreetMap‬
-        description: ‫روزنوشت‌های اخیر %{user} در OpenStreetMap‬
+        title: ‫روزنوشت‌های %{user} در Samland Street Map‬
+        description: ‫روزنوشت‌های اخیر %{user} در Samland Street Map‬
       language:
-        title: ‫روزنوشت‌های OpenStreetMap به %{language_name}‬
-        description: ‫روزنوشت‌های اخیر کاربران OpenStreetMap به %{language_name}‬
+        title: ‫روزنوشت‌های Samland Street Map به %{language_name}‬
+        description: ‫روزنوشت‌های اخیر کاربران Samland Street Map به %{language_name}‬
       all:
-        title: ‫روزنوشت‌های OpenStreetMap‬
-        description: ‫روزنوشت‌های اخیر از کاربران OpenStreetMap‬
+        title: ‫روزنوشت‌های Samland Street Map‬
+        description: ‫روزنوشت‌های اخیر از کاربران Samland Street Map‬
     subscribe:
       button: اشتراک در بحث
     unsubscribe:
@@ -614,18 +614,18 @@ fa:
       contact_url_title: راه‌های ارتباطی متنوعی شرح داده شده
       contact: تماس بگیرید
       contact_the_community_html: اگر متوجه پیوند شکسته یا اشکالی شده‌اید لطفاً با
-        جامعهٔ OpenStreetMap %{contact_link}. نشانی دقیق درخواست خود را یادداشت کنید.
+        جامعهٔ Samland Street Map %{contact_link}. نشانی دقیق درخواست خود را یادداشت کنید.
     forbidden:
       title: ممنوع
-      description: عملیاتی که در سرور OpenStreetMap درخواست کردید فقط برای مدیران
+      description: عملیاتی که در سرور Samland Street Map درخواست کردید فقط برای مدیران
         در دسترس است (HTTP 403)
     internal_server_error:
       title: خطای برنامه
-      description: سرور OpenStreetMap با وضعیت غیرمنتظره‌ای روبه‌رو شد که آن را از
+      description: سرور Samland Street Map با وضعیت غیرمنتظره‌ای روبه‌رو شد که آن را از
         انجام درخواست باز داشت (HTTP 500)
     not_found:
       title: پرونده پیدا نشد
-      description: پرونده/پوشه/عملیات API با آن نام در سرور OpenStreetMap پیدا نشد
+      description: پرونده/پوشه/عملیات API با آن نام در سرور Samland Street Map پیدا نشد
         (HTTP 404)
   friendships:
     make_friend:
@@ -645,8 +645,8 @@ fa:
     search:
       title:
         latlon: داخلی
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1450,7 +1450,7 @@ fa:
     project_name:
       h1: اوپن‌استریت‌مپ
     logo:
-      alt_text: لوگوی OpenStreetMap
+      alt_text: لوگوی Samland Street Map
     home: رفتن به محل خانه
     logout: خروج
     log_in: ورود
@@ -1463,14 +1463,14 @@ fa:
     gps_traces: ردهای GPS
     user_diaries: روزنوشت‌های کاربر
     edit_with: ویرایش با %{editor}
-    intro_header: به OpenStreetMap خوش آمدید!
-    intro_text: OpenStreetMap نقشه‌ای از جهان است که افرادی مانند شما آن را ساخته‌اند
+    intro_header: به Samland Street Map خوش آمدید!
+    intro_text: Samland Street Map نقشه‌ای از جهان است که افرادی مانند شما آن را ساخته‌اند
       و آزادید آن را تحت پروانه‌ای آزاد استفاده کنید.
     partners_partners: شرکای تجاری
     tou: شرایط استفاده
-    osm_offline: پایگاه دادهٔ OpenStreetMap هم‌اکنون برون‌خط است تا کارهای ضروری برای
+    osm_offline: پایگاه دادهٔ Samland Street Map هم‌اکنون برون‌خط است تا کارهای ضروری برای
       نگهداری آن انجام گیرد.
-    osm_read_only: پایگاه دادهٔ OpenStreetMap هم‌اکنون در حالت فقط‌خواندنی است تا
+    osm_read_only: پایگاه دادهٔ Samland Street Map هم‌اکنون در حالت فقط‌خواندنی است تا
       کارهای ضروری برای نگهداری آن انجام گیرد.
     nothing_to_preview: چیزی برای پیش‌نمایش وجود ندارد.
     help: راهنما
@@ -1481,7 +1481,7 @@ fa:
     more: بیشتر
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] ‫%{user} روی روزنوشت نظر داد‬'
+      subject: '[Samland Street Map] ‫%{user} روی روزنوشت نظر داد‬'
       hi: ‫سلام %{to_user}،‬
       header: ‫%{from_user} روی روزنوشت اوپن‌استریت‌مپ با موضوع «%{subject}» نظر داد:‬
       header_html: '%{from_user} روی یادداشت روزانه اوپن‌استریت‌مپ نظری با موضوع %{subject}
@@ -1494,7 +1494,7 @@ fa:
       footer_unsubscribe: می‌توانید در %{unsubscribeurl} اشتراک خود در این بحث را
         لغو کنید
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: ‫سلام %{to_user}،‬
       header: ‫%{from_user} از طریق اوپن‌استریت‌مپ پیامی با موضوع «%{subject}» برای
         شما فرستاده است:‬
@@ -1506,7 +1506,7 @@ fa:
         اینجا به نویسنده پیام بدهید: %{replyurl} ‬'
     friendship_notification:
       hi: ‫سلام %{to_user}،‬
-      subject: '[OpenStreetMap] ‫%{user} شما را به‌عنوان دوست اضافه کرد‬'
+      subject: '[Samland Street Map] ‫%{user} شما را به‌عنوان دوست اضافه کرد‬'
       had_added_you: ‫%{user} در اوپن‌استریت‌مپ شما را به‌عنوان دوست اضافه کرد.‬
       see_their_profile: '‫می‌توانید نمایهٔ کاربری او را در اینجا ببینید: %{userurl}
         ‬'
@@ -1537,12 +1537,12 @@ fa:
         برای کسب اطلاعات بیشتر دربارهٔ انجام‌نشدن درون‌برد GPX و راهکار پیشگیری از آن به این نشانی مراجعه کنید:
         %{url}
       import_failures_url: https://wiki.openstreetmap.org/wiki/Fa:GPX_Import_Failures
-      subject: '[OpenStreetMap] ‫شکست درون‌برد GPX‬'
+      subject: '[Samland Street Map] ‫شکست درون‌برد GPX‬'
     gpx_success:
       hi: ‫سلام %{to_user}،‬
-      subject: '[OpenStreetMap] ‫موفقیت درون‌برد GPX‬'
+      subject: '[Samland Street Map] ‫موفقیت درون‌برد GPX‬'
     signup_confirm:
-      subject: '[OpenStreetMap] به اوپن‌استریت‌مپ خوش آمدید'
+      subject: '[Samland Street Map] به اوپن‌استریت‌مپ خوش آمدید'
       greeting: سلام!‏
       created: ‫کسی (امیدواریم شما) در %{site_url} حساب کاربری ساخت.‬
       confirm: ‫پیش از هر کار دیگری، باید مطمئن شویم این درخواست از سوی شماست. اگر
@@ -1550,14 +1550,14 @@ fa:
       welcome: ‫پس از اینکه حسابتان را تأیید کردید، اطلاعات بیشتری به شما ارائه می‌دهیم
         تا بتوانید شروع کنید.‬
     email_confirm:
-      subject: '[OpenStreetMap] نشانی رایانامه‌تان را تأیید کنید'
+      subject: '[Samland Street Map] نشانی رایانامه‌تان را تأیید کنید'
       greeting: سلام،‏
       hopefully_you: ‫کسی (امیدواریم شما) می‌خواهد نشانی رایانامهٔ خود در %{server_url}
         را به %{new_address} تغییر دهد.‬
       click_the_link: ‫اگر خودتان هستید، لطفاً برای تأیید این تغییر روی پیوند زیر
         کلیک کنید.‬
     lost_password:
-      subject: '[OpenStreetMap] درخواست بازنشانی رمز عبور'
+      subject: '[Samland Street Map] درخواست بازنشانی رمز عبور'
       greeting: سلام،‏
       hopefully_you: ‫کسی (احتمالاً شما) درخواست کرده گذرواژهٔ مربوط به حساب کاربری
         متناظر با این رایانامه در openstreetmap.org بازنشانی شود.‬
@@ -1567,9 +1567,9 @@ fa:
       anonymous: کاربری گمنام
       greeting: سلام،‏
       commented:
-        subject_own: '[OpenStreetMap] ‫%{commenter} روی یکی از یادداشت‌های شما نظر
+        subject_own: '[Samland Street Map] ‫%{commenter} روی یکی از یادداشت‌های شما نظر
           داد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} روی یادداشت موردتوجه شما نظر
+        subject_other: '[Samland Street Map] ‫%{commenter} روی یادداشت موردتوجه شما نظر
           داد‬'
         your_note: '‫%{commenter} روی یکی از یادداشت‌های شما بر نقشه نظر داد. این
           یادداشت نزدیک اینجاست: %{place}‬'
@@ -1580,8 +1580,8 @@ fa:
         commented_note_html: '‫%{commenter} روی یکی از یادداشت‌های نقشه که شما بر
           آن نظر داده‌اید، نظر داد. این یادداشت نزدیک اینجاست: %{place}‬'
       closed:
-        subject_own: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های شما را حل کرد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های موردتوجه
+        subject_own: '[Samland Street Map] ‫%{commenter} یکی از یادداشت‌های شما را حل کرد‬'
+        subject_other: '[Samland Street Map] ‫%{commenter} یکی از یادداشت‌های موردتوجه
           شما را حل کرد‬'
         your_note: '‫%{commenter} یکی از یادداشت‌های شما بر نقشه را حل کرد. یادداشت
           نزدیک اینجاست: %{place}‬'
@@ -1592,9 +1592,9 @@ fa:
         commented_note_html: '‫%{commenter} یکی از یادداشت‌های نقشه را که شما بر آن
           نظر داده‌اید، حل کرد. یادداشت نزدیک اینجاست: %{place}‬'
       reopened:
-        subject_own: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های شما را دوباره
+        subject_own: '[Samland Street Map] ‫%{commenter} یکی از یادداشت‌های شما را دوباره
           فعال کرد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های موردتوجه
+        subject_other: '[Samland Street Map] ‫%{commenter} یکی از یادداشت‌های موردتوجه
           شما را دوباره فعال کرد‬'
         your_note: '‫%{commenter} یکی از یادداشت‌های شما روی نقشه را دوباره فعال کرد.
           این یادداشت نزدیک اینجاست: %{place}‬'
@@ -1609,9 +1609,9 @@ fa:
     changeset_comment_notification:
       hi: ‫سلام %{to_user}، ‬
       commented:
-        subject_own: '[OpenStreetMap] ‫%{commenter} روی یکی از بسته‌های تغییر شما
+        subject_own: '[Samland Street Map] ‫%{commenter} روی یکی از بسته‌های تغییر شما
           نظر داد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} روی یکی از بسته‌های تغییر موردتوجهتان
+        subject_other: '[Samland Street Map] ‫%{commenter} روی یکی از بسته‌های تغییر موردتوجهتان
           نظر داد‬'
         your_changeset: ‫%{commenter} روی یکی از بسته‌های تغییر شما که در %{time}
           ایجاد کردید، نظر داد
@@ -1801,7 +1801,7 @@ fa:
       auth failure: متأسفانه با این اطلاعات نمی‌توان وارد شد.
     destroy:
       title: خروج
-      heading: خروج از OpenStreetMap
+      heading: خروج از Samland Street Map
       logout_button: خروج
     suspended_flash:
       suspended: پوزش، حساب شما به دلیل فعالیت مشکوک تعلیق شده است.
@@ -1839,22 +1839,22 @@ fa:
         newer: ردهای تازه‌تر
   site:
     about:
-      heading_html: مشارکت‌کنندگان %{br} %{copyright}OpenStreetMap
+      heading_html: مشارکت‌کنندگان %{br} %{copyright}Samland Street Map
       used_by_html: '%{name} برای هزاران وبگاه، کارهٔ تلفن همراه و افزارهٔ سخت‌افزاری
         دادهٔ نقشه فراهم می‌کند.'
-      lede_text: OpenStreetMap را جامعه‌ای از نقشه‌کشان ساخته‌اند که در ایجاد و نگهداری
+      lede_text: Samland Street Map را جامعه‌ای از نقشه‌کشان ساخته‌اند که در ایجاد و نگهداری
         داده‌های مربوط به جاده‌ها، مسیرهای تریل، کافه‌ها، ایستگاه‌های راه‌آهن و بسیاری
         موارد دیگر در سرتاسر جهان نقش ایفا می‌کنند.
       local_knowledge_title: دانش محلی
-      local_knowledge_html: OpenStreetMap بر  دانش محلی تأکید دارد. مشارکت‌کنندگان
+      local_knowledge_html: Samland Street Map بر  دانش محلی تأکید دارد. مشارکت‌کنندگان
         با استفاده از تصاویر هوایی، دستگاه‌های GPS و نقشه‌های میدانی با فناوری سطح
         پایین، درستی و روزآمدی OSM را می‌سنجند.
       community_driven_title: حرکت جامعه‌محور
       community_driven_1_html: |2-
-         جامعهٔ OpenStreetMap متنوع، پرشور و هر روز در حال رشد است.
+         جامعهٔ Samland Street Map متنوع، پرشور و هر روز در حال رشد است.
         افراد بسیاری در این پروژه با ما همکاری می‌کنند؛ شامل نقشه‌کشان علاقه‌مند، متخصصان GIS، مهندسانی که سرورهای OSM را بر پا می‌دارند، بشردوستانی که مناطق فاجعه‌زده را نقشه‌کشی می‌کنند و بسیاری دیگر.
         برای آنکه از جامعه بیشتر بدانید، %{osm_blog_link}، %{user_diaries_link}، %{community_blogs_link} و وبگاه %{osm_foundation_link} را ببینید.
-      community_driven_osm_blog: وبلاگ OpenStreetMap
+      community_driven_osm_blog: وبلاگ Samland Street Map
       community_driven_user_diaries: روزنوشت‌های کاربران
       community_driven_community_blogs: وبلاگ‌های جامعه
       community_driven_osm_foundation: بنیاد OSM
@@ -1878,11 +1878,11 @@ fa:
         native_link: نسخهٔ فارسی
         mapping_link: شروع به نقشه‌کشی
       legal_babble:
-        credit_title_html: چگونه از OpenStreetMap یاد کنیم
+        credit_title_html: چگونه از Samland Street Map یاد کنیم
         credit_1_html: 'جایی که دارید از داده‌های اوپن‌استریت‌مپ استفاده می‌کنید،
           لازم است دو کار زیر را انجام دهید:'
         attribution_example:
-          alt: مثالی از شیوهٔ انتساب به OpenStreetMap در صفحهٔ وبی.
+          alt: مثالی از شیوهٔ انتساب به Samland Street Map در صفحهٔ وبی.
           title: مثال انتساب
         more_title_html: کسب اطلاعات بیشتر
         contributors_title_html: همکاران ما
@@ -1904,8 +1904,8 @@ fa:
         contributors_za_south_africa: آفریقای جنوبی
         contributors_gb_united_kingdom: بریتانیا
         contributors_2_contributors_page: صفحهٔ مشارکت‌کنندگان
-        contributors_footer_2_html: ورود داده در OpenStreetMap به این معنی نیست که
-          فراهم‌کنندهٔ اصلی داده OpenStreetMap را تأیید می‌کند، ضمانتی می‌دهد، یا
+        contributors_footer_2_html: ورود داده در Samland Street Map به این معنی نیست که
+          فراهم‌کنندهٔ اصلی داده Samland Street Map را تأیید می‌کند، ضمانتی می‌دهد، یا
           مسئولیتی می‌پذیرد.
         infringement_title_html: نقض حق نشر
         infringement_1_html: به مشارکت‌کنندگان OSM یادآوری شده است که هرگز از منابع
@@ -1914,9 +1914,9 @@ fa:
     index:
       js_1: شما در حال استفاده از مرورگری هستید که جاوااسکریپت را پشتیبانی نمی‌کند،
         یا جاوااسکریپت را غیرفعال کرده‌اید.
-      js_2: OpenStreetMap برای نقشهٔ لغزان از جاوااسکریپت استفاده می‌کند.
+      js_2: Samland Street Map برای نقشهٔ لغزان از جاوااسکریپت استفاده می‌کند.
       license:
-        copyright: حق نشر OpenStreetMap و مشارکت‌کنندگان، تحت یک پروانهٔ آزاد
+        copyright: حق نشر Samland Street Map و مشارکت‌کنندگان، تحت یک پروانهٔ آزاد
       remote_failed: ویرایش انجام نشد - مطمئن شوید JOSM یا Merkaartor باز و گزینهٔ
         کنترل از دور فعال باشد
     edit:
@@ -1933,23 +1933,23 @@ fa:
       licence: پروانه
       too_large:
         advice: 'اگر برون‌ریزی بالا انجام نشد، لطفاً یکی از منابع زیر را استفاده کنید:'
-        body: این محدوده برای برون‌ریزی در قالب OpenStreetMap XML خیلی بزرگ است. لطفاً
+        body: این محدوده برای برون‌ریزی در قالب Samland Street Map XML خیلی بزرگ است. لطفاً
           بزرگ‌نمایی کنید یا منطقهٔ کوچک‌تری را انتخاب کنید، یا برای دریافت داده‌های
           انبوه یکی از منابع فهرست زیر را استفاده کنید.
         planet:
           title: سیارهٔ OSM
-          description: رونوشت‌های پایگاه دادهٔ کامل OpenStreetMap که به‌طور منظم روزآمد
+          description: رونوشت‌های پایگاه دادهٔ کامل Samland Street Map که به‌طور منظم روزآمد
             می‌شوند
         overpass:
           title: Overpass API
-          description: بارگیری این محدوده از یکی از آینه‌های پایگاه دادهٔ OpenStreetMap
+          description: بارگیری این محدوده از یکی از آینه‌های پایگاه دادهٔ Samland Street Map
         geofabrik:
           title: بارگیری‌های Geofabrik
           description: گزیدهٔ اطلاعات قاره‌ها، کشورها، و شهرهای منتخب که به‌طور منظم
             روزآمد می‌شود
         other:
           title: سایر منابع
-          description: منابع بیشتر در ویکی OpenStreetMap ذکر شده است
+          description: منابع بیشتر در ویکی Samland Street Map ذکر شده است
       export_button: برون‌ریزی
     fixthemap:
       title: گزارش مشکل / اصلاح نقشه
@@ -1964,12 +1964,12 @@ fa:
         title: نگرانی‌های دیگر
     help:
       title: کمک بگیرید
-      introduction: در پروژهٔ OpenStreetMap برای آموختن، پرسیدن و پاسخ‌دادنِ سوالات،
+      introduction: در پروژهٔ Samland Street Map برای آموختن، پرسیدن و پاسخ‌دادنِ سوالات،
         بحث و همفکری دربارهٔ موضوعات نقشه‌کشی و ثبت آن‌ها منابع زیادی وجود دارد.
       welcome:
         url: /welcome
         title: به اوپن‌استریت‌مپ خوش آمدید
-        description: از این راهنمای ساده و سریع که دربرگیرندهٔ مبانی OpenStreetMap
+        description: از این راهنمای ساده و سریع که دربرگیرندهٔ مبانی Samland Street Map
           است آغاز کنید.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Fa:Beginners%27_guide
@@ -1985,14 +1985,14 @@ fa:
       switch2osm:
         title: کوچ به OSM
         description: راهنمای شرکت‌ها و سازمان‌هایی که می‌خواهند به نقشه و سایر خدمات
-          مبتنی بر OpenStreetMap مهاجرت کنند.
+          مبتنی بر Samland Street Map مهاجرت کنند.
       welcomemat:
         title: برای سازمان‌ها
-        description: در سازمان خود طرحی دربارهٔ OpenStreetMap دارید؟ صفحهٔ خوش‌آمدگویی
+        description: در سازمان خود طرحی دربارهٔ Samland Street Map دارید؟ صفحهٔ خوش‌آمدگویی
           را ببینید.
       wiki:
-        title: ویکی OpenStreetMap
-        description: مستندات پرجزئیات را در ویکی OpenStreetMap مرور کنید.
+        title: ویکی Samland Street Map
+        description: مستندات پرجزئیات را در ویکی Samland Street Map مرور کنید.
     any_questions:
       title: سؤالی دارید؟
     sidebar:
@@ -2066,14 +2066,14 @@ fa:
           toilets: سرویس‌های بهداشتی
     welcome:
       title: خوش آمدید!
-      introduction: به OpenStreetMap، نقشهٔ آزاد و قابل ویرایش جهان، خوش آمدید. اکنون
+      introduction: به Samland Street Map، نقشهٔ آزاد و قابل ویرایش جهان، خوش آمدید. اکنون
         که نام‌نویسی‌تان کامل شده، می‌توانید یکراست نقشه‌کشی را آغاز کنید. این راهنمای
         سریع دربارهٔ مهم‌ترین چیزهایی است که به دانستنشان نیاز دارید.
       whats_on_the_map:
         title: چیزهایی که روی نقشه می‌آید
       basic_terms:
         title: اصطلاحات پایهٔ نقشه‌کشی
-        paragraph_1: OpenStreetMap اصطلاحات ویژهٔ خودش را دارد. در اینجا چند کلیدواژهٔ
+        paragraph_1: Samland Street Map اصطلاحات ویژهٔ خودش را دارد. در اینجا چند کلیدواژهٔ
           مفید ذکر شده است.
       rules:
         title: قوانین!
@@ -2169,7 +2169,7 @@ fa:
       heading: ذخیره‌گاه GPX برون‌خط است
       message: ذخیره‌گاه پروندهٔ GPX و سامانهٔ بارگذاری هم‌اکنون در دسترس نیستند.
     georss:
-      title: ‫ردهای جی‌پی‌اس OpenStreetMap‬
+      title: ‫ردهای جی‌پی‌اس Samland Street Map‬
     description:
       description_with_count:
         one: ‫فایل GPX با %{count} نقطه از %{user}‬
@@ -2181,7 +2181,7 @@ fa:
       cookies_needed: به‌نظر می‌رسد کوکی‌ها را غیرفعال کرده‌اید - لطفاً قبل از ادامه
         کوکی‌های مرورگرتان را فعال کنید.
     setup_user_auth:
-      blocked_zero_hour: در وبگاه OpenStreetMap یک پیام خیلی مهم دارید. برای اینکه
+      blocked_zero_hour: در وبگاه Samland Street Map یک پیام خیلی مهم دارید. برای اینکه
         بتوانید ویرایش‌های خود را ذخیره کنید باید ابتدا آن را بخوانید.
       blocked: دسترسی شما به API مسدود شده. برای یافتن اطلاعات بیشتر لطفاً به رابط
         کاربری وب وارد شوید.
@@ -2296,7 +2296,7 @@ fa:
         مشارکت‌های گذشته و آیندهٔ شما نافذ است.
       read_ct: شرایط مشارکت‌کننده را که در بالا آمده، خوانده‌ام و آن را می‌پذیرم
       tou_explain_html: این %{tou_link} دربارهٔ استفاده از وبگاه و سایر زیرساخت‌های
-        ارائه‌شده از سوی OSMF نافذ است. لطفاً روی پیوند کلیک کنید، متن را بخوانید
+        ارائه‌شده از سوی SSM نافذ است. لطفاً روی پیوند کلیک کنید، متن را بخوانید
         و آن را بپذیرید.
       read_tou: شرایط استفاده را خوانده‌ام و آن را می‌پذیرم
       consider_pd: علاوه بر موارد بالا، می‌پذیرم که مشارکت‌هایم در مالکیت عمومی باشد.
@@ -2406,8 +2406,8 @@ fa:
       invalid_scope: حوزهٔ نامعتبر
       unknown_error: احراز هویت انجام نشد
     auth_association:
-      heading: شناسهٔ شما هنوز با یک حساب کاربری OpenStreetMap مرتبط نشده است.
-      option_1: اگر در OpenStreetMap تازه‌وارد هستید، لطفاً با استفاده از فرم زیر
+      heading: شناسهٔ شما هنوز با یک حساب کاربری Samland Street Map مرتبط نشده است.
+      option_1: اگر در Samland Street Map تازه‌وارد هستید، لطفاً با استفاده از فرم زیر
         یک حساب کاربری جدید بسازید.
       option_2: اگر از قبل حسابی دارید، شما می‌توانید با استفاده از نام کاربری و رمز
         عبورتان وارد شوید و سپس در قسمت تنظیمات کاربریتان، حساب خود را به شناسهٔ خود

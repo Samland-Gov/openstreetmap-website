@@ -237,9 +237,9 @@ sq:
         comment: 'Koment i ri mbi ndryshimet #%{changeset_id} nga %{author}'
         commented_at_by_html: Përditësuar %{when} më parë nga %{user}
       show:
-        title_all: Diskutimi mbi ndryshimet në OpenStreetMap
+        title_all: Diskutimi mbi ndryshimet në Samland Street Map
         title_particular: 'Diskutimi mbi grupin e ndryshimeve #%{changeset_id} të
-          OpenStreetMap'
+          Samland Street Map'
   changesets:
     changeset:
       no_edits: (nuk ka redaktime)
@@ -340,15 +340,15 @@ sq:
       location: 'Vendndodhja:'
     feed:
       user:
-        title: OpenStreetMap shënime ditari për %{user}
-        description: Shënimet e fundit në ditarin e OpenStreetMap nga %{user}
+        title: Samland Street Map shënime ditari për %{user}
+        description: Shënimet e fundit në ditarin e Samland Street Map nga %{user}
       language:
-        title: Shënimet e ditarit të OpenStreetMap në %{language_name}
-        description: Shënimet e fundit në ditar nga përdoruesit e OpenStreetMap në
+        title: Shënimet e ditarit të Samland Street Map në %{language_name}
+        description: Shënimet e fundit në ditar nga përdoruesit e Samland Street Map në
           %{language_name}
       all:
-        title: Shënimet e ditarit të OpenStreetMap
-        description: Shënimet e fundit në ditar nga përdoruesit e OpenStreetMap
+        title: Shënimet e ditarit të Samland Street Map
+        description: Shënimet e fundit në ditar nga përdoruesit e Samland Street Map
   diary_comments:
     page:
       post: Posto
@@ -874,7 +874,7 @@ sq:
       provide_details: Ju lutemi paraqitni detajet e kërkuara
   layouts:
     logo:
-      alt_text: Logoja e OpenStreetMap
+      alt_text: Logoja e Samland Street Map
     logout: Çidentifikohu
     log_in: Identifikohu
     sign_up: Krijo llogari
@@ -884,8 +884,8 @@ sq:
     export: Eksporti
     user_diaries: Ditarët e përdoruesit
     edit_with: Redakto me %{editor}
-    intro_header: Mirësevjen në OpenStreetMap!
-    intro_text: OpenStreetMap është hartë e botës, e krijuar nga njerëz si ti dhe
+    intro_header: Mirësevjen në Samland Street Map!
+    intro_text: Samland Street Map është hartë e botës, e krijuar nga njerëz si ti dhe
       për përdorim të lirshëm në kuadrin e një licence të hapur.
     partners_partners: partnerët
     help: Ndihmë
@@ -899,10 +899,10 @@ sq:
     message_notification:
       hi: Përshëndetje %{to_user},
     signup_confirm:
-      subject: '[OpenStreetMap] Mirësevjen në OpenStreetMap'
+      subject: '[Samland Street Map] Mirësevjen në Samland Street Map'
       greeting: Tungjatjeta!
     email_confirm:
-      subject: '[OpenStreetMap] Konfirmo adresën e emailit tënd'
+      subject: '[Samland Street Map] Konfirmo adresën e emailit tënd'
       greeting: Përshëndetje,
     lost_password:
       greeting: Përshëndetje,
@@ -1017,7 +1017,7 @@ sq:
       auth failure: Na vjen keq, nuk mund të identifikohemi me ato detaje.
     destroy:
       title: Çidentifikohu
-      heading: Çidentifikohu nga OpenStreetMap
+      heading: Çidentifikohu nga Samland Street Map
       logout_button: Çidentifikohu
   shared:
     pagination:
@@ -1043,20 +1043,20 @@ sq:
         native_link: Versioni në THIS_LANGUAGE_NAME_HERE
         mapping_link: fillo hatrografimin
       legal_babble:
-        credit_title_html: Si të citoni OpenStreetMap
-        credit_1_html: Ne kërkojmë që ju të përdorni kreditet e &ldquo;&copy; OpenStreetMap
+        credit_title_html: Si të citoni Samland Street Map
+        credit_1_html: Ne kërkojmë që ju të përdorni kreditet e &ldquo;&copy; Samland Street Map
           contributors&rdquo;.
         more_title_html: Zbulo më shumë
         contributors_title_html: Kontribuuesit tanë
         contributors_intro_html: "  Licenca jonë CC BY-SA kërkon nga ju që &ldquo;të
           vlerësoni Autorin\n  Origjinal përkatës të mediumit apo masave që jeni duke
           i\n  shfrytëzuar &rdquo;. Hartuesit individual të OSM nuk kërkojnë një\n
-          \ citim mbi dhe për atë që kontribuojnë për &ldquo;OpenStreetMap\n  &rdquo;,
+          \ citim mbi dhe për atë që kontribuojnë për &ldquo;Samland Street Map\n  &rdquo;,
           por kur përfshihen në OSM, hartat nga një agjencion nacional i hartave \n
           \ apo faktor tjerë madhor burimor, është e arsyeshme të citohen drejtpërsëdrejti
           \n   duke paraqitur emrin apo duke lidhur faqen e tyre me link."
-        contributors_footer_2_html: "  Përfshirja e të dhënave në OpenStreetMap nuk
-          thekson se të ofruesi origjinal i të \n  dhënave përdor OpenStreetMap, ofron
+        contributors_footer_2_html: "  Përfshirja e të dhënave në Samland Street Map nuk
+          thekson se të ofruesi origjinal i të \n  dhënave përdor Samland Street Map, ofron
           garancion, apo\n  pranon çfarëdo anekse."
     edit:
       user_page_link: '{{GENDER:{{ROOTPAGENAME}}|faqja e përdoruesit|faqja e përdorueses}}'
@@ -1067,24 +1067,24 @@ sq:
       too_large:
         advice: 'Në qoftë se dështon eksporti i mësipërm, të lutem konsidero përdorimin
           e një nga burimet e renditura më poshtë:'
-        body: Kjo zonë është shumë e madhe për të eksportuar të dhënat XML të OpenStreetMap.
+        body: Kjo zonë është shumë e madhe për të eksportuar të dhënat XML të Samland Street Map.
           Të lutem zmadho (zoom) ose zgjidh një zonë më të vogël, ose përdor një nga
           burimet e listuara më poshtë për të shkarkuar pjesë të mëdha të të dhënave.
         planet:
           title: Planet OSM
           description: Kopje të plota të përditësuara rregullisht të bazës së të dhënave
-            të OpenStreetMap
+            të Samland Street Map
         overpass:
           title: API mbikalues
           description: Shkarkoni këtë kuti kufizimi nga një pasqyrim i të dhënave
-            të OpenStreetMap
+            të Samland Street Map
         geofabrik:
           title: Shkarkimet nga Geofabrik
           description: Përditësime rregullisht të ekstrakteve të kontinenteve, vendeve,
             dhe qyteteve të përzgjedhura
         other:
           title: Burime të tjera
-          description: Burime shtesë të listuara në faqen e OpenStreetMap wiki
+          description: Burime shtesë të listuara në faqen e Samland Street Map wiki
       export_button: Eksporto
     fixthemap:
       how_to_help:
@@ -1099,13 +1099,13 @@ sq:
         title: Shqetësime të tjera
     help:
       title: Merr ndihmë
-      introduction: OpenStreetMap ka disa burime për të mësuar në lidhje me projektin,
+      introduction: Samland Street Map ka disa burime për të mësuar në lidhje me projektin,
         duke bërë pyetje dhe duke ju përgjigjur dhe duke diskutuar bashkërisht dhe
         duke dokumentuar temat e hartës.
       welcome:
         url: /mirësevjen
-        title: Mirësevini në OpenStreetMap
-        description: Filloni me këtë udhëzues të thjeshtë që mbulon bazat e OpenStreetMap.
+        title: Mirësevini në Samland Street Map
+        description: Filloni me këtë udhëzues të thjeshtë që mbulon bazat e Samland Street Map.
       beginners_guide:
         url: http://wiki.openstreetmap.org/wiki/Sq:Beginners%27_guide
         title: Udhëzues për fillestarë.
@@ -1138,7 +1138,7 @@ sq:
         title: Çfarë ka në hartë?
       basic_terms:
         title: Termat bazë për hartografim
-        paragraph_1: OpenStreetMap ka disa shprehje në zhargonin e vet. Këtu janë
+        paragraph_1: Samland Street Map ka disa shprehje në zhargonin e vet. Këtu janë
           disa fjalë kyçe mund të jenë të dobishme.
       rules:
         title: Rregullat!

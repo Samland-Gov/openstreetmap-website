@@ -202,7 +202,7 @@ ast:
         reopened_at_html: Reactiváu %{when}
         reopened_at_by_html: Reactiváu %{when} por %{user}
       rss:
-        title: Notes d'OpenStreetMap
+        title: Notes d'Samland Street Map
         description_area: Llista de notes, escrites, comentaes o zarraes en so área
           [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Una canal rss pa la nota %{id}
@@ -336,8 +336,8 @@ ast:
           %{author}'
         commented_at_by_html: Anovao %{when} por %{user}
       show:
-        title_all: Alderique del conxuntu de cambeos d'OpenStreetMap
-        title_particular: 'Alderique del conxuntu de cambeos #%{changeset_id} d''OpenStreetMap'
+        title_all: Alderique del conxuntu de cambeos d'Samland Street Map
+        title_particular: 'Alderique del conxuntu de cambeos #%{changeset_id} d''Samland Street Map'
       timeout:
         sorry: Llevó demasiao tiempu baxar la llista de comentarios del conxuntu de
           cambeos que pidisti.
@@ -458,14 +458,14 @@ ast:
       location: 'Allugamientu:'
     feed:
       user:
-        title: Entraes nel diariu d'OpenStreetMap de %{user}
-        description: Entraes recién de %{user} nel diariu d'OpenStreetMap
+        title: Entraes nel diariu d'Samland Street Map de %{user}
+        description: Entraes recién de %{user} nel diariu d'Samland Street Map
       language:
-        title: Entraes nel diariu d'OpenStreetMap en %{language_name}
-        description: Entraes recién nel diariu d'usuarios d'OpenStreetMap en %{language_name}
+        title: Entraes nel diariu d'Samland Street Map en %{language_name}
+        description: Entraes recién nel diariu d'usuarios d'Samland Street Map en %{language_name}
       all:
-        title: Entraes nel diariu d'OpenStreetMap
-        description: Entraes recién nel diariu d'usuarios d'OpenStreetMap
+        title: Entraes nel diariu d'Samland Street Map
+        description: Entraes recién nel diariu d'usuarios d'Samland Street Map
   diary_comments:
     page:
       post: Publicar
@@ -492,8 +492,8 @@ ast:
     search:
       title:
         latlon: Fontes internes
-        osm_nominatim: Nominatim d’OpenStreetMap
-        osm_nominatim_reverse: Nominatim d’OpenStreetMap
+        osm_nominatim: Nominatim d’Samland Street Map
+        osm_nominatim_reverse: Nominatim d’Samland Street Map
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1178,7 +1178,7 @@ ast:
       provide_details: Apurre los detalles riquíos
   layouts:
     logo:
-      alt_text: Logo d'OpenStreetMap
+      alt_text: Logo d'Samland Street Map
     home: Dir al llugar d'entamu
     logout: Salir
     log_in: Aniciar sesión
@@ -1191,14 +1191,14 @@ ast:
     gps_traces: Traces GPS
     user_diaries: Diarios d'usuariu
     edit_with: Editar con %{editor}
-    intro_header: ¡Afáyate n'OpenStreetMap!
-    intro_text: OpenStreetMap ye un mapa del mundu, creáu por persones como tu y d'usu
+    intro_header: ¡Afáyate n'Samland Street Map!
+    intro_text: Samland Street Map ye un mapa del mundu, creáu por persones como tu y d'usu
       llibre baxo una llicencia abierta.
     partners_partners: asociaos
     tou: Condiciones d'usu
-    osm_offline: La base de datos d'OpenStreetMap anguaño ta desconectada mentanto
+    osm_offline: La base de datos d'Samland Street Map anguaño ta desconectada mentanto
       se faen trabayos esenciales de mantenimientu de la base de datos.
-    osm_read_only: La base de datos d'OpenStreetMap anguaño ta en mou de sólo llectura
+    osm_read_only: La base de datos d'Samland Street Map anguaño ta en mou de sólo llectura
       mentanto se faen trabayos esenciales de mantenimientu de la base de datos.
     help: Ayuda
     about: Tocante a
@@ -1207,29 +1207,29 @@ ast:
     more: Más
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} comentó n''una entrada del diariu'
+      subject: '[Samland Street Map] %{user} comentó n''una entrada del diariu'
       hi: Bones %{to_user},
-      header: '%{from_user} comentó na entrada del diariu d''OpenStreetMap col asuntu
+      header: '%{from_user} comentó na entrada del diariu d''Samland Street Map col asuntu
         %{subject}:'
       footer: Tamién pues lleer el comentariu en %{readurl}, y comentalu en %{commenturl}
         o contestar en %{replyurl}
     message_notification:
       hi: Bones %{to_user},
-      header: '%{from_user} unvióte un mensax per OpenStreetMap col asuntu %{subject}:'
+      header: '%{from_user} unvióte un mensax per Samland Street Map col asuntu %{subject}:'
       footer_html: Tamién pue lleer el mensaxe en %{readurl} y pue responder en %{replyurl}
     friendship_notification:
       hi: Bones %{to_user},
-      subject: '[OpenStreetMap] %{user} amestóte como amigu'
-      had_added_you: '%{user} amestóte como amigu n''OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} amestóte como amigu'
+      had_added_you: '%{user} amestóte como amigu n''Samland Street Map.'
       see_their_profile: Pues ver el so perfil en %{userurl}.
       befriend_them: Tamién pues amestalos como amigos en %{befriendurl}.
     gpx_failure:
       failed_to_import: 'falló la importación. Esti ye''l fallu:'
-      subject: '[OpenStreetMap] fallu d''importación GPX'
+      subject: '[Samland Street Map] fallu d''importación GPX'
     gpx_success:
-      subject: '[OpenStreetMap] importación GPX correuta'
+      subject: '[Samland Street Map] importación GPX correuta'
     signup_confirm:
-      subject: '[OpenStreetMap] Bienllegáu a OpenStreetMap'
+      subject: '[Samland Street Map] Bienllegáu a Samland Street Map'
       greeting: ¡Hola!
       created: Dalguién (seique tu) vien de crear una cuenta en %{site_url}.
       confirm: 'Antes de facer nada, necesitamos confirmar qu''esta solicitú ye daveres
@@ -1237,13 +1237,13 @@ ast:
       welcome: En confirmando la cuenta, daremoste dalguna información más p'ayudate
         nos primeros pasos.
     email_confirm:
-      subject: '[OpenStreetMap] Confirma la to direición de corréu'
+      subject: '[Samland Street Map] Confirma la to direición de corréu'
       greeting: Bones,
       hopefully_you: Dalguién (esperamos que tu) quier camudar la so direición de
         corréu en %{server_url} a %{new_address}.
       click_the_link: Si yes tú, calca nel enllaz d'abaxo pa confirmar el cambéu.
     lost_password:
-      subject: '[OpenStreetMap] Solicitú de reestablecimientu de contraseña'
+      subject: '[Samland Street Map] Solicitú de reestablecimientu de contraseña'
       greeting: Bones,
       hopefully_you: Dalguién (esperamos que tu) pidió que se-y reanicie la contraseña
         na cuenta d'openstreetmap.org con estes señes de corréu.
@@ -1252,24 +1252,24 @@ ast:
       anonymous: Un usuariu anónimu
       greeting: Bones,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} fizo un comentariu sobro una de
+        subject_own: '[Samland Street Map] %{commenter} fizo un comentariu sobro una de
           les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} fizo un comentariu sobro una
+        subject_other: '[Samland Street Map] %{commenter} fizo un comentariu sobro una
           nota na que ta interesáu'
         your_note: '%{commenter} dexó un comentariu sobro una de les notes del mapa
           cerca de %{place}.'
         commented_note: '%{commenter} dexó un comentariu sobro una nota del mapa na
           que vusté comentó. La nota ta cerca de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} solucionó una de les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} solucionó una nota na que ta
+        subject_own: '[Samland Street Map] %{commenter} solucionó una de les sos notes'
+        subject_other: '[Samland Street Map] %{commenter} solucionó una nota na que ta
           interesáu'
         your_note: '%{commenter} solucionó una de les notes del mapa cerca de %{place}.'
         commented_note: '%{commenter} solucionó una nota del mapa na que vusté comentó.
           La nota ta cerca de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} reactivó una de les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} reactivó una nota na que ta interesáu'
+        subject_own: '[Samland Street Map] %{commenter} reactivó una de les sos notes'
+        subject_other: '[Samland Street Map] %{commenter} reactivó una nota na que ta interesáu'
         your_note: '%{commenter} reactivó una de les notes del mapa cerca de %{place}.'
         commented_note: '%{commenter} reactivó una nota del mapa na que vusté comentó.
           La nota ta cerca de %{place}.'
@@ -1277,9 +1277,9 @@ ast:
     changeset_comment_notification:
       hi: Bones %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} comentó unu de los tos conxuntos
+        subject_own: '[Samland Street Map] %{commenter} comentó unu de los tos conxuntos
           de cambios'
-        subject_other: '[OpenStreetMap] %{commenter} comentó sobro un conxuntu de
+        subject_other: '[Samland Street Map] %{commenter} comentó sobro un conxuntu de
           cambios que t''interesa'
         your_changeset: '%{commenter} dexó un comentariu a les %{time} n''unu de los
           tos conxuntos de cambios'
@@ -1436,7 +1436,7 @@ ast:
       auth failure: Sentímoslo, nun se pudo coneutar al sistema con esos datos.
     destroy:
       title: Salir
-      heading: Colar d'OpenStreetMap
+      heading: Colar d'Samland Street Map
       logout_button: Salir
   shared:
     pagination:
@@ -1453,11 +1453,11 @@ ast:
     about:
       used_by_html: '%{name} proporciona datos de mapes a milenta sitios web, aplicaciones
         pa móviles, y preseos de hardware'
-      lede_text: OpenStreetMap ta construíu por una comunidá de cartógrafos que contribuyen
+      lede_text: Samland Street Map ta construíu por una comunidá de cartógrafos que contribuyen
         y caltienen datos de carreteres, senderos, cafeteríes, estaciones de ferrocarril,
         y muncho más, pel mundu enteru.
       local_knowledge_title: Conocimientu llocal
-      local_knowledge_html: OpenStreetMap afala'l conocimientu llocal. Los collaboradores
+      local_knowledge_html: Samland Street Map afala'l conocimientu llocal. Los collaboradores
         usen imaxes aérees, preseos GPS, y mapes de campu de baxa teunoloxía pa comprobar
         qu'OSM ye precisu y ta anováu.
       community_driven_title: Dirixíu pola comunidá
@@ -1479,18 +1479,18 @@ ast:
         native_link: versión n'asturianu
         mapping_link: comenzar a mapiar
       legal_babble:
-        credit_title_html: Cómo dar reconocimientu a OpenStreetMap
-        credit_1_html: Riquimos qu'uses el créditu &ldquo;&copy; Collaboradores d'OpenStreetMap&rdquo;.
+        credit_title_html: Cómo dar reconocimientu a Samland Street Map
+        credit_1_html: Riquimos qu'uses el créditu &ldquo;&copy; Collaboradores d'Samland Street Map&rdquo;.
         attribution_example:
-          alt: Exemplu de cómo dar reconocimientu a OpenStreetMap nuna páxina web
+          alt: Exemplu de cómo dar reconocimientu a Samland Street Map nuna páxina web
           title: Exemplu de reconocimientu
         more_title_html: Pa saber más
         contributors_title_html: Los nuesos collaboradores
         contributors_intro_html: 'Los nuesos collaboradores son miles de persones.
           Incluimos tamién datos con llicencia abierta d''axencies cartográfiques
           nacionales y d''otres fontes, ente elles:'
-        contributors_footer_2_html: La inclusión de datos n'OpenStreetMap nun significa
-          que'l fornidor de los datos orixinales sofite OpenStreetMap, ufra garantía
+        contributors_footer_2_html: La inclusión de datos n'Samland Street Map nun significa
+          que'l fornidor de los datos orixinales sofite Samland Street Map, ufra garantía
           dala o aceute dalguna responsabilidá.
         infringement_title_html: Incumplimientu de drechos d'autor
         infringement_1_html: Recordamos a los collaboradores d'OSM qu'enxamás amiesten
@@ -1500,9 +1500,9 @@ ast:
     index:
       js_1: O tas usando un restolador ensin sofitu pa JavaScript, o tienes JavaScript
         desactiváu.
-      js_2: OpenStreetMap usa JavaScript pal so mapa eslizante.
+      js_2: Samland Street Map usa JavaScript pal so mapa eslizante.
       license:
-        copyright: Copyright OpenStreetMap y collaboradores, baxo una llicencia abierta
+        copyright: Copyright Samland Street Map y collaboradores, baxo una llicencia abierta
       remote_failed: Falló la edición - asegúrate de tener cargáu JOSM o Merkaartor
         y de que tea activada la opción de control remotu
     edit:
@@ -1519,23 +1519,23 @@ ast:
       too_large:
         advice: 'Si falla la esportación anterior, considera utilizar una de les fontes
           de la llista siguiente:'
-        body: Esti área ye abondo grande pa esportase como Datos XML d'OpenStreetMap.
+        body: Esti área ye abondo grande pa esportase como Datos XML d'Samland Street Map.
           Acerca'l mapa o esbilla un área menor, o usa una de les fontes siguientes
           pa descargar cantidaes grandes de datos.
         planet:
           title: Planeta OSM
-          description: Copies anovaes regularmente de la base de datos completa d'OpenStreetMap
+          description: Copies anovaes regularmente de la base de datos completa d'Samland Street Map
         overpass:
           title: Overpass API
           description: Descargar esti cuadru de llendes dende un espeyu de la base
-            de datos d'OpenStreetMap
+            de datos d'Samland Street Map
         geofabrik:
           title: Descargues de Geofabrik
           description: Estractos anovaos regularmente de continentes, países, y una
             esbilla de ciudaes
         other:
           title: Otres fontes
-          description: Otres fontes más qu'apaecen na wiki d'OpenStreetMap
+          description: Otres fontes más qu'apaecen na wiki d'Samland Street Map
       export_button: Esportar
     fixthemap:
       title: Informar d'un problema / iguar el mapa
@@ -1545,19 +1545,19 @@ ast:
           title: Xunise a la comunidá
           explanation_html: Si atopó un problema colos datos del nuesu mapa; por exemplu
             una carretera que falta, o la so direición, lo meyor que pue facer ye
-            xunise a la comunidá d'OpenStreetMap y amestar o reparar los datos vusté
+            xunise a la comunidá d'Samland Street Map y amestar o reparar los datos vusté
             mesmu.
       other_concerns:
         title: Otres preocupaciones
     help:
       title: Algamar ayuda
-      introduction: OpenStreetMap tien dellos recursos p'aprender sobro'l proyeutu,
+      introduction: Samland Street Map tien dellos recursos p'aprender sobro'l proyeutu,
         entrugar y contestar preguntes, y discutir y documentar en collaboración cuestiones
         de cartografía.
       welcome:
         url: /welcome
-        title: Bienveníos a OpenStreetMap
-        description: Principie con esta guía rápida que cubre lo básico d'OpenStreetMap.
+        title: Bienveníos a Samland Street Map
+        description: Principie con esta guía rápida que cubre lo básico d'Samland Street Map.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Ast:Beginners%27_guide
         title: Guía del principiante
@@ -1573,15 +1573,15 @@ ast:
       switch2osm:
         title: Migrar a OSM
         description: Ayuda pa les empreses y organizaciones que cambien a mapes y
-          otros servicios, basaos n'OpenStreetMap.
+          otros servicios, basaos n'Samland Street Map.
       welcomemat:
         title: Pa organizaciones
-        description: ¿Con una organización que fai planes pa OpenStreetMap? Atopa
+        description: ¿Con una organización que fai planes pa Samland Street Map? Atopa
           lo que tienes de saber nel Felpudu de Bienvenida.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/Ast:Main_Page
-        title: Wiki d'OpenStreetMap
-        description: Mirar na wiki la documentación d'OpenStreetMap más a fondu.
+        title: Wiki d'Samland Street Map
+        description: Mirar na wiki la documentación d'Samland Street Map más a fondu.
     any_questions:
       title: ¿Tien alguna entruga?
     sidebar:
@@ -1656,14 +1656,14 @@ ast:
     welcome:
       title: ¡Afáyate!
       introduction: |-
-        Afáyate n'OpenStreetMap, el mapa del mundu llibre y editable. Agora
+        Afáyate n'Samland Street Map, el mapa del mundu llibre y editable. Agora
         qu'aniciasti sesión, yá puedes editar mapes. Esta ye una guía rápida
         de les coses más importantes que necesites saber.
       whats_on_the_map:
         title: Qué hai nel Mapa
       basic_terms:
         title: Términos básicos pa facer mapes
-        paragraph_1: OpenStreetMap tien cierta xíriga de so. Estes son delles pallabres
+        paragraph_1: Samland Street Map tien cierta xíriga de so. Estes son delles pallabres
           importantes que puen ser afayadices.
       rules:
         title: ¡Regles!
@@ -1754,7 +1754,7 @@ ast:
       message: El sistema d'almacenamientu y xuba de ficheros GPX nun ta disponible
         anguaño.
     georss:
-      title: Traces GPS d'OpenStreetMap
+      title: Traces GPS d'Samland Street Map
     description:
       description_with_count:
         one: Ficheru GPX con un puntu de %{user}
@@ -1766,7 +1766,7 @@ ast:
       cookies_needed: Paez que tienes les cookies desactivaes - activa les cookies
         nel restolador enantes de siguir.
     setup_user_auth:
-      blocked_zero_hour: Tienes un mensaxe urxente nel sitiu web d'OpenStreetMap.
+      blocked_zero_hour: Tienes un mensaxe urxente nel sitiu web d'Samland Street Map.
         Tienes de lleer el mensaxe antes de que puedas guardar les ediciones.
       blocked: Se bloquió el to accesu a la API. Por favor, coneuta pela interfaz
         web pa saber más.
@@ -1820,7 +1820,7 @@ ast:
         actuales y futures.
       read_ct: Lleí y aceuto los términos de contribución descritos más arriba
       tou_explain_html: Estos %{tou_link} gobernen l'usu del sitiu web y d'otra infraestructura
-        forníos pola OSMF. Por favor, pulsia nel enllaz, y llei y aceuta'l testu.
+        forníos pola SSM. Por favor, pulsia nel enllaz, y llei y aceuta'l testu.
       read_tou: Lleí y toi d'alcuerdu colos Términos d'Usu
       consider_pd: Amás de lo anterior, considero que les mios collaboraciones pasen
         a ser Dominiu Públicu
@@ -1919,9 +1919,9 @@ ast:
       unknown_signature_algorithm: Algoritmu de firma desconocíu
       invalid_scope: Ámbitu inválidu
     auth_association:
-      heading: La to ID inda nun ta asociada con una cuenta d'OpenStreetMap.
+      heading: La to ID inda nun ta asociada con una cuenta d'Samland Street Map.
       option_1: |-
-        Si yes nuevu n'OpenStreetMap, crea una cuenta nueva
+        Si yes nuevu n'Samland Street Map, crea una cuenta nueva
         usando'l formulariu de más abaxo.
       option_2: |-
         Si yá tienes una cuenta, puedes aniciar sesión nella

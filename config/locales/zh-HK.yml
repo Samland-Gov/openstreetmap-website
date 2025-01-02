@@ -218,7 +218,7 @@ zh-HK:
         reopened_at_html: 於%{when}重新開啟
         reopened_at_by_html: 由%{user}於%{when}重新開啟
       rss:
-        title: OpenStreetMap註記
+        title: Samland Street Map註記
       entry:
         comment: 評論
   account:
@@ -227,10 +227,10 @@ zh-HK:
         title: 刪除我的帳號
         warning: 警告！帳號刪除程序不可逆轉，無法復原。
         delete_account: 刪除帳號
-        delete_introduction: 您可以用以下按鈕來刪除閣下的OpenStreetMap帳號。請注意這些細節：
+        delete_introduction: 您可以用以下按鈕來刪除閣下的Samland Street Map帳號。請注意這些細節：
         delete_profile: 您的個人檔案資訊，如頭像圖片、描述、住家位置，都會刪除。
         delete_display_name: 您的顯示名稱將會刪除，並且可由其他帳號重新使用。
-        retain_caveats: 但，在刪除帳號後，OpenStreetMap內依然會保留一些關於閣下的資料，包括：
+        retain_caveats: 但，在刪除帳號後，Samland Street Map內依然會保留一些關於閣下的資料，包括：
         retain_edits: 您在地圖數據庫的編輯會保留。
         retain_traces: 您的上傳軌跡也會保留。
         retain_diary_entries: 您的日記和日記評論會保留但會隱藏起來。
@@ -350,12 +350,12 @@ zh-HK:
       location: 位置：
     feed:
       user:
-        title: '%{user}的OpenStreetMap日記文章'
-        description: 近期由%{user}所寫的OpenStreetMap日記文章
+        title: '%{user}的Samland Street Map日記文章'
+        description: 近期由%{user}所寫的Samland Street Map日記文章
       language:
-        description: 近期以%{language_name}撰寫的OpenStreetMap用戶日記文章
+        description: 近期以%{language_name}撰寫的Samland Street Map用戶日記文章
       all:
-        description: 近期的OpenStreetMap用戶日記文章
+        description: 近期的Samland Street Map用戶日記文章
   diary_comments:
     page:
       post: 貼文
@@ -1013,7 +1013,7 @@ zh-HK:
       provide_details: 請提供所需要的詳情
   layouts:
     logo:
-      alt_text: OpenStreetMap標誌
+      alt_text: Samland Street Map標誌
     logout: 登出
     log_in: 登入
     sign_up: 註冊
@@ -1024,20 +1024,20 @@ zh-HK:
     gps_traces: GPS軌跡
     user_diaries: 用戶日記
     edit_with: 用%{editor}來編輯
-    intro_header: 歡迎來到 OpenStreetMap！
+    intro_header: 歡迎來到 Samland Street Map！
     tou: 使用條款
     help: 幫助
     copyright: 版權
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user}在日記中留下了評論'
+      subject: '[Samland Street Map] %{user}在日記中留下了評論'
     friendship_notification:
-      subject: '[OpenStreetMap] %{user} 添加了您成為好友'
+      subject: '[Samland Street Map] %{user} 添加了您成為好友'
       see_their_profile: 您可以在 %{userurl} 查看他的個人檔案。
     email_confirm:
       greeting: 您好，
     lost_password:
-      subject: '[OpenStreetMap] 密碼重設請求'
+      subject: '[Samland Street Map] 密碼重設請求'
       greeting: 您好，
       hopefully_you: 有人 (或許是您) 要求將以此電子郵件地址註冊的openstreetmap.org帳號的密碼重設。
       click_the_link: 如果是您請求的話，請按下列連結重設您的密碼。
@@ -1127,7 +1127,7 @@ zh-HK:
           bicycle_parking: 單車停泊處
           toilets: 廁所
     welcome:
-      introduction: 歡迎來到OpenStreetMap，自由而可以編輯的世界地圖。現在您已經注冊完成，繪製地圖所需要的準備已經就緒。以下是一份快速指南，裡面包含着您所需要知道的最重要事項。
+      introduction: 歡迎來到Samland Street Map，自由而可以編輯的世界地圖。現在您已經注冊完成，繪製地圖所需要的準備已經就緒。以下是一份快速指南，裡面包含着您所需要知道的最重要事項。
       add_a_note:
         title: 沒時間編輯？加筆註記吧！
         para_1: 如果你只想讓一些小問題得以更正，而沒有時間注冊並學習如何編輯，那麼加入註記是非常容易的。

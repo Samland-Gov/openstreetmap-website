@@ -241,7 +241,7 @@ vi:
         reopened_at_html: Được mở lại %{when}
         reopened_at_by_html: Được %{user} mở lại %{when}
       rss:
-        title: Ghi chú OpenStreetMap
+        title: Ghi chú Samland Street Map
         description_all: Danh sách các ghi chú được báo cáo, bình luận, hoặc đóng
         description_area: Danh sách các ghi chú được mở, bình luận, hoặc đóng trong
           khu vực của bạn [(%{min_lat}|%{min_lon}) – (%{max_lat}|%{max_lon})]
@@ -260,14 +260,14 @@ vi:
         warning: Cảnh báo! Việc này sẽ xóa vĩnh viễn tài khoản và không thể được hoàn
           tác.
         delete_account: Xóa Tài khoản
-        delete_introduction: 'Nhấp vào nút bên dưới để xóa tài khoản OpenStreetMap
+        delete_introduction: 'Nhấp vào nút bên dưới để xóa tài khoản Samland Street Map
           của bạn. Vui lòng lưu ý các điều sau:'
         delete_profile: Thông tin hồ sơ của bạn, bao gồm hình đại diện, miêu tả, và
           vị trí nhà ở của bạn sẽ bị xóa.
         delete_display_name: Tên hiển thị của bạn sẽ bị xóa. Vì vậy, một tài khoản
           khác nào đó có thể lấy tên này.
         retain_caveats: 'Tuy nhiên, một số thông tin về bạn vẫn được giữ lại trên
-          OpenStreetMap, ngay cả sau khi tài khoản của bạn bị xóa:'
+          Samland Street Map, ngay cả sau khi tài khoản của bạn bị xóa:'
         retain_edits: Các sửa đổi của bạn đối với cơ sở dữ liệu bản đồ (nếu có) sẽ
           được giữ lại.
         retain_traces: Các tập tin bạn đã tải lên (nếu có) vẫn sẽ được giữ lại.
@@ -455,8 +455,8 @@ vi:
         comment: 'Nhận xét mới về bộ thay đổi #%{changeset_id} của %{author}'
         commented_at_by_html: Được %{user} cập nhật %{when}
       show:
-        title_all: Thảo luận về bộ thay đổi tại OpenStreetMap
-        title_particular: 'Thảo luận về bộ thay đổi #%{changeset_id} tại OpenStreetMap'
+        title_all: Thảo luận về bộ thay đổi tại Samland Street Map
+        title_particular: 'Thảo luận về bộ thay đổi #%{changeset_id} tại Samland Street Map'
       timeout:
         sorry: Rất tiếc, việc lấy danh sách lời tóm lược bộ thay đổi tốn quá nhiều
           thì giờ.
@@ -607,13 +607,13 @@ vi:
     feed:
       user:
         title: Các mục nhật ký của %{user}
-        description: Những mục gần đây trong nhật ký OpenStreetMap từ %{user}
+        description: Những mục gần đây trong nhật ký Samland Street Map từ %{user}
       language:
-        title: Các mục nhật ký OpenStreetMap bằng %{language_name}
-        description: Những mục nhật ký gần đây của người dùng OpenStreetMap bằng %{language_name}
+        title: Các mục nhật ký Samland Street Map bằng %{language_name}
+        description: Những mục nhật ký gần đây của người dùng Samland Street Map bằng %{language_name}
       all:
-        title: Các mục nhật ký OpenStreetMap
-        description: Những mục nhật ký gần đây từ người dùng OpenStreetMap
+        title: Các mục nhật ký Samland Street Map
+        description: Những mục nhật ký gần đây từ người dùng Samland Street Map
     subscribe:
       heading: Theo dõi cuộc thảo luận về mục nhật ký sau đây?
       button: Theo dõi cuộc thảo luận
@@ -667,25 +667,25 @@ vi:
     contact:
       contact_url_title: Giải thích các phương cách liên lạc
       contact: liên lạc
-      contact_the_community_html: Xin vui lòng %{contact_link} cộng đồng OpenStreetMap
+      contact_the_community_html: Xin vui lòng %{contact_link} cộng đồng Samland Street Map
         nếu bạn gặp liên kết hỏng hoặc lỗi phần mềm. Hãy ghi nhớ địa chỉ URL chính
         xác của yêu cầu máy chủ.
     bad_request:
       title: Yêu cầu hỏng
-      description: Bạn đã yêu cầu tác vụ không hợp lệ trên máy chủ OpenStreetMap (HTTP
+      description: Bạn đã yêu cầu tác vụ không hợp lệ trên máy chủ Samland Street Map (HTTP
         400)
     forbidden:
       title: Cấm
-      description: Tác vụ đuợc yêu cầu trên máy chủ OpenStreetMap chỉ khả dụng đối
+      description: Tác vụ đuợc yêu cầu trên máy chủ Samland Street Map chỉ khả dụng đối
         với các quản trị viên (HTTP 403)
     internal_server_error:
       title: Lỗi ứng dụng
-      description: Máy chủ OpenStreetMap gặp phải tình trạng không mong đợi khiến
+      description: Máy chủ Samland Street Map gặp phải tình trạng không mong đợi khiến
         máy chủ không thể thực hiện yêu cầu (HTTP 500)
     not_found:
       title: Không tìm thấy tập tin
       description: Không thể tìm thấy thao tác tập tin/thư mục/API có tên đó trên
-        máy chủ OpenStreetMap (HTTP 404)
+        máy chủ Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: Kết bạn với %{user}?
@@ -1499,7 +1499,7 @@ vi:
       provide_details: Vui lòng cung cấp các chi tiết được yêu cầu
   layouts:
     logo:
-      alt_text: Biểu trưng OpenStreetMap
+      alt_text: Biểu trưng Samland Street Map
     home: Về Vị trí Nhà ở
     logout: Đăng xuất
     log_in: Đăng nhập
@@ -1512,8 +1512,8 @@ vi:
     gps_traces: Tuyến GPS
     user_diaries: Nhật ký
     edit_with: Sửa đổi dùng %{editor}
-    intro_header: Chào mừng đến với OpenStreetMap!
-    intro_text: OpenStreetMap là bản đồ thế giới do những người như bạn xây dựng và
+    intro_header: Chào mừng đến với Samland Street Map!
+    intro_text: Samland Street Map là bản đồ thế giới do những người như bạn xây dựng và
       cho phép sử dụng thoải mái theo một giấy phép nguồn mở.
     hosting_partners_2024_html: Dịch vụ lưu trữ nhờ sự hỗ trợ của %{fastly}, %{corpmembers},
       và %{partners} khác.
@@ -1521,9 +1521,9 @@ vi:
     partners_corpmembers: các thành viên công ty Quỹ OSM
     partners_partners: các công ty bảo trợ
     tou: Điều khoản sử dụng
-    osm_offline: Cơ sở dữ liệu OpenStreetMap đang ngoại tuyến trong lúc đang thực
+    osm_offline: Cơ sở dữ liệu Samland Street Map đang ngoại tuyến trong lúc đang thực
       hiện những công việc bảo quản cơ sở dữ liệu cần thiết.
-    osm_read_only: Cơ sở dữ liệu OpenStreetMap đang bị khóa không được sửa đổi trong
+    osm_read_only: Cơ sở dữ liệu Samland Street Map đang bị khóa không được sửa đổi trong
       lúc đang thực hiện những công việc bảo quản cơ sở dữ liệu cần thiết.
     nothing_to_preview: Không có gì để xem trước.
     help: Trợ giúp
@@ -1534,12 +1534,12 @@ vi:
     more: Thêm
   user_mailer:
     diary_comment_notification:
-      description: 'Mục Nhật ký OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} đã bình luận về mục nhật ký'
+      description: 'Mục Nhật ký Samland Street Map #%{id}'
+      subject: '[Samland Street Map] %{user} đã bình luận về mục nhật ký'
       hi: Chào %{to_user},
-      header: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenStreetMap
+      header: '%{from_user} đã bình luận về mục nhật ký gần đây tại Samland Street Map
         với tiêu đề %{subject}:'
-      header_html: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenStreetMap
+      header_html: '%{from_user} đã bình luận về mục nhật ký gần đây tại Samland Street Map
         với tiêu đề %{subject}:'
       footer: Bạn cũng có thể đọc bình luận tại %{readurl}, bình luận tại %{commenturl},
         hoặc nhắn tin cho tác giả tại %{replyurl}
@@ -1548,10 +1548,10 @@ vi:
       footer_unsubscribe: Bạn có thể ngừng theo dõi cuộc thảo luận tại %{unsubscribeurl}
       footer_unsubscribe_html: Bạn có thể ngừng theo dõi cuộc thảo luận tại %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Chào %{to_user},
-      header: '%{from_user} đã gửi thư cho bạn dùng OpenStreetMap có tiêu đề %{subject}:'
-      header_html: '%{from_user} đã gửi thư cho bạn dùng OpenStreetMap có tiêu đề
+      header: '%{from_user} đã gửi thư cho bạn dùng Samland Street Map có tiêu đề %{subject}:'
+      header_html: '%{from_user} đã gửi thư cho bạn dùng Samland Street Map có tiêu đề
         %{subject}:'
       footer: Bạn cũng có thể đọc thư này tại %{readurl} và có thể nhắn tin cho tác
         giả tại %{replyurl}
@@ -1559,8 +1559,8 @@ vi:
         tác giả tại %{replyurl}
     friendship_notification:
       hi: Chào %{to_user},
-      subject: '[OpenStreetMap] %{user} đã kết bạn với bạn'
-      had_added_you: '%{user} đã thêm bạn vào danh sách bạn tại OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} đã kết bạn với bạn'
+      had_added_you: '%{user} đã thêm bạn vào danh sách bạn tại Samland Street Map.'
       see_their_profile: Có thể xem trang cá nhân của họ tại %{userurl}.
       see_their_profile_html: Có thể xem trang cá nhân của họ tại %{userurl}.
       befriend_them: Bạn cũng có thể thêm họ vào danh sách bạn bè của bạn tại %{befriendurl}.
@@ -1584,7 +1584,7 @@ vi:
       more_info: Tìm hiểu thêm về lỗi nhập GPX và cách tránh lỗi tại %{url}.
       more_info_html: Tìm hiểu thêm về lỗi nhập GPX và cách tránh lỗi tại %{url}.
       import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=vi
-      subject: '[OpenStreetMap] Nhập GPX thất bại'
+      subject: '[Samland Street Map] Nhập GPX thất bại'
     gpx_success:
       hi: Chào %{to_user},
       loaded:
@@ -1594,9 +1594,9 @@ vi:
         thành công tại %{url}
       all_your_traces_html: Bạn có thể truy cập tất cả các tuyến GPX mà bạn đã tải
         lên thành công tại %{url}.
-      subject: '[OpenStreetMap] Nhập GPX thành công'
+      subject: '[Samland Street Map] Nhập GPX thành công'
     signup_confirm:
-      subject: '[OpenStreetMap] Chào mừng bạn đã tham gia OpenStreetMap'
+      subject: '[Samland Street Map] Chào mừng bạn đã tham gia Samland Street Map'
       greeting: Chào bạn!
       created: Ai đó (có lẽ là bạn) vừa mở tài khoản tại %{site_url}.
       confirm: 'Trước tiên, chúng tôi cần xác nhận bạn là người mở tài khoản này.
@@ -1605,27 +1605,27 @@ vi:
       welcome: Sau khi bạn xác nhận tài khoản của bạn, chúng tôi sẽ cung cấp một số
         thông tin về cách bắt đầu.
     email_confirm:
-      subject: '[OpenStreetMap] Xác nhân địa chỉ thư điện tử của bạn'
+      subject: '[Samland Street Map] Xác nhân địa chỉ thư điện tử của bạn'
       greeting: Chào bạn,
       hopefully_you: Ai đó (chắc bạn) muốn đổi địa chỉ thư điện tử bên %{server_url}
         thành %{new_address}.
       click_the_link: Nếu bạn là người đó, xin hãy nhấn chuột vào liên kết ở dưới
         để xác nhận thay đổi này.
     lost_password:
-      subject: '[OpenStreetMap] Yêu cầu đặt lại mật khẩu'
+      subject: '[Samland Street Map] Yêu cầu đặt lại mật khẩu'
       greeting: Chào bạn,
       hopefully_you: Ai đó (chắc bạn) đã xin đặt lại mật khẩu của tài khoản openstreetmap.org
         có địa chỉ thư điện tử này.
       click_the_link: Nếu bạn là người đó, xin hãy nhấn chuột vào liên kết ở dưới
         để đặt lại mật khẩu.
     note_comment_notification:
-      description: 'Ghi chú OpenStreetMap #%{id}'
+      description: 'Ghi chú Samland Street Map #%{id}'
       anonymous: Người dùng vô danh
       greeting: Chào bạn,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} đã bình luận trên một ghi chú của
+        subject_own: '[Samland Street Map] %{commenter} đã bình luận trên một ghi chú của
           bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã bình luận trên một ghi chú
+        subject_other: '[Samland Street Map] %{commenter} đã bình luận trên một ghi chú
           mà bạn đang quan tâm'
         your_note: '%{commenter} đã bình luận trên một ghi chú bản đồ của bạn gần
           %{place}.'
@@ -1636,8 +1636,8 @@ vi:
         commented_note_html: '%{commenter} đã bình luận tiếp theo bạn trên một ghi
           chú bản đồ gần %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} đã giải quyết một ghi chú của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã giải quyết một ghi chú mà
+        subject_own: '[Samland Street Map] %{commenter} đã giải quyết một ghi chú của bạn'
+        subject_other: '[Samland Street Map] %{commenter} đã giải quyết một ghi chú mà
           bạn đang quan tâm'
         your_note: '%{commenter} đã giải quyết một ghi chú bản đồ của bạn gần %{place}.'
         your_note_html: '%{commenter} đã giải quyết một ghi chú bản đồ của bạn gần
@@ -1647,8 +1647,8 @@ vi:
         commented_note_html: '%{commenter} đã giải quyết một ghi chú mà bạn đã bình
           luận, ghi chú gần %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} đã mở lại một ghi chú của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã mở lại một ghi chú mà bạn
+        subject_own: '[Samland Street Map] %{commenter} đã mở lại một ghi chú của bạn'
+        subject_other: '[Samland Street Map] %{commenter} đã mở lại một ghi chú mà bạn
           đang quan tâm'
         your_note: '%{commenter} đã mở lại một ghi chú bản đồ của bạn gần %{place}.'
         your_note_html: '%{commenter} đã mở lại một ghi chú bản đồ của bạn gần %{place}.'
@@ -1659,12 +1659,12 @@ vi:
       details: Trả lời hoặc tìm hiểu thêm về ghi chú tại %{url}.
       details_html: Trả lời hoặc tìm hiểu thêm về ghi chú tại %{url}.
     changeset_comment_notification:
-      description: 'Bộ thay đổi OpenStreetMap #%{id}'
+      description: 'Bộ thay đổi Samland Street Map #%{id}'
       hi: Chào %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} đã bình luận về một bộ thay đổi
+        subject_own: '[Samland Street Map] %{commenter} đã bình luận về một bộ thay đổi
           của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã bình luận về một bộ thay đổi
+        subject_other: '[Samland Street Map] %{commenter} đã bình luận về một bộ thay đổi
           mà bạn đang quan tâm'
         your_changeset: '%{commenter} bình luận vào %{time} về một bộ thay đổi do
           bạn lưu'
@@ -1855,7 +1855,7 @@ vi:
   sessions:
     new:
       tab_title: Đăng nhập
-      login_to_authorize_html: Đăng nhập vào OpenStreetMap để truy cập %{client_app_name}.
+      login_to_authorize_html: Đăng nhập vào Samland Street Map để truy cập %{client_app_name}.
       email or username: Địa chỉ Thư điện tử hoặc Tên người dùng
       password: Mật khẩu
       remember: Nhớ tôi
@@ -1866,7 +1866,7 @@ vi:
       auth failure: Rất tiếc, không thể đăng nhập với những chi tiết đó.
     destroy:
       title: Đăng xuất
-      heading: Đăng xuất OpenStreetMap
+      heading: Đăng xuất Samland Street Map
       logout_button: Đăng xuất
     suspended_flash:
       suspended: Đáng tiếc, tài khoản của bạn đã bị đình chỉ do hoạt động đáng ngờ.
@@ -1914,28 +1914,28 @@ vi:
         newer: Người dùng Mới hơn
   site:
     about:
-      heading_html: '%{copyright}những người đóng góp vào %{br} OpenStreetMap'
+      heading_html: '%{copyright}những người đóng góp vào %{br} Samland Street Map'
       used_by_html: '%{name} cung cấp dữ liệu bản đồ cho hàng ngàn trang Web, ứng
         dụng di động, và thiết bị phần cứng'
-      lede_text: OpenStreetMap được xây dựng bởi cộng đồng những người đóng góp và
+      lede_text: Samland Street Map được xây dựng bởi cộng đồng những người đóng góp và
         bảo quản dữ liệu về đường sá, tòa nhà, quán cà phê, nhà ga, và đủ mọi thứ
         ở khắp thế giới.
       local_knowledge_title: Kiến thức Địa phương
-      local_knowledge_html: OpenStreetMap chú trọng vào kiến thức địa phương. Những
+      local_knowledge_html: Samland Street Map chú trọng vào kiến thức địa phương. Những
         người đóng góp sử dụng hình ảnh từ không trung, các thiết bị GPS, và các bản
         đồ phác thảo trên giấy để làm cho OSM chính xác và đúng thời.
       community_driven_title: Căn cứ vào Cộng động
       community_driven_1_html: |-
-        Cộng đồng của OpenStreetMap gồm đủ loại người nhiệt tình và càng ngày càng phát triển.
+        Cộng đồng của Samland Street Map gồm đủ loại người nhiệt tình và càng ngày càng phát triển.
         Cộng đồng gồm những người tình nguyện vẽ bản đồ, các chuyên gia GIS, các kỹ sư bảo quản các máy chủ OSM. Chúng ta vẽ bản đồ quê hưởng, những nơi du lịch, những nơi bị thiên tai (để hỗ trợ cơ quan nhân đạo), và nhiều hơn nữa.
         Để tìm hiểu thêm về cộng đồng này, hãy đọc %{osm_blog_link}, các %{user_diaries_link}, %{community_blogs_link}, và trang chủ %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog Samland Street Map
       community_driven_user_diaries: nhật ký của người dùng
       community_driven_community_blogs: blog của cộng đồng
       community_driven_osm_foundation: Quỹ OSM
       open_data_title: Dữ liệu Mở
-      open_data_1_html: 'OpenStreetMap là %{open_data}: bạn được tự do sử dụng nó
-        cho bất cứ mục đích nào, miễn là bạn ghi công OpenStreetMap và những người
+      open_data_1_html: 'Samland Street Map là %{open_data}: bạn được tự do sử dụng nó
+        cho bất cứ mục đích nào, miễn là bạn ghi công Samland Street Map và những người
         đóng góp vào nó. Nếu bạn tạo ra một tác phẩm thay đổi dữ liệu hoặc dựa trên
         dữ liệu theo một số cách nhất định, bạn chỉ được phép phân phối tác phẩm kết
         quả dưới cùng giấy phép này. Hãy xem chi tiết tại %{copyright_license_link}.'
@@ -1944,8 +1944,8 @@ vi:
       legal_title: Pháp luật
       legal_1_1_html: |-
         Trang này và nhiều dịch vụ có liên quan do
-        %{openstreetmap_foundation_link} (OSMF) hoạt động thay mặt cho cộng đồng. Việc sử dụng tất cả các dịch vụ do OSMF hoạt động phải tuân theo %{terms_of_use_link}, %{aup_link}, và %{privacy_policy_link} của chúng tôi.
-      legal_1_1_openstreetmap_foundation: Quỹ OpenStreetMap
+        %{openstreetmap_foundation_link} (SSM) hoạt động thay mặt cho cộng đồng. Việc sử dụng tất cả các dịch vụ do SSM hoạt động phải tuân theo %{terms_of_use_link}, %{aup_link}, và %{privacy_policy_link} của chúng tôi.
+      legal_1_1_openstreetmap_foundation: Quỹ Samland Street Map
       legal_1_1_terms_of_use: Điều khoản Sử dụng
       legal_1_1_aup: Quy định Sử dụng Đàng hoàng
       legal_1_1_privacy_policy: Quy định về Quyền riêng tư
@@ -1953,8 +1953,8 @@ vi:
         Xin vui lòng %{contact_the_osmf_link}
         nếu có thắc mắc về giấy phép, bản quyền, hoặc vấn đề pháp lý khác.
       legal_2_1_contact_the_osmf: liên lạc với Quỹ OSM
-      legal_2_2_html: OpenStreetMap, biểu trưng kính lúp, và State of the Map là %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: nhãn hiệu đăng ký của OSMF
+      legal_2_2_html: Samland Street Map, biểu trưng kính lúp, và State of the Map là %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: nhãn hiệu đăng ký của SSM
       partners_title: Nhà bảo trợ
     copyright:
       title: Bản quyền và Giấy phép
@@ -1971,14 +1971,14 @@ vi:
         mapping_link: bắt đầu vẽ bản đồ
       legal_babble:
         introduction_1_html: |-
-          OpenStreetMap%{registered_trademark_link} là %{open_data} được %{osm_foundation_link} (OSMF) phát hành theo
+          Samland Street Map%{registered_trademark_link} là %{open_data} được %{osm_foundation_link} (SSM) phát hành theo
           %{odc_odbl_link} (ODbL).
         introduction_1_open_data: dữ liệu mở
         introduction_1_odc_odbl: Giấy phép Cơ sở dữ liệu Mở của Open Data Commons
-        introduction_1_osm_foundation: Quỹ OpenStreetMap
+        introduction_1_osm_foundation: Quỹ Samland Street Map
         introduction_2_html: Bạn được tự do sao chép, phân phối, truyền, và tạo ra
           các tác phẩm phái sinh từ các dữ liệu của chúng ta, miễn là bạn ghi công
-          OpenStreetMap và những người đóng góp vào nó. Nếu bạn sửa đổi hoặc tạo sản
+          Samland Street Map và những người đóng góp vào nó. Nếu bạn sửa đổi hoặc tạo sản
           phẩm dựa trên các dữ liệu của chúng tôi, bạn chỉ được phép phân phối kết
           quả theo cùng giấy phép. %{legal_code_link} đầy đủ giải thích các quyền
           và trách nhiệm của bạn.
@@ -1987,10 +1987,10 @@ vi:
           %{creative_commons_link} (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Ghi công–Chia sẻ tương tự
           2.0
-        credit_title_html: Cách ghi công OpenStreetMap
-        credit_1_html: 'Khi nào bạn sử dụng dữ liệu OpenStreetMap, bạn cần phải tuân
+        credit_title_html: Cách ghi công Samland Street Map
+        credit_1_html: 'Khi nào bạn sử dụng dữ liệu Samland Street Map, bạn cần phải tuân
           tho hai quy tắc sau:'
-        credit_2_1: Ghi công OpenStreetMap bằng cách hiển thị lời thông báo bản quyền
+        credit_2_1: Ghi công Samland Street Map bằng cách hiển thị lời thông báo bản quyền
           của chúng tôi.
         credit_2_2: Làm rõ rằng dữ liệu được phát hành theo Giấy phép Cơ sở dữ liệu
           Mở.
@@ -2005,17 +2005,17 @@ vi:
           giấy phép; bạn cần phải ghi công theo kiểu này nếu phân phối OSM dưới dạng
           dữ liệu. Đối với các phương tiện không có khả năng liên kết (chẳng hạn tác
           phẩm in ấn), gợi ý bạn chỉ dẫn đọc giả tới openstreetmap.org (thí dụ bằng
-          cách thay thế “OpenStreetMap” bằng địa chỉ đầy đủ) và tới opendatacommons.org.\nTrong
+          cách thay thế “Samland Street Map” bằng địa chỉ đầy đủ) và tới opendatacommons.org.\nTrong
           ví dụ này, lời ghi công xuất hiện ở góc bản đồ."
         credit_4_1_this_copyright_page: trang bản quyền này
         attribution_example:
-          alt: Ví dụ ghi công OpenStreetMap trên một trang Web
+          alt: Ví dụ ghi công Samland Street Map trên một trang Web
           title: Ví dụ ghi công
         more_title_html: Tìm hiểu thêm
         more_1_1_html: Đọc thêm về cách sử dụng dữ liệu của chúng tôi và cách ghi
           công chúng tôi tại %{osmf_licence_page_link}.
         more_1_1_osmf_licence_page: trang Giấy phép của Quỹ OSM
-        more_2_1_html: Mặc dù OpenStreetMap là dữ liệu mở, nhưng chúng tôi không thể
+        more_2_1_html: Mặc dù Samland Street Map là dữ liệu mở, nhưng chúng tôi không thể
           cung cấp một API bản đồ miễn phí để bên thứ ba sử dụng. Xem %{api_usage_policy_link},
           %{tile_usage_policy_link}, và %{nominatim_usage_policy_link} của chúng tôi.
         more_2_1_api_usage_policy: Quy định Sử dụng API
@@ -2073,8 +2073,8 @@ vi:
           Survey © bản quyền bản quyền Hoàng gia và quyền cơ sở dữ liệu 2010–2023.'
         contributors_gb_united_kingdom: Vương quốc Anh
         contributors_2_contributors_page: Trang Người đóng góp
-        contributors_footer_2_html: '  Việc bao gồm dữ liệu trong OpenStreetMap không
-          ngụ ý rằng nhà cung cấp dữ liệu đầu tiên ủng hộ OpenStreetMap, biện hộ sự
+        contributors_footer_2_html: '  Việc bao gồm dữ liệu trong Samland Street Map không
+          ngụ ý rằng nhà cung cấp dữ liệu đầu tiên ủng hộ Samland Street Map, biện hộ sự
           chính xác của nó, hoặc nhận trách nhiệm pháp lý nào.'
         infringement_title_html: Vi phạm bản quyền
         infringement_1_html: Những người đóng góp vào OSM được khuyên không bao giờ
@@ -2084,14 +2084,14 @@ vi:
         infringement_2_1_online_filing_page: trang nộp đơn trực tuyến
         trademarks_title: Nhãn hiệu
         trademarks_1_1_html: |-
-          OpenStreetMap, biểu trưng kính lúp, và State of the Map là các nhãn hiệu do Quỹ OpenStreetMap đăng ký. Nếu bạn có thắc mắc về việc sử dụng các nhãn hiệu, xin vui lòng xem
+          Samland Street Map, biểu trưng kính lúp, và State of the Map là các nhãn hiệu do Quỹ Samland Street Map đăng ký. Nếu bạn có thắc mắc về việc sử dụng các nhãn hiệu, xin vui lòng xem
           %{trademark_policy_link} của chúng tôi.
         trademarks_1_1_trademark_policy: Quy định Nhãn hiệu
     index:
       js_1: Hoặc trình duyệt của bạn không hỗ trợ JavaScript, hoặc bạn đã tắt JavaScript.
-      js_2: OpenStreetMap sử dụng JavaScript cho chức năng bản đồ trơn.
+      js_2: Samland Street Map sử dụng JavaScript cho chức năng bản đồ trơn.
       license:
-        copyright: Bản quyền của OpenStreetMap và những người đóng góp, được phát
+        copyright: Bản quyền của Samland Street Map và những người đóng góp, được phát
           hành theo giấy phép mở
       remote_failed: Thất bại mở trình vẽ – hãy chắc chắn rằng JOSM hoặc Markaartor
         đã khởi động và tùy chọn phần điều khiển từ xa được kích hoạt
@@ -2106,29 +2106,29 @@ vi:
       title: Xuất
       manually_select: Chọn vùng khác thủ công
       licence: Giấy phép
-      licence_details_html: Dữ liệu OpenStreetMap được phát hành theo %{odbl_link}
+      licence_details_html: Dữ liệu Samland Street Map được phát hành theo %{odbl_link}
         (ODbL).
       odbl: Giấy phép Cơ sở dữ liệu Mở của Open Data Commons
       too_large:
         advice: 'Nếu việc xuất dữ liệu ở trên bị thất bại, hãy nghĩ đến việc sử dụng
           một trong những nguồn bên dưới:'
-        body: 'Khu vực này quá lớn để xuất được dữ liệu OpenStreetMap XML. Xin vui
+        body: 'Khu vực này quá lớn để xuất được dữ liệu Samland Street Map XML. Xin vui
           lòng phóng to, chọn khu vực nhỏ hơn, hoặc tải về dữ liệu khối lượng lớn
           từ một dịch vụ sau:'
         planet:
           title: Quả đất OSM
-          description: Các bản sao toàn thể cơ sở dữ liệu OpenStreetMap được cập nhật
+          description: Các bản sao toàn thể cơ sở dữ liệu Samland Street Map được cập nhật
             thường xuyên
         overpass:
           title: Overpass API
-          description: Tải về hộp bao này từ một mirror của cơ sở dữ liệu OpenStreetMap
+          description: Tải về hộp bao này từ một mirror của cơ sở dữ liệu Samland Street Map
         geofabrik:
           title: Tải về Geofabrik
           description: Bản trích lục địa, quốc gia, và một số thành phố được cập nhật
             thường xuyên
         other:
           title: Nguồn Khác
-          description: Những nguồn khác được liệt kê trên wiki OpenStreetMap
+          description: Những nguồn khác được liệt kê trên wiki Samland Street Map
       export_button: Xuất
     fixthemap:
       title: Báo lỗi / Sửa bản đồ
@@ -2138,7 +2138,7 @@ vi:
           title: Tham gia cộng đồng
           explanation_html: Nếu bạn nhận thấy một vấn đề trong dữ liệu bản đồ của
             chúng tôi, chẳng hạn thiếu con đường hoặc địa chỉ của bạn, cách xử lý
-            tốt nhất là tham gia cộng đồng OpenStreetMap để thêm hoặc sửa dữ liệu
+            tốt nhất là tham gia cộng đồng Samland Street Map để thêm hoặc sửa dữ liệu
             lấy.
         add_a_note:
           instructions_1_html: Chỉ việc bấm %{note_icon} hoặc hình này trên bản đồ.
@@ -2151,19 +2151,19 @@ vi:
         working_group: nhóm làm việc của Quỹ OSM
     help:
       title: Trợ giúp
-      introduction: OpenStreetMap có nhiều tài nguyên để cho bạn tìm hiểu về dự án,
+      introduction: Samland Street Map có nhiều tài nguyên để cho bạn tìm hiểu về dự án,
         hỏi đáp, và cộng tác soạn thảo tài liệu về các đề tài bản đồ.
       welcome:
         url: /welcome
-        title: Chào mừng đến OpenStreetMap
-        description: Bắt đầu với cẩm nang các điều cơ bản OpenStreetMap.
+        title: Chào mừng đến Samland Street Map
+        description: Bắt đầu với cẩm nang các điều cơ bản Samland Street Map.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Vi:Beginners%27_guide
         title: Hướng dẫn Bắt đầu
         description: Hướng dẫn bắt đầu do cộng đồng biên tập.
       community:
         title: Diễn đàn trợ giúp & cộng đồng
-        description: Trang nhận trợ giúp và thảo luận chung về OpenStreetMap.
+        description: Trang nhận trợ giúp và thảo luận chung về Samland Street Map.
       mailing_lists:
         title: Danh sách thư
         description: Hỏi han hoặc thảo luận về các chuyện quan trọng trên nhiều danh
@@ -2174,17 +2174,17 @@ vi:
       switch2osm:
         title: switch2osm
         description: Trợ giúp cho những công ty và tổ chức muốn đổi qua các bản đồ
-          và dịch vụ dựa trên OpenStreetMap.
+          và dịch vụ dựa trên Samland Street Map.
       welcomemat:
         title: Dành cho các tổ chức
-        description: Tổ chức của bạn có tính tương tác với OpenStreetMap? Tìm hiểu
+        description: Tổ chức của bạn có tính tương tác với Samland Street Map? Tìm hiểu
           thêm trong “Thảm Trước Cửa”.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/Vi:Main_Page?uselang=vi
-        title: Wiki OpenStreetMap
-        description: Đọc tài liệu đầy đủ về OpenStreetMap trên wiki.
+        title: Wiki Samland Street Map
+        description: Đọc tài liệu đầy đủ về Samland Street Map trên wiki.
     potlatch:
-      removed: Bạn đã đặt trình vẽ OpenStreetMap mặc định là Potlatch. Vì Adobe Flash
+      removed: Bạn đã đặt trình vẽ Samland Street Map mặc định là Potlatch. Vì Adobe Flash
         Player không còn được hỗ trợ, Potlatch không còn hoạt động trong trình duyệt
         Web.
       desktop_application_html: Bạn vẫn có thể sử dụng Potlatch bằng cách %{download_link}.
@@ -2289,13 +2289,13 @@ vi:
           toilets: Vệ sinh
     welcome:
       title: Hoan nghênh!
-      introduction: Chào mừng bạn đã đến OpenStreetMap, bản đồ thế giới có dữ liệu
+      introduction: Chào mừng bạn đã đến Samland Street Map, bản đồ thế giới có dữ liệu
         mở được xây dựng bởi những người như bạn. Bây giờ bạn đã mở tài khoản thì
         hãy cùng góp sức vẽ bản đồ. Đây là những căn bản cần biết để bắt đầu đóng
         góp.
       whats_on_the_map:
         title: Mục đích của Bản đồ
-        on_the_map_html: OpenStreetMap là bản đồ chứa bất cứ những gì %{real_and_current}
+        on_the_map_html: Samland Street Map là bản đồ chứa bất cứ những gì %{real_and_current}
           – nó chứa biết bao tòa nhà, con đường, cửa hàng, cơ sở hạ tầng, cây cối…
           đủ mọi thứ. Mời bạn bổ sung bất cứ những gì thu hút sự quan tâm của bạn.
         real_and_current: hiện tại có thật
@@ -2307,7 +2307,7 @@ vi:
       basic_terms:
         title: Thuật ngữ Cơ bản
         paragraph_1: 'Đây là những thuật ngữ thường gặp khi sử dụng và đóng góp vào
-          OpenStreetMap:'
+          Samland Street Map:'
         an_editor_html: '%{editor} là một ứng dụng hoặc trang Web cho phép sửa đổi
           bản đồ.'
         a_node_html: '%{node} là một địa điểm trên bản đồ, thí dụ một nhà hàng hoặc
@@ -2322,7 +2322,7 @@ vi:
         tag: Thẻ
       rules:
         title: Quy định!
-        para_1_html: OpenStreetMap có ít quy tắc chính thức nhưng yêu cầu mọi người
+        para_1_html: Samland Street Map có ít quy tắc chính thức nhưng yêu cầu mọi người
           muốn tham gia phải cộng tác và liên lạc với cộng đồng. Nếu bạn đang tính
           thực hiện tác vụ nào không phải sửa đổi thủ công, xin vui lòng đọc và tuân
           theo các hướng dẫn tại %{imports_link} và %{automated_edits_link}.
@@ -2341,21 +2341,21 @@ vi:
     communities:
       title: Cộng đồng
       lede_text: |-
-        Nhiều người đến với OpenStreetMap từ khắp mọi nơi để đóng góp vào dự án hoặc sử dụng bản đồ.
+        Nhiều người đến với Samland Street Map từ khắp mọi nơi để đóng góp vào dự án hoặc sử dụng bản đồ.
         Nhiều người cũng tụ tập vào đủ loại nhóm cộng đồng chính thức hoặc không chính thức ứng với hàng xóm, thành phố, tỉnh, quốc gia, lục địa, hoặc sở thích.
       local_chapters:
         title: Chi nhánh Địa phương
         about_text: Chi nhánh địa phương là nhóm toàn quốc đã chính thức sáng lập
           một tổ chức phi lợi nhuận để biểu diễn bản đồ và những người lập bản đồ
           trong nước khi đối xử với chính quyền, thương mại, báo chí trong nước. Các
-          chi nhánh địa phương đã chính thức ký thỏa thuận liên kết với Quỹ OpenStreetMap
-          (OSMF), là tổ chức quản lý dự án về mặt luật pháp và bản quyền.
+          chi nhánh địa phương đã chính thức ký thỏa thuận liên kết với Quỹ Samland Street Map
+          (SSM), là tổ chức quản lý dự án về mặt luật pháp và bản quyền.
         list_text: 'Các nhóm cộng đồng sau đã được chính thức công nhận là chi nhánh
           địa phương:'
       other_groups:
         title: Các Nhóm Khác
         other_groups_html: Một nhóm cộng đồng không nhất thiết phải được công nhận
-          là chi nhánh địa phương để ủng hộ dự án OpenStreetMap. Thực ra nhiều nhóm
+          là chi nhánh địa phương để ủng hộ dự án Samland Street Map. Thực ra nhiều nhóm
           rất thành công tuy chỉ là cuộc họp mặt thoải mái. Ai có thể tổ chức một
           nhóm cộng đồng bình thường như thế. Để biết thêm chi tiết, xem %{communities_wiki_link}.
         communities_wiki: trang wiki về nhóm người dùng
@@ -2450,7 +2450,7 @@ vi:
       heading: Kho GPX Ngoại tuyến
       message: Hệ thống lưu giữ và tải lên tập tin GPX tạm ngừng hoạt động.
     georss:
-      title: Tuyến đường GPS OpenStreetMap
+      title: Tuyến đường GPS Samland Street Map
     description:
       description_with_count:
         other: Tập tin GPX của %{user} có %{count} địa điểm
@@ -2461,7 +2461,7 @@ vi:
       cookies_needed: Hình như đã tắt cookie. Xin hãy bật lên chức năng cookie trong
         trình duyệt để tiếp tục.
     setup_user_auth:
-      blocked_zero_hour: Bạn có tin nhắn mới rất quan trọng tại trang OpenStreetMap.
+      blocked_zero_hour: Bạn có tin nhắn mới rất quan trọng tại trang Samland Street Map.
         Bạn phải đọc tin nhắn này trước khi được phép lưu thêm thay đổi.
       blocked: Bạn bị chặn không được truy cập qua API. Vui lòng đăng nhập vào giao
         diện Web để biết chi tiết.
@@ -2498,7 +2498,7 @@ vi:
     permissions:
       missing: Bạn chưa cấp phép cho ứng dụng sử dụng chức năng này
     scopes:
-      openid: Đăng nhập qua OpenStreetMap
+      openid: Đăng nhập qua Samland Street Map
       read_prefs: Đọc tùy chọn người dùng
       write_prefs: Thay đổi tùy chọn người dùng
       write_diary: Tạo mục nhật ký, bình luận, và kết bạn
@@ -2565,7 +2565,7 @@ vi:
     new:
       title: Mở tài khoản
       tab_title: Mở tài khoản
-      signup_to_authorize_html: Mở tài khoản OpenStreetMap để truy cập %{client_app_name}.
+      signup_to_authorize_html: Mở tài khoản Samland Street Map để truy cập %{client_app_name}.
       no_auto_account_create: Rất tiếc, chúng ta hiện không có khả năng tạo ra tài
         khoản tự động cho bạn.
       please_contact_support_html: Vui lòng liên hệ với %{support_link} để yêu cầu
@@ -2573,12 +2573,12 @@ vi:
       support: hỗ trợ
       about:
         header: Tự do sử dụng và sửa đổi.
-        paragraph_1: Không giống như với các bản đồ kia, OpenStreetMap được xây dựng
+        paragraph_1: Không giống như với các bản đồ kia, Samland Street Map được xây dựng
           hoàn toàn nhờ những người như bạn, và mọi người có thể tự do sửa chữa, cập
           nhật, tải về, và sử dụng miễn phí.
         paragraph_2: Hãy mở tài khoản để bắt đầu đóng góp.
-        welcome: Chào mừng đến OpenStreetMap
-      duplicate_social_email: Nếu bạn đã có tài khoản OpenStreetMap và muốn sử dụng
+        welcome: Chào mừng đến Samland Street Map
+      duplicate_social_email: Nếu bạn đã có tài khoản Samland Street Map và muốn sử dụng
         nhà cung cấp danh tính bên thứ ba, xin vui lòng đăng nhập dùng mật khẩu của
         bạn và thay đổi tùy chọn tài khoản.
       display name description: Tên người dùng của bạn được hiển thị công khai. Bạn
@@ -2587,14 +2587,14 @@ vi:
         html: Bằng cách mở tài khoản, bạn chấp nhận %{tou_link}, %{privacy_policy_link},
           và %{contributor_terms_link} của chúng tôi.
         privacy_policy: quy định về quyền riêng tư
-        privacy_policy_title: Quy định về quyền riêng tư của OSMF, bao gồm phần về
+        privacy_policy_title: Quy định về quyền riêng tư của SSM, bao gồm phần về
           địa chỉ thư điện tử
         contributor_terms: các điều kiện đóng góp
       continue: Mở tài khoản
       terms accepted: Cám ơn bạn đã chấp nhận các điều khoản đóng góp mới!
       email_help:
         privacy_policy: quy định về quyền riêng tư
-        privacy_policy_title: Quy định về quyền riêng tư của OSMF, bao gồm phần về
+        privacy_policy_title: Quy định về quyền riêng tư của SSM, bao gồm phần về
           địa chỉ thư điện tử
         html: Địa chỉ thư điện tử không được hiển thị công khai, xem thêm thông tin
           trong %{privacy_policy_link} của chúng tôi.
@@ -2612,7 +2612,7 @@ vi:
         hiện và sẽ thực hiện.
       read_ct: Tôi đã đọc và chấp nhận các điều khoản đóng góp bên trên
       tou_explain_html: Các %{tou_link} quy định cách sử dụng trang Web và các cơ
-        sở hạ tầng khác do OSMF cung cấp. Xin vui lòng mở liên kết và đọc và chấp
+        sở hạ tầng khác do SSM cung cấp. Xin vui lòng mở liên kết và đọc và chấp
         nhận thỏa thuận.
       read_tou: Tôi đã đọc và chấp nhận Điều khoản sử dụng
       consider_pd: Bên ngoài các điều bên trên, tôi coi rằng các đóng góp của tôi
@@ -2755,8 +2755,8 @@ vi:
       invalid_scope: Phạm vi không hợp lệ
       unknown_error: Thất bại khi xác thực
     auth_association:
-      heading: ID của bạn chưa được liên kết với một tài khoản OpenStreetMap.
-      option_1: Nếu bạn mới đến OpenStreetMap, xin vui lòng tạo tài khoản mới dùng
+      heading: ID của bạn chưa được liên kết với một tài khoản Samland Street Map.
+      option_1: Nếu bạn mới đến Samland Street Map, xin vui lòng tạo tài khoản mới dùng
         biểu mẫu bên dưới.
       option_2: Nếu bạn đã có tài khoản, bạn có thể đăng nhập vào tài khoản của bạn
         dùng tên người dùng và mật khẩu của bạn rồi liên kết tài khoản với ID của
@@ -2988,18 +2988,18 @@ vi:
         gps: Tuyến đường GPS Công khai
         overlays: Bật lớp phủ để gỡ lỗi trên bản đồ
         title: Lớp
-      openstreetmap_contributors: Người đóng góp vào OpenStreetMap
+      openstreetmap_contributors: Người đóng góp vào Samland Street Map
       make_a_donation: Quyên góp
       website_and_api_terms: Điều khoản trang và API
       cyclosm_credit: Kiểu mảnh bản đồ do %{cyclosm_link} cung cấp và %{osm_france_link}
         lưu trữ
-      osm_france: OpenStreetMap Pháp
+      osm_france: Samland Street Map Pháp
       thunderforest_credit: Mảnh bản đồ do %{thunderforest_link} cung cấp
       andy_allan: Andy Allan
       tracestrack_credit: Mảnh bản đồ do %{tracestrack_link} cung cấp
       hotosm_credit: Kiểu mảnh bản đồ do %{hotosm_link} cung cấp và %{osm_france_link}
         lưu trữ
-      hotosm_name: Tổ chức Nhân đạo OpenStreetMap
+      hotosm_name: Tổ chức Nhân đạo Samland Street Map
     site:
       edit_tooltip: Sửa đổi bản đồ
       edit_disabled_tooltip: Phóng to để sửa đổi bản đồ

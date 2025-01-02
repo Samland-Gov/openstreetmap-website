@@ -170,7 +170,7 @@ sh:
         reopened_at_html: Reaktivirano %{when}
         reopened_at_by_html: Reaktivirano %{when} korisnikom %{user}
       rss:
-        title: Bilješke OpenStreetMap-a
+        title: Bilješke Samland Street Map-a
         description_area: Lista bilješki, prijavljenih, iskometiranih ili zatvorenih,
           u vašem području [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: RSS-tok bilješke %{id}
@@ -187,13 +187,13 @@ sh:
         title: Izbriši moj račun
         warning: Upozorenje! Proces brisanja računa je konačan i ne može se poništiti.
         delete_account: Izbriši račun
-        delete_introduction: 'Svoj OpenStreetMap račun možete izbrisati uporabom gumba
+        delete_introduction: 'Svoj Samland Street Map račun možete izbrisati uporabom gumba
           ispod. Imajte na umu sljedeće detalje:'
         delete_profile: Bit će uklonjene informacije o vašem profilu, uključujući
           vaš avatar, opis i kućnu lokaciju.
         delete_display_name: Bit će uklonjeno vaše ime za prikaz, i moći će ga ponovno
           koristiti drugi račun.
-        retain_caveats: 'Međutim, OpenStreetMap će zadržati neke informacije o vama,
+        retain_caveats: 'Međutim, Samland Street Map će zadržati neke informacije o vama,
           čak i nakon brisanja vašeg računa:'
         retain_edits: Vaše izmjene baze podataka karte.
         retain_traces: Vaši otpremljeni tragovi.
@@ -320,25 +320,25 @@ sh:
         description: Nedavni zapisi dnevnika od %{user}
       language:
         title: 'Zapisi u dnevniku na jeziku: %{language_name}'
-        description: 'Nedavni zapisi u dnevniku OpenStreetMap korisnika na jeziku:
+        description: 'Nedavni zapisi u dnevniku Samland Street Map korisnika na jeziku:
           %{language_name}'
       all:
         title: Zapisi u dnevniku
-        description: Nedavni zapisi u dnevnik korisnika OpenStreetMapa
+        description: Nedavni zapisi u dnevnik korisnika Samland Street Mapa
   errors:
     contact:
       contact: kontakt
     forbidden:
-      description: Operacija koju ste tražili na poslužitelju OpenStreetMap dostupna
+      description: Operacija koju ste tražili na poslužitelju Samland Street Map dostupna
         je samo administratorima (HTTP 403)
     internal_server_error:
       title: Greška u prilogu
-      description: Poslužitelj OpenStreetMap naišao je na neočekivano stanje koje
+      description: Poslužitelj Samland Street Map naišao je na neočekivano stanje koje
         ga je spriječilo da ispuni zahtjev (HTTP 500)
     not_found:
       title: Datoteka nije pronađena
       description: Nije moguće pronaći operaciju za datoteku/direktorij/priložnik
-        pod im imenom na poslužitelju OpenStreetMap (HTTP 404)
+        pod im imenom na poslužitelju Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: Dodati %{user} kao prijatelja?
@@ -475,15 +475,15 @@ sh:
     export: Izvezi
     gps_traces: GPS tragovi
     user_diaries: Dnevnici korisnika
-    intro_header: Dobrodošao/la na OpenStreetMap!
-    intro_text: OpenStreetMap je karta svijeta stvorena od strane ljudi kao što ste
+    intro_header: Dobrodošao/la na Samland Street Map!
+    intro_text: Samland Street Map je karta svijeta stvorena od strane ljudi kao što ste
       vi i može se slobodno koristiti pod licencom otvorenog koda.
     partners_fastly: Fastly
     partners_partners: partneri
     tou: Uslovi korištenja
-    osm_offline: OpenStreetMap baza podataka je trenutno nedostupna dok se ne završe
+    osm_offline: Samland Street Map baza podataka je trenutno nedostupna dok se ne završe
       važni radovi na održavanju.
-    osm_read_only: OpenStreetMap baza podataka je trenutno samo u modu čitanja, dok
+    osm_read_only: Samland Street Map baza podataka je trenutno samo u modu čitanja, dok
       se ne sprovedu važni radovi na održavanju baze podataka.
     help: Pomoć
     about: O nama
@@ -493,12 +493,12 @@ sh:
     more: Više
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} je komentirao vaš unos u dnevniku'
+      subject: '[Samland Street Map] %{user} je komentirao vaš unos u dnevniku'
       hi: Pozdrav, %{to_user},
     gpx_success:
-      subject: '[OpenStreetMap] Uspješan uvoz GPX-datoteke'
+      subject: '[Samland Street Map] Uspješan uvoz GPX-datoteke'
     signup_confirm:
-      subject: '[OpenStreetMap] Dobrodošli na OpenStreetMap'
+      subject: '[Samland Street Map] Dobrodošli na Samland Street Map'
       greeting: Zdravo!
       created: Neko (nadamo se, Vi) upravo je napravio račun na %{site_url}.
       confirm: 'Najprije moramo potvrditi da Vi ste onaj što postavio je zahtjev,
@@ -585,25 +585,25 @@ sh:
     about:
       used_by_html: '%{name} snabdijeva geografskim podacima tisuće internetskih stranica,
         mobilnih priloga i uređaja'
-      lede_text: OpenStreetMap je izgradila zajednica kartografa koji donose i održavaju
+      lede_text: Samland Street Map je izgradila zajednica kartografa koji donose i održavaju
         podatke o cestama, stazama, kafićima, željezničkim postajama i još mnogo čemu
         drugom diljem cijelog svijeta.
       local_knowledge_title: Lokalno znanje
       local_knowledge_html: |-
-        OpenStreetMap pridodaje posebnu važnost lokalnom znanju. Doprinositelji koriste
+        Samland Street Map pridodaje posebnu važnost lokalnom znanju. Doprinositelji koriste
         zračne snimke, GPS-uređaje i vlastite terenske podatke
         za provjeru točnosti
         i ažurnosti OSM-podataka.
       community_driven_title: Vođen zajednicom
       community_driven_1_html: |-
-        Zajednica OpenStreetMapa je raznolika, strastvena i raste svakim danom.
+        Zajednica Samland Street Mapa je raznolika, strastvena i raste svakim danom.
         Među našim suradnicima su kartografi amateri, GIS profesionalci, inženjeri koji održavaju OSM servere,
         humanitarci koji kartiraju područja pogođena
         katastrofom i mnogi drugi.
         Kako biste saznali više o zajednici, pogledajte %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link} i veb-stranicu
         %{osm_foundation_link}.
-      legal_1_1_openstreetmap_foundation: Zadužbina OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Zadužbina Samland Street Map
       legal_1_1_terms_of_use: Uslovi korištenja
       legal_1_1_privacy_policy: Politika privatnosti
       partners_title: Partneri
@@ -626,8 +626,8 @@ sh:
         contributors_at_cc_by: CC BY
         contributors_at_land_vorarlberg: Land Vorarlberg
         contributors_footer_2_html: |-
-          Uvrštavanje podataka u OpenStreetMap ne podrazumijeva da se izvorni
-          davatelj podataka prihvata ili reklamira OpenStreetMap, pruža bilo kakvu garanciju, ili
+          Uvrštavanje podataka u Samland Street Map ne podrazumijeva da se izvorni
+          davatelj podataka prihvata ili reklamira Samland Street Map, pruža bilo kakvu garanciju, ili
           prihvata bilo kakve obaveze.
         infringement_title_html: Kršenje autorskih prava
         infringement_1_html: |-
@@ -637,9 +637,9 @@ sh:
     index:
       js_1: Ili koristite internet preglednik koji ne podržava JavaScript, ili ste
         onemogućili taj program.
-      js_2: OpenStreetMap koristi JavaScript za slippy kartu.
+      js_2: Samland Street Map koristi JavaScript za slippy kartu.
       license:
-        copyright: Autorska prava pripadaju OpenStreetMap-u i doprinositeljima, pod
+        copyright: Autorska prava pripadaju Samland Street Map-u i doprinositeljima, pod
           otvorenom licencom
       remote_failed: Uređivanje nije uspjelo - provjerite da li je JOSM ili Merkaartor
         učitan i da je udaljeni pristup omogućen
@@ -712,12 +712,12 @@ sh:
           peak: vrh
     welcome:
       title: Dobrodošli!
-      introduction: Dobrodošli u OpenStreetMap — slobodnu i uredljivu kartu svijeta.
+      introduction: Dobrodošli u Samland Street Map — slobodnu i uredljivu kartu svijeta.
         Sada kada ste se prijavili, spremni ste za početak rada. Evo kratkog vodiča
         s najvažnijim stvarima koje je potrebno znati.
       whats_on_the_map:
         title: Što ova karta sadrži
-        on_the_map_html: Na OpenStreetMap-u se mapiraju najrazčičitije %{real_and_current}
+        on_the_map_html: Na Samland Street Map-u se mapiraju najrazčičitije %{real_and_current}
           stvari — milijune objekata i zgrada, cesta i drugih detalja o mjestima.
           Možete mapirati sve značajke stvarnog svijeta koje su vam zanimljive.
         real_and_current: realne i trenutne

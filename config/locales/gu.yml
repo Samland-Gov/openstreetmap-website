@@ -575,7 +575,7 @@ gu:
       provide_details: મહેરબાની કરીને જરૂરી વિગતો આપો
   layouts:
     logo:
-      alt_text: OpenStreetMapનો લોગો
+      alt_text: Samland Street Mapનો લોગો
     home: ઘરના સ્થાન પર જાઓ
     history: ઇતિહાસ
     issues: સમસ્યાઓ
@@ -584,7 +584,7 @@ gu:
     hosting_partners_2024_html: હોસ્ટિંગ %{fastly}, %{corpmembers}, અને અન્ય %{partners}
       દ્વારા સમર્થિત છે.
     partners_fastly: Fastly
-    partners_corpmembers: OSMF કોર્પોરેટ સભ્યો
+    partners_corpmembers: SSM કોર્પોરેટ સભ્યો
     partners_partners: ભાગીદારો
     tou: વપરાશની શરતો
     help: સહાયતા
@@ -596,11 +596,11 @@ gu:
     diary_comment_notification:
       hi: નમસ્તે %{to_user},
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: નમસ્તે %{to_user},
     friendship_notification:
       hi: નમસ્તે %{to_user},
-      subject: '[OpenStreetMap] %{user} એ તમને મિત્ર તરીકે ઉમેર્યા'
+      subject: '[Samland Street Map] %{user} એ તમને મિત્ર તરીકે ઉમેર્યા'
       had_added_you: '%{user} એ તમને મિત્ર તરીકે ઉમેર્યા છે.'
       see_their_profile: તમે તેમની પ્રોફાઇલ %{userurl} પર જોઈ શકો છો.
       see_their_profile_html: તમે તેમની પ્રોફાઇલ %{userurl} પર જોઈ શકો છો.
@@ -703,13 +703,13 @@ gu:
       user_page_link: વપરાશકર્તા પાનું
     help:
       welcome:
-        title: OpenStreetMapમાં સ્વાગત છે
+        title: Samland Street Mapમાં સ્વાગત છે
       irc:
         title: IRC
       welcomemat:
         title: સંસ્થાઓ માટે
       wiki:
-        title: OpenStreetMap વિકિ
+        title: Samland Street Map વિકિ
     any_questions:
       title: કોઈ પ્રશ્ન?
       get_help_here: અહીં સહાયતા મેળવો
@@ -773,7 +773,7 @@ gu:
   users:
     new:
       about:
-        welcome: OpenStreetMapમાં સ્વાગત છે
+        welcome: Samland Street Mapમાં સ્વાગત છે
       by_signing_up:
         privacy_policy: ગોપનિયતા નીતિ
       email_help:

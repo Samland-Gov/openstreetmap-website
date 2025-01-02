@@ -503,7 +503,7 @@ mo:
       search: Кэутаре
   layouts:
     logo:
-      alt_text: Логотипул OpenStreetMap
+      alt_text: Логотипул Samland Street Map
     logout: Ынкееря сесиуний
     log_in: Ынтраря ын конт
     sign_up: Креаря контулуй
@@ -515,8 +515,8 @@ mo:
     gps_traces: Трасаре-GPS
     user_diaries: Журналеле утилизаторилор
     edit_with: Редактаря ку ажуторул %{editor}
-    intro_header: Бине аць венит ла OpenStreetMap!
-    intro_text: OpenStreetMap есте о хартэ а лумий, креатэ де оамень ка ши думнявоастрэ,
+    intro_header: Бине аць венит ла Samland Street Map!
+    intro_text: Samland Street Map есте о хартэ а лумий, креатэ де оамень ка ши думнявоастрэ,
       ши поате фи утилизатэ ын мод либер суб о личенцэ дескисэ.
     partners_partners: партенерь
     help: Ажутор
@@ -547,7 +547,7 @@ mo:
       login_button: Ынтраря ын конт
     destroy:
       title: Ынкееря сесиуний
-      heading: Ешире дин OpenStreetMap
+      heading: Ешире дин Samland Street Map
       logout_button: Ынкееря сесиуний
   site:
     export:

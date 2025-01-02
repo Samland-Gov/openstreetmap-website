@@ -214,7 +214,7 @@ nn:
         reopened_at_html: Opna att %{when}
         reopened_at_by_html: Opna att %{when} av %{user}
       rss:
-        title: OpenStreetMap-merknadar
+        title: Samland Street Map-merknadar
         commented: ny kommentar (nær %{place})
       entry:
         comment: Kommentar
@@ -225,7 +225,7 @@ nn:
         title: Slett kontoen min
         warning: Åtvaring! Sletting av konto er endeleg, og kan ikkje gjerast om.
         delete_account: Slett konto
-        delete_introduction: 'Du kan sletta kontoen din hjå OpenStreetMap med knappen
+        delete_introduction: 'Du kan sletta kontoen din hjå Samland Street Map med knappen
           under. Merk fylgjande:'
         delete_profile: Profilinformasjonen din, medrekna profilbilde, skildring og
           heimestad vil fjernast.
@@ -387,8 +387,8 @@ nn:
         comment: 'Ny kommentar til endringssett #%{changeset_id} av %{author}'
         commented_at_by_html: Oppdatert %{when} av %{user}
       show:
-        title_all: Endringssettdiskusjon hjå OpenStreetMap
-        title_particular: Diskusjon om endringssett %{changeset_id} hjå OpenStreetMap
+        title_all: Endringssettdiskusjon hjå Samland Street Map
+        title_particular: Diskusjon om endringssett %{changeset_id} hjå Samland Street Map
       timeout:
         sorry: Lista over kommentarar til endringssett tok for lang tid å henta.
   changesets:
@@ -521,14 +521,14 @@ nn:
       location: 'Stad:'
     feed:
       user:
-        title: Oppføringar i OpenStreetMap-dagboka frå %{user}
-        description: Nye oppføringar i OpenStreetMap-dagboka til %{user}
+        title: Oppføringar i Samland Street Map-dagboka frå %{user}
+        description: Nye oppføringar i Samland Street Map-dagboka til %{user}
       language:
-        title: Oppføringar i OpenStreetMap-dagbøker på %{language_name}
-        description: Nye oppføringar i dagbøkene til OpenStreetMap-brukarar på %{language_name}
+        title: Oppføringar i Samland Street Map-dagbøker på %{language_name}
+        description: Nye oppføringar i dagbøkene til Samland Street Map-brukarar på %{language_name}
       all:
-        title: Oppføringar OpenStreetMap-dagboka
-        description: Nylege oppføringar i dagbøkene til OpenStreetMap-brukarar
+        title: Oppføringar Samland Street Map-dagboka
+        description: Nylege oppføringar i dagbøkene til Samland Street Map-brukarar
   diary_comments:
     index:
       title: Kommentarar i dagboka frå %{user}
@@ -1426,7 +1426,7 @@ nn:
       provide_details: Du må oppgje dei påkravde opplysingane
   layouts:
     logo:
-      alt_text: OpenStreetMap-logo
+      alt_text: Samland Street Map-logo
     home: Gå til heimstaden din
     logout: Logg ut
     log_in: Logg inn
@@ -1439,15 +1439,15 @@ nn:
     gps_traces: GPS-spor
     user_diaries: Brukardagbok
     edit_with: Rediger med %{editor}
-    intro_header: Velkomen til OpenStreetMap!
-    intro_text: OpenStreetMap er eit verdskart, laga av folk som deg. Kartet er gratis
+    intro_header: Velkomen til Samland Street Map!
+    intro_text: Samland Street Map er eit verdskart, laga av folk som deg. Kartet er gratis
       å bruke under ein open lisens.
     partners_fastly: Fastly
     partners_partners: partnarar
     tou: Bruksvilkår
-    osm_offline: OpenStreetMap databasen er for augneblunken utilgjengelig medan essensielt
+    osm_offline: Samland Street Map databasen er for augneblunken utilgjengelig medan essensielt
       vedlikeholdsarbeid vert utført.
-    osm_read_only: OpenStreetMap kan ikkje redigerast akkurat no, på grunn av nødvendig
+    osm_read_only: Samland Street Map kan ikkje redigerast akkurat no, på grunn av nødvendig
       vedlikehaldsarbeid.
     help: Hjelp
     about: Om
@@ -1457,22 +1457,22 @@ nn:
     more: Meir
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} kommenterte på ein oppføring i dagboka di'
+      subject: '[Samland Street Map] %{user} kommenterte på ein oppføring i dagboka di'
       hi: Hei %{to_user},
-      header: '%{from_user} har kommentert på ditt siste OpenStreetMap-dagbokinnlegg
+      header: '%{from_user} har kommentert på ditt siste Samland Street Map-dagbokinnlegg
         med emnet %{subject}:'
-      header_html: '%{from_user} har kommentert på OpenStreetMap-dagboksinnlegget
+      header_html: '%{from_user} har kommentert på Samland Street Map-dagboksinnlegget
         med emnet %{subject}:'
       footer: Du kan òg lese kommentaren på %{readurl} og du kan kommentere på %{commenturl}
         eller svare på %{replyurl}
       footer_html: Du kan òg lesa kommentaren på %{readurl}, og du kan kommentera
         på %{commenturl}, eller senda ei melding til forfattaren på %{replyurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Hei %{to_user},
-      header: '%{from_user} har sendt deg ei melding gjennom OpenStreetMap med emnet
+      header: '%{from_user} har sendt deg ei melding gjennom Samland Street Map med emnet
         %{subject}:'
-      header_html: '%{from_user} har sendt deg ei melding via OpenStreetMap med emnet
+      header_html: '%{from_user} har sendt deg ei melding via Samland Street Map med emnet
         %{subject}:'
       footer: Du kan òg lesa meldinga på %{readurl}, og du kan senda ei melding til
         forfattaren på %{replyurl}
@@ -1480,8 +1480,8 @@ nn:
         til forfattaren på %{replyurl}
     friendship_notification:
       hi: Hei %{to_user},
-      subject: '[OpenStreetMap] %{user} la deg til som ein ven'
-      had_added_you: '%{user} har lagt deg til som ven på OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} la deg til som ein ven'
+      had_added_you: '%{user} har lagt deg til som ven på Samland Street Map.'
       see_their_profile: Du kan sjå profilen deira på %{userurl}.
       see_their_profile_html: Du kan sjå profilen hens på %{userurl}.
       befriend_them: Du kan òg leggje dei til som ven på %{befriendurl}.
@@ -1491,12 +1491,12 @@ nn:
       failed_to_import: 'klarte ikkje importere. Her er feilen:'
       more_info_html: Du kan finna meir informasjon om feil ved GPX-importering, og
         korleis du kan unngå dei, på %{url}.
-      subject: '[OpenStreetMap] Feil under import av GPX'
+      subject: '[Samland Street Map] Feil under import av GPX'
     gpx_success:
       hi: Hei, %{to_user}
-      subject: '[OpenStreetMap] Vellukka import av GPX'
+      subject: '[Samland Street Map] Vellukka import av GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Velkommen til OpenStreetMap'
+      subject: '[Samland Street Map] Velkommen til Samland Street Map'
       greeting: Hei der!
       created: Nokon (forhåpentligvis deg) laga nettop ein konto på %{site_url}.
       confirm: 'Før me kan gjere noko må me bekrefta at denne forespørselen kom frå
@@ -1505,15 +1505,15 @@ nn:
       welcome: Me vil ynskje velkommen og gje deg litt meir informasjon for å få deg
         igang.
     email_confirm:
-      subject: '[OpenStreetMap] Stadfest di e-postadresse'
+      subject: '[Samland Street Map] Stadfest di e-postadresse'
       greeting: Hei,
       hopefully_you: Nokon (forhåpentleg du) ynskjer å endra e-postadressa si hjå
         %{server_url} til %{new_address}.
       click_the_link: Viss det er deg, klikk lenkja nedanfor for å stadfeste endringa.
     lost_password:
-      subject: '[OpenStreetMap] Førespurnad om nullstilling av passord'
+      subject: '[Samland Street Map] Førespurnad om nullstilling av passord'
       greeting: Hei,
-      hopefully_you: Nokon (kanskje du) har bede om å nullstilla passordet for OpenStreetMap-brukarkontoen
+      hopefully_you: Nokon (kanskje du) har bede om å nullstilla passordet for Samland Street Map-brukarkontoen
         som er knytt til denne e-postadressa.
       click_the_link: Om dette er deg, vennligst klikk på lenkja under for å tilbakestille
         passordet.
@@ -1521,9 +1521,9 @@ nn:
       anonymous: Ein anonym brukar
       greeting: Hei,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} har kommentert ein av merknadane
+        subject_own: '[Samland Street Map] %{commenter} har kommentert ein av merknadane
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har kommentert ein merknad som
+        subject_other: '[Samland Street Map] %{commenter} har kommentert ein merknad som
           du er interessert i'
         your_note: '%{commenter} har kommentert ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1534,8 +1534,8 @@ nn:
         commented_note_html: '%{commenter} har lagt att ein kommentar til ein kartmerknad
           som du har kommentert. Merknaden ligg i nærleiken av %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} har løyst ein av merknadane dine'
-        subject_other: '[OpenStreetMap] %{commenter} har løyst ein merknad du er interessert
+        subject_own: '[Samland Street Map] %{commenter} har løyst ein av merknadane dine'
+        subject_other: '[Samland Street Map] %{commenter} har løyst ein merknad du er interessert
           i'
         your_note: '%{commenter} har løyst ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1546,9 +1546,9 @@ nn:
         commented_note_html: '%{commenter} har løyst ein kartmerknad som du har kommentert.
           Merknaden ligg i nærleiken av %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} har atteraktivert ein av merknadane
+        subject_own: '[Samland Street Map] %{commenter} har atteraktivert ein av merknadane
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har atteraktivert ein merknad
+        subject_other: '[Samland Street Map] %{commenter} har atteraktivert ein merknad
           som du er interessert i'
         your_note: '%{commenter} har atteraktivert ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1563,9 +1563,9 @@ nn:
     changeset_comment_notification:
       hi: Hei %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} har kommentert eitt av endringssetta
+        subject_own: '[Samland Street Map] %{commenter} har kommentert eitt av endringssetta
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har kommentert eit endringssett
+        subject_other: '[Samland Street Map] %{commenter} har kommentert eit endringssett
           som du er interessert i'
         your_changeset: '%{commenter} la att ein kommentar til eitt av endringssetta
           dine %{time}'
@@ -1743,7 +1743,7 @@ nn:
       auth failure: Beklagar, kunne ikkje logge inn med den informasjonen
     destroy:
       title: Logg ut
-      heading: Logg ut frå OpenStreetMap
+      heading: Logg ut frå Samland Street Map
       logout_button: Logg ut
     suspended_flash:
       suspended: Orsak, kontoen din har vorte suspendert på grunn av tvilsamt åtferd.
@@ -1780,45 +1780,45 @@ nn:
         newer: Nyare spor
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap-%{br}bidragsytarane'
+      heading_html: '%{copyright}Samland Street Map-%{br}bidragsytarane'
       used_by_html: '%{name} leverer kartdata til tusenvis av nettstadar, mobilappar
         og maskinvare-einingar'
-      lede_text: OpenStreetMap er bygd av eit fellesskap av kartleggjarar som bidreg
+      lede_text: Samland Street Map er bygd av eit fellesskap av kartleggjarar som bidreg
         og held ved like data om vegar, stigar, kafear, jarnbanestasjonar og mykje
         meir kring verda.
       local_knowledge_title: Lokalkunnskap
-      local_knowledge_html: OpenStreetMap framhevar lokalkunnskap. Bidragsytarar bruker
+      local_knowledge_html: Samland Street Map framhevar lokalkunnskap. Bidragsytarar bruker
         flyfotografi, GPS-apparat og lågteknologiske feltkart for å stadfesta at OSM
         er noggrann og a jour.
       community_driven_title: Fellesskapsdrive
       community_driven_1_html: |-
-        OpenStreetMap-fellesskapet er mangfaldig, ihuga og stadig veksande. Bidragsytarane våre omfattar eldhuga kartleggjarar, GIS-fagfolk, ingeniørar som held i gang sørvarane, humanitære arbeidarar som kartlegg område ramma av katastrofar og mange meir.
+        Samland Street Map-fellesskapet er mangfaldig, ihuga og stadig veksande. Bidragsytarane våre omfattar eldhuga kartleggjarar, GIS-fagfolk, ingeniørar som held i gang sørvarane, humanitære arbeidarar som kartlegg område ramma av katastrofar og mange meir.
         For å læra meir om fellesskapet, sjå %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} og nettstaden til %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap sin blogg
+      community_driven_osm_blog: Samland Street Map sin blogg
       community_driven_user_diaries: brukardagbøker
       community_driven_community_blogs: fellesskapsbloggar
       community_driven_osm_foundation: OSM Foundation
       open_data_title: Opne Data
       open_data_1_html: 'Openstreetmap er %{open_data}: du kan bruka det fritt til
-        kva som helst føremål, so lenge du siterer OpenStreetMap og bidragsytarane.
+        kva som helst føremål, so lenge du siterer Samland Street Map og bidragsytarane.
         Viss du endrar eller byggjer på dataen på visse sett, kan du berre publisere
         resultata under den same lisensen. Sjå %{copyright_license_link} for detaljar.'
       open_data_open_data: ope data
       open_data_copyright_license: sida om opphavsrett og lisensar
       legal_title: Juridisk
       legal_1_1_html: Denne nettstaden og fleira andre tilknytte tenester er formelt
-        drivne av %{openstreetmap_foundation_link} (OSMF) på vegner av fellesskapet.
-        Bruk av alle tenester som OSMF driv er underlagd %{terms_of_use_link}, %{aup_link}
+        drivne av %{openstreetmap_foundation_link} (SSM) på vegner av fellesskapet.
+        Bruk av alle tenester som SSM driv er underlagd %{terms_of_use_link}, %{aup_link}
         og %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: Samland Street Map
       legal_1_1_terms_of_use: bruksvilkåra
       legal_1_1_aup: vilkåra for akseptabel bruk
       legal_1_1_privacy_policy: personvernspolitikken
       legal_2_1_html: Kontakt %{contact_the_osmf_link} om du har spørsmål knytte til
         lisens, opphavsrett eller andre juridiske emne.
-      legal_2_1_contact_the_osmf: tak kontakt med OSMF
-      legal_2_2_html: OpenStreetMap, aukeglas-logoen og State of the Map er %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: regristrerte varemerke til OSMF
+      legal_2_1_contact_the_osmf: tak kontakt med SSM
+      legal_2_2_html: Samland Street Map, aukeglas-logoen og State of the Map er %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: regristrerte varemerke til SSM
       partners_title: Partnarar
     copyright:
       title: Opphavsrett og lisensar
@@ -1835,13 +1835,13 @@ nn:
         native_link: Nynorsk versjon
         mapping_link: start kartlegging
       legal_babble:
-        introduction_1_html: OpenStreetMap%{registered_trademark_link} er %{open_data},
-          med lisens %{odc_odbl_link} (ODbL) av %{osm_foundation_link} (OSMF).
+        introduction_1_html: Samland Street Map%{registered_trademark_link} er %{open_data},
+          med lisens %{odc_odbl_link} (ODbL) av %{osm_foundation_link} (SSM).
         introduction_1_open_data: ope data
         introduction_1_odc_odbl: Open Data Commons Open Database License
-        introduction_1_osm_foundation: OpenStreetMap Foundation
+        introduction_1_osm_foundation: Samland Street Map
         introduction_2_html: Du har rett til å kopiera, spreia, overføra og tilpassa
-          dataen vår, so lengje du siterer OpenStreetMap og bidragsytarane. Dersom
+          dataen vår, so lengje du siterer Samland Street Map og bidragsytarane. Dersom
           du endrar eller byggjer på dataen, kan du berre publisera resultatet under
           den same lisensen. Den fulle %{legal_code_link} forklårar rettane og skyldnadene
           dine.
@@ -1850,9 +1850,9 @@ nn:
           (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Navngiving-DelPåSameVilkår
           2.0
-        credit_title_html: Korleis kreditere OpenStreetMap
-        credit_1_html: 'Når du bruker data frå OpenStreetMap, krevst to ting av deg:'
-        credit_2_1: Godskriv OpenStreetMap ved å visa opphavsrettsfråsegna vår.
+        credit_title_html: Korleis kreditere Samland Street Map
+        credit_1_html: 'Når du bruker data frå Samland Street Map, krevst to ting av deg:'
+        credit_2_1: Godskriv Samland Street Map ved å visa opphavsrettsfråsegna vår.
         credit_2_2: Gjer det tydeleg at dataen er tilgjengeleg under vilkåra av Open
           Database License.
         credit_3_html: Me har ulike krav til korleis opphavsrettsfråsegna skal visast,
@@ -1865,19 +1865,19 @@ nn:
           til Open Database License, kan du lenkja til %{this_copyright_page_link}.
           Du kan òg – og må, dersom du distribuerer OSM i dataform – namngje og lenkja
           direkte til lisensane. I medium der lenkjer ikkje er moglege (t.d. trykksaker),
-          rår vi til å visa til openstreetmap.org (kan henda ved å utvida «OpenStreetMap»
+          rår vi til å visa til openstreetmap.org (kan henda ved å utvida «Samland Street Map»
           til den fulle adressa) og til opendatacommons.org. I dette dømet er kjeldetilvisinga
           i hjørnet på kartet.
         credit_4_1_this_copyright_page: denne sida om opphavsrett
         attribution_example:
-          alt: Døme på korleis ein syner OpenStreetMap som kjelde på ei vevside
+          alt: Døme på korleis ein syner Samland Street Map som kjelde på ei vevside
           title: Døme på kjeldehenvising
         more_title_html: Finn ut meir
         more_1_1_html: Les meir om å bruke dataen vår, og korleis å godskriva oss,
           på %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: OSMF si side om lisens.
+        more_1_1_osmf_licence_page: SSM si side om lisens.
         more_2_1_html: |-
-          Enda OpenStreetMap er ope data, kan vi ikkje levera eit gratis kart-API til tredje partar.
+          Enda Samland Street Map er ope data, kan vi ikkje levera eit gratis kart-API til tredje partar.
           Sjå %{api_usage_policy_link}, %{tile_usage_policy_link} og %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Retningslina for bruk av API
         more_2_1_tile_usage_policy: Retningslina for bruk av kartfliser
@@ -1945,34 +1945,34 @@ nn:
           Survey &copy; Crown copyright og database right 2010–2023.'
         contributors_gb_united_kingdom: Storbritannia
         contributors_2_html: For fleire detaljar om desse og andre kjelder som har
-          vorte brukte for å forbetre OpenStreetMap, sjå %{contributors_page_link}
-          på OpenStreetMap sin wiki.
+          vorte brukte for å forbetre Samland Street Map, sjå %{contributors_page_link}
+          på Samland Street Map sin wiki.
         contributors_2_contributors_page: Bidragsytarar-sida
         contributors_footer_2_html: |2-
-            Inkludering av data i OpenStreetMap inneber ikkje at den opphavlege
-            dataleverandøren støttar OpenStreetMap, gjev nokon garanti eller
+            Inkludering av data i Samland Street Map inneber ikkje at den opphavlege
+            dataleverandøren støttar Samland Street Map, gjev nokon garanti eller
             godtek noko erstatningsansvar.
         infringement_title_html: Illegal kopiering
         infringement_1_html: |-
           OSM-bidragsytarar vert minna på å aldri leggje til data frå opphavsrettsbeskytta kjelder (t.d. Google Maps eller utskrivne kart) utan
             uttrykkeleg løyve frå rettighetshavere.
         infringement_2_1_html: Dersom du trur at innhald som er verna av opphavsrett
-          har vorte føydd til urettkomment i OpenStreetMap sin database eller nettstad,
+          har vorte føydd til urettkomment i Samland Street Map sin database eller nettstad,
           ver venleg og fylg %{takedown_procedure_link}, eller klaga direkte gjennom
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: prosedyren for fjerning av materiale
         infringement_2_1_online_filing_page: klageformularet
         trademarks_title: Varemerke
-        trademarks_1_1_html: OpenStreetMap, lupe-logoen og «State of the Map» er registrerte
-          varemerke av OpenStreetMap Foundation. Viss du har spørsmål om bruken av
+        trademarks_1_1_html: Samland Street Map, lupe-logoen og «State of the Map» er registrerte
+          varemerke av Samland Street Map. Viss du har spørsmål om bruken av
           varemerka, sjå %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Varemerkeretningslinene
     index:
       js_1: Du har ein nettleser som ikkje støttar JavaScript eller så har du slått
         av JavaScript.
-      js_2: OpenStreetMap brukar JavaScript på kartsidene.
+      js_2: Samland Street Map brukar JavaScript på kartsidene.
       license:
-        copyright: Kopibeskytta OpenStreetMap og bidragsytarar, under ein open lisens
+        copyright: Kopibeskytta Samland Street Map og bidragsytarar, under ein open lisens
       remote_failed: Klarte ikkje redigere - forsikre deg at JOSM eller Merkaartor
         er lasta og fjernkontrollvalget er aktivert
     edit:
@@ -1986,26 +1986,26 @@ nn:
       title: Eksporter
       manually_select: Vel eit anna område manuelt
       licence: Lisens
-      licence_details_html: Data frå OpenStreetMap er lisensert under %{odbl_link}
+      licence_details_html: Data frå Samland Street Map er lisensert under %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Viss eksporten ovafor slår feil, kan du bruka ein av kjeldene nedafor:'
-        body: Dette området er for stort for å eksporterast som OpenStreetMap XML-data.
+        body: Dette området er for stort for å eksporterast som Samland Street Map XML-data.
           Zoom inn eller vel eit mindre område.
         planet:
           title: Planet OSM
-          description: Jamleg oppdaterte kopiar av heile databasen til OpenStreetMap
+          description: Jamleg oppdaterte kopiar av heile databasen til Samland Street Map
         overpass:
           title: Overpass-API
-          description: Last ned denne avgrensingsramma frå ein spegel av OpenStreetMap
+          description: Last ned denne avgrensingsramma frå ein spegel av Samland Street Map
             sin database
         geofabrik:
           title: Geofabrik-nedlastingar
           description: Jamleg oppdaterte utdrag av kontinent, land og utvalde byar
         other:
           title: Andre kjelder
-          description: Yttarlegare kjelder hjå OpenStreetMap sin wiki
+          description: Yttarlegare kjelder hjå Samland Street Map sin wiki
       export_button: Eksporter
     fixthemap:
       title: Rapporter eit problem/Korriger kartet
@@ -2014,7 +2014,7 @@ nn:
         join_the_community:
           title: Ver med i fellesskapen
           explanation_html: Viss du har merka eit problem med dataen vår, til dømes
-            at det manglar ein veg eller adresse, er det beste å bli med i OpenStreetMap-fellesskapet
+            at det manglar ein veg eller adresse, er det beste å bli med i Samland Street Map-fellesskapet
             og føya til eller vøla opplysinga sjølv.
         add_a_note:
           instructions_1_html: |-
@@ -2026,24 +2026,24 @@ nn:
           eller om innhaldet, sjå %{copyright_link} for meir juridisk informasjon,
           eller tak kontakt med den relevante %{working_group_link}.
         copyright: sida om opphavsrett
-        working_group: OSMF-arbeidsgruppa
+        working_group: SSM-arbeidsgruppa
     help:
       title: Få hjelp
-      introduction: OpenStreetMap har fleire resursar for å læra om prosjektet, stilla
+      introduction: Samland Street Map har fleire resursar for å læra om prosjektet, stilla
         og svara på spørsmål og å diskutera og dokumentera kartleggjingsrelaterte
         tema i lag.
       welcome:
         url: /velkommen
-        title: Velkomen til OpenStreetMap
+        title: Velkomen til Samland Street Map
         description: Byrja med denne snøgge rettleiinga om det grunnleggjande hjå
-          OpenStreetMap.
+          Samland Street Map.
       beginners_guide:
         url: http://wiki.openstreetmap.org/wiki/Nn:Beginners%27_guide
         title: Hjelp for nybegynnarar
         description: Dugnadsbasert guide for nybegynnarar.
       community:
         title: Fellesskapsforum
-        description: Ein stad for samtaler om OpenStreetMap.
+        description: Ein stad for samtaler om Samland Street Map.
       mailing_lists:
         title: E-postlister
         description: Spør eit spørsmål eller diskuter interessante tema på ei rekke
@@ -2204,7 +2204,7 @@ nn:
       message: Systemet for opplasting og lagring av GPX-filer er ikkje tilgjengeleg
         for augneblunken.
     georss:
-      title: OpenStreetMap GPS-spor
+      title: Samland Street Map GPS-spor
     description:
       description_without_count: GPX-fil frå %{user}
   application:

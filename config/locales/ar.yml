@@ -346,13 +346,13 @@ ar:
         title: احذف حسابي
         warning: تحذير! عملية حذف الحساب نهائية ولا يمكن التراجع عنها.
         delete_account: حذف الحساب
-        delete_introduction: 'يمكنك حذف حساب OpenStreetMap الخاص بك باستخدام الزر
+        delete_introduction: 'يمكنك حذف حساب Samland Street Map الخاص بك باستخدام الزر
           أدناه. يرجى ملاحظة التفاصيل التالية:'
         delete_profile: سيجري إزالة معلومات ملفك الشخصي، بما في ذلك الصورة الرمزية
           والوصف وموقع المنزل.
         delete_display_name: ستتم إزالة اسم العرض الخاص بك، ويمكن إعادة استخدامه بواسطة
           حسابات أخرى.
-        retain_caveats: 'ومع ذلك ، سيتم الاحتفاظ ببعض المعلومات الخاصة بك على OpenStreetMap
+        retain_caveats: 'ومع ذلك ، سيتم الاحتفاظ ببعض المعلومات الخاصة بك على Samland Street Map
           ، حتى بعد حذف حسابك:'
         retain_edits: سيتم الاحتفاظ بالتعديلات التي أجريتها على قاعدة بيانات الخرائط،
           إن وجدت.
@@ -699,15 +699,15 @@ ar:
       contact: اتصال
     forbidden:
       title: ممنوع
-      description: العملية التي طلبتها على خادم OpenStreetMap متاحة فقط للمسؤولين
+      description: العملية التي طلبتها على خادم Samland Street Map متاحة فقط للمسؤولين
         (HTTP 403)
     internal_server_error:
       title: عطل في التطبيق
-      description: واجه خادم OpenStreetMap حالة غير متوقعة منعته من تلبية الطلب (HTTP
+      description: واجه خادم Samland Street Map حالة غير متوقعة منعته من تلبية الطلب (HTTP
         500)
     not_found:
       title: لم يتم العثور على الملف
-      description: تعذر العثور على ملف / دليل / عملية API بهذا الاسم على خادم OpenStreetMap
+      description: تعذر العثور على ملف / دليل / عملية API بهذا الاسم على خادم Samland Street Map
         (HTTP 404)
   friendships:
     make_friend:
@@ -727,8 +727,8 @@ ar:
     search:
       title:
         latlon: داخلي
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1607,7 +1607,7 @@ ar:
       subject: '[خريطة الشارع المفتوحة] %{user} علق على مدخلتك في اليومية'
       hi: مرحبًا %{to_user}،
       header: '%{from_user} علق على مدخلة يومية خريطة الشارع المفتوحة بالعنوان %{subject}:'
-      header_html: '%{from_user} علق على إدخال يوميات OpenStreetMap بالموضوع %{subject}:'
+      header_html: '%{from_user} علق على إدخال يوميات Samland Street Map بالموضوع %{subject}:'
       footer: يمكنك أيضًا قراءة التعليق على %{readurl} ويمكنك التعليق على %{commenturl}
         أو الرد على %{replyurl}
       footer_html: يمكنك أيضًا قراءة التعليق على %{readurl} ويمكنك التعليق على %{commenturl}
@@ -1617,7 +1617,7 @@ ar:
       hi: مرحبًا %{to_user}،
       header: '%{from_user} قام بإرسال رسالة لك عبر خريطة الشارع المفتوحة بالعنوان
         %{subject}:'
-      header_html: '%{from_user} أرسل إليك رسالة عبر OpenStreetMap بالموضوع %{subject}:'
+      header_html: '%{from_user} أرسل إليك رسالة عبر Samland Street Map بالموضوع %{subject}:'
       footer: يمكنك أيضًا قراءة الرسالة على %{readurl} ويمكنك إرسال رسالة إلى المؤلف
         على %{replyurl}
       footer_html: يمكنك أيضا قراءة الرسالة في %{readurl} ويمكنك الرد في %{replyurl}
@@ -1933,7 +1933,7 @@ ar:
         newer: الآثار الحديثة
   site:
     about:
-      heading_html: ٪ {copyright} OpenStreetMap٪ {br} من المساهمين%{copyright}%{br}
+      heading_html: ٪ {copyright} Samland Street Map٪ {br} من المساهمين%{copyright}%{br}
       used_by_html: '%{name} تدعم البيانات على آلالاف من مواقع الويب وتطبيقات الجوّال
         والأجهزة'
       lede_text: تم بناء خريطة الشارع المفتوحة من قبل مجتمع من مصممي الخرائط، وتساهم
@@ -1945,14 +1945,14 @@ ar:
         الصور الجوية وأجهزة GPS والخرائط الميدانية ذات التقنية المنخفضة للتحقق من ذلك خريطة الشارع المفتوحة
         دقيقة وحديثة.
       community_driven_title: نابعة من المجتمع المحلي
-      community_driven_osm_blog: مدونة OpenStreetMap
+      community_driven_osm_blog: مدونة Samland Street Map
       community_driven_user_diaries: يوميات المستخدم
       community_driven_community_blogs: مدونات المجتمع
       community_driven_osm_foundation: مؤسسة OSM
       open_data_title: البيانات المفتوحة
       open_data_1_html: |-
-        OpenStreetMap هو %{open_data}: يمكنك استخدامه لأي غرض
-         طالما أنك تنسب الفضل إلى OpenStreetMap ومساهميه. إذا قمت بتعديل أو
+        Samland Street Map هو %{open_data}: يمكنك استخدامه لأي غرض
+         طالما أنك تنسب الفضل إلى Samland Street Map ومساهميه. إذا قمت بتعديل أو
         البناء على البيانات بطرق معينة، فيجوز لك توزيع النتيجة فقط
         بموجب نفس الترخيص. راجع %{copyright_license_link} للحصول على التفاصيل.
       open_data_open_data: البيانات المفتوحة
@@ -1964,9 +1964,9 @@ ar:
       legal_1_1_privacy_policy: سياسة الخصوصية
       legal_2_1_html: من فضلك %{contact_the_osmf_link} إذا كان لديك ترخيص أو حقوق
         طبع ونشر أو أسئلة قانونية أخرى.
-      legal_2_1_contact_the_osmf: اتصل بـ OSMF
-      legal_2_2_html: OpenStreetMap وشعار العدسة المكبرة وحالة الخريطة هي %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: العلامات التجارية المسجلة لـ OSMF
+      legal_2_1_contact_the_osmf: اتصل بـ SSM
+      legal_2_2_html: Samland Street Map وشعار العدسة المكبرة وحالة الخريطة هي %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: العلامات التجارية المسجلة لـ SSM
       partners_title: الشركاء
     copyright:
       title: حقوق النشر والترخيص
@@ -1993,7 +1993,7 @@ ar:
         introduction_3_html: وثائقنا مرخصة بموجب ترخيص٪ {creative_commons_link} (CC
           BY-SA 2.0).%{creative_commons_link}
         credit_title_html: كيفية النسبة لخريطة الشارع المفتوحة
-        credit_1_html: 'عندما تستخدم بيانات OpenStreetMap، فأنت مطالب بالقيام بالأمرين
+        credit_1_html: 'عندما تستخدم بيانات Samland Street Map، فأنت مطالب بالقيام بالأمرين
           التاليين:'
         attribution_example:
           alt: مثال على كيفية إسناد خريطة الشارع المفتوحة على صفحة ويب
@@ -2045,11 +2045,11 @@ ar:
         contributors_gb_united_kingdom: المملكة المتحدة
         contributors_2_html: |-
           لمزيد من التفاصيل حول هذه المصادر ، وغيرها من المصادر التي تم استخدامها
-           للمساعدة في تحسين OpenStreetMap ، يرجى الاطلاع على %{contributors_page_link} على OpenStreetMap Wiki.
+           للمساعدة في تحسين Samland Street Map ، يرجى الاطلاع على %{contributors_page_link} على Samland Street Map Wiki.
         contributors_2_contributors_page: صفحة المساهمين
         contributors_footer_2_html: |-
-          إدراج البيانات في OpenStreetMap لا يعني أن الأصلي
-          مزود البيانات يؤيد OpenStreetMap ، يوفر أي ضمان ، أو
+          إدراج البيانات في Samland Street Map لا يعني أن الأصلي
+          مزود البيانات يؤيد Samland Street Map ، يوفر أي ضمان ، أو
           يقبل أي مسؤولية.
         infringement_title_html: انتهاك حقوق الملكية
         infringement_1_html: |-
@@ -2058,13 +2058,13 @@ ar:
           إذن صريح من أصحاب حقوق النشر.
         infringement_2_1_html: |-
           إذا كنت تعتقد أن المواد المحمية بحقوق الطبع والنشر قد تم بشكل غير لائق
-           المضافة إلى قاعدة بيانات OpenStreetMap أو هذا الموقع ، يرجى الرجوع
+           المضافة إلى قاعدة بيانات Samland Street Map أو هذا الموقع ، يرجى الرجوع
            إلى %{takedown_procedure_link} أو ملف مباشرة على موقعنا
             %{online_filing_page_link}.
         trademarks_title: العلامات التجارية
         trademarks_1_1_html: |-
-          OpenStreetMap وشعار العدسة المكبرة وحالة الخريطة هي علامات تجارية مسجلة لـ
-           مؤسسة OpenStreetMap.  إذا كانت لديك أسئلة حول استخدامك للعلامات ، فيرجى الاطلاع على
+          Samland Street Map وشعار العدسة المكبرة وحالة الخريطة هي علامات تجارية مسجلة لـ
+           مؤسسة Samland Street Map.  إذا كانت لديك أسئلة حول استخدامك للعلامات ، فيرجى الاطلاع على
             %{trademark_policy_link}.
     index:
       js_1: إما أنك تستخدم متصفحا لا يدعم جافا سكريبت، أو أنك عطلت استعمال جافا سكريبت.
@@ -2225,7 +2225,7 @@ ar:
           toilets: مرحاض
     welcome:
       title: مرحبا!
-      introduction: مرحبًا بك في OpenStreetMap ، خريطة حرة وقابلة للتعديل بواسطة العالم.
+      introduction: مرحبًا بك في Samland Street Map ، خريطة حرة وقابلة للتعديل بواسطة العالم.
         الآن بعد أن سجلت، أنت جاهز للبدء في رسم الخرائط، وإليك دليل سريع مع الأشياء
         الأكثر أهمية تحتاج إلى معرفتها.
       whats_on_the_map:
@@ -2329,7 +2329,7 @@ ar:
       cookies_needed: يبدو أن الكوكيز عندك معطلة - يرجى تفعيل الكوكيز في متصفحك قبل
         المتابعة.
     setup_user_auth:
-      blocked_zero_hour: لديك رسالة عاجلة على موقع ويب OpenStreetMap. يجب أن تقرأ
+      blocked_zero_hour: لديك رسالة عاجلة على موقع ويب Samland Street Map. يجب أن تقرأ
         الرسالة قبل أن تتمكن من حفظ تعديلاتك.
       blocked: لقد تم عرقلة وصولك إلى الـ API. يرجى تسجيل الدخول من صفحة الموقع لمعرفة
         المزيد.

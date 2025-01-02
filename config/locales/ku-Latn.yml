@@ -234,7 +234,7 @@ ku-Latn:
         reopened_at_html: '%{when} ji nû ve hate aktîvkirin'
         reopened_at_by_html: '%{when} ji aliyê %{user} ve jinûve hate aktîvkirin'
       rss:
-        title: Notên OpenStreetMapê
+        title: Notên Samland Street Mapê
         description_all: Lîsteyeke notên gilîkirî, şîrovekirî an girtî
         description_area: Lîsteya notên herêma te yên ku hatine raporkirin, şirovekirin
           an jî girtin [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -252,14 +252,14 @@ ku-Latn:
         title: Hesabê Min Jê bibe
         warning: Hişyarî! Ev proseya dawîn ya jêbirinê ye, û nayê zivirandin.
         delete_account: Hesabê Jê bibe
-        delete_introduction: 'Bi bikaranîn bûtona li jêr tu dikarî hesabê xwe yê OpenStreetMapê
+        delete_introduction: 'Bi bikaranîn bûtona li jêr tu dikarî hesabê xwe yê Samland Street Mapê
           jê bibî. Ji kerema xwe bala xwe bide detayên jêrî:'
         delete_profile: Agahiyên hesabê te, avatar, danasîn û cihê xaniyê jî tê de
           wê jê bên rakirin.
         delete_display_name: Navê te yê xuyakirinê wê were rakirin, û ev nav ji aliyê
           hesabên din ve dikare were bikaranîn.
         retain_caveats: 'Lê belê, ger hesabê xwe jê bibî jî hinek agahiyên di derheqê
-          te de wê hêjî li ser OpenStreetMapê bên parastin:'
+          te de wê hêjî li ser Samland Street Mapê bên parastin:'
         retain_edits: Guherandinên te yên li ser danegeha nexşeyê, ger hebe, wê were
           muhafezekirin.
         retain_traces: Şopên te yên hilbarkirî, ger hebin wê bên muhafezekirin.
@@ -412,8 +412,8 @@ ku-Latn:
           %{author} ve
         commented_at_by_html: '%{when} ji aliyê %{user} ve hate rojanekirin'
       show:
-        title_all: Gotûbêja qeyda guhartinên OpenStreetMapê
-        title_particular: Gotûbêja qeyda guhartinan a %{changeset_id} yê OpenStreetMapê
+        title_all: Gotûbêja qeyda guhartinên Samland Street Mapê
+        title_particular: Gotûbêja qeyda guhartinan a %{changeset_id} yê Samland Street Mapê
       timeout:
         sorry: Bibore, bidestxistina lîsteya şîroveyên desteya guhartinan ê ku te
           xwest demeke dirêj girt.
@@ -545,14 +545,14 @@ ku-Latn:
       location: 'Cih:'
     feed:
       user:
-        title: Nivîsên rojane yên %{user} a OpenStreetMapê
-        description: Nivîsên rojane ên %{user} yên nû a OpenStreetMapê
+        title: Nivîsên rojane yên %{user} a Samland Street Mapê
+        description: Nivîsên rojane ên %{user} yên nû a Samland Street Mapê
       language:
-        title: Nivîsên rojane yê OpenStreetMapê ên bi %{language_name}
-        description: Nivîsên rojane yên bikarhênerên OpenStreetMapê ên bi %{language_name}
+        title: Nivîsên rojane yê Samland Street Mapê ên bi %{language_name}
+        description: Nivîsên rojane yên bikarhênerên Samland Street Mapê ên bi %{language_name}
       all:
-        title: Nivîsên rojane yên OpenStreetMapê
-        description: Nivîsên rojane yên bikarhênerên OpenStreetMapê
+        title: Nivîsên rojane yên Samland Street Mapê
+        description: Nivîsên rojane yên bikarhênerên Samland Street Mapê
   diary_comments:
     index:
       title: Şîroveyên Rojnivîskê ji aliyê %{user} ve hatiye kirin
@@ -573,20 +573,20 @@ ku-Latn:
       contact_url_title: Çendîn kanalên îrtîbatê hatiye îzahkirin
       contact: îrtîbat
       contact_the_community_html: Ger lînkeke xira / çewtiyekê bibînî bi serbestî
-        wan bi lînka %{contact_link} ragihîne civata OpenStreetMapê. URLya temam ya
+        wan bi lînka %{contact_link} ragihîne civata Samland Street Mapê. URLya temam ya
         teleba xwe not bike.
     forbidden:
       title: Qedexekirî
-      description: Kiryara ku te li ser OpenStreetMapê daxwaz kiriye, tenê ji bo admînan
+      description: Kiryara ku te li ser Samland Street Mapê daxwaz kiriye, tenê ji bo admînan
         berdest e (HTTP 403)
     internal_server_error:
       title: Çewtiya sepanê
-      description: Servera OpenStreetMapê bi halekî nehêvîkirî re rû bi rû bû ku rê
+      description: Servera Samland Street Mapê bi halekî nehêvîkirî re rû bi rû bû ku rê
         li ber digire daxwaza te were bicîanîn (HTTP 500)
     not_found:
       title: Dosye peyda nebû
       description: Ti kiryara dosye/pelrêç/APIyê peyda nebû bi wê navê li ser servera
-        OpenStreetMapê (HTTP 404)
+        Samland Street Mapê (HTTP 404)
   friendships:
     make_friend:
       heading: Bila %{user} li hevalên te were zêdekirin?
@@ -1480,7 +1480,7 @@ ku-Latn:
       provide_details: Ji kerema xwe zanyariyên pêwîst bi dest bixin
   layouts:
     logo:
-      alt_text: Logoya OpenStreetMapê
+      alt_text: Logoya Samland Street Mapê
     home: Here Cihê Mala Xwe
     logout: Derkeve
     log_in: Têkeve
@@ -1493,15 +1493,15 @@ ku-Latn:
     gps_traces: Şopên GPSê
     user_diaries: Rojnivîskên bikarhênerê
     edit_with: Bi %{editor} sererast bike
-    intro_header: Tu bi xêr hatî OpenStreetMapêǃ
-    intro_text: OpenStreetMap xerîteyekî dinyayê ye ku ji aliyê kesên wek te ve tê
+    intro_header: Tu bi xêr hatî Samland Street Mapêǃ
+    intro_text: Samland Street Map xerîteyekî dinyayê ye ku ji aliyê kesên wek te ve tê
       çêkirin û emilandina we belaş e û di bin lîsansa azad de ye.
     partners_fastly: Fastly
     partners_partners: şirîkên me
     tou: Mercên Bikaranînê
-    osm_offline: Databasa OpenStreetMapê vê gavê offline e ji ber ku niha xebatên
+    osm_offline: Databasa Samland Street Mapê vê gavê offline e ji ber ku niha xebatên
       sererastkirinê tê kirin.
-    osm_read_only: Databasa OpenStreetMapê vê gavê di moda tenê-xwendinê de ye ji
+    osm_read_only: Databasa Samland Street Mapê vê gavê di moda tenê-xwendinê de ye ji
       ber ku niha xebatên sererastkirinê tê kirin.
     help: Alîkarî
     about: Derbar
@@ -1511,11 +1511,11 @@ ku-Latn:
     more: Zêdetir
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} li ser nivîsek rojane şirove kir'
+      subject: '[Samland Street Map] %{user} li ser nivîsek rojane şirove kir'
       hi: Silav %{to_user},
-      header: '%{from_user} nivîsa rojane yê OpenStreetMapê a bi mijara %{subject}
+      header: '%{from_user} nivîsa rojane yê Samland Street Mapê a bi mijara %{subject}
         şirove kir:'
-      header_html: '%{from_user} nivîsa rojane yê OpenStreetMapê a bi mijara %{subject}
+      header_html: '%{from_user} nivîsa rojane yê Samland Street Mapê a bi mijara %{subject}
         şirove kir:'
       footer: Herwiha ji ser rûpela %{readurl} jî dikarî şîroveyê bixwînî û ji ser
         %{commenturl} dikarî şîrove bikî an jî ji ser %{replyurl} peyamekî bişîne
@@ -1524,11 +1524,11 @@ ku-Latn:
         ser %{commenturl} dikarî şirove bikî an jî ji ser %{replyurl} peyamekî bişîne
         nivîserê.
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Merheba %{to_user},
-      header: '%{from_user} ji te re bi rêya OpenStreetMapê peyamek bi mijara %{subject}
+      header: '%{from_user} ji te re bi rêya Samland Street Mapê peyamek bi mijara %{subject}
         şand:'
-      header_html: '%{from_user} ji te re bi rêya OpenStreetMapê peyamek bi mijara
+      header_html: '%{from_user} ji te re bi rêya Samland Street Mapê peyamek bi mijara
         %{subject} şand:'
       footer: Tu dikarî peyamê li ser %{readurl} jî bixwînî û li ser %{replyurl} jî
         dikarî bersiv bidî ê go ji te re şand.
@@ -1536,8 +1536,8 @@ ku-Latn:
         jî dikarî cewab bidî ê ku ji te re şand.
     friendship_notification:
       hi: Merheba %{to_user},
-      subject: '[OpenStreetMap] %{user} te wek heval lê zêde kir'
-      had_added_you: Bikarhêner %{user} li ser OpenStreetMapê te wek heval lê zêde
+      subject: '[Samland Street Map] %{user} te wek heval lê zêde kir'
+      had_added_you: Bikarhêner %{user} li ser Samland Street Mapê te wek heval lê zêde
         kir.
       see_their_profile: Ji ser %{userurl} dikarî binêrî profîlê wan.
       see_their_profile_html: Ji ser %{userurl} dikarî binêrî profîlê wan.
@@ -1554,12 +1554,12 @@ ku-Latn:
       failed_to_import: 'anîna dosyeyê bi ser neket. Çewtî ev e:'
       more_info_html: Agahiyên zêdetir ên derbarê çewtiyên împortkirinê û rêlibergirtina
         wê ji %{url} dikarî peyda bikî.
-      subject: '[OpenStreetMap] Anîna GPXê bi ser neket'
+      subject: '[Samland Street Map] Anîna GPXê bi ser neket'
     gpx_success:
       hi: Merheba %{to_user},
-      subject: '[OpenStreetMap] Împortkirina GPXê bi ser ket'
+      subject: '[Samland Street Map] Împortkirina GPXê bi ser ket'
     signup_confirm:
-      subject: '[OpenStreetMap] Bi xêr hatî OpenStreetMapê'
+      subject: '[Samland Street Map] Bi xêr hatî Samland Street Mapê'
       greeting: Merhebaǃ
       created: Yekî (hêvî dikim ku ew tu bî) berî vêga li %{site_url} hesabekî nû
         çêkir.
@@ -1569,14 +1569,14 @@ ku-Latn:
       welcome: Piştî te hesabê xwe teyîd kir, em ê ji te re ji bo ku tu karibî dest
         pê bikî hinek agahiyên din jî bidin.
     email_confirm:
-      subject: '[OpenStreetMap] E-peyama xwe tesdîq bike'
+      subject: '[Samland Street Map] E-peyama xwe tesdîq bike'
       greeting: Silav,
       hopefully_you: Yekî (em hêvî dikin ku ew tu bî) dixwaze adrêsa e-peyama te ya
         li %{server_url}, wek %{new_address} biguherîne.
       click_the_link: Eger, ev ê te be, xêra xwe ji bo tesdîqkirina guhertinê bitikîne
         ser lînka li jêr.
     lost_password:
-      subject: '[OpenStreetMap] Daxwaza nûkirina şîfreyê'
+      subject: '[Samland Street Map] Daxwaza nûkirina şîfreyê'
       greeting: Silav,
       hopefully_you: Yekî (dibe be ku tu bî) xwest ku şîfreya vê adrêsa e-peyamê ya
         hesaba openstreetmap.orgê were nûkirin.
@@ -1586,8 +1586,8 @@ ku-Latn:
       anonymous: Bikarhênerek anonîm
       greeting: Merheba,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} li ser notekî te şiroveyek nivîsand'
-        subject_other: '[OpenStreetMap] %{commenter} li ser notek ku tu pê eleqedar
+        subject_own: '[Samland Street Map] %{commenter} li ser notekî te şiroveyek nivîsand'
+        subject_other: '[Samland Street Map] %{commenter} li ser notek ku tu pê eleqedar
           dibî şiroveyek nivîsand'
         your_note: '%{commenter} li ser notekî te yê nexşeyê a nêzîkî %{place} şiroveyek
           berda.'
@@ -1598,8 +1598,8 @@ ku-Latn:
         commented_note_html: '%{commenter} li ser notekî te yê nexşeyê a ku te şiroveyek
           berdabû şiroveyek nivîsand. Ev not nêzîkî %{place} (y)e.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} yek ji notên te çareser kir'
-        subject_other: '[OpenStreetMap] %{commenter} notek ku tu pê eleqedar dibî
+        subject_own: '[Samland Street Map] %{commenter} yek ji notên te çareser kir'
+        subject_other: '[Samland Street Map] %{commenter} notek ku tu pê eleqedar dibî
           çareser kir'
         your_note: '%{commenter} yek ji notên te yên nexşeyê a nêzîkî %{place} çareser
           kir.'
@@ -1610,9 +1610,9 @@ ku-Latn:
         commented_note_html: '%{commenter} notekî nexşeyê yê ku te şiroveyek berdabû
           çareser kir. Ev not nêzîkî %{place} (y)e.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} yek ji notên te ji nû ve aktîv
+        subject_own: '[Samland Street Map] %{commenter} yek ji notên te ji nû ve aktîv
           kir'
-        subject_other: '[OpenStreetMap] %{commenter} notek ku tu pê eleqedar dibî
+        subject_other: '[Samland Street Map] %{commenter} notek ku tu pê eleqedar dibî
           ji nû ve aktîv kir'
         your_note: '%{commenter} yek ji notên te yên nexşeyê a nêzîkî %{place} ji
           nû ve da aktîvkirin.'
@@ -1627,9 +1627,9 @@ ku-Latn:
     changeset_comment_notification:
       hi: Merheba %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} yek ji desteyên te yên guherandinê
+        subject_own: '[Samland Street Map] %{commenter} yek ji desteyên te yên guherandinê
           şiroveyek nivîsand'
-        subject_other: '[OpenStreetMap] %{commenter} desteyekî guherandinê ê ku tu
+        subject_other: '[Samland Street Map] %{commenter} desteyekî guherandinê ê ku tu
           pê eleqedar dibî şirove kir'
         your_changeset: '%{commenter} li ser desteyekî te yê guherandinê şîroveyekê
           berda di  %{time} de'
@@ -1817,7 +1817,7 @@ ku-Latn:
       auth failure: Bibore, bi van dêtayan re tu têneketî.
     destroy:
       title: Derkeve
-      heading: Ji OpenStreetMapê derkeve
+      heading: Ji Samland Street Mapê derkeve
       logout_button: Derkeve
     suspended_flash:
       suspended: Bibore, hesaba te ji ber aktîvîteyên şibhedar hatiye rawestandin.
@@ -1855,11 +1855,11 @@ ku-Latn:
     about:
       used_by_html: '%{name} li ser bi hezaran malper, sepanên mobîl û cîhazên hişkalavan,
         daneyên nexşeyê pêşkêş dike'
-      lede_text: OpenStreetMap ji alî civata nexşesazên ku ji seransera dinyayê der
+      lede_text: Samland Street Map ji alî civata nexşesazên ku ji seransera dinyayê der
         barê kolanan, kafeyan, stasyonên trênan û zêdetirê wan de daneyan tevlî vir
         dike û diparêze.
       local_knowledge_title: Zanyariya herêmî
-      local_knowledge_html: OpenStreetMap girîngiyê dide zanyariyên xwecihî. Beşdarên
+      local_knowledge_html: Samland Street Map girîngiyê dide zanyariyên xwecihî. Beşdarên
         me ji bo tesdîq bikin ku OSM rast û rojane ye, wêneyên hewayî, cîhazên GPSê
         û nexşeyên deverê yên bi teknolojiya-nizm bi kar tînin.
       community_driven_title: Bi rêbertiya civatê
@@ -1882,8 +1882,8 @@ ku-Latn:
         native_link: versiyona bi kurdî
         mapping_link: dest bi çêkirina nexşeyan bike
       legal_babble:
-        credit_title_html: Em çawan wekî çavkaniyekê behsa OpenStreetMapê bikin
-        credit_1_html: 'Li cihê ku daneya OpenStreetMapê bi kar bînî, divê van du
+        credit_title_html: Em çawan wekî çavkaniyekê behsa Samland Street Mapê bikin
+        credit_1_html: 'Li cihê ku daneya Samland Street Mapê bi kar bînî, divê van du
           tiştan bikî:'
         attribution_example:
           alt: Mînakekê atfkirinê ya OpenSteetMapê yê li ser malperekî înternetê
@@ -1894,8 +1894,8 @@ ku-Latn:
           nexşekirinê yên netewî û çavkaniyên din jî daneyên bi lîsansa-vekirî îhtîwa
           dikin, hinek ji wan ev in:'
         contributors_2_contributors_page: Rûpela beşdaran
-        contributors_footer_2_html: Daxilbûna daneyan a di OpenStreetMapê de nayê
-          maneya ku peydakera daneyan yê eslî OpenStreetMapê teswîb dike, garantiyekî
+        contributors_footer_2_html: Daxilbûna daneyan a di Samland Street Mapê de nayê
+          maneya ku peydakera daneyan yê eslî Samland Street Mapê teswîb dike, garantiyekî
           temîn dike an jî berpirsîyariyekê qebûl dike.
         infringement_title_html: Îxlala mafê daneriyê
         infringement_1_html: Kesên ku tevkariyên OSMê dikin bila ti carî ji bîr nekin
@@ -1905,10 +1905,10 @@ ku-Latn:
     index:
       js_1: Tu an gerokek ku piştgiriyê nade JavaScriptê bi kar tînî an jî JavaScript
         hatiye neçalakkirin.
-      js_2: OpenStreetMap ji bo nîşandana nexşeya xwe ya şemetok JavaScriptê bi kar
+      js_2: Samland Street Map ji bo nîşandana nexşeya xwe ya şemetok JavaScriptê bi kar
         tîne.
       license:
-        copyright: Mafê daneriyê ya OpenStreetMapê û beşdarên me, di bin lîsansa vekirî
+        copyright: Mafê daneriyê ya Samland Street Mapê û beşdarên me, di bin lîsansa vekirî
           de ne
       remote_failed: Sererastkirin bi ser neket - jê piştrast be ku JOSM an jî Merkaartor
         hatiye sazkirin û vebijêrka jidûrve kontrolê hatiye aktîvkirin
@@ -1927,24 +1927,24 @@ ku-Latn:
       too_large:
         advice: Eger hûn ji yê jor nikaribin eksport bikin, xêra xwe yek ji van çavkaniyên
           li xwarê a lîstekirî biemilînin.
-        body: Ev der ji bo ku wekî Daneya XML a OpenStreetMapê were eksportkirin zahf
+        body: Ev der ji bo ku wekî Daneya XML a Samland Street Mapê were eksportkirin zahf
           mezin e. Xêra xwe hinek jî nêzîk bike an jî qadekî biçûktir bibijêre an
           jî ji bo daxistina daneyên mezin yek ji van çavkaniyên lîstekirî yên li
           jêr biemilîne.
         planet:
           title: Seyareya OSMê
-          description: Kopiyên daneyên OpenStreetMapê yê ku bi awayekî binîzam têne
+          description: Kopiyên daneyên Samland Street Mapê yê ku bi awayekî binîzam têne
             nûkirin
         overpass:
           title: Overpass API
-          description: Vê qutiya sînorkar ji eyneyekî daneya OpenStreetMapê daxîne
+          description: Vê qutiya sînorkar ji eyneyekî daneya Samland Street Mapê daxîne
         geofabrik:
           title: Daxistinên Geofabrikê
           description: Kurteyên parzemîn, welat û bajarên bijartî yê ku bi awayekî
             sîstematîk têne nûkirin
         other:
           title: Çavkaniyên din
-          description: Çavkaniyên îlawe yên ku li ser wîkiya OpenStreetMapê hatine
+          description: Çavkaniyên îlawe yên ku li ser wîkiya Samland Street Mapê hatine
             lîstekirin
       export_button: Derxîne
     fixthemap:
@@ -1955,26 +1955,26 @@ ku-Latn:
           title: Tevlî civatê bibe
           explanation_html: Heke te di daneyên nexşeya me de pirsgirêkek ferq kiribe,
             wekî mînak kolanek an jî adrêsa te kêm be, riya herî baş a dewamkirinê
-            beşdarî civata me ya OpenStreetMapê bibe û tu bixwe rast bike an jî îlawe
+            beşdarî civata me ya Samland Street Mapê bibe û tu bixwe rast bike an jî îlawe
             bike.
       other_concerns:
         title: Meseleyên din
     help:
       title: Wergirtina alîkariyê
-      introduction: OpenStreetMap ji bo hînbûna projeyê, pirskirin û cewabdana pirsan,
+      introduction: Samland Street Map ji bo hînbûna projeyê, pirskirin û cewabdana pirsan,
         û ji bo nîqaşên ku bi hevkarî têne kirin û ji bo belgekirina mijarên nexşeyê
         xwediyê çend çavkaniyan e.
       welcome:
         url: /welcome
-        title: Bi xêr hatî OpenStreetMapê
-        description: Bi vê rêbernameya kurt ê ku tê de esasên OpenStreetMapê heye
+        title: Bi xêr hatî Samland Street Mapê
+        description: Bi vê rêbernameya kurt ê ku tê de esasên Samland Street Mapê heye
           dest pê bike.
       beginners_guide:
         title: Rêbera ji bo kesên ku nû dest pê kirine
         description: Civata me, ji bo kesên ku nû dest pê kirine rêbertî dike.
       community:
         title: Foruma Alîkarî û Civatê
-        description: Cihê hevpar ji bo gihîna alîkarîyê sohbetên di derbarê OpenStreetMapê
+        description: Cihê hevpar ji bo gihîna alîkarîyê sohbetên di derbarê Samland Street Mapê
           de.
       mailing_lists:
         title: Lîsteya E-nameyan
@@ -1986,16 +1986,16 @@ ku-Latn:
       switch2osm:
         title: switch2osm
         description: Alikariya ji bo şirket û komeleyên ku derbasî nexşe û xizmetên
-          din yên bi bingeha OpenStreetMapê dibin.
+          din yên bi bingeha Samland Street Mapê dibin.
       welcomemat:
         title: Ji bo rêxistinan
-        description: Tevî sazî an komeleyekê planên te yên ji bo OpenStreetMapê hene?
+        description: Tevî sazî an komeleyekê planên te yên ji bo Samland Street Mapê hene?
           Tiştê ku ji te re lazim e di Rûpela Xêrhatinê de peyda bike.
       wiki:
-        title: Wîkiya OpenStreetMapê
-        description: Ji bo belgeyên OpenStreetMapyê yên bi berfirehî binêrin wîkiyê.
+        title: Wîkiya Samland Street Mapê
+        description: Ji bo belgeyên Samland Street Mapyê yên bi berfirehî binêrin wîkiyê.
     potlatch:
-      removed: Edîtora te ya OpenStreetMapê ya standard wek Potlatch hate bijartin.
+      removed: Edîtora te ya Samland Street Mapê ya standard wek Potlatch hate bijartin.
         Ji ber ku Adobe Flash Player vekişiya, Potlatch êdî di gerokeke webê de ne
         berdest e.
     any_questions:
@@ -2071,7 +2071,7 @@ ku-Latn:
           toilets: Tiwalet
     welcome:
       title: Tu bi xêr hatî!
-      introduction: Tu bi xêr hatî OpenStreetMapê, nexşeya dinyayê yê azad û yê ku
+      introduction: Tu bi xêr hatî Samland Street Mapê, nexşeya dinyayê yê azad û yê ku
         bi rehetî dikare were sererastkirin. Niha te xwe qeyd kiriye û tu dikarî dest
         bi nexşekirinê bikî. Va ye li vir rêbernameyek bilez yê tiştên muhîm heye
         ku divê tu van bizanibî.
@@ -2079,7 +2079,7 @@ ku-Latn:
         title: Çi hene li ser nexşeyê
       basic_terms:
         title: Termên esasî yên ji bo nexşekirinê
-        paragraph_1: OpenStreetMap xwediyê argoya xwe (zimanê xwe yê taybet) ye. Vaye
+        paragraph_1: Samland Street Map xwediyê argoya xwe (zimanê xwe yê taybet) ye. Vaye
           li vir çend peyvên ku wê bi kêrên we bên heye.
       rules:
         title: Qaîdeyên vêǃ
@@ -2092,7 +2092,7 @@ ku-Latn:
     communities:
       title: Civatên me
       lede_text: |-
-        Ji temamê dinyayê însan beşdariya OpenStreetMapê dikin an wê bi kar tînin.
+        Ji temamê dinyayê însan beşdariya Samland Street Mapê dikin an wê bi kar tînin.
         Hinek kes wek şexsî tevlî dibin, hinek kes jî civatan ava kirine.
         Ev kom ji mezinehiyên cuda pêk tên û ji qezayên biçûk heya herêmên pir-welatî cografyayên mezin û biçûk temsîl dikin.
         Herwiha mimkin e ku fermî an nefermî bin.
@@ -2188,7 +2188,7 @@ ku-Latn:
       heading: Xizmeta depokirinê ya dosyeyên GPXê offline ye
       message: Sîstema barkirin û depokirina dosyeyên GPXê niha neberdest e
     georss:
-      title: Şopên GPSê yê OpenStreetMapê
+      title: Şopên GPSê yê Samland Street Mapê
     description:
       description_with_count:
         one: Dosyeya GPXê yê bi %{count} nuqteyê ya ji %{user}
@@ -2200,7 +2200,7 @@ ku-Latn:
       cookies_needed: Tê xuyan ku te kûkiyan girtiye - xêra xwe berî ku tu dewam bikî,
         kûkiyan di geroka xwe de aktîv bike.
     setup_user_auth:
-      blocked_zero_hour: Li ser malpera OpenStreetMapê ji te re peyamek acîl heye.
+      blocked_zero_hour: Li ser malpera Samland Street Mapê ji te re peyamek acîl heye.
         Berî ku tu guherandinên xwe qeyd bikî divê tu wê peyamê bixwînî.
       blocked: Gihîna te ya APIyê hatiye astengkirin. Xêra xwe ji bo ku tu zêdetir
         agahiyan werbigrî têkeve înterfeysa webê.
@@ -2320,7 +2320,7 @@ ku-Latn:
       contributor_terms_explain: Ev peymana şertûmercan ji bo beşdariyên te yên heyî
         û ji bo yên dahatûyê hukm dike.
       read_ct: Min peymana mercên beşdariyê yê li jor xwend û qebûl kir
-      tou_explain_html: Ev %{tou_link} bikaranîna malperê û jêrxana ku ji aliyê OSMF
+      tou_explain_html: Ev %{tou_link} bikaranîna malperê û jêrxana ku ji aliyê SSM
         ve tê temînkirin bi rê ve dibe. Ji kerema xwe bitikîne ser lînkê, nivîsê bixwîne
         û qebûl bike.
       read_tou: Min Şertûmercên Bikaranînê xwend û qebûl kir
@@ -2439,8 +2439,8 @@ ku-Latn:
       invalid_scope: Berfirehiya nemuteber
       unknown_error: Destûrdayîn têk çû
     auth_association:
-      heading: Nasnameya te hêj bi hesabekî OpenStreetMapê ve ne girêdayî ye.
-      option_1: Eger tu di OpenStreetMapê de nû bî, xêra xwe bi vê formê li jêr, ji
+      heading: Nasnameya te hêj bi hesabekî Samland Street Mapê ve ne girêdayî ye.
+      option_1: Eger tu di Samland Street Mapê de nû bî, xêra xwe bi vê formê li jêr, ji
         xwe re hesabekî nû çêbike.
       option_2: Heke jixwe hesabekî te hebe, tu dikarî navê xwe yê bikarhêneriyê û
         şîfreya xwe binivîsî û têkevî, û piştre jî ji mîhengên bikarhênerê nasnameya
@@ -2631,10 +2631,10 @@ ku-Latn:
         gps: Şopên GPSê yên giştî
         overlays: Ji bo ku pirsgirêkan çareser bikî tebeqeyan bide aktîvkirin
         title: Tebeqeyên nexşeyê
-      openstreetmap_contributors: Beşdarên OpenStreetMapê
+      openstreetmap_contributors: Beşdarên Samland Street Mapê
       make_a_donation: Bexş bike
       website_and_api_terms: Malper û şertên APIyê
-      osm_france: OpenStreetMap Fransa
+      osm_france: Samland Street Map Fransa
     site:
       edit_tooltip: Nexşeyê sererast bike
       edit_disabled_tooltip: Ji bo sererastkirina nexşeyê nêzîk bike

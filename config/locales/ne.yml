@@ -346,8 +346,8 @@ ne:
         comment: '%{author}द्वारा #%{changeset_id}मा नयाँ टिप्पणी'
         commented_at_by_html: '%{user}  द्वारा  %{when} पहिले अद्यावधिक गरिएको'
       show:
-        title_all: OpenStreetMap परिवर्वतन सूची छलफल
-        title_particular: 'OpenStreetMap परिवर्तन सूची #%{changeset_id} छलफल'
+        title_all: Samland Street Map परिवर्वतन सूची छलफल
+        title_particular: 'Samland Street Map परिवर्तन सूची #%{changeset_id} छलफल'
   changesets:
     changeset:
       no_edits: (कुनै सम्पादनहरू छैनन्)
@@ -466,15 +466,15 @@ ne:
       coordinates: '%{latitude}; %{longitude}'
     feed:
       user:
-        title: '%{user}को लागि OpenStreetMap डायरी'
-        description: '%{user}को लागि हालैका OpenStreetMap डायरी'
+        title: '%{user}को लागि Samland Street Map डायरी'
+        description: '%{user}को लागि हालैका Samland Street Map डायरी'
       language:
-        title: '%{language_name} भाषामा OpenStreetMap दैनिकी'
-        description: '%{language_name} भाषामा OpenStreetMap प्रयोगकर्ताहरूका हालैका
+        title: '%{language_name} भाषामा Samland Street Map दैनिकी'
+        description: '%{language_name} भाषामा Samland Street Map प्रयोगकर्ताहरूका हालैका
           डायरी'
       all:
-        title: OpenStreetMap डायरी प्रविष्टीहरू
-        description: OpenStreetMap प्रयोगकर्ताहरूका हालैका डायरी प्रविष्टीहरू
+        title: Samland Street Map डायरी प्रविष्टीहरू
+        description: Samland Street Map प्रयोगकर्ताहरूका हालैका डायरी प्रविष्टीहरू
     subscribe:
       button: छलफलको लागि सदस्यता लिनुहोस्
     unsubscribe:
@@ -1027,10 +1027,10 @@ ne:
           other_label: अन्य
   layouts:
     project_name:
-      title: OpenStreetMap
-      h1: OpenStreetMap
+      title: Samland Street Map
+      h1: Samland Street Map
     logo:
-      alt_text: OpenStreetMap लोगो
+      alt_text: Samland Street Map लोगो
     logout: निर्गमन
     log_in: प्रवेश गर्नुहोस्
     sign_up: खाता खाेल्नुहाेस्
@@ -1055,7 +1055,7 @@ ne:
       hi: नमस्ते %{to_user},
     friendship_notification:
       hi: नमस्ते %{to_user},
-      subject: '[OpenStreetMap] %{user} ले तपाईँलाई मित्रको रूपमा थप्नु भयो'
+      subject: '[Samland Street Map] %{user} ले तपाईँलाई मित्रको रूपमा थप्नु भयो'
     gpx_failure:
       hi: नमस्ते %{to_user},
     gpx_success:
@@ -1235,7 +1235,7 @@ ne:
           description: नियमित रूपमा अपडेट गरिएका ओपनस्ट्रीटम्याप तथ्याङ्कका प्रतिहरू
         overpass:
           title: ओभरपास एपिअाइ
-          description: OpenStreetMap तथ्याङ्कको अर्को स्रोतबाट यो सिमारेखा प्राप्त
+          description: Samland Street Map तथ्याङ्कको अर्को स्रोतबाट यो सिमारेखा प्राप्त
             गर्नुहोस्
         geofabrik:
           title: Geofabrik डाउनलोडहरू

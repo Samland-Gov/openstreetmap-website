@@ -264,7 +264,7 @@ ro:
         reopened_at_html: Reactivat %{when}
         reopened_at_by_html: Reactivat %{when} de %{user}
       rss:
-        title: Note OpenStreetMap
+        title: Note Samland Street Map
         description_all: O listă de note raportate, comentate sau închise
         description_area: O listă de note, raportate, comentate sau închise în zona
           dvs. [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -283,14 +283,14 @@ ro:
         warning: Atenție! Procesul de ștergere al contului este final și nu se poate
           reveni.
         delete_account: Șterge Cont
-        delete_introduction: 'Vă puteți șterge contul OpenStreetMap folosind butonul
+        delete_introduction: 'Vă puteți șterge contul Samland Street Map folosind butonul
           de mai jos. Vă rugăm să rețineți următoarele detalii:'
         delete_profile: Informațiile de profil, inclusiv avatarul, descrierea și locația
           de acasă vor fi șterse.
         delete_display_name: Numele dvs. afișat va fi eliminat și poate fi reutilizat
           de alte conturi.
         retain_caveats: 'Cu toate acestea, unele informații despre dvs. vor fi păstrate
-          pe OpenStreetMap, chiar și după ștergerea contului:'
+          pe Samland Street Map, chiar și după ștergerea contului:'
         retain_edits: Editările dvs. la baza de date a hărții, dacă există, vor fi
           păstrate.
         retain_traces: Înregistrările încărcate, dacă există, vor fi păstrate.
@@ -455,8 +455,8 @@ ro:
         comment: 'Comentariu nou privind modificările #%{changeset_id} de către %{author}'
         commented_at_by_html: Actualizat %{when} de %{user}
       show:
-        title_all: Discuție set de schimbări OpenStreetMap
-        title_particular: 'Set de schimbări OpenStreetMap discuție #%{changeset_id}'
+        title_all: Discuție set de schimbări Samland Street Map
+        title_particular: 'Set de schimbări Samland Street Map discuție #%{changeset_id}'
       timeout:
         sorry: Ne pare rău, lista de comenzi modificate pe care le-ați solicitat a
           durat prea mult timp pentru a fi preluate.
@@ -602,15 +602,15 @@ ro:
       location: 'Localizare:'
     feed:
       user:
-        title: Înregistrări în jurnalul OpenStreetMap pentru %{user}
-        description: Înregistrări recente în jurnalul OpenStreetMap de la %{user}
+        title: Înregistrări în jurnalul Samland Street Map pentru %{user}
+        description: Înregistrări recente în jurnalul Samland Street Map de la %{user}
       language:
-        title: Înregistrări recente în jurnalul OpenStreetMap în %{language_name}
-        description: Înregistrări recente în jurnale de la utilizatorii OpenStreetMap
+        title: Înregistrări recente în jurnalul Samland Street Map în %{language_name}
+        description: Înregistrări recente în jurnale de la utilizatorii Samland Street Map
           în limba %{language_name}
       all:
-        title: Înregistrări în jurnalul OpenStreetMap
-        description: Înregistrări recente în jurnale de la utilizatorii OpenStreetMap
+        title: Înregistrări în jurnalul Samland Street Map
+        description: Înregistrări recente în jurnale de la utilizatorii Samland Street Map
     subscribe:
       heading: Te abonezi la următoarea discuție de intrare a jurnalului?
       button: Abonează-te la discuție
@@ -665,23 +665,23 @@ ro:
       contact_url_title: Diferite metode de contact explicate
       contact: contact
       contact_the_community_html: Simțiți-vă liber să %{contact_link} comunitatea
-        OpenStreetMap dacă ați găsit un link invalid/o eroare. Notați adresa URL exactă
+        Samland Street Map dacă ați găsit un link invalid/o eroare. Notați adresa URL exactă
         a solicitării dvs.
     bad_request:
-      description: Cererea pe care ați făcut-o pe serverul OpenStreetMap nu este validă.
+      description: Cererea pe care ați făcut-o pe serverul Samland Street Map nu este validă.
         (HTTP 400)
     forbidden:
       title: Interzis
-      description: Operația pe care ați solicitat-o pe serverul OpenStreetMap este
+      description: Operația pe care ați solicitat-o pe serverul Samland Street Map este
         disponibilă numai pentru administratori (HTTP 403)
     internal_server_error:
       title: Eroare aplicație
-      description: Serverul OpenStreetMap a întâlnit o condiție neașteptată care l-a
+      description: Serverul Samland Street Map a întâlnit o condiție neașteptată care l-a
         împiedicat să îndeplinească cererea (HTTP 500)
     not_found:
       title: Fișierul nu a fost găsit
       description: Nu s-a putut găsi o operație de file/directory/API operation cu
-        acest nume pe serverul OpenStreetMap (HTTP 404)
+        acest nume pe serverul Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: Adăugați %{user} ca prieten?
@@ -1581,7 +1581,7 @@ ro:
       provide_details: Furnizați detaliile necesare
   layouts:
     logo:
-      alt_text: Logoul OpenStreetMap
+      alt_text: Logoul Samland Street Map
     home: Mergi la locul de reședință
     logout: Închide sesiunea
     log_in: Autentificare
@@ -1594,18 +1594,18 @@ ro:
     gps_traces: Track-uri GPS
     user_diaries: Jurnalele utilizatorilor
     edit_with: Modificare cu %{editor}
-    intro_header: Bine ați venit la OpenStreetMap!
-    intro_text: OpenStreetMap este o hartă a lumii, creată de oameni ca tine și liberă
+    intro_header: Bine ați venit la Samland Street Map!
+    intro_text: Samland Street Map este o hartă a lumii, creată de oameni ca tine și liberă
       pentru utilizare sub o licență deschisă.
     hosting_partners_2024_html: Găzduirea este susținută de %{fastly}, %{corpmembers},
       și alți %{partners}.
     partners_fastly: Fastly
-    partners_corpmembers: Membrii corporați ai OSMF
+    partners_corpmembers: Membrii corporați ai SSM
     partners_partners: parteneri
     tou: Termeni de Utilizare
-    osm_offline: Baza de date OpenStreetMap este în prezent offline, în timp ce se
+    osm_offline: Baza de date Samland Street Map este în prezent offline, în timp ce se
       efectuează lucrări esențiale de întreținere a bazelor de date.
-    osm_read_only: Baza de date OpenStreetMap este în prezent în modul read-only,
+    osm_read_only: Baza de date Samland Street Map este în prezent în modul read-only,
       în timp ce se efectuează lucrări de întreținere a bazei de date.
     nothing_to_preview: Nimic de previzualizat.
     help: Ajutor
@@ -1616,12 +1616,12 @@ ro:
     more: Mai multe
   user_mailer:
     diary_comment_notification:
-      description: 'Intrare Jurnal OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} a comentat o intrare în jurnal'
+      description: 'Intrare Jurnal Samland Street Map #%{id}'
+      subject: '[Samland Street Map] %{user} a comentat o intrare în jurnal'
       hi: Salut %{to_user},
-      header: '%{from_user} a comentat intrarea jurnalului OpenStreetMap cu subiectul
+      header: '%{from_user} a comentat intrarea jurnalului Samland Street Map cu subiectul
         %{subject}:'
-      header_html: '%{from_user} a comentat intrarea jurnalului OpenStreetMap cu subiectul
+      header_html: '%{from_user} a comentat intrarea jurnalului Samland Street Map cu subiectul
         %{subject}:'
       footer: De asemenea, puteți citi comentariul la %{readurl} și puteți să comentați
         la %{commenturl} sau să răspundeți la %{replyurl}
@@ -1630,18 +1630,18 @@ ro:
       footer_unsubscribe: Te poți dezabona de la discuție la %{unsubscribeurl}
       footer_unsubscribe_html: Te poți dezabona de la discuție la %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Salut, %{to_user},
-      header: '%{from_user} v-a trimis un mesaj prin OpenStreetMap cu subiectul %{subject}:'
-      header_html: '%{from_user} v-a trimis un mesaj OpenStreetMap cu subiectul %{subject}:'
+      header: '%{from_user} v-a trimis un mesaj prin Samland Street Map cu subiectul %{subject}:'
+      header_html: '%{from_user} v-a trimis un mesaj Samland Street Map cu subiectul %{subject}:'
       footer: De asemenea, puteți citi mesajul la %{readurl} și trimite unul autorului
         la %{replyurl}
       footer_html: De asemenea, puteți citi mesajul la %{readurl} și puteți răspunde
         la %{replyurl}
     friendship_notification:
       hi: Salut %{to_user},
-      subject: '[OpenStreetMap] %{user} te-a adaugat ca prieten'
-      had_added_you: '%{user} te-a adăugat ca prieten pe OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} te-a adaugat ca prieten'
+      had_added_you: '%{user} te-a adăugat ca prieten pe Samland Street Map.'
       see_their_profile: Puteți vedea profilul lor la %{userurl}.
       see_their_profile_html: Puteți vedea profilul respectiv la %{userurl}.
       befriend_them: De asemenea, îi puteți adăuga ca prieten la %{befriendurl}
@@ -1660,16 +1660,16 @@ ro:
         de import:'
       more_info_html: Mai multe informații despre eșecurile de import GPX și despre
         cum să le evitați pot fi găsite la %{url}.
-      subject: '[OpenStreetMap] eșec import fișier GPX'
+      subject: '[Samland Street Map] eșec import fișier GPX'
     gpx_success:
       hi: Salut %{to_user},
       loaded:
         one: încărcat cu succes cu %{trace_points} dintr-un posibil %{count} punct.
         few: încărcat cu succes cu %{trace_points} dintr-un posibil %{count} puncte.
         other: ""
-      subject: '[OpenStreetMap] succes import fișier GPX'
+      subject: '[Samland Street Map] succes import fișier GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Bun-venit la OpenStreetMap'
+      subject: '[Samland Street Map] Bun-venit la Samland Street Map'
       greeting: Salut!
       created: Cineva (sperăm că tu) tocmai a creat un cont la %{site_url}.
       confirm: 'Înainte de a face orice altceva, trebuie să confirmați că această
@@ -1678,26 +1678,26 @@ ro:
       welcome: După ce vă confirmați contul, vă vom oferi câteva informații suplimentare
         pentru a începe.
     email_confirm:
-      subject: '[OpenStreetMap] Confirmați adresa de e-mail'
+      subject: '[Samland Street Map] Confirmați adresa de e-mail'
       greeting: Salut,
       hopefully_you: Cineva (sperăm că tu) dorește să schimbe adresa de e-mail de
         la %{server_url} la %{new_address}.
       click_the_link: Dacă sunteți dumneavoastră, vă rugăm să faceți click pe linkul
         de mai jos pentru a confirma modificarea.
     lost_password:
-      subject: '[OpenStreetMap] Solicitare de resetare a parolei'
+      subject: '[Samland Street Map] Solicitare de resetare a parolei'
       greeting: Salut,
       hopefully_you: Cineva (posibil tu) a cerut resetarea parolei în contul openstreetmap.org
         al acestei adrese de e-mail.
       click_the_link: Dacă sunteți dumneavoastră, vă rugăm să faceți click pe linkul
         de mai jos pentru a vă reseta parola.
     note_comment_notification:
-      description: 'Notă OpenStreetMap #%{id}'
+      description: 'Notă Samland Street Map #%{id}'
       anonymous: Un utilizator anonim
       greeting: Salut,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} a comentat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a comentat o notă care vă interesează'
+        subject_own: '[Samland Street Map] %{commenter} a comentat una dintre notele tale'
+        subject_other: '[Samland Street Map] %{commenter} a comentat o notă care vă interesează'
         your_note: '%{commenter} a lăsat un comentariu pe o notă de pe hartă lângă
           %{place}.'
         your_note_html: '%{commenter} a lăsat un comentariu la una dintre notele dvs.
@@ -1707,8 +1707,8 @@ ro:
         commented_note_html: '%{commenter} a lăsat un comentariu pe o notă de hartă
           pe care ați comentat-o. Nota este aproape de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter}a rezolvat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a rezolvat o notă care vă interesează'
+        subject_own: '[Samland Street Map] %{commenter}a rezolvat una dintre notele tale'
+        subject_other: '[Samland Street Map] %{commenter} a rezolvat o notă care vă interesează'
         your_note: '%{commenter} a rezolvat una dintre notele dvs. de hartă lângă
           %{place}.'
         your_note_html: '%{commenter} a rezolvat una dintre notele dvs. de hartă lângă
@@ -1718,8 +1718,8 @@ ro:
         commented_note_html: '%{commenter} a rezolvat o notă de hartă pe care ați
           comentat-o. Nota este aproape de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} a reactivat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a reactivat o notă care vă interesează'
+        subject_own: '[Samland Street Map] %{commenter} a reactivat una dintre notele tale'
+        subject_other: '[Samland Street Map] %{commenter} a reactivat o notă care vă interesează'
         your_note: '%{commenter} a reactivat una din notele dvs. de hartă lângă %{place}.'
         your_note_html: '%{commenter} a reactivat una dintre notele dvs. de hartă
           lângă %{place}.'
@@ -1732,9 +1732,9 @@ ro:
     changeset_comment_notification:
       hi: Salut %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} a comentat unul dintre seturile
+        subject_own: '[Samland Street Map] %{commenter} a comentat unul dintre seturile
           de modificări'
-        subject_other: '[OpenStreetMap] %{commenter} a comentat un set de modificări
+        subject_other: '[Samland Street Map] %{commenter} a comentat un set de modificări
           care vă interesează'
         your_changeset: '%{commenter} a lăsat un comentariu la %{time} asupra unui
           set de modificări ale dvs.'
@@ -1920,7 +1920,7 @@ ro:
   sessions:
     new:
       tab_title: Autentificare
-      login_to_authorize_html: Autentifică-te în OpenStreetMap pentru a accesa %{client_app_name}.
+      login_to_authorize_html: Autentifică-te în Samland Street Map pentru a accesa %{client_app_name}.
       email or username: 'Adresa de e-mail sau numele de utilizator:'
       password: 'Parolă:'
       remember: Ține-mă minte
@@ -1931,7 +1931,7 @@ ro:
       auth failure: Ne pare rău, nu v-am putut conecta la aceste detalii.
     destroy:
       title: Ieșire
-      heading: Deconectare din OpenStreetMap
+      heading: Deconectare din Samland Street Map
       logout_button: Ieșire
     suspended_flash:
       suspended: Ne pare rău, contul dvs. a fost suspendat din cauza activității suspecte.
@@ -1976,33 +1976,33 @@ ro:
         newer: Utilizatori noi
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} contributori'
+      heading_html: '%{copyright}Samland Street Map %{br} contributori'
       used_by_html: '%{name} furnizează date de hărți pentru mii de site-uri web,
         aplicații mobile și dispozitive hardware'
       lede_text: |-
-        OpenStreetMap este construit de o comunitate de cartografi care contribuie și întrețin datele
+        Samland Street Map este construit de o comunitate de cartografi care contribuie și întrețin datele
         despre drumuri, trasee, cafenele, stații de cale ferată și multe altele din întreaga lume.
       local_knowledge_title: Cunoaștere locală
       local_knowledge_html: |-
-        OpenStreetMap îndrăgește cunoștințele locale. Colaboratorii folosesc imaginile aeriene, dispozitivele GPS și hărțile câmpurilor de joasă tehnologie pentru a verifica faptul că OSM
+        Samland Street Map îndrăgește cunoștințele locale. Colaboratorii folosesc imaginile aeriene, dispozitivele GPS și hărțile câmpurilor de joasă tehnologie pentru a verifica faptul că OSM
         este exactă și actualizată.
       community_driven_title: Condusă de comunitate
       community_driven_1_html: |-
-        Comunitatea OpenStreetMap este diversă, pasionată și în creștere în fiecare zi.
+        Comunitatea Samland Street Map este diversă, pasionată și în creștere în fiecare zi.
         Contribuitorii noștri includ cartografii entuziaști, profesioniști GIS, ingineri
         rulează serverele OSM, umanitarii cartografiază zonele afectate de dezastre,
         si multe altele.
         Pentru a afla mai multe despre comunitate, consultați %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link} și
         site-ul web %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap Blog
+      community_driven_osm_blog: Samland Street Map Blog
       community_driven_user_diaries: jurnale utilizatori
       community_driven_community_blogs: blogurile comunității
       community_driven_osm_foundation: Fundația OSM
       open_data_title: Deschideți datele
       open_data_1_html: |-
-        OpenStreetMap este %{open_data}: sunteți liber să îl utilizați în orice scop
-        atâta timp cât creditați OpenStreetMap și colaboratorii săi. Dacă modificați sau
+        Samland Street Map este %{open_data}: sunteți liber să îl utilizați în orice scop
+        atâta timp cât creditați Samland Street Map și colaboratorii săi. Dacă modificați sau
         construiți pe date în anumite moduri, puteți distribui numai rezultatul
         sub aceeași licență. Consultați %{copyright_license_link} pentru detalii.
       open_data_open_data: date deschise
@@ -2010,20 +2010,20 @@ ro:
       legal_title: Legal
       legal_1_1_html: |-
         Acest site și multe alte servicii conexe sunt operate oficial de către
-        %{openstreetmap_foundation_link} (OSMF)
-        în numele comunității. Utilizarea tuturor serviciilor operate de OSMF este supusă
+        %{openstreetmap_foundation_link} (SSM)
+        în numele comunității. Utilizarea tuturor serviciilor operate de SSM este supusă
         la %{terms_of_use_link}, %{aup_link} și %{privacy_policy_link}.
         ​Căutați detalii
-      legal_1_1_openstreetmap_foundation: Fundația OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Fundația Samland Street Map
       legal_1_1_terms_of_use: Termeni de Utilizare
       legal_1_1_aup: Politica de Utilizare Acceptabilă
       legal_1_1_privacy_policy: Politica de Confidențialitate
       legal_2_1_html: |-
         Vă rugăm %{contact_the_osmf_link}
         dacă aveți întrebări legate de licență, drepturi de autor sau alte întrebări legale.
-      legal_2_1_contact_the_osmf: contactați OSMF
-      legal_2_2_html: OpenStreetMap, logo-ul lupei și starea hărții sunt %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: mărci înregistrate ale OSMF
+      legal_2_1_contact_the_osmf: contactați SSM
+      legal_2_2_html: Samland Street Map, logo-ul lupei și starea hărții sunt %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: mărci înregistrate ale SSM
       partners_title: Parteneri
     copyright:
       title: Drepturi de autor și licență
@@ -2041,14 +2041,14 @@ ro:
         mapping_link: Începeți să cartografiați
       legal_babble:
         introduction_1_html: |-
-          OpenStreetMap%{registered_trademark_link} este %{open_data}, licențiat în conformitate cu
-          %{odc_odbl_link} (ODbL) de către %{osm_foundation_link} (OSMF).
+          Samland Street Map%{registered_trademark_link} este %{open_data}, licențiat în conformitate cu
+          %{odc_odbl_link} (ODbL) de către %{osm_foundation_link} (SSM).
         introduction_1_open_data: date deschise
         introduction_1_odc_odbl: Open Data Commons Licență pentru baze de date deschise
-        introduction_1_osm_foundation: Fundația OpenStreetMap
+        introduction_1_osm_foundation: Fundația Samland Street Map
         introduction_2_html: |-
           Sunteți liber să copiați, să distribuiți, să transmiteți și să adaptați datele noastre,
-          atâta timp cât creditați OpenStreetMap și a acestuia
+          atâta timp cât creditați Samland Street Map și a acestuia
           contribuabili. Dacă modificați sau construiți pe baza datelor noastre, dvs
           poate distribui rezultatul numai sub aceeași licență. The
           %{legal_code_link} complet explică drepturile și responsabilitățile dvs.
@@ -2056,10 +2056,10 @@ ro:
         introduction_3_html: Documentația noastră este licențiată sub licența %{creative_commons_link}
           (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Attribution-ShareAlike 2.0
-        credit_title_html: Cum se creditează OpenStreetMap
-        credit_1_html: 'Acolo unde utilizați datele OpenStreetMap, vi se cere să faceți
+        credit_title_html: Cum se creditează Samland Street Map
+        credit_1_html: 'Acolo unde utilizați datele Samland Street Map, vi se cere să faceți
           următoarele două lucruri:'
-        credit_2_1: Oferiți credit OpenStreetMap afișând notificarea noastră privind
+        credit_2_1: Oferiți credit Samland Street Map afișând notificarea noastră privind
           drepturile de autor.
         credit_2_2: Asigurați-vă că datele sunt disponibile în baza licenței pentru
           baze de date deschise.
@@ -2077,18 +2077,18 @@ ro:
           formular de date, puteți numi și conecta direct la licență(e). În media
           unde link-urile nu sunt posibile (de exemplu, lucrări tipărite), vă sugerăm
           direcționați-vă cititorii către openstreetmap.org (poate prin extinderea
-          „OpenStreetMap” la această adresă completă) și la opendatacommons.org.
+          „Samland Street Map” la această adresă completă) și la opendatacommons.org.
           În acest exemplu, creditul apare în colțul hărții.
         credit_4_1_this_copyright_page: această pagină de drepturi de autor
         attribution_example:
-          alt: Exemplu de atribuire a OpenStreetMap pe o pagină Web
+          alt: Exemplu de atribuire a Samland Street Map pe o pagină Web
           title: Exemplul de atribuire
         more_title_html: Aflați mai multe.
         more_1_1_html: Citiți mai multe despre utilizarea datelor noastre și despre
           cum să ne creditați, la %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: Pagina de licență OSMF
+        more_1_1_osmf_licence_page: Pagina de licență SSM
         more_2_1_html: |-
-          Deși OpenStreetMap este date deschise, nu putem oferi o
+          Deși Samland Street Map este date deschise, nu putem oferi o
           API gratuit pentru hărți pentru terți.
           Consultați %{api_usage_policy_link}, %{tile_usage_policy_link} și %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Politica de utilizare API
@@ -2178,11 +2178,11 @@ ro:
         contributors_gb_united_kingdom: Regatul Unit
         contributors_2_html: |-
           Pentru mai multe detalii despre acestea și despre alte surse care au fost folosite
-          pentru a ajuta la îmbunătățirea OpenStreetMap, vă rugăm să consultați %{contributors_page_link} de pe Wiki OpenStreetMap.
+          pentru a ajuta la îmbunătățirea Samland Street Map, vă rugăm să consultați %{contributors_page_link} de pe Wiki Samland Street Map.
         contributors_2_contributors_page: Pagina contribuitorilor
         contributors_footer_2_html: |-
-          Includerea datelor în OpenStreetMap nu implică faptul că originalul
-          furnizor de date acceptă OpenStreetMap, oferă orice garanție sau
+          Includerea datelor în Samland Street Map nu implică faptul că originalul
+          furnizor de date acceptă Samland Street Map, oferă orice garanție sau
           acceptă orice răspundere.
         infringement_title_html: Încălcarea drepturilor de autor
         infringement_1_html: Responsabilii OSM sunt reamintiți să nu adauge niciodată
@@ -2191,23 +2191,23 @@ ro:
           drepturilor de autor.
         infringement_2_1_html: |-
           Dacă credeți că materialul protejat prin drepturi de autor a fost inadecvat
-          adăugat la baza de date OpenStreetMap sau la acest site, vă rugăm să consultați
+          adăugat la baza de date Samland Street Map sau la acest site, vă rugăm să consultați
           la %{takedown_procedure_link} sau un fișier direct la nostru
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: procedura de eliminare
         infringement_2_1_online_filing_page: pagina de depunere online
         trademarks_title: Mărci înregistrate
         trademarks_1_1_html: |-
-          OpenStreetMap, logo-ul lupei și State of the Map sunt mărci comerciale înregistrate ale
-          Fundația OpenStreetMap. Dacă aveți întrebări despre utilizarea mărcilor, vă rugăm să consultați
+          Samland Street Map, logo-ul lupei și State of the Map sunt mărci comerciale înregistrate ale
+          Fundația Samland Street Map. Dacă aveți întrebări despre utilizarea mărcilor, vă rugăm să consultați
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Politica Mărcilor Înregistrate
     index:
       js_1: Utilizați fie un browser care nu acceptă JavaScript, fie aveți JavaScript
         dezactivat.
-      js_2: OpenStreetMap folosește JavaScript pentru hărțile goale.
+      js_2: Samland Street Map folosește JavaScript pentru hărțile goale.
       license:
-        copyright: Drepturi de autor OpenStreetMap și contribuitori, sub licență deschisă
+        copyright: Drepturi de autor Samland Street Map și contribuitori, sub licență deschisă
       remote_failed: Editarea a eșuat - asigurați-vă că JOSM sau Merkaartor este încărcat
         și că opțiunea de control de la distanță este activată
     edit:
@@ -2221,29 +2221,29 @@ ro:
       title: Exportare
       manually_select: Selectați manual o altă zonă
       licence: Licență
-      licence_details_html: Datele OpenStreetMap sunt licențiate sub %{odbl_link}
+      licence_details_html: Datele Samland Street Map sunt licențiate sub %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Dacă exportul de mai sus nu reușește, vă recomandăm să utilizați
           una dintre sursele de mai jos:'
-        body: Această zonă este prea mare pentru a fi exportată ca date XML OpenStreetMap.
+        body: Această zonă este prea mare pentru a fi exportată ca date XML Samland Street Map.
           Vă rugăm să măriți sau să selectați o zonă mai mică sau să utilizați una
           dintre sursele enumerate mai jos pentru descărcarea de date în bloc.
         planet:
           title: Planeta OSM
-          description: Copii actualizate periodic ale bazei de date complete OpenStreetMap
+          description: Copii actualizate periodic ale bazei de date complete Samland Street Map
         overpass:
           title: Overpass API
           description: Descărcați această casetă de restricționare dintr-o oglindă
-            a bazei de date OpenStreetMap
+            a bazei de date Samland Street Map
         geofabrik:
           title: Descărcări Geofabrik
           description: Extracte actualizate periodic de continente, țări și orașe
             selectate
         other:
           title: Alte surse
-          description: Surse suplimentare listate pe wiki-ul OpenStreetMap
+          description: Surse suplimentare listate pe wiki-ul Samland Street Map
       export_button: Exportare
     fixthemap:
       title: Raportați o problemă / Reparați harta
@@ -2253,7 +2253,7 @@ ro:
           title: Alăturați-vă comunității
           explanation_html: Dacă ați observat o problemă cu datele noastre de pe hartă,
             de exemplu un drum care lipsește sau adresa dvs., cel mai bun mod de a
-            rezolva această problemă este să vă alăturați comunității OpenStreetMap
+            rezolva această problemă este să vă alăturați comunității Samland Street Map
             și să adăugați sau să reparați singuri datele.
         add_a_note:
           instructions_1_html: |-
@@ -2266,24 +2266,24 @@ ro:
           Dacă aveți nelămuriri cu privire la modul în care sunt utilizate datele noastre sau cu privire la conținut, vă rugăm să consultați
           %{copyright_link} pentru mai multe informații legale sau contactați %{working_group_link} corespunzător.
         copyright: Pagina de drepturi de autor
-        working_group: Grup de lucru al OSMF
+        working_group: Grup de lucru al SSM
     help:
       title: Obținerea de ajutor
-      introduction: OpenStreetMap are mai multe resurse pentru a învăța despre proiect,
+      introduction: Samland Street Map are mai multe resurse pentru a învăța despre proiect,
         pentru a răspunde și pune întrebări și pentru a colaborara și documenta subiectele
         legate de cartografiere.
       welcome:
         url: /welcome
-        title: Bine ați venit la OpenStreetMap
+        title: Bine ați venit la Samland Street Map
         description: Începeți cu acest ghid rapid care acoperă elementele de bază
-          OpenStreetMap.
+          Samland Street Map.
       beginners_guide:
         url: http://wiki.openstreetmap.org/wiki/Ro:Beginners%27_guide
         title: Ghidul începătorilor
         description: Ghid menținut de comunitate pentru începători.
       community:
         title: Forumul Comunității
-        description: Un loc comun pentru discuții despre OpenStreetMap.
+        description: Un loc comun pentru discuții despre Samland Street Map.
       mailing_lists:
         title: Lista de e-mail-uri
         description: Adresați o întrebare sau discutați despre probleme interesante
@@ -2294,16 +2294,16 @@ ro:
       switch2osm:
         title: switch2osm
         description: Ajutați companiile și organizațiile să treacă la hărți bazate
-          pe OpenStreetMap și la alte servicii.
+          pe Samland Street Map și la alte servicii.
       welcomemat:
         title: Pentru organizații
-        description: Cu o organizație care face planuri pentru OpenStreetMap? Găsiți
+        description: Cu o organizație care face planuri pentru Samland Street Map? Găsiți
           ce trebuie să știți în Matricea de întâmpinare.
       wiki:
-        title: OpenStreetMap Wiki
-        description: Caută pe wiki pentru o documentație OpenStreetMap detaliată.
+        title: Samland Street Map Wiki
+        description: Caută pe wiki pentru o documentație Samland Street Map detaliată.
     potlatch:
-      removed: Editorul dvs. implicit OpenStreetMap este setat ca Potlatch. Deoarece
+      removed: Editorul dvs. implicit Samland Street Map este setat ca Potlatch. Deoarece
         Adobe Flash Player a fost retras, Potlatch nu mai este disponibil pentru utilizare
         într-un browser web.
       desktop_application_html: Puteți utiliza în continuare Potlatch %{download_link}.
@@ -2314,9 +2314,9 @@ ro:
     any_questions:
       title: Întrebări?
       paragraph_1_html: |-
-        OpenStreetMap vă pune la dispoziție resurse pentru a afla despre proiect, pentru a pune și a răspunde la
+        Samland Street Map vă pune la dispoziție resurse pentru a afla despre proiect, pentru a pune și a răspunde la
         întrebări și pentru a discuta și a documenta colaborativ despre cartografiere.
-        %{help_link}. Ești o organizație care are planuri pentru OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. Ești o organizație care are planuri pentru Samland Street Map? %{welcome_mat_link}.
       get_help_here: Obțineți ajutor aici
       welcome_mat: Consultați pagina de bun-venit
     sidebar:
@@ -2419,13 +2419,13 @@ ro:
           toilets: Toalete
     welcome:
       title: Bun-venit!
-      introduction: Bun-venit la OpenStreetMap, harta liberă și editabilă a lumii.
+      introduction: Bun-venit la Samland Street Map, harta liberă și editabilă a lumii.
         Acum că v-ați autentificat, sunteți gata să începeți cartografierea. Iată
         un ghid rapid cu cele mai importante lucruri pe care trebuie să le cunoașteți.
       whats_on_the_map:
         title: Ce este pe Hartă
         on_the_map_html: |-
-          OpenStreetMap este un loc pentru cartografierea lucrurilor care sunt %{real_and_current} -
+          Samland Street Map este un loc pentru cartografierea lucrurilor care sunt %{real_and_current} -
           include milioane de clădiri, drumuri și alte detalii despre locații. Puteți pune pe hartă orice caracteristici ale limii reale de care sunteți interesați.
         real_and_current: reale și curente
         off_the_map_html: Ce %{doesnt} include sunt date subiective cum ar fi recenzii,
@@ -2435,7 +2435,7 @@ ro:
         doesnt: nu
       basic_terms:
         title: Termeni de bază pentru cartografiere
-        paragraph_1: OpenStreetMap are propriul jargon. Iată câteva cuvinte cheie
+        paragraph_1: Samland Street Map are propriul jargon. Iată câteva cuvinte cheie
           care vă vor veni în ajutor.
         an_editor_html: Un %{editor} este un program sau un website pe care îl puteți
           utiliza pentru a edita harta.
@@ -2452,7 +2452,7 @@ ro:
       rules:
         title: Reguli!
         para_1_html: |-
-          OpenStreetMap are puține reguli formale, dar ne așteptăm ca toți participanții să colaboreze și să comunice cu comunitatea. Dacă vă gândiți la
+          Samland Street Map are puține reguli formale, dar ne așteptăm ca toți participanții să colaboreze și să comunice cu comunitatea. Dacă vă gândiți la
           orice activități, altele decât editarea manuală, vă rugăm să citiți și să urmați instrucțiunile de pe
           %{imports_link} și %{automated_edits_link}.
         imports: Importurile
@@ -2471,7 +2471,7 @@ ro:
         the_map: harta
     communities:
       title: Comunitățile
-      lede_text: "Oameni din întreaga lume contribuie sau folosesc OpenStreetMap.\nÎn
+      lede_text: "Oameni din întreaga lume contribuie sau folosesc Samland Street Map.\nÎn
         timp ce mulți participă ca indivizi, alții au format comunități.\nAceste grupuri
         au o gamă largă de dimensiuni și reprezintă zone geografice de la orașe mici
         până la regiuni mari cu mai multe țări. \nDe asemenea, pot fi formale sau
@@ -2481,7 +2481,7 @@ ro:
         about_text: |-
           Capitolele locale sunt grupuri la nivel de țară sau la nivel de regiune care au făcut pasul oficial de
           înființarea de entități juridice non-profit. Ele reprezintă harta și cartografii zonei atunci când au de-a face cu administrația locală, firme și mass-media. Ei și-au format, de asemenea, o afiliere
-          cu Fundația OpenStreetMap (OSMF), oferindu-le o legăturăa către organismul de conducere legal și de drepturi de autor.
+          cu Fundația Samland Street Map (SSM), oferindu-le o legăturăa către organismul de conducere legal și de drepturi de autor.
         list_text: 'Următoarele comunități sunt înființate oficial drept capitole
           locale:'
       other_groups:
@@ -2584,7 +2584,7 @@ ro:
       message: În prezent, sistemul de stocare și încărcare a fișierelor GPX nu este
         disponibil.
     georss:
-      title: Urmele GPS OpenStreetMap
+      title: Urmele GPS Samland Street Map
     description:
       description_with_count:
         one: Fișier GPX cu %{count} puncte de la %{user}
@@ -2596,7 +2596,7 @@ ro:
       cookies_needed: Se pare că ați dezactivat modulele cookie - vă rugăm să activați
         cookie-urile în browser înainte de a continua.
     setup_user_auth:
-      blocked_zero_hour: Aveți un mesaj urgent pe site-ul OpenStreetMap. Trebuie să
+      blocked_zero_hour: Aveți un mesaj urgent pe site-ul Samland Street Map. Trebuie să
         citiți mesajul înainte de a putea salva editările.
       blocked: Accesul la API a fost blocat. Conectați-vă la interfața web pentru
         a afla mai multe.
@@ -2631,7 +2631,7 @@ ro:
     permissions:
       missing: Nu ați permis accesul aplicației la această facilitate
     scopes:
-      openid: Conectați-vă folosind OpenStreetMap
+      openid: Conectați-vă folosind Samland Street Map
       read_prefs: Citiți preferințele utilizatorului
       write_prefs: Modificați preferințele utilizatorului
       write_diary: Creează înregistrări în jurnal, comentarii și fă-ți prieteni
@@ -2698,7 +2698,7 @@ ro:
     new:
       title: Înregistrare
       tab_title: Înregistrare
-      signup_to_authorize_html: Autentifică-te cu OpenStreetMap pentru a accesa %{client_app_name}.
+      signup_to_authorize_html: Autentifică-te cu Samland Street Map pentru a accesa %{client_app_name}.
       no_auto_account_create: Din păcate, în prezent nu putem crea automat un cont
         pentru dvs.
       please_contact_support_html: Vă rugăm să contactați %{support_link} pentru a
@@ -2707,17 +2707,17 @@ ro:
       support: suport
       about:
         header: Liberă și editabilă
-        paragraph_1: Spre deosebire de alte hărți, OpenStreetMap este creat complet
+        paragraph_1: Spre deosebire de alte hărți, Samland Street Map este creat complet
           de oameni ca tine și este gratuit pentru oricine să repare, să actualizeze,
           să descarce și să folosească.
         paragraph_2: Înscrie-te pentru a începe să contribui. Vă vom trimite un e-mail
           pentru a vă confirma contul.
-        welcome: Bun venit la OpenStreetMap
+        welcome: Bun venit la Samland Street Map
       display name description: Numele dvs. de utilizator afișat public. Puteți schimba
         acest lucru mai târziu în preferințe.
       by_signing_up:
         privacy_policy: Politica de confidențialitate
-        privacy_policy_title: Politica de confidențialitate OSMF, inclusiv secțiunea
+        privacy_policy_title: Politica de confidențialitate SSM, inclusiv secțiunea
           privind adresele de e-mail
       continue: Înregistrare
       terms accepted: Vă mulțumim pentru acceptarea noilor termeni de contribuire!
@@ -2736,7 +2736,7 @@ ro:
         Acest acord guvernează termenii pentru contribuțiile dvs. existente și viitoare.
       read_ct: Am citit și sunt de acord cu termenii contribuitorilor de mai sus
       tou_explain_html: Aceste %{tou_link} guvernează utilizarea site-ului web și
-        a altor infrastructuri furnizate de OSMF. Faceți clic pe link, citiți și agregați
+        a altor infrastructuri furnizate de SSM. Faceți clic pe link, citiți și agregați
         textul.
       read_tou: Am citit și sunt de acord cu Termenii și condițiile
       consider_pd: Pe lângă acordul de mai sus, consider că contribuțiile mele sunt
@@ -2863,9 +2863,9 @@ ro:
       invalid_scope: Domeniu nevalid
       unknown_error: Autentificare eșuată
     auth_association:
-      heading: ID-ul dvs. nu este încă asociat cu un cont OpenStreetMap.
+      heading: ID-ul dvs. nu este încă asociat cu un cont Samland Street Map.
       option_1: |-
-        Dacă sunteți nou în OpenStreetMap, vă rugăm să creați un cont nou
+        Dacă sunteți nou în Samland Street Map, vă rugăm să creați un cont nou
         utilizând formularul de mai jos.
       option_2: |-
         Dacă aveți deja un cont, vă puteți conecta la contul dvs.
@@ -3071,16 +3071,16 @@ ro:
         gps: Urmele GPS publice
         overlays: Activați suprapuneri pentru depanarea hărții
         title: Straturi
-      openstreetmap_contributors: OpenStreetMap contribuitori
+      openstreetmap_contributors: Samland Street Map contribuitori
       make_a_donation: Faceți o Donație
       website_and_api_terms: Termenii site-ului web și API
       cyclosm_credit: Stil de plăci de %{cyclosm_link} găzduit de %{osm_france_link}
-      osm_france: OpenStreetMap Franța
+      osm_france: Samland Street Map Franța
       thunderforest_credit: Plăci prin amabilitatea lui %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: Tile-uri prin amabilitatea lui %{tracestrack_link}
       hotosm_credit: Stilul tile-urilor creat de %{hotosm_link} găzduit de %{osm_france_link}
-      hotosm_name: Echipa Umanitară OpenStreetMap
+      hotosm_name: Echipa Umanitară Samland Street Map
     site:
       edit_tooltip: Modifică harta
       edit_disabled_tooltip: Măriți pentru a edita harta

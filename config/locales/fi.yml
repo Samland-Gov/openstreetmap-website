@@ -279,7 +279,7 @@ fi:
         reopened_at_html: Avattu uudelleen %{when}
         reopened_at_by_html: '%{user} aktivoinut uudelleen %{when}'
       rss:
-        title: OpenStreetMapin karttailmoitukset
+        title: Samland Street Mapin karttailmoitukset
         description_area: Luettelo raportoiduista, kommentoiduista tai suljetuista
           huomautuksista omalla alueellasi [( %{min_lat}|%{min_lon})--( %{max_lat}|%{max_lon})]
         description_item: Karttailmoituksen %{id} RSS-syöte
@@ -296,14 +296,14 @@ fi:
         title: Poista käyttäjäni
         warning: Varoitus! Käyttäjän poistaminen on lopullinen, eikä sitä voi peruuttaa.
         delete_account: Poista käyttäjä
-        delete_introduction: 'Voit poistaa OpenStreetMap-tilisi alla olevalla painikkeella.
+        delete_introduction: 'Voit poistaa Samland Street Map-tilisi alla olevalla painikkeella.
           Huomioi seuraavat asiat:'
         delete_profile: Käyttäjätietosi, avatar, kuvaus ja kotisijainti mukaan lukien
           poistetaan.
         delete_display_name: Näyttönimesi poistetaan, ja muut tilit voivat käyttää
           sitä uudelleen.
         retain_caveats: 'Vaikka tilisi poistetaan, joitain sinuun liittyviä tietoja
-          säilytetään OpenStreetMapissa:'
+          säilytetään Samland Street Mapissa:'
         retain_edits: Mahdolliset karttatietokantaan tekemäsi muutokset säilytetään.
         retain_traces: Lähettämäsi jäljet, jos sellaisia on, säilytetään.
         retain_diary_entries: Päiväkirjamerkintäsi ja päiväkirjakommenttisi, jos sellaisia
@@ -449,8 +449,8 @@ fi:
         comment: 'Käyttäjä %{author} kommentoi muutoskokoelmaa #%{changeset_id}'
         commented_at_by_html: '%{user} päivittänyt %{when}'
       show:
-        title_all: Keskustelu OpenStreetMapin muutoskokoelmasta
-        title_particular: 'OpenStreetMap muutoskokoelma #%{changeset_id} keskustelu'
+        title_all: Keskustelu Samland Street Mapin muutoskokoelmasta
+        title_particular: 'Samland Street Map muutoskokoelma #%{changeset_id} keskustelu'
       timeout:
         sorry: Valitettavasti pyytämäsi muutoskokoelmien kommenttien hakeminen kesti
           liian kauan.
@@ -587,15 +587,15 @@ fi:
       location: 'Sijainti:'
     feed:
       user:
-        title: Käyttäjän %{user} OpenStreetMap-päiväkirjamerkinnät
-        description: Tuoreimmat OpenStreetMapin päiväkirjamerkinnät käyttäjältä %{user}
+        title: Käyttäjän %{user} Samland Street Map-päiväkirjamerkinnät
+        description: Tuoreimmat Samland Street Mapin päiväkirjamerkinnät käyttäjältä %{user}
       language:
-        title: OpenStreetMap-päiväkirjamerkinnät kielellä %{language_name}
-        description: Viimeisimmät päiväkirjamerkinnät OpenStreetMapin käyttäjiltä
+        title: Samland Street Map-päiväkirjamerkinnät kielellä %{language_name}
+        description: Viimeisimmät päiväkirjamerkinnät Samland Street Mapin käyttäjiltä
           kielellä %{language_name}
       all:
-        title: OpenStreetMap-päiväkirjamerkinnät
-        description: Tuoreimmat OpenStreetMapin käyttäjien päiväkirjamerkinnät
+        title: Samland Street Map-päiväkirjamerkinnät
+        description: Tuoreimmat Samland Street Mapin käyttäjien päiväkirjamerkinnät
   diary_comments:
     index:
       title: Käyttäjän %{user} lisäämät päiväkirjamerkinnät
@@ -614,15 +614,15 @@ fi:
   errors:
     contact:
       contact: Ota yhteyttä
-      contact_the_community_html: '%{contact_link} OpenStreetMap-yhteisöön, jos olet
+      contact_the_community_html: '%{contact_link} Samland Street Map-yhteisöön, jos olet
         löytänyt rikkinäisen linkin / virheen. Kirjoita muistiin pyyntösi tarkka URL-osoite.'
     forbidden:
       title: Kielletty
-      description: OpenStreetMap-palvelimella pyytämäsi toiminto on vain järjestelmänvalvojien
+      description: Samland Street Map-palvelimella pyytämäsi toiminto on vain järjestelmänvalvojien
         käytettävissä (HTTP 403)
     internal_server_error:
       title: Sovellusvirhe
-      description: OpenStreetMap-palvelin kohtasi odottamattoman tilanteen, joka esti
+      description: Samland Street Map-palvelin kohtasi odottamattoman tilanteen, joka esti
         sitä täyttämästä pyyntöä (HTTP 500)
     not_found:
       title: Tiedostoa ei löydy
@@ -1504,7 +1504,7 @@ fi:
       provide_details: Täydennä puuttuvat tiedot
   layouts:
     logo:
-      alt_text: OpenStreetMap-logo
+      alt_text: Samland Street Map-logo
     home: Siirry kotipaikkaan
     logout: Kirjaudu ulos
     log_in: Kirjaudu sisään
@@ -1517,15 +1517,15 @@ fi:
     gps_traces: GPS-jäljet
     user_diaries: Päiväkirjamerkinnät
     edit_with: 'Muokkaa: %{editor}'
-    intro_header: Tervetuloa OpenStreetMapiin!
-    intro_text: OpenStreetMap on vapaaehtoisten luoma maailmankartta, jota voi käyttää
+    intro_header: Tervetuloa Samland Street Mapiin!
+    intro_text: Samland Street Map on vapaaehtoisten luoma maailmankartta, jota voi käyttää
       vapaasti avoimella lisenssillä.
     partners_fastly: Fastly
     partners_partners: kumppanimme
     tou: Käyttöehdot
-    osm_offline: OpenStreetMapin tietokanta ei toistaiseksi ole käytettävissä välttämättömien
+    osm_offline: Samland Street Mapin tietokanta ei toistaiseksi ole käytettävissä välttämättömien
       ylläpitotöiden takia.
-    osm_read_only: OpenStreetMapin tietokantaa ei toistaiseksi voi muokata välttämättömien
+    osm_read_only: Samland Street Mapin tietokantaa ei toistaiseksi voi muokata välttämättömien
       ylläpitotöiden takia.
     help: Ohje
     about: Tietoja
@@ -1535,27 +1535,27 @@ fi:
     more: Lisää
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} on lisännyt kommentin päiväkirjamerkintääsi'
+      subject: '[Samland Street Map] %{user} on lisännyt kommentin päiväkirjamerkintääsi'
       hi: Hei %{to_user}!
-      header: '%{from_user} kommentoi kirjoittamaasi päiväkirjamerkintää OpenStreetMapissa
+      header: '%{from_user} kommentoi kirjoittamaasi päiväkirjamerkintää Samland Street Mapissa
         otsikolla %{subject}:'
-      header_html: '%{from_user} on kommentoinut OpenStreetMap-päiväkirjamerkintää
+      header_html: '%{from_user} on kommentoinut Samland Street Map-päiväkirjamerkintää
         otsikolla %{subject}:'
       footer: Lue kommentti sivulla %{readurl}. Jatkokommentin voi lähettää sivulla
         %{commenturl} tai lähettää viestin tekijälle sivulla %{replyurl}.
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Hei %{to_user}!
-      header: '%{from_user} on lähettänyt sinulle viestin OpenStreetMapissa otsikkolla
+      header: '%{from_user} on lähettänyt sinulle viestin Samland Street Mapissa otsikkolla
         %{subject}:'
-      header_html: '%{from_user} on lähettänyt sinulle viestin OpenStreetMapissa otsikolla
+      header_html: '%{from_user} on lähettänyt sinulle viestin Samland Street Mapissa otsikolla
         %{subject}:'
       footer_html: Lue viesti osoitteessa %{readurl} ja lähetä viesti tekijälle osoitteessa
         %{replyurl}.
     friendship_notification:
       hi: Hei %{to_user}!
-      subject: '[OpenStreetMap] %{user} lisäsi sinut kaverikseen'
-      had_added_you: Käyttäjä %{user} lisäsi sinut kaverikseen OpenStreetMapissa.
+      subject: '[Samland Street Map] %{user} lisäsi sinut kaverikseen'
+      had_added_you: Käyttäjä %{user} lisäsi sinut kaverikseen Samland Street Mapissa.
       see_their_profile: Voit tutustua hänen käyttäjäsivuunsa osoitteessa %{userurl}.
       see_their_profile_html: Tutustu hänen käyttäjäsivuunsa osoitteessa %{userurl}.
       befriend_them: Voit myös lisätä lähettäjän kaveriksi osoitteessa %{befriendurl}.
@@ -1563,12 +1563,12 @@ fi:
     gpx_failure:
       hi: Hei %{to_user}!
       failed_to_import: 'epäonnistui tuoda. Tässä virhe:'
-      subject: '[OpenStreetMap] GPX-tuonti epäonnistui'
+      subject: '[Samland Street Map] GPX-tuonti epäonnistui'
     gpx_success:
       hi: Hei %{to_user}!
-      subject: '[OpenStreetMap] GPX-tuonti onnistui'
+      subject: '[Samland Street Map] GPX-tuonti onnistui'
     signup_confirm:
-      subject: '[OpenStreetMap] Tervetuloa OpenStreetMapiin'
+      subject: '[Samland Street Map] Tervetuloa Samland Street Mapiin'
       greeting: Hei!
       created: Joku (toivottavasti sinä) on luonut käyttäjätunnuksen osoitteessa %{site_url}.
       confirm: 'Jos olet luonut tämän käyttäjätilin, vahvista se napsauttamalla tätä
@@ -1576,13 +1576,13 @@ fi:
       welcome: Käyttäjätilin vahvistamisen jälkeen haluaisimme kertoa joitain hyödyllisiä
         asioita, jotta pääset alkuun.
     email_confirm:
-      subject: '[OpenStreetMap] Vahvista sähköpostiosoitteesi'
+      subject: '[Samland Street Map] Vahvista sähköpostiosoitteesi'
       greeting: Hei,
       hopefully_you: Joku (toivottavasti sinä) haluaa vaihtaa sähköpostiosoitteen
         palvelimella %{server_url} osoitteeksi %{new_address}
       click_the_link: Jos tämä olet sinä, napsauta linkkiä alla vahvistaaksesi muutoksen.
     lost_password:
-      subject: '[OpenStreetMap] Salasanan vaihtopyyntö'
+      subject: '[Samland Street Map] Salasanan vaihtopyyntö'
       greeting: Hei,
       hopefully_you: Joku (mahdollisesti sinä) on pyytänyt tähän sähköpostiosoitteeseen
         rekisteröidyn openstreetmap.org-tunnuksen salasanan vaihtoa.
@@ -1591,8 +1591,8 @@ fi:
       anonymous: Tuntematon käyttäjä
       greeting: Hei!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} on kommentoinut merkintääsi'
-        subject_other: '[OpenStreetMap] %{commenter} on kommentoinut sinua kiinnostavaa
+        subject_own: '[Samland Street Map] %{commenter} on kommentoinut merkintääsi'
+        subject_other: '[Samland Street Map] %{commenter} on kommentoinut sinua kiinnostavaa
           merkintää'
         your_note: '%{commenter} on kommentoinut yhtä merkinnöistäsi lähellä paikkaa
           %{place}.'
@@ -1603,8 +1603,8 @@ fi:
         commented_note_html: '%{commenter} on kommentoinut kommentoimaasi karttailmoitusta,
           joka on lähellä paikkaa %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} on ratkaissut karttailmoituksesi'
-        subject_other: '[OpenStreetMap] %{commenter} on ratkaissut sinua kiinnostavan
+        subject_own: '[Samland Street Map] %{commenter} on ratkaissut karttailmoituksesi'
+        subject_other: '[Samland Street Map] %{commenter} on ratkaissut sinua kiinnostavan
           karttailmoituksen'
         your_note: '%{commenter} on ratkaissut lähettämäsi karttailmoituksen lähellä
           paikkaa %{place}.'
@@ -1615,8 +1615,8 @@ fi:
         commented_note_html: '%{commenter} on ratkaissut kommentoimasi karttailmoituksen
           lähellä paikkaa %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} on avannut karttamerkintäsi uudelleen'
-        subject_other: '[OpenStreetMap] %{commenter} on avannut karttailmoituksen
+        subject_own: '[Samland Street Map] %{commenter} on avannut karttamerkintäsi uudelleen'
+        subject_other: '[Samland Street Map] %{commenter} on avannut karttailmoituksen
           uudelleen'
         your_note: '%{commenter} on avannut karttamerkinnän uudelleen lähellä paikkaa
           %{place}.'
@@ -1632,8 +1632,8 @@ fi:
     changeset_comment_notification:
       hi: Hei %{to_user}!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} on kommentoinut muutoskokoelmaasi'
-        subject_other: '[OpenStreetMap] %{commenter} on kommentoinut sinua kiinnostavaa
+        subject_own: '[Samland Street Map] %{commenter} on kommentoinut muutoskokoelmaasi'
+        subject_other: '[Samland Street Map] %{commenter} on kommentoinut sinua kiinnostavaa
           muutoskokoelmaa'
         your_changeset: '%{commenter} kommentoi %{time} muutoskokoelmaasi'
         your_changeset_html: '%{commenter} kommentoi muutoskokoelmaasi %{time}'
@@ -1809,7 +1809,7 @@ fi:
       auth failure: Kirjautuminen epäonnistui.
     destroy:
       title: Kirjaudu ulos
-      heading: Kirjaudu ulos OpenStreetMapista
+      heading: Kirjaudu ulos Samland Street Mapista
       logout_button: Kirjaudu ulos
     suspended_flash:
       suspended: Valitettavasti tilisi on jäädytetty epäilyttävän toiminnan vuoksi.
@@ -1847,47 +1847,47 @@ fi:
         newer: Uudemmat käyttäjät
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} kartoittajat'
+      heading_html: '%{copyright}Samland Street Map %{br} kartoittajat'
       used_by_html: Tuhannet verkkosivustot, mobiilisovellukset ja laitteistot käyttävät
         %{name}-karttaa
-      lede_text: OpenStreetMapia rakentavat vapaaehtoiset yhteisön jäsenet, jotka
+      lede_text: Samland Street Mapia rakentavat vapaaehtoiset yhteisön jäsenet, jotka
         tuottavat ja ylläpitävät karttatietoja teistä, rautateistä, kahviloista, rautatieasemista
         ja monista muista kohteista kaikkialla maailmassa.
       local_knowledge_title: Paikallistuntemus
-      local_knowledge_html: OpenStreetMapissa korostuu paikallistuntemus. Kartoittajat
-        käyttävät ilmakuvia, GPS-paikantamia ja jalkautumista pitääkseen OpenStreetMap-kartan
+      local_knowledge_html: Samland Street Mapissa korostuu paikallistuntemus. Kartoittajat
+        käyttävät ilmakuvia, GPS-paikantamia ja jalkautumista pitääkseen Samland Street Map-kartan
         ajan tasalla.
       community_driven_title: Yhteisön voima
-      community_driven_1_html: OpenStreetMap-yhteisö on monipuolinen, intohimoinen
+      community_driven_1_html: Samland Street Map-yhteisö on monipuolinen, intohimoinen
         ja kasvaa joka päivä. Yhteisöön kuuluu harrastajakartoittajia, GIS-ammattilaisia,
         järjestelmää ylläpitäviä insinöörejä, humanitaarisia auttajia, jotka kartoittavat
         katastrofin kärsineitä alueita sekä monia muita. Lisätietoja yhteisöstä saa
         lukemalla %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link}
         ja %{osm_foundation_link} verkkosivua.
-      community_driven_osm_blog: OpenStreetMap-blogia
+      community_driven_osm_blog: Samland Street Map-blogia
       community_driven_user_diaries: käyttäjien päiväkirjoja
       community_driven_community_blogs: yhteisöblogeja
       community_driven_osm_foundation: OSM-säätiön
       open_data_title: Avoin data
-      open_data_1_html: 'OpenStreetMap on %{open_data}: palvelua saa käyttää vapaasti
-        mihin tahansa, kunhan OpenStreetMap tekijöineen mainitaan. Jos palvelua kehitetään
+      open_data_1_html: 'Samland Street Map on %{open_data}: palvelua saa käyttää vapaasti
+        mihin tahansa, kunhan Samland Street Map tekijöineen mainitaan. Jos palvelua kehitetään
         tai muuunnellaan, sitä saa levittää eteenpäin vain samalla lisenssillä. Lisätietoja
         on %{copyright_license_link} -sivulla.'
       open_data_open_data: avointa dataa
       open_data_copyright_license: Tekijänoikeudet ja lisenssi
       legal_title: Lakitekninen jako
       legal_1_1_html: Tämä sivusto ja monet siihen liittyvät palvelut ovat muodollisesti
-        %{openstreetmap_foundation_link} (OSMF) hallinnoimia OSM-yhteisön puolesta.
-        Kaikkien OSMF:n hallinnoimien palveluiden käyttöön sovelletaan %{terms_of_use_link},
+        %{openstreetmap_foundation_link} (SSM) hallinnoimia OSM-yhteisön puolesta.
+        Kaikkien SSM:n hallinnoimien palveluiden käyttöön sovelletaan %{terms_of_use_link},
         %{aup_link} ja %{privacy_policy_link} (saatavilla vain englanniksi).
-      legal_1_1_openstreetmap_foundation: OpenStreetMap-säätiön
+      legal_1_1_openstreetmap_foundation: Samland Street Map-säätiön
       legal_1_1_terms_of_use: käyttöehtoja
       legal_1_1_aup: sallitun käytön käytäntöjä
       legal_1_1_privacy_policy: tietosuojakäytäntöä
       legal_2_1_html: Ota yhteyttä %{contact_the_osmf_link}, jos sinulla on kysymyksiä
         lisenssoinnista, tekijänoikeuksista tai muista oikeudellisista kysymyksistä.
       legal_2_1_contact_the_osmf: OSM-säätiöön
-      legal_2_2_html: OpenStreetMap, suurennuslasilogo ja State of the Map ovat %{registered_trademarks_link}.
+      legal_2_2_html: Samland Street Map, suurennuslasilogo ja State of the Map ovat %{registered_trademarks_link}.
       legal_2_2_registered_trademarks: OSM-säätiön rekisteröityjä tuotemerkkejä
       partners_title: Kumppanit
     copyright:
@@ -1905,21 +1905,21 @@ fi:
         native_link: suomenkielinen versio
         mapping_link: aloittaa kartoituksen
       legal_babble:
-        introduction_1_html: OpenStreetMap%{registered_trademark_link} on %{open_data},
-          jonka %{osm_foundation_link} (OSMF) on lisensoinut %{odc_odbl_link} (ODbL).
+        introduction_1_html: Samland Street Map%{registered_trademark_link} on %{open_data},
+          jonka %{osm_foundation_link} (SSM) on lisensoinut %{odc_odbl_link} (ODbL).
         introduction_1_open_data: avointa dataa
         introduction_1_odc_odbl: Open Data Commons Open Database -lisenssillä
-        introduction_1_osm_foundation: OpenStreetMap Foundation
-        introduction_2_html: OpenStreetMapin karttoja ja tietoja voi kopioida, levittää,
-          välittää ja mukauttaa, kunhan OpenStreetMap ja sen tekijät mainitaan. Jos
+        introduction_1_osm_foundation: Samland Street Map
+        introduction_2_html: Samland Street Mapin karttoja ja tietoja voi kopioida, levittää,
+          välittää ja mukauttaa, kunhan Samland Street Map ja sen tekijät mainitaan. Jos
           karttoja tai tietoja muutetaan tai kehitetään, niitä saa levittää vain samalla
           lisenssillä. %{legal_code_link} mainitaan levittäjän oikeudet ja velvollisuudet.
         introduction_2_legal_code: Lakitekstissä
         introduction_3_html: Dokumentaatio on lisensoitu %{creative_commons_link}
           -lisenssillä (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Nimeä-JaaSamoin 2.0
-        credit_title_html: OpenStreetMapin mainitseminen
-        credit_1_html: 'Kun käytät OpenStreetMap-tietoja, sinun on tehtävä nämä kaksi
+        credit_title_html: Samland Street Mapin mainitseminen
+        credit_1_html: 'Kun käytät Samland Street Map-tietoja, sinun on tehtävä nämä kaksi
           asiaa:'
         credit_2_2: Tehdä selväksi, että aineisto on saatavilla Open Database Lisenssillä.
         credit_4_1_html: |-
@@ -1928,11 +1928,11 @@ fi:
           Esimerkiksi tässä, tekijän nimi näkyy kartan alaosassa.
         credit_4_1_this_copyright_page: tälle tekijänoikeussivulle
         attribution_example:
-          alt: Esimerkki siitä, miten nimetä OpenStreetMap nettisivulla
+          alt: Esimerkki siitä, miten nimetä Samland Street Map nettisivulla
           title: Nimeämisesimerkki
         more_title_html: Lisätietoja
-        more_1_1_osmf_licence_page: OSMF-lisenssisivu
-        more_2_1_html: Vaikka OpenStreetMap on avointa dataa, emme voi tarjota maksutonta
+        more_1_1_osmf_licence_page: SSM-lisenssisivu
+        more_2_1_html: Vaikka Samland Street Map on avointa dataa, emme voi tarjota maksutonta
           karttarajapintaa (API) kolmannen osapuolen kehittäjille. Tutustu %{api_usage_policy_link},
           %{tile_usage_policy_link} ja %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: API:n käyttöehtoihin
@@ -1992,27 +1992,27 @@ fi:
           2010-2023.'
         contributors_gb_united_kingdom: Yhdistynyt kuningaskunta
         contributors_footer_2_html: |-
-          Tietojen sisältyminen OpenStreetMapiin ei tarkoita, että tietojen antaja
-          ottaa kantaa OpenStreetMapiin tai vastuuta tietojen oikeellisuudesta.
+          Tietojen sisältyminen Samland Street Mapiin ei tarkoita, että tietojen antaja
+          ottaa kantaa Samland Street Mapiin tai vastuuta tietojen oikeellisuudesta.
         infringement_title_html: Tekijänoikeusloukkaus
         infringement_1_html: |-
-          OpenStreetMapin kartoittajia muistutetaan, että kopioiminen tekijänoikeuksien alaisista teoksista
+          Samland Street Mapin kartoittajia muistutetaan, että kopioiminen tekijänoikeuksien alaisista teoksista
           (esimerkiksi Google-kartoista tai paperikartoista) ilman tekijänoikeuden haltijan nimenomaista lupaa on kielletty.
-        infringement_2_1_html: Jos kuka tahansa OpenStreetMapin käyttäjä epäilee,
+        infringement_2_1_html: Jos kuka tahansa Samland Street Mapin käyttäjä epäilee,
           että karttatietoja on otettu luvattomasta lähteestä OSM:n karttatietoihin
           tai sivustolle, siitä tulee tehdä %{takedown_procedure_link} tai %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: poistopyyntö
         infringement_2_1_online_filing_page: ilmoittaa suoraan
         trademarks_title: Tavaramerkit
-        trademarks_1_1_html: OpenStreetMap, suurennuslasilogo ja State of the Map
-          ovat OpenStreetMap-säätiön rekisteröityjä tavaramerkkejä.Jos sinulla on
+        trademarks_1_1_html: Samland Street Map, suurennuslasilogo ja State of the Map
+          ovat Samland Street Map-säätiön rekisteröityjä tavaramerkkejä.Jos sinulla on
           kysyttävää merkkien käytöstä, tutustu %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: tavaramerkkikäytäntöömme
     index:
       js_1: Selain ei tue JavaScriptiä tai sen suorittaminen on estetty.
-      js_2: OpenStreetMap tarvitsee JavaScriptin liikuteltavaan karttaan.
+      js_2: Samland Street Map tarvitsee JavaScriptin liikuteltavaan karttaan.
       license:
-        copyright: 'Tekijänoikeus: OpenStreetMapin tekijät, avoimella lisenssillä'
+        copyright: 'Tekijänoikeus: Samland Street Mapin tekijät, avoimella lisenssillä'
       remote_failed: Muokkaus epäonnistui - varmista, että JOSM tai Merkaartor on
         ladattu ja etähallinta-asetus on käytössä
     edit:
@@ -2029,22 +2029,22 @@ fi:
       odbl: Open Data Commons Open Database -lisenssillä
       too_large:
         advice: 'Jos vientitoiminto ei toimi, kokeile myös seuraavia palveluja:'
-        body: 'Näin suurta aluetta ei voi viedä OpenStreetMap XML-tiedostona. Lähennä
+        body: 'Näin suurta aluetta ei voi viedä Samland Street Map XML-tiedostona. Lähennä
           karttaa tai valitse pienempi alue, tai vaihtoehtoisesti lataa tiedosto joltakin
           seuraavista:'
         planet:
           title: Planet OSM
-          description: Säännöllisesti päivitettyjä kopioita täydellisestä OpenStreetMap-tietokannasta
+          description: Säännöllisesti päivitettyjä kopioita täydellisestä Samland Street Map-tietokannasta
         overpass:
           title: Overpass API
-          description: Lataa kartalle rajattu alue OpenStreetMapin varapalvelimelta
+          description: Lataa kartalle rajattu alue Samland Street Mapin varapalvelimelta
         geofabrik:
           title: Geofabrik-lataukset
           description: Säännöllisesti päivitetyt otteet maanosista, maista ja valituista
             kaupungeista
         other:
           title: Muut lähteet
-          description: Muut lähteet ovat esillä OpenStreetMap-wikissä
+          description: Muut lähteet ovat esillä Samland Street Map-wikissä
       export_button: Vie
     fixthemap:
       title: Ilmoita ongelmasta / Korjaa karttaa
@@ -2053,25 +2053,25 @@ fi:
         join_the_community:
           title: Liity yhteisöön
           explanation_html: Jos olet huomannut ongelman kartassa, kuten puuttuvan
-            tien tai puuttuvan osoitteesi, paras tapa toimia on liittyä OpenStreetMap-yhteisöön
+            tien tai puuttuvan osoitteesi, paras tapa toimia on liittyä Samland Street Map-yhteisöön
             ja lisätä tai korjata kohta itse.
       other_concerns:
         title: Muut huolenaiheet
     help:
       title: Ohjekeskus
-      introduction: Ohjeita ja vinkkejä OpenStreetMapin käyttöön on saatavilla useista
+      introduction: Ohjeita ja vinkkejä Samland Street Mapin käyttöön on saatavilla useista
         eri lähteistä.
       welcome:
         url: /welcome
-        title: Tervetuloa OpenStreetMapiin
-        description: Opi OpenStreetMapin perusteet tällä helpolla aloitusoppaalla.
+        title: Tervetuloa Samland Street Mapiin
+        description: Opi Samland Street Mapin perusteet tällä helpolla aloitusoppaalla.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Fi:Beginners%27_guide
         title: Aloitusopas
         description: Yhteisön ylläpitämä opas aloittelijoille.
       community:
         title: Ohje- ja yhteisöfoorumi
-        description: Yhteinen paikka avun hakemiselle ja OpenStreetMapiin liittyville
+        description: Yhteinen paikka avun hakemiselle ja Samland Street Mapiin liittyville
           keskusteluille.
       mailing_lists:
         title: Postituslistat
@@ -2082,19 +2082,19 @@ fi:
         description: Interaktiivinen chat monilla eri kielillä ja monista eri aiheista.
       switch2osm:
         title: switch2osm (Vaihda OSM:iin)
-        description: Auta yrityksiä ja organisaatioita vaihtamaan OpenStreetMapiin
+        description: Auta yrityksiä ja organisaatioita vaihtamaan Samland Street Mapiin
           pohjautuviin karttoihin ja muihin palveluihin.
       welcomemat:
         title: Järjestöille
-        description: Edustatko järjestöä, joka harkitsee OpenStreetMapin hyödyntämistä?
+        description: Edustatko järjestöä, joka harkitsee Samland Street Mapin hyödyntämistä?
           Tutustu ohjeistukseemme.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/Fi:Main_Page
-        title: OpenStreetMap-wiki
-        description: Tutustu syvällisemmin OpenStreetMapiin wikikirjastossa. Osittain
+        title: Samland Street Map-wiki
+        description: Tutustu syvällisemmin Samland Street Mapiin wikikirjastossa. Osittain
           englanninkielinen.
     potlatch:
-      removed: OpenStreetMapin oletusmuokkausohjelmaksi on valittu Potlatch. Adoben
+      removed: Samland Street Mapin oletusmuokkausohjelmaksi on valittu Potlatch. Adoben
         Flash Player -lisäosan tuki on päättynyt, minkä vuoksi Potlatch ei ole enää
         saatavilla verkkoselaimessa.
       desktop_application_html: Voit edelleen käyttää Potlatchia %{download_link}.
@@ -2204,7 +2204,7 @@ fi:
           toilets: Vessat
     welcome:
       title: Tervetuloa!
-      introduction: 'Tervetuloa OpenStreetMapiin: ilmaiseen ja vapaasti muokattavaan
+      introduction: 'Tervetuloa Samland Street Mapiin: ilmaiseen ja vapaasti muokattavaan
         maailmankarttaan. Rekisteröityminen on nyt suoritettu, joten olet valmis aloittamaan
         kartan muokkaamisen. Tutustu ensin kuitenkin näihin perusasioihin.'
       whats_on_the_map:
@@ -2216,7 +2216,7 @@ fi:
         doesnt: ei
       basic_terms:
         title: Käsitteitä ja termistöä
-        paragraph_1: OpenStreetMapissa käytetään paljon vain sille omaista termistöä.
+        paragraph_1: Samland Street Mapissa käytetään paljon vain sille omaista termistöä.
           Kun nämä sanat ovat hallinnassa, olet jo voiton puolella!
         an_editor_html: '%{editor} on ohjelma tai verkkosivu jota voit käyttää kartan
           muokkaamiseen.'
@@ -2237,7 +2237,7 @@ fi:
     communities:
       title: Yhteisöt
       lede_text: |-
-        Ihmiset ympäri maailmaa käyttävät ja täydentävät OpenStreetMapia.
+        Ihmiset ympäri maailmaa käyttävät ja täydentävät Samland Street Mapia.
         Vaikka monet osallistuvat yksilöinä, osa käyttäjistä on muodostanut yhteisöjä.
         Näiden ryhmien koko vaihtelee ja ryhmien jäsenet saattavat kattaa joko pienen kylän tai useita alueita eri maista.
         Ryhmät voivat olla muodollisia tai epävirallisia.
@@ -2340,7 +2340,7 @@ fi:
       heading: GPX-jälkien tallennus ei ole käytettävissä
       message: GPX-jälkien tallennusjärjestelmä ei ole tällä hetkellä käytettävissä
     georss:
-      title: OpenStreetMapin GPS-jäljet
+      title: Samland Street Mapin GPS-jäljet
     description:
       description_with_count:
         one: GPX-tiedosto, jossa on %{count} piste käyttäjältä %{user}
@@ -2352,7 +2352,7 @@ fi:
       cookies_needed: Selaimen evästeet on otettu pois päältä - salli evästeiden käyttö
         selaimessasi ennen jatkamista.
     setup_user_auth:
-      blocked_zero_hour: Olet saanut kiireellisen viestin OpenStreetMapin verkkopalvelussa.
+      blocked_zero_hour: Olet saanut kiireellisen viestin Samland Street Mapin verkkopalvelussa.
         Viesti on luettava, ennen kuin karttaan voi tallentaa muutoksia.
       blocked: Pääsysi APIin on estetty. Lisätietoja saat kirjautumalla web-käyttöliittymään.
       need_to_see_terms: API:n käyttöoikeutesi on tilapäisesti hyllytetty. Kirjaudu
@@ -2388,7 +2388,7 @@ fi:
     permissions:
       missing: Et ole sallinut sovelluksen käyttöoikeutta tähän palveluun
     scopes:
-      openid: Kirjaudu sisään OpenStreetMapin avulla
+      openid: Kirjaudu sisään Samland Street Mapin avulla
       read_prefs: Käyttäjäasetusten käsittely
       write_prefs: Käyttäjäasetusten muuttaminen
       write_diary: Päiväkirjamerkintöjen luonti, kommentointi ja kavereiden lisääminen
@@ -2453,11 +2453,11 @@ fi:
       support: tuki
       about:
         header: Muokkaa vapaasti.
-        paragraph_1: Toisin kuin muut karttapalvelut, OpenStreetMap on täysin tavallisten
+        paragraph_1: Toisin kuin muut karttapalvelut, Samland Street Map on täysin tavallisten
           ihmisten luoma. Kuka tahansa voi korjata, päivittää, ladata ja käyttää sitä
           ilmaiseksi.
         paragraph_2: Osallistu projektiin luomalla käyttäjätunnus.
-        welcome: Tervetuloa OpenStreetMapiin
+        welcome: Tervetuloa Samland Street Mapiin
       display name description: Julkisesti näkyvä käyttäjänimi. Tätä voi myöhemmin
         muuttaa asetuksista.
       by_signing_up:
@@ -2481,7 +2481,7 @@ fi:
       contributor_terms_explain: Tämä sopimus koskee jo tekemiäsi sekä tulevaisuudessa
         tekemiäsi muokkauksia.
       read_ct: Olen lukenut ja hyväksyn yllä olevat osallistumisehdot
-      tou_explain_html: Nämä %{tou_link} ohjaavat verkkosivuston ja muun OSMF:n tarjoaman
+      tou_explain_html: Nämä %{tou_link} ohjaavat verkkosivuston ja muun SSM:n tarjoaman
         infrastruktuurin käyttöä. Napsauta linkkiä, lue ja suostu tekstin sisältöön.
       read_tou: Olen lukenut ja hyväksynyt käyttöehdot
       consider_pd: Edellisen lisäksi katson lisäyksieni olevan tekijänoikeudettomia
@@ -2598,9 +2598,9 @@ fi:
       invalid_scope: Virheellinen ala
       unknown_error: Todentaminen epäonnistui
     auth_association:
-      heading: ID:täsi ei ole vielä liitetty OpenStreetMap-tiliisi.
-      option_1: 'Uusi OpenStreetMapin käyttäjä: luo käyttäjätunnus tällä lomakkeella.'
-      option_2: 'Nykyinen OpenStreetMapin käyttäjä: kirjaudu sisään käyttäjätunnuksella
+      heading: ID:täsi ei ole vielä liitetty Samland Street Map-tiliisi.
+      option_1: 'Uusi Samland Street Mapin käyttäjä: luo käyttäjätunnus tällä lomakkeella.'
+      option_2: 'Nykyinen Samland Street Mapin käyttäjä: kirjaudu sisään käyttäjätunnuksella
         ja salasanalla ja yhdistä tili käyttäjäasetuksissa.'
   user_role:
     filter:
@@ -2798,11 +2798,11 @@ fi:
         gps: Julkiset GPS-jäljet
         overlays: Nämä toiminnot on tarkoitettu karttavirheiden korjaamiseen
         title: Karttanäkymä
-      openstreetmap_contributors: OpenStreetMap-kartoittajat
+      openstreetmap_contributors: Samland Street Map-kartoittajat
       make_a_donation: Lahjoita
       website_and_api_terms: Verkkosivusto ja API-ehdot
       cyclosm_credit: 'Laattojen tyyli: %{osm_france_link} ylläpitämä %{cyclosm_link}'
-      osm_france: OpenStreetMap Francen
+      osm_france: Samland Street Map Francen
       thunderforest_credit: Laattojen tekijä %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: 'Laatat: %{tracestrack_link}'

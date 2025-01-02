@@ -157,7 +157,7 @@ az:
   api:
     notes:
       rss:
-        title: OpenStreetMap haqqında qeydlər
+        title: Samland Street Map haqqında qeydlər
       entry:
         comment: Şərh
         full: Tam qeydlər
@@ -320,15 +320,15 @@ az:
       location: 'Yerləşdiyi yer:'
     feed:
       user:
-        title: '%{user} üçün OpenStreetMap gündəlik yazıları'
-        description: '%{user} üçün axırıncı OpenStreetMap gündəlik yazıları'
+        title: '%{user} üçün Samland Street Map gündəlik yazıları'
+        description: '%{user} üçün axırıncı Samland Street Map gündəlik yazıları'
       language:
-        title: '%{language_name} dilində OpenStreetMap gündəlik yazıları'
-        description: '%{language_name} dilində OpenStreetMap istifadəçilərinin axırıncı
+        title: '%{language_name} dilində Samland Street Map gündəlik yazıları'
+        description: '%{language_name} dilində Samland Street Map istifadəçilərinin axırıncı
           gündəlik yazıları'
       all:
-        title: OpenStreetMap gündəlik yazısı
-        description: OpenStreetMap istifadəçilərinin axırıncı gündəlik yazıları
+        title: Samland Street Map gündəlik yazısı
+        description: Samland Street Map istifadəçilərinin axırıncı gündəlik yazıları
   diary_comments:
     page:
       post: Post
@@ -804,7 +804,7 @@ az:
       more_results: Daha çox nəticə
   layouts:
     logo:
-      alt_text: OpenStreetMap loqosu
+      alt_text: Samland Street Map loqosu
     home: evə
     logout: çıxış
     log_in: daxil ol
@@ -820,18 +820,18 @@ az:
     copyright: Müəllif hüququ
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} adlı istifadəçi sənin gündəliy yazına şərh
+      subject: '[Samland Street Map] %{user} adlı istifadəçi sənin gündəliy yazına şərh
         yazıb'
       hi: Salam %{to_user},
     message_notification:
       hi: Salam %{to_user},
     signup_confirm:
-      subject: '[OpenStreetMap] OpenStreetMap-ə xoş gəldiniz'
+      subject: '[Samland Street Map] Samland Street Map-ə xoş gəldiniz'
       greeting: Salam!
     email_confirm:
       greeting: Salam,
     lost_password:
-      subject: '[OpenStreetMap] Parolu yeniləmək tələbi'
+      subject: '[Samland Street Map] Parolu yeniləmək tələbi'
       greeting: Salam,
       click_the_link: Əgər bu sizsinizsə, zəhmət olmasa, parolunuzu əvəzləmək üçün
         aşağı göstərilmiş istinaddakı ünvana keçin.
@@ -923,7 +923,7 @@ az:
         edin:'
     destroy:
       title: Sistemdən çıx
-      heading: OpenStreetMap-dən çıx
+      heading: Samland Street Map-dən çıx
       logout_button: Sistemdən çıx
   shared:
     pagination:
@@ -947,9 +947,9 @@ az:
         native_link: azərbaycan versiyası
         mapping_link: kartoqrafiyalaşdırmağa başla
       legal_babble:
-        credit_title_html: OpenStreetMap-ə Necə istinad etmək olar
+        credit_title_html: Samland Street Map-ə Necə istinad etmək olar
         attribution_example:
-          alt: Nümunə üçün, veb-səhifədən OpenStreetMap-ə necə istinad vermək
+          alt: Nümunə üçün, veb-səhifədən Samland Street Map-ə necə istinad vermək
           title: Müəllifin göstərilməsinin nümunəsi
         more_title_html: Daha ətraflı öyrən
         contributors_title_html: Kimlər bizim layihəyə töhfə verir

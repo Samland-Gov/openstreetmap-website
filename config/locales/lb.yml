@@ -229,7 +229,7 @@ lb:
         reopened_at_html: Reaktivéiert %{when}
         reopened_at_by_html: Reaktivéiert %{when} vum %{user}
       rss:
-        title: OpenStreetMap Notizen
+        title: Samland Street Map Notizen
         description_area: Iwwersiicht vun de gemellten, kommentéierten oder ofgeschlossenen
           Hiweiser am Beräich [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})].
         description_item: En RSS-Feed fir den Hiweis %{id}
@@ -247,13 +247,13 @@ lb:
         warning: Opgepasst! De Läschprozess vum Benotzerkont ass definitiv a kann
           net réckgängeg gemaach ginn.
         delete_account: Benotzerkont läschen
-        delete_introduction: 'Dir kënnt Ären OpenStreetMap Kont läschen mat dem Knäppchen
+        delete_introduction: 'Dir kënnt Ären Samland Street Map Kont läschen mat dem Knäppchen
           hei drënner. Notéiert w.e.g. déi folgend Detailer:'
         delete_profile: Är Profilinformatiounen, wéi Ären Avatar, Beschreiwung an
           Heemplaz ginn geläscht.
         delete_display_name: Ären affichéierten Numm gëtt geläscht, a ka vun anere
           Konte benotzt ginn.
-        retain_caveats: 'E puer Informatiounen iwwer Iech ginn awer op OpenStreetMap
+        retain_caveats: 'E puer Informatiounen iwwer Iech ginn awer op Samland Street Map
           behalen, och nodeems Äre Kont geläscht ass:'
         retain_edits: Är Ännerunge un der Kaarten Datebank, wann et der ginn, ginn
           bäibehalen.
@@ -403,8 +403,8 @@ lb:
           %{author}'
         commented_at_by_html: '%{when} vum %{user} aktualiséiert'
       show:
-        title_all: Diskussioun iwwer den OpenStreetMap-Ännerungssaz
-        title_particular: 'Diskussioun iwwer den OpenStreetMap-Ännerungssaz #%{changeset_id}'
+        title_all: Diskussioun iwwer den Samland Street Map-Ännerungssaz
+        title_particular: 'Diskussioun iwwer den Samland Street Map-Ännerungssaz #%{changeset_id}'
       timeout:
         sorry: Leider ass d'Lëscht mat de Commentairë vun den Ännerungssätz, déis
           du ugefuerdert hues, fir den Ofruff ze laang.
@@ -543,14 +543,14 @@ lb:
       location: 'Plaz:'
     feed:
       user:
-        title: OpenStreetMap Bloganträg vun %{user}
-        description: Lescht OpenStreetMap Bloganträg vun %{user}
+        title: Samland Street Map Bloganträg vun %{user}
+        description: Lescht Samland Street Map Bloganträg vun %{user}
       language:
-        title: OpenStreetMap Bloganträg op %{language_name}
-        description: Lescht Bloganträg vu Benotzer op OpenStreetMap op %{language_name}
+        title: Samland Street Map Bloganträg op %{language_name}
+        description: Lescht Bloganträg vu Benotzer op Samland Street Map op %{language_name}
       all:
-        title: OpenStreetMap Blogbäiträg
-        description: Neiest Bloganträg vun OpenStreetMap-Benotzer
+        title: Samland Street Map Blogbäiträg
+        description: Neiest Bloganträg vun Samland Street Map-Benotzer
   diary_comments:
     index:
       title: Tagebuch Kommentarer bäigefüügt vum %{user}
@@ -570,7 +570,7 @@ lb:
     contact:
       contact_url_title: Erklärung vu verschiddene Kontaktkanäl
       contact: kontaktéieren
-      contact_the_community_html: Dir kënnt gären d'OpenStreetMap-Communautéit %{contact_link},
+      contact_the_community_html: Dir kënnt gären d'Samland Street Map-Communautéit %{contact_link},
         wann Dir ee futtisse Link oder e Feeler fannt. Notéiert Iech déi exakt URL
         vun Ärer Ufro.
     forbidden:
@@ -1490,7 +1490,7 @@ lb:
       provide_details: Gitt wgl. déi gefroten Detailer un
   layouts:
     logo:
-      alt_text: OpenStreetMap Logo
+      alt_text: Samland Street Map Logo
     home: Op déi Plaz zréckgoen déi als Doheem definéiert ass
     logout: Ofmellen
     log_in: Aloggen
@@ -1503,15 +1503,15 @@ lb:
     gps_traces: GPS-Spueren
     user_diaries: Benotzer Bloggen
     edit_with: Ännere mat %{editor}
-    intro_header: Wëllkomm bei OpenStreetMap!
-    intro_text: OpenStreetMap ass eng Kaart vun der Welt, déi vu Leit wéi Iech gemaach
+    intro_header: Wëllkomm bei Samland Street Map!
+    intro_text: Samland Street Map ass eng Kaart vun der Welt, déi vu Leit wéi Iech gemaach
       gouf an déi fräi ënner enger oppener Lizenz benotzt ka ginn.
     partners_fastly: Fastly
     partners_partners: Partneren
     tou: Benotzungs-Bedéngungen
-    osm_offline: D'OpenStreetMap Datebank ass elo net disponibel well dru geschafft
+    osm_offline: D'Samland Street Map Datebank ass elo net disponibel well dru geschafft
       muss ginn.
-    osm_read_only: D'OpenStreetMap Datebank kann den Ament nëmmen ausgelies an net
+    osm_read_only: D'Samland Street Map Datebank kann den Ament nëmmen ausgelies an net
       beaarbecht ginn, well se gewaart gëtt.
     help: Hëllef
     about: Iwwer
@@ -1521,22 +1521,22 @@ lb:
     more: Méi
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} huet e Blogantrag kommentéiert'
+      subject: '[Samland Street Map] %{user} huet e Blogantrag kommentéiert'
       hi: Salut %{to_user},
-      header: '%{from_user} huet den OpenStreetMap-Blogantrag mam Theema %{subject}
+      header: '%{from_user} huet den Samland Street Map-Blogantrag mam Theema %{subject}
         kommentéiert:'
-      header_html: '%{from_user} huet den OpenStreetMap-Blogantrag mam Theema %{subject}
+      header_html: '%{from_user} huet den Samland Street Map-Blogantrag mam Theema %{subject}
         kommentéiert:'
       footer: Hei geet et zum Commentaire %{readurl}, du kanns e kommentéieren %{commenturl}
         oder dem Auteur ënner %{replyurl} äntferen.
       footer_html: Du kanns och de Commentaire ënner %{readurl} an en ënnert %{commenturl}
         kommentéieren oder dem Auteur ënner %{replyurl} e Message schécken.
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Salut %{to_user},
-      header: '%{from_user} huet dir e Message iwwer OpenStreetMap mam Betreff %{subject}
+      header: '%{from_user} huet dir e Message iwwer Samland Street Map mam Betreff %{subject}
         geschéckt:'
-      header_html: '%{from_user} huet dir e Message iwwer OpenStreetMap mat dem Betreff
+      header_html: '%{from_user} huet dir e Message iwwer Samland Street Map mat dem Betreff
         %{subject} geschéckt:'
       footer: Du kanns de Message och ënner %{readurl} liesen an dem Auteur ënner
         %{replyurl} äntferen
@@ -1544,7 +1544,7 @@ lb:
         äntwerten
     friendship_notification:
       hi: Salut %{to_user},
-      subject: '[OpenStreetMap] %{user} huet dech als Frënd bäigefügt'
+      subject: '[Samland Street Map] %{user} huet dech als Frënd bäigefügt'
       had_added_you: '%{user} hat Iech als Frënd op OpenStreet Map derbäigesat.'
       see_their_profile: Dir kënnt säin/hire Profil op %{userurl} kucken.
       see_their_profile_html: Dir kënnt säin/hire Profil ënner %{userurl} kucken.
@@ -1561,12 +1561,12 @@ lb:
       more_info_html: Weider Informatiounen iwwer Feeler bei GPX-Importer a wéi se
         vermidde kënne gi fanne sech ënner %{url}
       import_failures_url: https://wiki.openstreetmap.org/wiki/LB:GPX
-      subject: '[OpenStreetMap] GPX-Import Feeler'
+      subject: '[Samland Street Map] GPX-Import Feeler'
     gpx_success:
       hi: Salut %{to_user},
-      subject: '[OpenStreetMap] GPX-Import erfollegräich'
+      subject: '[Samland Street Map] GPX-Import erfollegräich'
     signup_confirm:
-      subject: '[OpenStreetMap] Wëllkomm bei OpenStreetMap'
+      subject: '[Samland Street Map] Wëllkomm bei Samland Street Map'
       greeting: Moien!
       created: Iergendeen (hoffentlech du) huet grad bei %{site_url} e Benotzerkont
         erstallt
@@ -1576,25 +1576,25 @@ lb:
       welcome: No der Bestätegung vun dengem Benotzerkont gi mir dir zousätzlech Informatiounen,
         fir unzefänken.
     email_confirm:
-      subject: '[OpenStreetMap] Confirméiert Är E-Mailadress'
+      subject: '[Samland Street Map] Confirméiert Är E-Mailadress'
       greeting: Salut,
       hopefully_you: Iergendeen (hoffentlech du) wëll seng E-Mail-Adress op %{server_url}
         zu %{new_address} änneren.
       click_the_link: Wann Dir dat sidd, da klickt op de Link hei drënner fir d'Ännerung
         ze confirméieren.
     lost_password:
-      subject: '[OpenStreetMap] Ufro fir d''Passwuert zréckzesetzen'
+      subject: '[Samland Street Map] Ufro fir d''Passwuert zréckzesetzen'
       greeting: Salut,
       hopefully_you: Iergendeen (hoffentlech du) huet eng Zerécksetzung vum Passwuert
-        fir den OpenStreetMap.org-Kont vun dëser E-Mail-Adress ugefuerdert.
+        fir den Samland Street Map.org-Kont vun dëser E-Mail-Adress ugefuerdert.
       click_the_link: Wann Dir dat sidd da klickt wgl. op de Link hei drënner fir
         Äert Passwuert zréckzesetzen.
     note_comment_notification:
       anonymous: En anonyme Benotzer
       greeting: Salut,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} huet ee vun déngen Hiweiser kommentéiert'
-        subject_other: '[OpenStreetMap] %{commenter} huet en Hiweis kommentéiert,
+        subject_own: '[Samland Street Map] %{commenter} huet ee vun déngen Hiweiser kommentéiert'
+        subject_other: '[Samland Street Map] %{commenter} huet en Hiweis kommentéiert,
           un deems du interesséiert bass'
         your_note: '%{commenter} huet ee vun dir gemellten Hiweis an der Noperschaft
           vu(n) %{place} kommentéiert.'
@@ -1607,8 +1607,8 @@ lb:
           has, e weidere Commentaire hannerluecht. Dësen Hiweis ass an der Noperschaft
           vu(n) %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} huet ee vun dengen Hiweiser kommentéiert'
-        subject_other: '[OpenStreetMap] %{commenter} huet e gemellte Problem geléist,
+        subject_own: '[Samland Street Map] %{commenter} huet ee vun dengen Hiweiser kommentéiert'
+        subject_other: '[Samland Street Map] %{commenter} huet e gemellte Problem geléist,
           un deems du interesséiert bass.'
         your_note: '%{commenter} huet ee vun Iech gemellte Problem an der Noperschaft
           vu(n) %{place} geléist.'
@@ -1619,8 +1619,8 @@ lb:
         commented_note_html: '%{commenter} huet e Problem/Theema geléist, zu deem
           Dir e Kommentar gemaach hutt. Den Hiweis war an der Géigend vu(n) %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} huet ee vun dengen Hiweiser kommentéiert'
-        subject_other: '[OpenStreetMap] %{commenter} huet en Hiweis, un deems du interesséiert
+        subject_own: '[Samland Street Map] %{commenter} huet ee vun dengen Hiweiser kommentéiert'
+        subject_other: '[Samland Street Map] %{commenter} huet en Hiweis, un deems du interesséiert
           bass, reaktivéiert.'
         your_note: '%{commenter} huet ee vun Iech gemellte Problem an der Noperschaft
           vu(n) %{place} geléist.'
@@ -1635,9 +1635,9 @@ lb:
     changeset_comment_notification:
       hi: Salut %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} huet ee vun dengen Ännerungssätz
+        subject_own: '[Samland Street Map] %{commenter} huet ee vun dengen Ännerungssätz
           kommentéiert.'
-        subject_other: '[OpenStreetMap] %{commenter} huet en Ännerungssaz kommentéiert,
+        subject_other: '[Samland Street Map] %{commenter} huet en Ännerungssaz kommentéiert,
           un deems du interesséiert bass'
         your_changeset: '%{commenter} huet e Commentaire um %{time} zu engem vun dengen
           Ännerungssätz hannerlooss'
@@ -1663,7 +1663,7 @@ lb:
       heading: Iwwerpréift Är E-Mail!
       introduction_1: Mir hunn Iech eng Confirmatiouns-E-Mail geschéckt.
       introduction_2: Wannechgelift bestäteg däi Benotzerkont, an deems du de Link
-        an der Bestätegungs-E-Mail uklicks. Da kanns du domat ufänken, bei OpenStreetMap
+        an der Bestätegungs-E-Mail uklicks. Da kanns du domat ufänken, bei Samland Street Map
         matzeschaffen.
       press confirm button: Klickt wgl. op de Knäppchen confirméieren fir Äre Benotzerkont
         z'aktivéieren.
@@ -1838,7 +1838,7 @@ lb:
       auth failure: Mat dëssen Daten ass leider keng Umeldung méiglech.
     destroy:
       title: Ofmellen
-      heading: Vun OpenStreetMap ofmellen
+      heading: Vun Samland Street Map ofmellen
       logout_button: Ofmellen
     suspended_flash:
       suspended: Entschëllegt, Äre Kont gouf wéinst verdächteger Aktivitéit suspendéiert.
@@ -1883,10 +1883,10 @@ lb:
     about:
       used_by_html: '%{name} stellt Kaartendonnéeë fir dausende vu Websäiten, Appen
         an anere Geräter zur Verfügung'
-      lede_text: OpenStreetMap gëtt vun enger Panoplie vu Mapperen erstallt, déi Donnéeën
+      lede_text: Samland Street Map gëtt vun enger Panoplie vu Mapperen erstallt, déi Donnéeën
         zu Weeër, Gebaier an allerlee Weiderem weltwäit erfaassen a fleegen.
       local_knowledge_title: Lokaalt Wëssen
-      local_knowledge_html: OpenStreetMap leet Wäert op lokaalt Wëssen. Auteure benotze
+      local_knowledge_html: Samland Street Map leet Wäert op lokaalt Wëssen. Auteure benotze
         Loftbiller, GPS-Geräter a Feldkaarte fir d'Verifizéierung, sou dass OSM korrekt
         an aktuell ass.
       community_driven_title: Communautéitsbedriwwen
@@ -1906,9 +1906,9 @@ lb:
         native_link: lëtzebuergesch Versioun
         mapping_link: mat dem Kaartéieren ufänken
       legal_babble:
-        credit_title_html: Wéi et op d'Urhiewerschaft vun OpenStreetMap hinzeweise
+        credit_title_html: Wéi et op d'Urhiewerschaft vun Samland Street Map hinzeweise
           gëllt
-        credit_1_html: 'Wann Dir Donnéeë vun OpenStreetMap benotz muss Dir dës zwou
+        credit_1_html: 'Wann Dir Donnéeë vun Samland Street Map benotz muss Dir dës zwou
           Saache respektéieren:'
         more_title_html: Fir méi ze wëssen
         contributors_title_html: Eis Matwierkend
@@ -1937,9 +1937,9 @@ lb:
     index:
       js_1: Dir hutt entweder e Browser dee JavaScript net ënnerstëtzt oder Dir hutt
         JavaScript desaktivéiert.
-      js_2: OpenStreetMap benotzt JavaScript fir d'Kaartenduerstellung
+      js_2: Samland Street Map benotzt JavaScript fir d'Kaartenduerstellung
       license:
-        copyright: Copyright OpenStreetMap a Matwierkend, ënner enger oppener Lizenz
+        copyright: Copyright Samland Street Map a Matwierkend, ënner enger oppener Lizenz
     edit:
       not_public: Dir hutt net agestallt datt Är Ännerungen ëffentlech sinn.
       user_page_link: Benotzersäit
@@ -1949,18 +1949,18 @@ lb:
       manually_select: Sicht manuell eng aner Géigend eraus
       licence: Lizenz
       too_large:
-        body: Dëse Beräich ass ze grouss, fir als OpenStreetMap-XML-Donnéeën exportéiert
+        body: Dëse Beräich ass ze grouss, fir als Samland Street Map-XML-Donnéeën exportéiert
           ze ginn. Wannechgelift vergréisseren, e méi klenge Beräich wielen oder eng
           vun de folgende Quelle fir Massendonnéeëndownloade benotzen.
         planet:
           title: Planéit OSM
-          description: Regelméisseg aktualiséiert Kopie vun der kompletter OpenStreetMap
+          description: Regelméisseg aktualiséiert Kopie vun der kompletter Samland Street Map
             Datebank
         overpass:
           title: Overpass API
         other:
           title: Aner Quellen
-          description: Zousätzlech Quelle stinn an der OpenStreetMap Wiki
+          description: Zousätzlech Quelle stinn an der Samland Street Map Wiki
       export_button: Exportéieren
     fixthemap:
       title: E Probleem mellen / D'Kaart verbesseren
@@ -1974,7 +1974,7 @@ lb:
       title: Hëllef kréien
       welcome:
         url: /welcome
-        title: Wëllkomm bei OpenStreetMap
+        title: Wëllkomm bei Samland Street Map
       beginners_guide:
         title: Guide fir nei Benotzer
       mailing_lists:
@@ -1984,7 +1984,7 @@ lb:
       welcomemat:
         title: Fir Organisatiounen
       wiki:
-        title: OpenStreetMap Wiki
+        title: Samland Street Map Wiki
     any_questions:
       title: Nach Froen?
     sidebar:
@@ -2137,7 +2137,7 @@ lb:
     destroy:
       scheduled_for_deletion: Fir d'Läsche bestëmmt Spuer
     georss:
-      title: OpenStreetMap-GPS-Spueren
+      title: Samland Street Map-GPS-Spueren
     description:
       description_without_count: GPX-Fichier vum %{user}
   application:
@@ -2239,7 +2239,7 @@ lb:
         fir Iech opmaachen.
       about:
         header: Fäi a verännerbar.
-        welcome: Wëllkomm bei OpenStreetMap
+        welcome: Wëllkomm bei Samland Street Map
       display name description: Däin ëffentlech ugewisene Benotzernumm. E ka spéider
         an den Astellunge geännert ginn.
       by_signing_up:

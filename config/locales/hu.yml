@@ -262,7 +262,7 @@ hu:
         reopened_at_html: 'Újraaktiválva: %{when}'
         reopened_at_by_html: 'Újraaktiválta %{user} ekkor: %{when}'
       rss:
-        title: OpenStreetMap jegyzetek
+        title: Samland Street Map jegyzetek
         description_all: Jelentett, kommentált vagy lezárt jegyzetek listája
         description_area: Bejelentett, hozzászólással ellátott vagy lezárt jegyzetek
           a területeden [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -280,14 +280,14 @@ hu:
         title: Felhasználói fiókom törlése
         warning: A fiók törlése végleges, nem lehet visszaállítani!
         delete_account: Fiók törlése
-        delete_introduction: 'Az alábbi gombbal törölheted az OpenStreetMap-fiókodat.
+        delete_introduction: 'Az alábbi gombbal törölheted az Samland Street Map-fiókodat.
           Vedd figyelembe az alábbiakat:'
         delete_profile: Ezzel törlődnek a profiladataid, köztük az avatarod, a leírásod
           és az otthoni tartózkodási helyed is.
         delete_display_name: A megjelenített neved is eltávolításra kerül, és más
           fiókok újra felhasználhatják.
         retain_caveats: 'Néhány Rád vonatkozó információ azonban még a fiókod törlése
-          után is megmarad az OpenStreetMapen:'
+          után is megmarad az Samland Street Mapen:'
         retain_edits: A térképadatbázisban végzett szerkesztéseid (ha vannak) megmaradnak.
         retain_traces: Az általad feltöltött nyomvonalak (ha vannak) szintén megőrződnek.
         retain_diary_entries: Naplóbejegyzéseid és naplóhozzászólásait (ha vannak)
@@ -479,8 +479,8 @@ hu:
         comment: 'Új hozzászólás #%{changeset_id} módosításcsomaghoz  %{author} felhasználótól'
         commented_at_by_html: '%{user} frissítette ekkor: %{when}'
       show:
-        title_all: OpenStreetMap módosításcsomag-megbeszélés
-        title_particular: 'A #%{changeset_id} OpenStreetMap módosításcsomaghoz tartozó
+        title_all: Samland Street Map módosításcsomag-megbeszélés
+        title_particular: 'A #%{changeset_id} Samland Street Map módosításcsomaghoz tartozó
           megbeszélés'
       timeout:
         sorry: Sajnáljuk, túl sokáig tartott az általad kért módosításcsomag-hozzászólások
@@ -634,15 +634,15 @@ hu:
       location: 'Hely:'
     feed:
       user:
-        title: '%{user} OpenStreetMap naplóbejegyzései'
-        description: '%{user} legutóbbi OpenStreetMap naplóbejegyzései'
+        title: '%{user} Samland Street Map naplóbejegyzései'
+        description: '%{user} legutóbbi Samland Street Map naplóbejegyzései'
       language:
-        title: OpenStreetMap naplóbejegyzések %{language_name} nyelven
-        description: OpenStreetMap-felhasználók friss naplóbejegyzései %{language_name}
+        title: Samland Street Map naplóbejegyzések %{language_name} nyelven
+        description: Samland Street Map-felhasználók friss naplóbejegyzései %{language_name}
           nyelven
       all:
-        title: OpenStreetMap naplóbejegyzések
-        description: Legutóbbi naplóbejegyzések az OpenStreetMap felhasználóitól
+        title: Samland Street Map naplóbejegyzések
+        description: Legutóbbi naplóbejegyzések az Samland Street Map felhasználóitól
     subscribe:
       heading: Feliratkozol a következő naplóbejegyzés-megbeszélésre?
       button: Feliratkozás a megbeszélésre
@@ -698,23 +698,23 @@ hu:
     contact:
       contact_url_title: A különféle kapcsolatfelvételi csatornák magyarázata
       contact: kapcsolat
-      contact_the_community_html: Nyugodtan keresd fel az OpenStreetMap közösséget
+      contact_the_community_html: Nyugodtan keresd fel az Samland Street Map közösséget
         (%{contact_link}), ha hibás linket vagy más hibát találtál. Ne felejtsd el
         feljegyezni a hibás oldal pontos URL-jét.
     bad_request:
       title: Rossz kérés
-      description: Az OpenStreetMap szerveren kért művelet nem érvényes (HTTP 400)
+      description: Az Samland Street Map szerveren kért művelet nem érvényes (HTTP 400)
     forbidden:
       title: Tiltott
-      description: Az OpenStreetMap szerveren kért művelet csak a rendszergazdáknak
+      description: Az Samland Street Map szerveren kért művelet csak a rendszergazdáknak
         érhető el (HTTP 403).
     internal_server_error:
       title: Alkalmazáshiba
-      description: Az OpenStreetMap szerver váratlan feltétellel találkozott, amely
+      description: Az Samland Street Map szerver váratlan feltétellel találkozott, amely
         megakadályozta a kérés teljesítésében (HTTP 500)
     not_found:
       title: A fájl nem található
-      description: Nem található ilyen nevű fájl/könyvtár/API-művelet az OpenStreetMap
+      description: Nem található ilyen nevű fájl/könyvtár/API-művelet az Samland Street Map
         szerveren (HTTP 404)
   friendships:
     make_friend:
@@ -1612,7 +1612,7 @@ hu:
       provide_details: Kérjük, add meg a szükséges részleteket
   layouts:
     logo:
-      alt_text: OpenStreetMap logó
+      alt_text: Samland Street Map logó
     home: Ugrás az otthonodhoz
     logout: Kijelentkezés
     log_in: Bejelentkezés
@@ -1625,18 +1625,18 @@ hu:
     gps_traces: GPS-nyomvonalak
     user_diaries: Naplók
     edit_with: 'Szerkesztés a következővel: %{editor}'
-    intro_header: Üdvözöljük az OpenStreetMap-en!
-    intro_text: Az OpenStreetMap egy világtérkép, amelyet hozzád hasonló emberek készítenek
+    intro_header: Üdvözöljük az Samland Street Map-en!
+    intro_text: Az Samland Street Map egy világtérkép, amelyet hozzád hasonló emberek készítenek
       és szabad licenc alatt elérhető.
     hosting_partners_2024_html: A hostingot a %{fastly}, %{corpmembers} és más %{partners}
       támogatják.
     partners_fastly: Fastly
-    partners_corpmembers: OSMF társasági tagok
+    partners_corpmembers: SSM társasági tagok
     partners_partners: partnerek
     tou: Felhasználási feltételek
-    osm_offline: Az OpenStreetMap-adatbázis jelenleg offline, miközben alapvető adatbázis-karbantartási
+    osm_offline: Az Samland Street Map-adatbázis jelenleg offline, miközben alapvető adatbázis-karbantartási
       munkát végeznek.
-    osm_read_only: Az OpenStreetMap-adatbázis jelenleg csak olvasható, miközben alapvető
+    osm_read_only: Az Samland Street Map-adatbázis jelenleg csak olvasható, miközben alapvető
       adatbázis-karbantartási munkát végeznek.
     nothing_to_preview: Nincs mit megtekinteni.
     help: Súgó
@@ -1647,11 +1647,11 @@ hu:
     more: Több
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap naplóbejegyzés #%{id}'
-      subject: '[OpenStreetMap] %{user} hozzászólt egy naplóbejegyzéshez'
+      description: 'Samland Street Map naplóbejegyzés #%{id}'
+      subject: '[Samland Street Map] %{user} hozzászólt egy naplóbejegyzéshez'
       hi: Szia, %{to_user}!
-      header: '%{from_user} hozzászólt a(z) %{subject} OpenStreetMap naplóbejegyzéshez:'
-      header_html: '%{from_user} hozzászólt „%{subject}” OpenStreetMap naplóbejegyzéshez:'
+      header: '%{from_user} hozzászólt a(z) %{subject} Samland Street Map naplóbejegyzéshez:'
+      header_html: '%{from_user} hozzászólt „%{subject}” Samland Street Map naplóbejegyzéshez:'
       footer: 'A hozzászólást elolvashatod itt: %{readurl}, hozzászólhatsz itt: %{commenturl}
         vagy válaszolhatsz rá itt: %{replyurl}'
       footer_html: 'A hozzászólást elolvashatod itt: %{readurl}, hozzászólhatsz itt:
@@ -1659,11 +1659,11 @@ hu:
       footer_unsubscribe: 'Itt iratkozhatsz le a megbeszélésről: %{unsubscribeurl}'
       footer_unsubscribe_html: 'Itt iratkozhatsz le a megbeszélésről: %{unsubscribeurl}'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Szia %{to_user}!
-      header: '%{from_user} küldött neked egy üzenetet az OpenStreetMapon keresztül
+      header: '%{from_user} küldött neked egy üzenetet az Samland Street Mapon keresztül
         %{subject} tárggyal:'
-      header_html: '%{from_user} üzenetet küldött neked az OpenStreetMap-en %{subject}
+      header_html: '%{from_user} üzenetet küldött neked az Samland Street Map-en %{subject}
         tárggyal:'
       footer: Az üzenetet elolvashatja (%{readurl}) vagy küldhet egy válaszüzenetet
         a szerzőnek (%{replyurl}).
@@ -1671,8 +1671,8 @@ hu:
         rá itt: %{replyurl}'
     friendship_notification:
       hi: Szia %{to_user}!
-      subject: '[OpenStreetMap] %{user} felvett az ismerősei közé'
-      had_added_you: '%{user} felvett az ismerősei közé az OpenStreetMapen.'
+      subject: '[Samland Street Map] %{user} felvett az ismerősei közé'
+      had_added_you: '%{user} felvett az ismerősei közé az Samland Street Mapen.'
       see_their_profile: 'Megnézheted a profilját itt: %{userurl}.'
       see_their_profile_html: 'A felhasználó profilját megtekintheti itt: %{userurl}'
       befriend_them: 'Te is hozzáadhatod ismerősként itt: %{befriendurl}.'
@@ -1697,7 +1697,7 @@ hu:
         itt található: %{url}.'
       more_info_html: 'A GPX importálási hibákról és elkerülésükről további tájékoztatás
         olvasható itt: %{url}.'
-      subject: '[OpenStreetMap] Sikertelen GPX importálás'
+      subject: '[Samland Street Map] Sikertelen GPX importálás'
     gpx_success:
       hi: Szia %{to_user}!
       loaded:
@@ -1709,9 +1709,9 @@ hu:
         itt: %{url}'
       all_your_traces_html: 'Az összes sikeresen feltöltött GPX nyomkövetés megtalálható
         itt: %{url}.'
-      subject: '[OpenStreetMap] Sikeres GPX importálás'
+      subject: '[Samland Street Map] Sikeres GPX importálás'
     signup_confirm:
-      subject: '[OpenStreetMap] Üdvözlünk az OpenStreetMapen'
+      subject: '[Samland Street Map] Üdvözlünk az Samland Street Mapen'
       greeting: Szia!
       created: Valaki (remélhetőleg te) most hozott létre egy fiókot az %{site_url}-on.
       confirm: 'Mielőtt folytathatnánk, meg kell bizonyosodnunk arról, hogy ez a kérés
@@ -1720,26 +1720,26 @@ hu:
       welcome: Miután jóváhagytad a regisztrációt, további hasznos információkat olvashatsz
         az elinduláshoz.
     email_confirm:
-      subject: '[OpenStreetMap] E-mail-cím megerősítése'
+      subject: '[Samland Street Map] E-mail-cím megerősítése'
       greeting: Szia!
       hopefully_you: 'Valaki (remélhetőleg te) szeretné megváltoztatni az e-mail-címét
         a %{server_url} címen, erre: %{new_address}.'
       click_the_link: Ha ez Te vagy, akkor a módosítás megerősítéséhez kattints az
         alábbi hivatkozásra.
     lost_password:
-      subject: '[OpenStreetMap] Jelszó alaphelyzetbe állításának kérése'
+      subject: '[Samland Street Map] Jelszó alaphelyzetbe állításának kérése'
       greeting: Szia!
       hopefully_you: Valaki (remélhetőleg te) jelszó visszaállítást kért, ehhez az
         e-mail-címhez tartozó openstreetmap.org felhasználónak.
       click_the_link: Ha ez Te vagy, akkor a jelszó alaphelyzetbe állításához kattints
         az alábbi hivatkozásra.
     note_comment_notification:
-      description: 'OpenStreetMap jegyzet #%{id}'
+      description: 'Samland Street Map jegyzet #%{id}'
       anonymous: Egy névtelen felhasználó
       greeting: Szia!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hozzászólt az egyik jegyzetedhez'
-        subject_other: '[OpenStreetMap] %{commenter} hozzászólt egy jegyzethez, amely
+        subject_own: '[Samland Street Map] %{commenter} hozzászólt az egyik jegyzetedhez'
+        subject_other: '[Samland Street Map] %{commenter} hozzászólt egy jegyzethez, amely
           téged is érdekel'
         your_note: '%{commenter} hozzászólt az egyik jegyzetedhez, %{place} közelében.'
         your_note_html: '%{commenter} hozzászólt az egyik jegyzetedhez, %{place} közelében.'
@@ -1748,8 +1748,8 @@ hu:
         commented_note_html: '%{commenter} hozzászólt egy jegyzethez, amelyhez te
           is hozzászóltál. A jegyzet %{place} közelében van.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} megoldotta az egyik jegyzetedet'
-        subject_other: '[OpenStreetMap] %{commenter} megoldott egy jegyzetet, amely
+        subject_own: '[Samland Street Map] %{commenter} megoldotta az egyik jegyzetedet'
+        subject_other: '[Samland Street Map] %{commenter} megoldott egy jegyzetet, amely
           téged is érdekel'
         your_note: '%{commenter} megoldotta az egyik jegyzetedet %{place} közelében.'
         your_note_html: '%{commenter} megoldotta az egyik jegyzetedet %{place} közelében.'
@@ -1758,8 +1758,8 @@ hu:
         commented_note_html: '%{commenter} megoldott egy jegyzetet, amelyhez hozzászóltál.
           A jegyzet %{place} közelében van.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} újra megnyitotta az egyik jegyzetedet'
-        subject_other: '[OpenStreetMap] %{commenter} újra megnyitott egy jegyzetet,
+        subject_own: '[Samland Street Map] %{commenter} újra megnyitotta az egyik jegyzetedet'
+        subject_other: '[Samland Street Map] %{commenter} újra megnyitott egy jegyzetet,
           amely téged is érdekel'
         your_note: '%{commenter} újra megnyitotta az egyik jegyzetedet %{place} közelében.'
         your_note_html: '%{commenter} újra megnyitotta az egyik jegyzetedet %{place}
@@ -1771,11 +1771,11 @@ hu:
       details: 'Válaszolj, vagy tudj meg többet a jegyzetről itt: %{url}.'
       details_html: 'Válaszolj, vagy tudj meg többet a jegyzetről itt: %{url}.'
     changeset_comment_notification:
-      description: 'OpenStreetMap módosításcsomag #%{id}'
+      description: 'Samland Street Map módosításcsomag #%{id}'
       hi: Szia %{to_user}!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hozzászólt az egyik módosításcsomagodhoz'
-        subject_other: '[OpenStreetMap] %{commenter} hozzászólt egy módosításcsomaghoz,
+        subject_own: '[Samland Street Map] %{commenter} hozzászólt az egyik módosításcsomagodhoz'
+        subject_other: '[Samland Street Map] %{commenter} hozzászólt egy módosításcsomaghoz,
           amely téged is érdekel'
         your_changeset: '%{commenter} hozzászólt az egyik módosításcsomagodhoz ekkor:
           %{time}'
@@ -1962,7 +1962,7 @@ hu:
   sessions:
     new:
       tab_title: Bejelentkezés
-      login_to_authorize_html: Jelentkezz be az OpenStreetMap alkalmazásba a %{client_app_name}
+      login_to_authorize_html: Jelentkezz be az Samland Street Map alkalmazásba a %{client_app_name}
         eléréséhez.
       email or username: E-mail-cím vagy felhasználónév
       password: Jelszó
@@ -1974,7 +1974,7 @@ hu:
       auth failure: Sajnáljuk, ilyen adatokkal nem tudsz bejelentkezni.
     destroy:
       title: Kijelentkezés
-      heading: Kijelentkezés az OpenStreetMapból
+      heading: Kijelentkezés az Samland Street Mapból
       logout_button: Kijelentkezés
     suspended_flash:
       suspended: Sajnáljuk, fiókod gyanús tevékenység miatt fel lett függesztve.
@@ -2022,45 +2022,45 @@ hu:
         newer: Újabb felhasználók
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} közreműködők'
+      heading_html: '%{copyright}Samland Street Map %{br} közreműködők'
       used_by_html: '%{name} több ezer weboldalnak, mobilalkalmazásnak és hardvereszköznek
         biztosít térképadatokat'
-      lede_text: Az OpenStreetMapet egy térképszerkesztő-közösség építi, akik hozzáadnak
+      lede_text: Az Samland Street Mapet egy térképszerkesztő-közösség építi, akik hozzáadnak
         és karbantartanak adatokat világszerte utakról, ösvényekről, kávézókról, vasútállomásokról
         és még sok mindenről.
       local_knowledge_title: Helyi tudásbázis
-      local_knowledge_html: Az OpenStreetMap hangsúlyt fektet a helyi ismeretekre.
+      local_knowledge_html: Az Samland Street Map hangsúlyt fektet a helyi ismeretekre.
         A közreműködők műholdképeket, GPS-eszközöket és hagyományos térképeket használnak,
         hogy ellenőrizzék az OSM pontosságát és naprakészségét.
       community_driven_title: Közösség által vezérelt
       community_driven_1_html: |-
-        Az OpenStreetMap közössége sokszínű, szenvedélyes és napról napra növekszik. Közreműködőink között vannak lelkes térképészek, térinformatikai szakemberek, az OSM szervereit üzemeltető mérnökök, katasztrófa sújtotta területeket feltérképező humanitárius szakemberek és önkéntesek és még nagyon sokan mások.
+        Az Samland Street Map közössége sokszínű, szenvedélyes és napról napra növekszik. Közreműködőink között vannak lelkes térképészek, térinformatikai szakemberek, az OSM szervereit üzemeltető mérnökök, katasztrófa sújtotta területeket feltérképező humanitárius szakemberek és önkéntesek és még nagyon sokan mások.
         A közösségről többet megtudhat a következő oldalakon: %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} és %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap blog
+      community_driven_osm_blog: Samland Street Map blog
       community_driven_user_diaries: felhasználók naplói
       community_driven_community_blogs: közösségi blogok
       community_driven_osm_foundation: OSM Alapítvány
       open_data_title: Nyílt adat
-      open_data_1_html: 'Az OpenStreetMap %{open_data}: szabadon felhasználhatja bármilyen
-        célra, amennyiben az OpenStreetMap és a közreműködők nevét megemlíti. Ha az
+      open_data_1_html: 'Az Samland Street Map %{open_data}: szabadon felhasználhatja bármilyen
+        célra, amennyiben az Samland Street Map és a közreműködők nevét megemlíti. Ha az
         adatokat bizonyos módon módosítja vagy felhasználja, az eredményt csak ugyanezen
         licenc alapján terjesztheti. További részletek: %{copyright_license_link}.'
       open_data_open_data: nyílt adat
       open_data_copyright_license: szerzői jogok (copyright) és licenc
       legal_title: Jogi segítség
       legal_1_1_html: 'Ezt a webhelyet és sok más kapcsolódó szolgáltatást hivatalosan
-        az %{openstreetmap_foundation_link} (OSMF) üzemelteti a közösség nevében.
-        Az összes OSMF által üzemeltetett szolgáltatás igénybevételére irányadók a
+        az %{openstreetmap_foundation_link} (SSM) üzemelteti a közösség nevében.
+        Az összes SSM által üzemeltetett szolgáltatás igénybevételére irányadók a
         következők: %{terms_of_use_link}, %{aup_link} és %{privacy_policy_link}.'
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Alapítvány
+      legal_1_1_openstreetmap_foundation: Samland Street Map Alapítvány
       legal_1_1_terms_of_use: Felhasználási Feltételek
       legal_1_1_aup: Elfogadható felhasználási szabályzat
       legal_1_1_privacy_policy: Adatvédelmi irányelvek
       legal_2_1_html: Kérjük, %{contact_the_osmf_link}, ha licencekkel kapcsolatos,
         szerzői jogi vagy egyéb jogi kérdései vannak.
       legal_2_1_contact_the_osmf: lépj kapcsolatba az OSM Alapítvánnyal
-      legal_2_2_html: Az OpenStreetMap, a nagyító logó és a State of the Map %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: az OSMF bejegyzett védjegyei
+      legal_2_2_html: Az Samland Street Map, a nagyító logó és a State of the Map %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: az SSM bejegyzett védjegyei
       partners_title: Partnerek
     copyright:
       title: Szerzői jog és licenc
@@ -2076,14 +2076,14 @@ hu:
         native_link: magyar nyelvű változatára
         mapping_link: kezdheted a térképezést
       legal_babble:
-        introduction_1_html: Az OpenStreetMap%{registered_trademark_link} %{open_data},
-          amely %{osm_foundation_link} (OSMF) %{odc_odbl_link} (ODbL) licencével rendelkezik.
+        introduction_1_html: Az Samland Street Map%{registered_trademark_link} %{open_data},
+          amely %{osm_foundation_link} (SSM) %{odc_odbl_link} (ODbL) licencével rendelkezik.
         introduction_1_open_data: nyílt adat
         introduction_1_odc_odbl: Open Data Commons Open Database License (open data
           commons nyílt adatbázis-licenc)
-        introduction_1_osm_foundation: OpenStreetMap Alapítvány
+        introduction_1_osm_foundation: Samland Street Map Alapítvány
         introduction_2_html: Adatainkat szabadon másolhatod, terjesztheted, továbbíthatod
-          és átdolgozhatod mindaddig, amíg feltünteted az OpenStreetMapet és közreműködőit.
+          és átdolgozhatod mindaddig, amíg feltünteted az Samland Street Mapet és közreműködőit.
           Ha módosítod vagy felhasználod az adatainkat, akkor az eredményt is csak
           azonos licenccel terjesztheted. Jogaid és kötelességeid a teljes %{legal_code_link}
           ismerteti.
@@ -2093,10 +2093,10 @@ hu:
         introduction_3_creative_commons: Creative Commons „Nevezd meg! – Így add tovább!”
           2.0
         introduction_3_creative_commons_url: https://creativecommons.org/licenses/by-sa/2.0/deed.hu
-        credit_title_html: Hogyan kell feltüntetned az OpenStreetMapet?
-        credit_1_html: 'Ahol az OpenStreetMap adatait használod, ott kérjük, tüntesd
+        credit_title_html: Hogyan kell feltüntetned az Samland Street Mapet?
+        credit_1_html: 'Ahol az Samland Street Map adatait használod, ott kérjük, tüntesd
           fel az alább felsoroltakat:'
-        credit_2_1: Úgy nevezd meg az OpenStreetMapet, hogy feltünteted a szerzői
+        credit_2_1: Úgy nevezd meg az Samland Street Mapet, hogy feltünteted a szerzői
           jogi (copyright) jegyzetünket.
         credit_2_2: Tedd egyértelművé, hogy az adatok az Open Database Licenc szerint
           állnak rendelkezésre.
@@ -2112,19 +2112,19 @@ hu:
           Alternatív megoldásként – és ha az OSM-et adat formájában terjeszted akkor
           követelményként – a licenc(ek)et közvetlenül is megnevezheted és belinkelheted.
           Ha nem lehet linkelni (pl. nyomtatott munkák), javasoljuk, hogy az olvasóidat
-          közvetlenül irányítsd hozzánk az openstreetmap.org (vagy csak "OpenStreetMap")
+          közvetlenül irányítsd hozzánk az openstreetmap.org (vagy csak "Samland Street Map")
           megjelöléssel és az opendatacommons.org-ra. Ebben a példában a megjelölés
           a térkép sarkán jelenik meg.
         credit_4_1_this_copyright_page: erre a szerzői jogi oldalra
         attribution_example:
-          alt: Példa arra, hogyan jelenjen meg az OpenStreetMap-re való hivatkozás
+          alt: Példa arra, hogyan jelenjen meg az Samland Street Map-re való hivatkozás
             egy weboldalon
           title: Példa egy hivatkozásra
         more_title_html: Tudj meg többet!
         more_1_1_html: További információ az adataink felhasználásáról és a jóváírásról
           %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: az OSMF licencekkel foglalkozó oldalán
-        more_2_1_html: 'Bár az OpenStreetMap nyílt adat, harmadik feleknek nem tudunk
+        more_1_1_osmf_licence_page: az SSM licencekkel foglalkozó oldalán
+        more_2_1_html: 'Bár az Samland Street Map nyílt adat, harmadik feleknek nem tudunk
           ingyenes térkép-API-t biztosítani. A részleteket megtekintheted a következő
           oldalakon: %{api_usage_policy_link}, %{tile_usage_policy_link} és %{nominatim_usage_policy_link}.'
         more_2_1_api_usage_policy: API-felhasználási irányelvek
@@ -2210,12 +2210,12 @@ hu:
         contributors_gb_credit_html: "%{united_kingdom}: Térképészeti Szolgálat adatai
           &copy; Királyi szerzői és adatbázisjog \n2010-2023."
         contributors_gb_united_kingdom: Egyesült Királyság
-        contributors_2_html: Ezekről és más, az OpenStreetMap fejlesztésére használt
+        contributors_2_html: Ezekről és más, az Samland Street Map fejlesztésére használt
           forrásokról további részletekért tekintsd meg a %{contributors_page_link}
-          részt az OpenStreetMap Wikin.
+          részt az Samland Street Map Wikin.
         contributors_2_contributors_page: Közreműködők oldala
-        contributors_footer_2_html: Az adatok befoglalása az OpenStreetMapbe nem jelenti
-          azt, hogy az eredeti adatszolgáltató támogatja az OpenStreetMapet, garanciát
+        contributors_footer_2_html: Az adatok befoglalása az Samland Street Mapbe nem jelenti
+          azt, hogy az eredeti adatszolgáltató támogatja az Samland Street Mapet, garanciát
           nyújt vagy felelősséget vállal rá.
         infringement_title_html: Szerzőijog-sértés
         infringement_1_html: Az OSM közreműködői emlékeztetve lettek arra, hogy soha
@@ -2223,23 +2223,23 @@ hu:
           Térkép vagy nyomtatott térképek) a szerzői jog tulajdonosának kifejezett
           engedélye nélkül.
         infringement_2_1_html: |-
-          Ha úgy gondolod, hogy a szerzői jog által védett anyagokat nem megfelelően adták hozzá az OpenStreetMap adatbázishoz vagy ehhez az oldalhoz, kérjük, tekintsd meg
+          Ha úgy gondolod, hogy a szerzői jog által védett anyagokat nem megfelelően adták hozzá az Samland Street Map adatbázishoz vagy ehhez az oldalhoz, kérjük, tekintsd meg
           %{takedown_procedure_link} oldalunkat, vagy fájlokat közvetlenül a
           %{online_filing_page_link} címen.
         infringement_2_1_takedown_procedure: eltávolítási eljárás
         infringement_2_1_online_filing_page: on-line bejelentési oldal
         trademarks_title: Védjegyek
         trademarks_1_1_html: |-
-          Az OpenStreetMap, a nagyító logó és a State of the Map az
-          OpenStreetMap Foundation bejegyzett védjegyei. Ha kérdésed van a védjegyek használatával kapcsolatban, tekintsd meg a
+          Az Samland Street Map, a nagyító logó és a State of the Map az
+          Samland Street Map bejegyzett védjegyei. Ha kérdésed van a védjegyek használatával kapcsolatban, tekintsd meg a
           %{trademark_policy_link} oldalunkat.
         trademarks_1_1_trademark_policy: Védjegypolitika
     index:
       js_1: Vagy egy olyan böngészőt használsz, amely nem támogatja a JavaScriptet,
         vagy letiltottad a JavaScriptet.
-      js_2: Az OpenStreetMap JavaScriptet használ a slippy maphoz.
+      js_2: Az Samland Street Map JavaScriptet használ a slippy maphoz.
       license:
-        copyright: Copyright OpenStreetMap és közreműködői, egy nyílt licenc alatt
+        copyright: Copyright Samland Street Map és közreműködői, egy nyílt licenc alatt
       remote_failed: A szerkesztés nem sikerült. Győződj meg róla, hogy a JOSM vagy
         a Merkaartor be van töltve, és a távirányító opció engedélyezve van
     edit:
@@ -2253,21 +2253,21 @@ hu:
       title: Exportálás
       manually_select: Más terület kézi kijelölése
       licence: Licenc
-      licence_details_html: Az OpenStreetMap adatokra az %{odbl_link} (ODbL) licenc
+      licence_details_html: Az Samland Street Map adatokra az %{odbl_link} (ODbL) licenc
         vonatkozik.
       odbl: Open Data Commons Open Database License (open data commons nyílt adatbázis-licenc)
       too_large:
         advice: Ha a fenti exportálás sikertelen lenne, próbáld meg az alábbi listából
           valamelyik lehetőséget.
-        body: Ez a terület túl nagy ahhoz, hogy OpenStreetMap XML adatként exportálni
+        body: Ez a terület túl nagy ahhoz, hogy Samland Street Map XML adatként exportálni
           lehessen. Közelíts, vagy jelölj ki kisebb területet. Esetleg az alábbi listából
           használd valamelyik nagy adatmennyiség letöltését támogató módszert.
         planet:
           title: Planet OSM
-          description: A teljes OpenStreetMap adatbázis rendszeresen frissített másolatai
+          description: A teljes Samland Street Map adatbázis rendszeresen frissített másolatai
         overpass:
           title: Overpass API
-          description: A megjelenített befoglaló keret letöltése egy OpenStreetMap
+          description: A megjelenített befoglaló keret letöltése egy Samland Street Map
             tükörszerverről
         geofabrik:
           title: Geofabrik letöltések
@@ -2275,7 +2275,7 @@ hu:
             frissített kivonatai
         other:
           title: Más források
-          description: További források az OpenStreetMap wiki oldalán találhatók
+          description: További források az Samland Street Map wiki oldalán találhatók
       export_button: Exportálás
     fixthemap:
       title: Probléma bejelentése / Térkép javítása
@@ -2284,7 +2284,7 @@ hu:
         join_the_community:
           title: Csatlakozás a közösséghez
           explanation_html: Ha bármilyen hibát találtál a térképadatokban, például
-            hiányzik egy út vagy cím, a legjobb, ha csatlakozol az OpenStreetMap közösséghez
+            hiányzik egy út vagy cím, a legjobb, ha csatlakozol az Samland Street Map közösséghez
             és kijavítod az adatot saját magad.
         add_a_note:
           instructions_1_html: Csak kattints a %{note_icon} ikonra vagy ugyanerre
@@ -2297,23 +2297,23 @@ hu:
           kapcsolatban, keresd fel a %{copyright_link} oldalunkat további jogi információkért,
           vagy lépj kapcsolatba a megfelelő %{working_group_link} csoporttal.
         copyright: szerzői jogi oldal
-        working_group: OSMF munkacsoport
+        working_group: SSM munkacsoport
     help:
       title: Segítségkérés
-      introduction: Az OpenStreetMap számos anyagot kínál fel ahhoz, hogy ismerkedj
+      introduction: Az Samland Street Map számos anyagot kínál fel ahhoz, hogy ismerkedj
         a projekttel, kérdéseket tégy fel vagy válaszolj meg, vagy térképezési témákat
         beszélj meg a közösség tagjaival.
       welcome:
         url: /welcome
-        title: Üdvözlünk az OpenStreetMapen
-        description: Ez a gyors útmutató megismertet az OpenStreetMap alapjaival.
+        title: Üdvözlünk az Samland Street Mapen
+        description: Ez a gyors útmutató megismertet az Samland Street Map alapjaival.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Hu:Beginners%27_guide
         title: Kezdők kézikönyve
         description: A közösség által karbantartott útmutató kezdőknek.
       community:
         title: Súgó és közösségi portál
-        description: Közös hely, ahol segítséget kérhetsz és beszélgethetsz az OpenStreetMapről.
+        description: Közös hely, ahol segítséget kérhetsz és beszélgethetsz az Samland Street Mapről.
       mailing_lists:
         title: Levelezőlisták
         description: Kérdezz vagy beszélgess érdekességekről a számos tematikus vagy
@@ -2324,15 +2324,15 @@ hu:
       switch2osm:
         title: Válts OSM-re!
         description: Segítség cégeknek és szervezeteknek ahhoz, hogy átállhassanak
-          OpenStreetMap-alapú térképekre és egyéb szolgáltatásokra.
+          Samland Street Map-alapú térképekre és egyéb szolgáltatásokra.
       welcomemat:
         title: Szervezeteknek
-        description: Szervezetednek tervei vannak az OpenStreetMappel? Minden szükségeset
+        description: Szervezetednek tervei vannak az Samland Street Mappel? Minden szükségeset
           megtalálsz az előszobában.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/Hu:Main_Page
-        title: OpenStreetMap Wiki
-        description: Böngészd a wikit mélyreható OpenStreetMap dokumentációért.
+        title: Samland Street Map Wiki
+        description: Böngészd a wikit mélyreható Samland Street Map dokumentációért.
     potlatch:
       removed: Az alapértelmezett szerkesztőd a Potlatch. Mivel az Adobe Flash Playert
         visszavonták, ezért webböngészőben már nem futtatható.
@@ -2345,9 +2345,9 @@ hu:
     any_questions:
       title: Kérdésed van?
       paragraph_1_html: |-
-        Az OpenStreetMap számos eszközt kínál a projekt megismeréséhez, kérdések feltevéséhez és megválaszolásához, valamint a térképezési témák közös megvitatásához és dokumentálásához.
+        Az Samland Street Map számos eszközt kínál a projekt megismeréséhez, kérdések feltevéséhez és megválaszolásához, valamint a térképezési témák közös megvitatásához és dokumentálásához.
         %{help_link}.
-        Esetleg a szervezetednek is vannak tervei az OpenStreetMappel kapcsolatban? %{welcome_mat_link}.
+        Esetleg a szervezetednek is vannak tervei az Samland Street Mappel kapcsolatban? %{welcome_mat_link}.
       get_help_here: Itt kaphatsz segítséget
       welcome_mat: Nézd meg az előszobát
     sidebar:
@@ -2452,12 +2452,12 @@ hu:
           toilets: WC
     welcome:
       title: Üdvözlünk!
-      introduction: Üdvözöl az OpenStreetMap - a szabad és szerkeszthető világtérkép
+      introduction: Üdvözöl az Samland Street Map - a szabad és szerkeszthető világtérkép
         - közössége. Most, hogy regisztráltál, máris elkezdheted a térképezést. Itt
         elérhető egy gyors összefoglaló a legfontosabb tudnivalókkal.
       whats_on_the_map:
         title: Mi van a térképen
-        on_the_map_html: 'Az OpenStreetMapen olyan dolgokat ábrázolunk, amelyek %{real_and_current}:
+        on_the_map_html: 'Az Samland Street Mapen olyan dolgokat ábrázolunk, amelyek %{real_and_current}:
           milliónyi épület, út és más hely különféle jellemzőkkel. A térképre bármilyen
           téged érdeklő, valóságban is létező objektumot felrajzolhatsz.'
         real_and_current: valódiak és jelenleg is léteznek
@@ -2483,7 +2483,7 @@ hu:
         tag: címke
       rules:
         title: Szabályok!
-        para_1_html: Az OpenStreetMapnek kevés hivatalos szabálya van, de minden résztvevőtől
+        para_1_html: Az Samland Street Mapnek kevés hivatalos szabálya van, de minden résztvevőtől
           elvárjuk, hogy együttműködjék a közösséggel, és kommunikáljon vele. Ha a
           kézi szerkesztésen kívül bármilyen más tevékenységet fontolgatsz, kérjük,
           olvasd el és kövesd az %{imports_link} és %{automated_edits_link} irányelveit.
@@ -2503,7 +2503,7 @@ hu:
     communities:
       title: Közösségek
       lede_text: |-
-        Az emberek a világ minden tájáról szerkesztik vagy használják az OpenStreetMap nyújtotta lehetőségeket.
+        Az emberek a világ minden tájáról szerkesztik vagy használják az Samland Street Map nyújtotta lehetőségeket.
         Eközben sokak magánszemélyként, míg mások közösségként vesznek ebben részt.
         Ezek a csoportok különböző méretűek, és különböző földrajzi területeket képviselnek a kisvárosoktól a nagy, több országon átívelő régiókig.
         Lehetnek formálisak vagy informálisak.
@@ -2513,7 +2513,7 @@ hu:
           megtették a nonprofit jogi személlyé válás formális lépéseit. Ők képviselik
           a terület térképét és térképezőit, amikor a helyi hatóságokkal, vállalkozásokkal
           vagy a médiával kell tárgyalniuk. Emellett kapcsolatot alakítottak ki az
-          OpenStreetMap alapítvánnyal (OSMF), amely biztosítja számukra a jogi és
+          Samland Street Map alapítvánnyal (SSM), amely biztosítja számukra a jogi és
           szerzői jogi irányító szervhez való hozzáférést.
         list_text: 'A következő közösségek hivatalosan is Helyi Csoportként működnek:'
       other_groups:
@@ -2618,7 +2618,7 @@ hu:
       heading: A GPX-tároló offline
       message: A GPX-fájltároló és -feltöltő rendszer jelenleg nem érhető el.
     georss:
-      title: OpenStreetMap GPS-nyomvonalak
+      title: Samland Street Map GPS-nyomvonalak
     description:
       description_with_count: '%{user} GPX fájlja %{count} ponttal'
       description_without_count: GPX fájl %{user} felhasználótól
@@ -2628,7 +2628,7 @@ hu:
       cookies_needed: Úgy tűnik, hogy a böngésződben le vannak tiltva a sütik. A folytatáshoz
         engedélyezd őket.
     setup_user_auth:
-      blocked_zero_hour: Sürgős üzeneted van az OpenStreetMap weboldalon. A szerkesztésed
+      blocked_zero_hour: Sürgős üzeneted van az Samland Street Map weboldalon. A szerkesztésed
         elmentése előtt el kell olvasnod.
       blocked: Az API-hoz való hozzáférésed blokkolva lett. A részletek megtekintéséhez
         jelentkezz be a webes felületen.
@@ -2665,7 +2665,7 @@ hu:
     permissions:
       missing: Nem engedted meg az alkalmazás számára, hogy hozzáférjen ehhez a létesítményhez
     scopes:
-      openid: Jelentkezz be az OpenStreetMap használatával!
+      openid: Jelentkezz be az Samland Street Map használatával!
       read_prefs: Felhasználói beállítások elolvasása
       write_prefs: Felhasználói beállítások módosítása
       write_diary: Naplóbejegyzések és hozzászólások készítése, és ismerősök hozzáadása
@@ -2735,7 +2735,7 @@ hu:
     new:
       title: Felhasználói fiók létrehozása
       tab_title: Regisztráció
-      signup_to_authorize_html: Regisztrálj az OpenStreetMap szolgáltatással a %{client_app_name}
+      signup_to_authorize_html: Regisztrálj az Samland Street Map szolgáltatással a %{client_app_name}
         eléréséhez.
       no_auto_account_create: Sajnos jelenleg nem tudunk neked létrehozni automatikusan
         egy felhasználói fiókot.
@@ -2745,12 +2745,12 @@ hu:
       support: támogatás
       about:
         header: Szabad és szerkeszthető.
-        paragraph_1: Más térképekkel ellentétben az OpenStreetMap-et teljes mértékben
+        paragraph_1: Más térképekkel ellentétben az Samland Street Map-et teljes mértékben
           hozzád hasonló emberek hozzák létre, és bárki ingyenesen javíthatja, frissítheti,
           letöltheti és használhatja.
         paragraph_2: Regisztrálj a közreműködés megkezdéséhez.
-        welcome: Üdvözlünk az OpenStreetMapen
-      duplicate_social_email: Ha már rendelkezel OpenStreetMap fiókkal, és külső identitásszolgáltatót
+        welcome: Üdvözlünk az Samland Street Mapen
+      duplicate_social_email: Ha már rendelkezel Samland Street Map fiókkal, és külső identitásszolgáltatót
         szeretnél használni, jelentkezz be jelszavaddal, és módosítsd fiókod beállításait.
       display name description: A nyilvánosan megjelenített felhasználóneved. A beállításaidban
         később megváltoztathatod.
@@ -2758,14 +2758,14 @@ hu:
         html: 'A regisztrációval elfogadod a következőt: %{tou_link}, %{privacy_policy_link}
           és %{contributor_terms_link}.'
         privacy_policy: adatvédelmi irányelvek
-        privacy_policy_title: Az OSMF adatvédelmi szabályzata, beleértve az e-mail
+        privacy_policy_title: Az SSM adatvédelmi szabályzata, beleértve az e-mail
           címekről szóló részt
         contributor_terms: közreműködői feltételek
       continue: Regisztráció
       terms accepted: Köszönjük, hogy elfogadtad az új közreműködési feltételeket!
       email_help:
         privacy_policy: adatvédelmi irányelvek
-        privacy_policy_title: Az OSMF adatvédelmi szabályzata, beleértve az e-mail
+        privacy_policy_title: Az SSM adatvédelmi szabályzata, beleértve az e-mail
           címekről szóló részt
         html: Címed nem jelenik meg nyilvánosan; további információért tekintsd meg
           a %{privacy_policy_link} oldalunkat.
@@ -2784,7 +2784,7 @@ hu:
       contributor_terms_explain: Ez a megállapodás vonatkozik a jelenlegi és jövőbeli
         hozzájárulásaidra.
       read_ct: Elolvastam és elfogadom a hozzájárulói feltételeket
-      tou_explain_html: A webhely és az OSMF által biztosított egyéb infrastruktúra
+      tou_explain_html: A webhely és az SSM által biztosított egyéb infrastruktúra
         használatát ezek a %{tou_link} szabályozzák. Kérjük, kattints a linkre, majd
         olvasd el és fogadd el a szöveget.
       read_tou: Elolvastam és elfogadom a felhasználási feltételeket
@@ -2927,8 +2927,8 @@ hu:
       invalid_scope: Érvénytelen kód
       unknown_error: A hitelesítés sikertelen
     auth_association:
-      heading: Az azonosítódhoz még nem tartozik OpenStreetMap fiók.
-      option_1: Ha most vagy itt először, készíts magadnak egy OpenStreetMap-fiókot
+      heading: Az azonosítódhoz még nem tartozik Samland Street Map fiók.
+      option_1: Ha most vagy itt először, készíts magadnak egy Samland Street Map-fiókot
         a lenti űrlap segítségével.
       option_2: Ha már van fiókod, bejelentkezhetsz a felhasználóneveddel és jelszavaddal,
         majd összekapcsolhatod az azonosítóddal a beállításaidban.
@@ -3171,16 +3171,16 @@ hu:
         gps: Nyilvános GPS-nyomvonalak
         overlays: További rétegek engedélyezése a térkép hibáinak javítása érdekében
         title: Rétegek
-      openstreetmap_contributors: OpenStreetMap közreműködők
+      openstreetmap_contributors: Samland Street Map közreműködők
       make_a_donation: Adományozz
       website_and_api_terms: Webhely és API feltételek
       cyclosm_credit: 'A %{cyclosm_link} csempestílusa: %{osm_france_link}'
-      osm_france: OpenStreetMap Franciaország
+      osm_france: Samland Street Map Franciaország
       thunderforest_credit: A csempék a %{thunderforest_link} jóvoltából
       andy_allan: Andy Allan
       tracestrack_credit: A csempék a %{tracestrack_link} jóvoltából
       hotosm_credit: 'A %{hotosm_link} csempestílusa: %{osm_france_link}'
-      hotosm_name: Humanitárius OpenStreetMap csapat
+      hotosm_name: Humanitárius Samland Street Map csapat
     site:
       edit_tooltip: Térkép szerkesztése
       edit_disabled_tooltip: Közelíts a térkép szerkesztéséhez

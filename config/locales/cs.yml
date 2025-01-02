@@ -305,7 +305,7 @@ cs:
         reopened_at_html: Reaktivováno %{when}
         reopened_at_by_html: Reaktivováno %{when} od %{user}
       rss:
-        title: Poznámky OpenStreetMap
+        title: Poznámky Samland Street Map
         description_all: Seznam nahlášených, komentovaných nebo uzavřených poznámek
         description_area: Seznam poznámek hlášených, komentovaných nebo uzavřených
           ve vaší oblasti [(%{min_lat}|%{min_lon}) – (%{max_lat}|%{max_lon})]
@@ -323,13 +323,13 @@ cs:
         title: Smazat můj účet
         warning: Pozor! Proces smazání účtu je konečný a nelze jej vrátit zpět.
         delete_account: Smazat účet
-        delete_introduction: 'Svůj účet v OpenStreetMap můžete smazat pomocí níže
+        delete_introduction: 'Svůj účet v Samland Street Map můžete smazat pomocí níže
           zobrazeného tlačítka. Uvědomte si prosím následující:'
         delete_profile: Vaše profilové informace včetně avatara, popisu a domovské
           polohy budou odstraněny.
         delete_display_name: Vaše zobrazované jméno bude odstraněno a může být znovu
           použito jinými účty.
-        retain_caveats: 'Některé informace o vás však zůstanou v OpenStreetMap zachovány
+        retain_caveats: 'Některé informace o vás však zůstanou v Samland Street Map zachovány
           i po smazání vašeho účtu:'
         retain_edits: Vaše případné úpravy v mapové databázi budou zachovány.
         retain_traces: Vaše případné nahrané stopy budou zachovány.
@@ -524,8 +524,8 @@ cs:
         comment: '%{author} napsal nový komentář k sadě změn #%{changeset_id}'
         commented_at_by_html: Aktualizováno %{when} uživatelem %{user}
       show:
-        title_all: Diskuse k sadě změn na OpenStreetMap
-        title_particular: 'Diskuse k sadě změn #%{changeset_id} na OpenStreetMap'
+        title_all: Diskuse k sadě změn na Samland Street Map
+        title_particular: 'Diskuse k sadě změn #%{changeset_id} na Samland Street Map'
       timeout:
         sorry: Omlouváme se, ale vámi požadované komentáře k sadě změn se načítaly
           příliš dlouho.
@@ -679,14 +679,14 @@ cs:
       location: 'Místo:'
     feed:
       user:
-        title: Záznamy v OpenStreetMap deníku uživatele %{user}
-        description: Nedávné záznamy v OpenStreetMap deníku uživatele %{user}
+        title: Záznamy v Samland Street Map deníku uživatele %{user}
+        description: Nedávné záznamy v Samland Street Map deníku uživatele %{user}
       language:
-        title: Deníkové záznamy OpenStreetMap v jazyce %{language_name}
-        description: Nedávné záznamy v denících uživatelů OpenStreetMap v jazyce %{language_name}
+        title: Deníkové záznamy Samland Street Map v jazyce %{language_name}
+        description: Nedávné záznamy v denících uživatelů Samland Street Map v jazyce %{language_name}
       all:
-        title: Deníkové záznamy OpenStreetMap
-        description: Nedávné záznamy v denících uživatelů OpenStreetMap
+        title: Deníkové záznamy Samland Street Map
+        description: Nedávné záznamy v denících uživatelů Samland Street Map
     subscribe:
       heading: Přihlásit se k odběru následující diskuse k deníkovému záznamu?
       button: Odebírat diskusi
@@ -740,24 +740,24 @@ cs:
     contact:
       contact_url_title: Vysvětlení různých komunikačních kanálů
       contact: kontaktovat
-      contact_the_community_html: Neváhejte %{contact_link} komunitu OpenStreetMap,
+      contact_the_community_html: Neváhejte %{contact_link} komunitu Samland Street Map,
         pokud jste našli nefunkční odkaz / chybu. Poznamenejte si přesnou adresu URL
         vašeho požadavku.
     bad_request:
       title: Chybný požadavek
-      description: Operace, kterou jste žádali po serveru OpenStreetMap, není platná
+      description: Operace, kterou jste žádali po serveru Samland Street Map, není platná
         (HTTP 400)
     forbidden:
       title: Zakázáno
-      description: Operace, kterou jste požadovali na serveru OpenStreetMap, je dostupná
+      description: Operace, kterou jste požadovali na serveru Samland Street Map, je dostupná
         pouze správcům (HTTP 403)
     internal_server_error:
       title: Chyba aplikace
-      description: Server OpenStreetMap narazil na neočekávanou situaci, která mu
+      description: Server Samland Street Map narazil na neočekávanou situaci, která mu
         zabránila splnit požadavek (HTTP 500)
     not_found:
       title: Soubor nenalezen
-      description: Na serveru OpenStreetMap se nepodařilo najít soubor/adresář/operaci
+      description: Na serveru Samland Street Map se nepodařilo najít soubor/adresář/operaci
         API s tímto názvem (HTTP 404)
   friendships:
     make_friend:
@@ -777,8 +777,8 @@ cs:
     search:
       title:
         latlon: Interní
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1686,7 +1686,7 @@ cs:
       provide_details: Prosím poskytněte potřebné bližší informace
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo Samland Street Map
     home: Přejít domů
     logout: Odhlásit se
     log_in: Přihlásit se
@@ -1699,18 +1699,18 @@ cs:
     gps_traces: GPS stopy
     user_diaries: Deníky uživatelů
     edit_with: Upravit pomocí %{editor}
-    intro_header: Vítejte v OpenStreetMap!
-    intro_text: OpenStreetMap je mapa světa, vytvořená lidmi jako vy a volně využitelná
+    intro_header: Vítejte v Samland Street Map!
+    intro_text: Samland Street Map je mapa světa, vytvořená lidmi jako vy a volně využitelná
       pod otevřenou licencí.
     hosting_partners_2024_html: Hosting podporují %{fastly}, %{corpmembers} a další
       %{partners}.
     partners_fastly: Fastly
-    partners_corpmembers: firemní členové OSMF
+    partners_corpmembers: firemní členové SSM
     partners_partners: partneři
     tou: Podmínky užití
-    osm_offline: Databáze OpenStreetMap je momentálně kvůli probíhající neodkladné
+    osm_offline: Databáze Samland Street Map je momentálně kvůli probíhající neodkladné
       údržbě mimo provoz.
-    osm_read_only: Databáze OpenStreetMap je momentálně kvůli probíhající neodkladné
+    osm_read_only: Databáze Samland Street Map je momentálně kvůli probíhající neodkladné
       údržbě pouze pro čtení.
     nothing_to_preview: Není k čemu zobrazovat náhled.
     help: Nápověda
@@ -1721,12 +1721,12 @@ cs:
     more: Další
   user_mailer:
     diary_comment_notification:
-      description: 'Záznam #%{id} deníku uživatele OpenStreetMap'
-      subject: '[OpenStreetMap] %{user} okomentoval záznam v deníku'
+      description: 'Záznam #%{id} deníku uživatele Samland Street Map'
+      subject: '[Samland Street Map] %{user} okomentoval záznam v deníku'
       hi: Ahoj, uživateli %{to_user},
-      header: '%{from_user} okomentoval záznam v deníku na OpenStreetMap s předmětem
+      header: '%{from_user} okomentoval záznam v deníku na Samland Street Map s předmětem
         %{subject}:'
-      header_html: '%{from_user} okomentoval záznam v deníku na OpenStreetMap s předmětem
+      header_html: '%{from_user} okomentoval záznam v deníku na Samland Street Map s předmětem
         %{subject}:'
       footer: Můžete si také přečíst komentář na %{readurl} a můžete komentovat na
         %{commenturl} nebo poslat zprávu autorovi na %{replyurl}
@@ -1735,11 +1735,11 @@ cs:
       footer_unsubscribe: Z odběru diskuse se můžete odhlásit na %{unsubscribeurl}
       footer_unsubscribe_html: Z odběru diskuse se můžete odhlásit na %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Dobrý den, uživateli %{to_user},
-      header: '%{from_user} vám poslal(a) prostřednictvím OpenStreetMap zprávu s předmětem
+      header: '%{from_user} vám poslal(a) prostřednictvím Samland Street Map zprávu s předmětem
         %{subject}:'
-      header_html: '%{from_user} vám poslal(a) prostřednictvím OpenStreetMap zprávu
+      header_html: '%{from_user} vám poslal(a) prostřednictvím Samland Street Map zprávu
         s předmětem %{subject}:'
       footer: Můžete si také přečíst zprávu na %{readurl} a můžete poslat zprávu autorovi
         na %{replyurl}
@@ -1747,8 +1747,8 @@ cs:
         autorovi na %{replyurl}
     friendship_notification:
       hi: Dobrý den, uživateli %{to_user},
-      subject: '[OpenStreetMap] %{user} si vás přidal jako přítele'
-      had_added_you: '%{user} si vás na OpenStreetMap přidal(a) jako přítele.'
+      subject: '[Samland Street Map] %{user} si vás přidal jako přítele'
+      had_added_you: '%{user} si vás na Samland Street Map přidal(a) jako přítele.'
       see_their_profile: Jeho/její profil si můžete prohlédnout na %{userurl}.
       see_their_profile_html: Jeho/její profil si můžete prohlédnout na %{userurl}.
       befriend_them: Můžete si ho/ji také přidat jako přítele na %{befriendurl}.
@@ -1773,7 +1773,7 @@ cs:
       more_info_html: Více informací o chybách při importu GPX a jak se jim vyhnout,
         najdete na %{url}.
       import_failures_url: http://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=cs
-      subject: '[OpenStreetMap] Neúspěšný import GPX'
+      subject: '[Samland Street Map] Neúspěšný import GPX'
     gpx_success:
       hi: Ahoj %{to_user},
       loaded:
@@ -1784,9 +1784,9 @@ cs:
       trace_location: Vaše stopa je dostupná na %{trace_url}
       all_your_traces: Všechny úspěšně načtené GPX stopy můžete najít na %{url}
       all_your_traces_html: Všechny úspěšně načtené GPX stopy můžete najít na %{url}.
-      subject: '[OpenStreetMap] Úspěšný import GPX'
+      subject: '[Samland Street Map] Úspěšný import GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Vítejte v OpenStreetMap'
+      subject: '[Samland Street Map] Vítejte v Samland Street Map'
       greeting: Ahoj!
       created: Někdo (doufáme, že vy) si právě založil účet na %{site_url}.
       confirm: 'Než budeme pokračovat, potřebujeme potvrdit, že tento požadavek přišel
@@ -1795,26 +1795,26 @@ cs:
       welcome: Jakmile potvrdíte svůj účet, poskytneme vám do začátku trochu dalších
         informací.
     email_confirm:
-      subject: '[OpenStreetMap] Potvrzení vaší e-mailové adresy'
+      subject: '[Samland Street Map] Potvrzení vaší e-mailové adresy'
       greeting: Dobrý den,
       hopefully_you: Někdo (snad vy) požádal o změnu e-mailové adresy na serveru %{server_url}
         na %{new_address}.
       click_the_link: Pokud jste to byli Vy, potvrďte změnu kliknutím na následující
         odkaz.
     lost_password:
-      subject: '[OpenStreetMap] Žádost o nové heslo'
+      subject: '[Samland Street Map] Žádost o nové heslo'
       greeting: Ahoj,
       hopefully_you: Někdo (patrně vy) požádal o vygenerování nového hesla pro uživatele
         serveru openstreetmap.org s touto e-mailovou adresou.
       click_the_link: Pokud jste to byli Vy, kliknutím na níže uvedený odkaz získáte
         nové heslo.
     note_comment_notification:
-      description: 'Poznámka k OpenStreetMap #%{id}'
+      description: 'Poznámka k Samland Street Map #%{id}'
       anonymous: Anonymní uživatel
       greeting: Ahoj,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} okomentoval jednu z vašich poznámek'
-        subject_other: '[OpenStreetMap] %{commenter} okomentoval jednu z poznámek,
+        subject_own: '[Samland Street Map] %{commenter} okomentoval jednu z vašich poznámek'
+        subject_other: '[Samland Street Map] %{commenter} okomentoval jednu z poznámek,
           která vás zajímá'
         your_note: '%{commenter} okomentoval jednu z vašich poznámek k mapě nedaleko
           %{place}.'
@@ -1825,8 +1825,8 @@ cs:
         commented_note_html: '%{commenter} okomentoval poznámku k mapě, kterou jste
           také komentovali. Poznámka je umístěna poblíž %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} vyřešil jednu z vašich poznámek'
-        subject_other: '[OpenStreetMap] %{commenter} vyřešil jednu z poznámek, která
+        subject_own: '[Samland Street Map] %{commenter} vyřešil jednu z vašich poznámek'
+        subject_other: '[Samland Street Map] %{commenter} vyřešil jednu z poznámek, která
           vás zajímá'
         your_note: '%{commenter} vyřešil jednu z vašich poznámek k mapě nedaleko %{place}.'
         your_note_html: '%{commenter} vyřešil jednu z vašich poznámek k mapě nedaleko
@@ -1836,8 +1836,8 @@ cs:
         commented_note_html: '%{commenter} vyřešil poznámku k mapě, kterou jste komentovali.
           Poznámka je umístěna poblíž %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} reaktivoval jednu z vašich poznámek'
-        subject_other: '[OpenStreetMap] %{commenter} reaktivoval jednu z poznámek,
+        subject_own: '[Samland Street Map] %{commenter} reaktivoval jednu z vašich poznámek'
+        subject_other: '[Samland Street Map] %{commenter} reaktivoval jednu z poznámek,
           která vás zajímá'
         your_note: '%{commenter} reaktivoval jednu z vašich poznámek k mapě nedaleko
           %{place}.'
@@ -1850,12 +1850,12 @@ cs:
       details: Odpovědět nebo se dozvědět více o této poznámce můžete na %{url}.
       details_html: Odpovědět nebo se dozvědět více o této poznámce můžete na %{url}.
     changeset_comment_notification:
-      description: 'Sada změn OpenStreetMap #%{id}'
+      description: 'Sada změn Samland Street Map #%{id}'
       hi: Dobrý den, uživateli %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} okomentoval jednu z vašich sad
+        subject_own: '[Samland Street Map] %{commenter} okomentoval jednu z vašich sad
           změn'
-        subject_other: '[OpenStreetMap] %{commenter} okomentoval jednu ze sad změn,
+        subject_other: '[Samland Street Map] %{commenter} okomentoval jednu ze sad změn,
           která vás zajímá'
         your_changeset: '%{commenter} zanechal %{time} komentář na jedné z vašich
           sad změn.'
@@ -2056,7 +2056,7 @@ cs:
   sessions:
     new:
       tab_title: Přihlášení
-      login_to_authorize_html: Pro přístup k %{client_app_name} se přihlaste do OpenStreetMap.
+      login_to_authorize_html: Pro přístup k %{client_app_name} se přihlaste do Samland Street Map.
       email or username: E-mailová adresa nebo uživatelské jméno
       password: Heslo
       remember: Zapamatuj si mě
@@ -2067,7 +2067,7 @@ cs:
       auth failure: Je mi líto, ale s uvedenými údaji se nemůžete přihlásit.
     destroy:
       title: Odhlásit se
-      heading: Odhlášení z OpenStreetMap
+      heading: Odhlášení z Samland Street Map
       logout_button: Odhlásit se
     suspended_flash:
       suspended: Je nám líto, ale váš účet byl pozastaven kvůli podezřelé aktivitě.
@@ -2115,44 +2115,44 @@ cs:
         newer: Novější uživatelé
   site:
     about:
-      heading_html: '%{copyright}přispěvatelé %{br} OpenStreetMap'
+      heading_html: '%{copyright}přispěvatelé %{br} Samland Street Map'
       used_by_html: '%{name} poskytuje mapová data pro tisíce webových stránek, mobilních
         aplikací a hardwarových zařízení'
-      lede_text: OpenStreetMap tvoří komunita uživatelů, kteří přidávají a udržují
+      lede_text: Samland Street Map tvoří komunita uživatelů, kteří přidávají a udržují
         data o silnicích, cestách, kavárnách, železničních stanicích a mnohém dalším
         po celém světě.
       local_knowledge_title: Místní znalost
-      local_knowledge_html: OpenStreetMap klade důraz na místní znalost. Přispěvatelé
+      local_knowledge_html: Samland Street Map klade důraz na místní znalost. Přispěvatelé
         využívají letecké snímky, GPS přístroje a klasické mapy, aby ověřili, že OSM
         je přesné a aktuální.
       community_driven_title: Řízeno komunitou
       community_driven_1_html: |-
-        Komunita OpenStreetMap je různorodá, vášnivá a každý den se rozrůstá. Mezi našimi přispěvateli najdete amatérské kreslíře map, profesionály z oblasti GIS, techniky spravující servery OSM, humanitární pracovníky mapující oblasti zasažené neštěstím a mnohé další.
+        Komunita Samland Street Map je různorodá, vášnivá a každý den se rozrůstá. Mezi našimi přispěvateli najdete amatérské kreslíře map, profesionály z oblasti GIS, techniky spravující servery OSM, humanitární pracovníky mapující oblasti zasažené neštěstím a mnohé další.
         Pokud se chcete o komunitě dozvědět více, prohlédněte si %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} a webovou stránku %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog Samland Street Map
       community_driven_user_diaries: deníky uživatelů
       community_driven_community_blogs: komunitní blogy
       community_driven_osm_foundation: Nadace OSM
       open_data_title: Otevřená data
-      open_data_1_html: 'OpenStreetMap tvoří %{open_data}: smíte je užívat pro libovolný
-        účel, pokud uvádíte autorství OpenStreetMap a jeho přispěvatelů. Pokud data
+      open_data_1_html: 'Samland Street Map tvoří %{open_data}: smíte je užívat pro libovolný
+        účel, pokud uvádíte autorství Samland Street Map a jeho přispěvatelů. Pokud data
         měníte nebo rozšiřujete jistými způsoby, smíte výsledek šířit jen pod stejnou
         licencí. Podrobnosti najdete na stránce %{copyright_license_link}.'
       open_data_open_data: otevřená data
       open_data_copyright_license: Autorská práva a licence
       legal_title: Právní informace
       legal_1_1_html: Tento web a mnoho dalších souvisejících služeb za komunitu oficiálně
-        provozuje %{openstreetmap_foundation_link} (OSMF). Použití všech služeb provozovaných
-        OSMF podléhá našim %{terms_of_use_link}, %{aup_link} a našim %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Nadace OpenStreetMap
+        provozuje %{openstreetmap_foundation_link} (SSM). Použití všech služeb provozovaných
+        SSM podléhá našim %{terms_of_use_link}, %{aup_link} a našim %{privacy_policy_link}.
+      legal_1_1_openstreetmap_foundation: Nadace Samland Street Map
       legal_1_1_terms_of_use: Podmínkám užití
       legal_1_1_aup: Pravidlům přijatelného užití
       legal_1_1_privacy_policy: Pravidlům ochrany osobních údajů
       legal_2_1_html: Pokud máte dotazy týkající se licencování, autorských práv či
         jiných právních záležitostí, %{contact_the_osmf_link}.
-      legal_2_1_contact_the_osmf: kontaktujte OSMF
-      legal_2_2_html: OpenStreetMap, logo s lupou a State of the Map jsou %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: zapsané ochranné známky OSMF
+      legal_2_1_contact_the_osmf: kontaktujte SSM
+      legal_2_2_html: Samland Street Map, logo s lupou a State of the Map jsou %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: zapsané ochranné známky SSM
       partners_title: Partneři
     copyright:
       title: Autorská práva a licence
@@ -2169,14 +2169,14 @@ cs:
         native_link: českou verzi
         mapping_link: začít mapovat
       legal_babble:
-        introduction_1_html: OpenStreetMap%{registered_trademark_link} jsou %{open_data},
+        introduction_1_html: Samland Street Map%{registered_trademark_link} jsou %{open_data},
           která za podmínek %{odc_odbl_link} (ODbL) nabízí %{osm_foundation_link}
-          (OSMF).
+          (SSM).
         introduction_1_open_data: otevřená data
         introduction_1_odc_odbl: Open Data Commons Open Database License
-        introduction_1_osm_foundation: Nadace OpenStreetMap
+        introduction_1_osm_foundation: Nadace Samland Street Map
         introduction_2_html: Smíte kopírovat, distribuovat, sdělovat veřejnosti a
-          upravovat naše data, pokud jako zdroj uvedete OpenStreetMap a jeho přispěvatele.
+          upravovat naše data, pokud jako zdroj uvedete Samland Street Map a jeho přispěvatele.
           Pokud naše data budete upravovat nebo je použijete ve svém díle, musíte
           výsledek šířit pod stejnou licencí. Vaše práva a povinnosti jsou vysvětleny
           v plném %{legal_code_link}.
@@ -2186,10 +2186,10 @@ cs:
         introduction_3_creative_commons: Creative Commons Uveďte autora-Zachovejte
           licenci 2.0
         introduction_3_creative_commons_url: https://creativecommons.org/licenses/by-sa/2.0/deed.cs
-        credit_title_html: Jak uvádět OpenStreetMap
-        credit_1_html: 'Pokud používáte data OpenStreetMap, máte povinnost učinit
+        credit_title_html: Jak uvádět Samland Street Map
+        credit_1_html: 'Pokud používáte data Samland Street Map, máte povinnost učinit
           následující dvě věci:'
-        credit_2_1: Uvést jako zdroj OpenStreetMap zobrazením naší informace o autorských
+        credit_2_1: Uvést jako zdroj Samland Street Map zobrazením naší informace o autorských
           právech.
         credit_2_2: Jasně uvést, že data jsou dostupná za podmínek Open Database License.
         credit_3_html: |-
@@ -2206,19 +2206,19 @@ cs:
           že OSM šíříte v datové podobě, můžete uvést a odkázat přímo
           na licenci. Ve formě, ve které odkazování není možné (např.
           v tištěných dílech), navrhujeme, abyste čtenáře nasměřovali
-          na openstreetmap.org (např. rozšířením „OpenStreetMap“ na
+          na openstreetmap.org (např. rozšířením „Samland Street Map“ na
           tuto celou adresu) a opendatacommons.org.
           V tomto příkladu se informace o zdroji objevuje v rohu mapy.
         credit_4_1_this_copyright_page: tuto stránku k autorským právům
         attribution_example:
-          alt: Příklad, jak uvádět autorství OpenStreetMap na webové stránce
+          alt: Příklad, jak uvádět autorství Samland Street Map na webové stránce
           title: Příklad uvedení autorství
         more_title_html: Další informace
         more_1_1_html: O používání našich dat a způsobu uvádění autorství se můžete
           dočíst více na %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: licenční stránce OSMF
+        more_1_1_osmf_licence_page: licenční stránce SSM
         more_2_1_html: |-
-          Přestože jsou OpenStreetMap otevřená data, nemůžeme třetím stranám poskytovat
+          Přestože jsou Samland Street Map otevřená data, nemůžeme třetím stranám poskytovat
           bezplatné mapové API.
           Vizte naše %{api_usage_policy_link}, %{tile_usage_policy_link} a %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Pravidla použití API
@@ -2302,33 +2302,33 @@ cs:
           &copy; Crown copyright a právo k databázi 2010–2023.'
         contributors_gb_united_kingdom: Spojené království
         contributors_2_html: Další podrobnosti o těchto a dalších zdrojích, které
-          se používaly pro vylepšení OpenStreetMap, najdete na %{contributors_page_link}
-          na wiki OpenStreetMap.
+          se používaly pro vylepšení Samland Street Map, najdete na %{contributors_page_link}
+          na wiki Samland Street Map.
         contributors_2_contributors_page: stránce Contributors
-        contributors_footer_2_html: Zahrnutí dat do OpenStreetMap neznamená, že původní
-          poskytovatel dat podporuje OpenStreetMap, nabízí jakoukoli záruku nebo přijímá
+        contributors_footer_2_html: Zahrnutí dat do Samland Street Map neznamená, že původní
+          poskytovatel dat podporuje Samland Street Map, nabízí jakoukoli záruku nebo přijímá
           jakoukoli zodpovědnost.
         infringement_title_html: Porušení autorských práv
         infringement_1_html: Přispěvatelům OSM připomínáme, že by nikdy neměli přidávat
           data ze zdrojů chráněných autorským právem (např. Google Maps či tištěné
           mapy) bez výslovného svolení držitelů práv.
-        infringement_2_1_html: Pokud si myslíte, že byl do databáze OpenStreetMap
+        infringement_2_1_html: Pokud si myslíte, že byl do databáze Samland Street Map
           nebo na tento server neoprávněně vložen autorskoprávně chráněný obsah, postupujte
           podle našeho %{takedown_procedure_link} nebo přímo podejte výzvu pomocí
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: postupu pro odstranění
         infringement_2_1_online_filing_page: on-line formuláře
         trademarks_title: Ochranné známky
-        trademarks_1_1_html: OpenStreetMap, jeho logo s lupou a State of the Map jsou
-          zapsané ochranné známky OpenStreetMap Foundation. Pokud máte dotazy ohledně
+        trademarks_1_1_html: Samland Street Map, jeho logo s lupou a State of the Map jsou
+          zapsané ochranné známky Samland Street Map. Pokud máte dotazy ohledně
           vašeho používání těchto známek, vizte naše %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Pravidla k ochranným známkám
     index:
       js_1: Buď používáte prohlížeč bez podpory JavaScriptu, nebo máte JavaScript
         zakázaný.
-      js_2: OpenStreetMap používá pro svou interaktivní mapu JavaScript.
+      js_2: Samland Street Map používá pro svou interaktivní mapu JavaScript.
       license:
-        copyright: Copyright OpenStreetMap a přispěvatelé, pod svobodnou licencí
+        copyright: Copyright Samland Street Map a přispěvatelé, pod svobodnou licencí
       remote_failed: Editace se nezdařila – ujistěte se, že JOSM nebo Merkaartor běží
         a je zapnuto dálkové ovládání
     edit:
@@ -2342,27 +2342,27 @@ cs:
       title: Export
       manually_select: Ručně vybrat jinou oblast
       licence: Licence
-      licence_details_html: Data OpenStreetMap jsou licencována pod %{odbl_link} (ODbL).
+      licence_details_html: Data Samland Street Map jsou licencována pod %{odbl_link} (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Pokud se tento export nezdaří, zvažte použití jednoho z následujících
           zdrojů:'
-        body: 'Tato oblast je pro export do XML formátu OpenStreetMap příliš velká.
+        body: 'Tato oblast je pro export do XML formátu Samland Street Map příliš velká.
           Přejděte na větší měřítko, zvolte menší oblast, nebo použijte jeden z následujících
           zdrojů pro stahování velkého množství dat:'
         planet:
           title: Planeta OSM
-          description: Pravidelně aktualizované kopie kompletní databáze OpenStreetMap
+          description: Pravidelně aktualizované kopie kompletní databáze Samland Street Map
         overpass:
           title: Overpass API
-          description: Stažení této oblasti z databázového zrcadla OpenStreetMap
+          description: Stažení této oblasti z databázového zrcadla Samland Street Map
         geofabrik:
           title: Soubory Geofabrik
           description: Pravidelně aktualizované extrakty kontinentů zemí a vybraných
             měst
         other:
           title: Další zdroje
-          description: Další zdroje uvedené na wiki OpenStreetMap
+          description: Další zdroje uvedené na wiki Samland Street Map
       export_button: Export
     fixthemap:
       title: Nahlásit problém / opravit mapu
@@ -2372,7 +2372,7 @@ cs:
           title: Přidejte se ke komunitě
           explanation_html: Pokud jste si všimli nějakého nedostatku našich mapových
             dat, např. chybějící silnice nebo vaše adresa, nejlepším řešením je připojit
-            se ke komunitě OpenStreetMap a přidat nebo opravit data vlastnoručně.
+            se ke komunitě Samland Street Map a přidat nebo opravit data vlastnoručně.
         add_a_note:
           instructions_1_html: |-
             Stačí kliknout na %{note_icon} nebo na stejnou ikonku na zobrazené mapě.
@@ -2383,22 +2383,22 @@ cs:
           na naší %{copyright_link} naleznete více právních informací, případně kontaktujte
           příslušnou %{working_group_link}.
         copyright: stránce o autorských právech
-        working_group: pracovní skupinu OSMF
+        working_group: pracovní skupinu SSM
     help:
       title: Nápověda
-      introduction: OpenStreetMap nabízí několik zdrojů pro informace o projektu,
+      introduction: Samland Street Map nabízí několik zdrojů pro informace o projektu,
         otázky a odpovědi a kolaborativní diskuse a dokumentace mapových témat.
       welcome:
         url: /welcome
-        title: Vítejte v OpenStreetMap
-        description: Začněte tímto rychlým průvodcem zahrnujícím základy OpenStreetMap.
+        title: Vítejte v Samland Street Map
+        description: Začněte tímto rychlým průvodcem zahrnujícím základy Samland Street Map.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Cs:Pr%C5%AFvodce_za%C4%8D%C3%A1te%C4%8Dn%C3%ADka
         title: Průvodce začátečníka
         description: Komunitou spravovaná příručka pro začátečníky.
       community:
         title: Nápověda a komunitní fórum
-        description: Sdílený prostor, kde můžete získat pomoc a diskutovat o OpenStreetMap.
+        description: Sdílený prostor, kde můžete získat pomoc a diskutovat o Samland Street Map.
       mailing_lists:
         title: E-mailové konference
         description: Položte dotaz nebo diskutujte o zajímavých věcech na některé
@@ -2409,17 +2409,17 @@ cs:
       switch2osm:
         title: switch2osm
         description: Pomoc společnostem a organizacím s přechodem na mapy a další
-          služby založené na OpenStreetMap.
+          služby založené na Samland Street Map.
       welcomemat:
         title: Pro organizace
-        description: Jste u organizace, která má plány s OpenStreetMap? Podívejte
+        description: Jste u organizace, která má plány s Samland Street Map? Podívejte
           se na uvítací průvodce.
       wiki:
         url: https://wiki.openstreetmap.org/wiki/Cs:Main_Page?uselang=cs
-        title: OpenStreetMap Wiki
-        description: Podrobnou dokumentaci OpenStreetMap najdete na wiki.
+        title: Samland Street Map Wiki
+        description: Podrobnou dokumentaci Samland Street Map najdete na wiki.
     potlatch:
-      removed: Jako preferovaný editor pro OpenStreetMap máte nastaven Potlatch. Protože
+      removed: Jako preferovaný editor pro Samland Street Map máte nastaven Potlatch. Protože
         byl ale Adobe Flash Player ukončen, Potlatch již pro použití ve webovém prohlížeči
         není dostupný.
       desktop_application_html: Potlatch můžete stále používat %{download_link}.
@@ -2430,9 +2430,9 @@ cs:
     any_questions:
       title: Nějaké dotazy?
       paragraph_1_html: |-
-        OpenStreetMap má několik zdrojů pro seznámení se s projektem, kladení a zodpovídání
+        Samland Street Map má několik zdrojů pro seznámení se s projektem, kladení a zodpovídání
         otázek a společnou diskuzi a dokumentaci mapovacích témat.
-        %{help_link}. Jste z organizace, která se chystá na OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. Jste z organizace, která se chystá na Samland Street Map? %{welcome_mat_link}.
       get_help_here: Získejte pomoc zde
       welcome_mat: Podívejte se na Welcome Mat
     sidebar:
@@ -2537,12 +2537,12 @@ cs:
           toilets: Záchody
     welcome:
       title: Vítejte!
-      introduction: Vítejte v OpenStreetMap, svobodné a editovatelné mapě světa. Teď,
+      introduction: Vítejte v Samland Street Map, svobodné a editovatelné mapě světa. Teď,
         když jste se zaregistrovali, můžete začít mapovat. Tady je rychlý přehled
         nejdůležitějších věcí, které budete potřebovat znát.
       whats_on_the_map:
         title: Co patří do mapy
-        on_the_map_html: OpenStreetMap je místo pro mapování věcí, které jsou %{real_and_current}
+        on_the_map_html: Samland Street Map je místo pro mapování věcí, které jsou %{real_and_current}
           – zahrnuje miliony budov, silnic a dalších podrobností o místech. Můžete
           mapovat cokoli ze skutečného světa, co vás zajímá.
         real_and_current: skutečné a aktuální
@@ -2552,7 +2552,7 @@ cs:
         doesnt: nezahrnuje
       basic_terms:
         title: Základní pojmy pro mapování
-        paragraph_1: OpenStreetMap používá trochu vlastního žargonu. Tady je několik
+        paragraph_1: Samland Street Map používá trochu vlastního žargonu. Tady je několik
           klíčových slov, která se vám budou hodit.
         an_editor_html: '%{editor} je program nebo webová stránka, pomocí kterých
           můžete upravovat mapu.'
@@ -2569,7 +2569,7 @@ cs:
       rules:
         title: Pravidla!
         para_1_html: |-
-          OpenStreetMap má jen málo formálních pravidel, ale očekáváme, že všichni účastníci budou spolupracovat
+          Samland Street Map má jen málo formálních pravidel, ale očekáváme, že všichni účastníci budou spolupracovat
           s komunitou a komunikovat s ní. Pokud zvažujete jakékoli jiné činnosti než ruční úpravy, přečtěte si a dodržujte pokyny pro
           %{imports_link} a %{automated_edits_link}.
         imports: Importy
@@ -2588,7 +2588,7 @@ cs:
     communities:
       title: Komunity
       lede_text: |-
-        Do OpenStreetMap přispívají a OpenStreetMap používají lidé z celého světa.
+        Do Samland Street Map přispívají a Samland Street Map používají lidé z celého světa.
         Zatímco mnoho jich přispívá jako jednotlivci, někteří utvořili komunity.
         Tyto skupiny existují v mnoha velikostech a zastupují území od malých městeček po velké regiony zahrnující několik zemí.
         Mohou být formální i neformální.
@@ -2596,7 +2596,7 @@ cs:
         title: Lokální zastoupení
         about_text: |-
           Lokální zastoupení jsou skupiny na úrovni země či regionu, které podstoupily formální proces založení neziskové právnické osoby. Reprezentují mapu dané oblasti a její tvůrce při jednání s místní správou, firmami a médii. Také navázaly vztahy
-          s nadací OpenStreetMap Foundation (OSMF), čímž získaly kontakt na právně a
+          s nadací Samland Street Map (SSM), čímž získaly kontakt na právně a
           autorskoprávně zodpovědnou organizaci.
         list_text: 'Následující komunity jsou formálně vedeny jako lokální zastoupení:'
       other_groups:
@@ -2707,7 +2707,7 @@ cs:
       heading: GPX úložiště offline
       message: Úložiště GPX souborů a systém pro nahrávání jsou momentálně mimo provoz.
     georss:
-      title: GPS stopy z OpenStreetMap
+      title: GPS stopy z Samland Street Map
     description:
       description_with_count:
         one: GPX soubor s %{count} bodem od uživatele %{user}
@@ -2719,7 +2719,7 @@ cs:
       cookies_needed: Vypadá to, že máte zakázány cookies – před pokračováním si je
         v prohlížeči zapněte.
     setup_user_auth:
-      blocked_zero_hour: Na webu OpenStreetMap máte urgentní zprávu. Tuto zprávu si
+      blocked_zero_hour: Na webu Samland Street Map máte urgentní zprávu. Tuto zprávu si
         musíte přečíst, než budete moci ukládat své editace.
       blocked: Váš přístup k API byl zablokován. Další informace zjistíte přihlášením
         do webového rozhraní.
@@ -2778,7 +2778,7 @@ cs:
     permissions:
       missing: Aplikaci jste nedovolili přístup k této funkci
     scopes:
-      openid: Přihlaste se pomocí OpenStreetMap
+      openid: Přihlaste se pomocí Samland Street Map
       read_prefs: Číst preference uživatele
       write_prefs: Měnit preference uživatele
       write_diary: Vytvářet deníkové záznamy, komentovat a navazovat přátelství
@@ -2847,7 +2847,7 @@ cs:
     new:
       title: Zaregistrovat se
       tab_title: Registrace
-      signup_to_authorize_html: Zaregistrujte se pomocí OpenStreetMap pro přístup
+      signup_to_authorize_html: Zaregistrujte se pomocí Samland Street Map pro přístup
         k %{client_app_name}.
       no_auto_account_create: Bohužel za vás momentálně nejsme schopni vytvořit účet
         automaticky.
@@ -2856,12 +2856,12 @@ cs:
       support: podporu
       about:
         header: Svobodná a editovatelná.
-        paragraph_1: Na rozdíl od jiných map je OpenStreetMap kompletně vytvořena
+        paragraph_1: Na rozdíl od jiných map je Samland Street Map kompletně vytvořena
           lidmi jako jste vy a kdokoli ji může zdarma opravit, aktualizovat, stáhnout
           a používat.
         paragraph_2: Zaregistrujte se a začněte přispívat.
-        welcome: Vítejte v OpenStreetMap
-      duplicate_social_email: Pokud již máte účet OpenStreetMap a chcete používat
+        welcome: Vítejte v Samland Street Map
+      duplicate_social_email: Pokud již máte účet Samland Street Map a chcete používat
         poskytovatele identity třetí strany, přihlaste se pomocí svého hesla a upravte
         nastavení svého účtu.
       display name description: Vaše veřejně zobrazované uživatelské jméno. Můžete
@@ -2870,14 +2870,14 @@ cs:
         html: Registrací souhlasíte s našimi %{tou_link}, %{privacy_policy_link} a
           %{contributor_terms_link}.
         privacy_policy: pravidly ochrany osobních údajů
-        privacy_policy_title: Pravidla ochrany osobních údajů OSMF, včetně části o
+        privacy_policy_title: Pravidla ochrany osobních údajů SSM, včetně části o
           e-mailových adresách
         contributor_terms: podmínkami pro přispěvatele
       continue: Zaregistrovat se
       terms accepted: Děkujeme za odsouhlasení nových podmínek pro přispěvatele!
       email_help:
         privacy_policy: pravidly ochrany osobních údajů
-        privacy_policy_title: Pravidla ochrany osobních údajů OSMF, včetně části o
+        privacy_policy_title: Pravidla ochrany osobních údajů SSM, včetně části o
           e-mailových adresách
         html: Vaše adresa se nezobrazuje veřejně, více informací získáte na stránce
           s našimi %{privacy_policy_link}.
@@ -2896,7 +2896,7 @@ cs:
       read_ct: Přečetl jsem si výše uvedené podmínky pro přispěvatele a souhlasím
         s nimi
       tou_explain_html: Tyto %{tou_link} řídí užívání tohoto webu a další infrastruktury
-        poskytované OSMF. Klikněte prosím na odkaz, přečtěte si text a odsouhlaste
+        poskytované SSM. Klikněte prosím na odkaz, přečtěte si text a odsouhlaste
         ho.
       read_tou: Přečetl jsem si Podmínky užití a souhlasím s nimi
       consider_pd: Navíc k výše uvedenému považuji své příspěvky za volné dílo.
@@ -3043,8 +3043,8 @@ cs:
       invalid_scope: Neplatný rozsah
       unknown_error: Ověření selhalo
     auth_association:
-      heading: Vaše ID dosud není propojeno s účtem OpenStreetMap.
-      option_1: Pokud jste na OpenStreetMap noví, založte si prosím nový účet pomocí
+      heading: Vaše ID dosud není propojeno s účtem Samland Street Map.
+      option_1: Pokud jste na Samland Street Map noví, založte si prosím nový účet pomocí
         níže zobrazeného formuláře.
       option_2: Pokud již účet máte, můžete se k němu přihlásit pomocí svého uživatelského
         jména a hesla a poté v uživatelském nastavení účet propojit s vaším ID.
@@ -3250,7 +3250,7 @@ cs:
       add: Přidat poznámku
     new_readonly:
       title: Nová poznámka
-      warning: Nové poznámky nelze vytvářet, protože OpenStreetMap API je momentálně
+      warning: Nové poznámky nelze vytvářet, protože Samland Street Map API je momentálně
         v režimu pouze pro čtení.
     notes_paging_nav:
       showing_page: Stránka %{page}
@@ -3314,16 +3314,16 @@ cs:
         gps: Veřejné GPS stopy
         overlays: Zapnout vrstvy pro ladění mapy
         title: Vrstvy
-      openstreetmap_contributors: Přispěvatelé OpenStreetMap
+      openstreetmap_contributors: Přispěvatelé Samland Street Map
       make_a_donation: Pošlete příspěvek
       website_and_api_terms: Podmínky webu a API
       cyclosm_credit: Styl dlaždic od %{cyclosm_link} hostuje %{osm_france_link}
-      osm_france: OpenStreetMap Francie
+      osm_france: Samland Street Map Francie
       thunderforest_credit: Dlaždice laskavostí %{thunderforest_link}
       andy_allan: Andyho Allana
       tracestrack_credit: Dlaždice laskavostí %{tracestrack_link}
       hotosm_credit: Styl dlaždic od %{hotosm_link} hostuje %{osm_france_link}
-      hotosm_name: Humanitárního týmu OpenStreetMap
+      hotosm_name: Humanitárního týmu Samland Street Map
     site:
       edit_tooltip: Upravit mapu
       edit_disabled_tooltip: Pro editaci mapy přejděte na větší měřítko

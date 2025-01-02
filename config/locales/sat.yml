@@ -123,7 +123,7 @@ sat:
         opened_at_html: '%{when} ᱵᱮᱱᱟᱣ ᱦᱚᱭᱟᱠᱟᱱᱟ'
         opened_at_by_html: '%{when} ᱵᱮᱱᱟᱣ ᱦᱚᱭᱟᱠᱟᱱᱟ %{user}ᱫᱟᱨᱟᱭᱛᱮ'
       rss:
-        title: OpenStreetMap ᱠᱷᱟᱴᱟᱹ ᱚᱞᱠᱚ
+        title: Samland Street Map ᱠᱷᱟᱴᱟᱹ ᱚᱞᱠᱚ
       entry:
         comment: ᱚᱠᱛᱟ
         full: ᱜᱚᱴᱟ ᱠᱷᱟᱴᱟᱹ ᱚᱞ
@@ -467,7 +467,7 @@ sat:
     export: ᱵᱷᱮᱡᱟ
     user_diaries: ᱵᱮᱵᱷᱟᱨᱤᱡ ᱠᱚᱣᱟ ᱰᱟᱭᱨᱤᱠᱚ
     edit_with: '%{editor} ᱛᱮ ᱥᱟᱯᱲᱟᱣ ᱢᱮ'
-    intro_header: OpenStreetMap ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ!
+    intro_header: Samland Street Map ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ!
     help: ᱜᱚᱸᱲᱚᱸ
     about: ᱵᱟᱵᱚᱛ
     copyright: ᱪᱷᱟᱯᱟᱦᱚᱠ
@@ -542,7 +542,7 @@ sat:
       export_button: ᱵᱷᱮᱡᱟ
     help:
       welcome:
-        title: OpenStreetMap ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
+        title: Samland Street Map ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
     search:
       search: ᱥᱮᱸᱫᱽᱨᱟ
       where_am_i: ᱱᱚᱣᱟ ᱚᱠᱟ ᱨᱮ ᱢᱮᱱᱟᱜ-ᱟ?

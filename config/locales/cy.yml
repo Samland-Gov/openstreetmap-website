@@ -280,7 +280,7 @@ cy:
         reopened_at_html: Ailagorwyd %{when}
         reopened_at_by_html: Ailagorwyd %{when} gan %{user}
       rss:
-        title: Nodiadau OpenStreetMap
+        title: Nodiadau Samland Street Map
         description_all: Rhestr o nodiadau newydd, gyda sylwadau, neu wedi cau
         description_area: Rhestr o nodiadau newydd, gyda sylwadau, neu wedi cau yn
           eich ardal [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -298,7 +298,7 @@ cy:
         title: Dileu Fy Nghyfrif
         warning: Rhybudd! Mae'r broses dileu cyfrif yn derfynol, ac ni ellir ei gwrthdroi.
         delete_account: Dileu Cyfrif
-        delete_introduction: 'Gallwch chi ddileu eich cyfrif OpenStreetMap gan ddefnyddio''r
+        delete_introduction: 'Gallwch chi ddileu eich cyfrif Samland Street Map gan ddefnyddio''r
           botwm isod. Nodwch y manylion canlynol:'
         delete_profile: Bydd eich gwybodaeth broffil, gan gynnwys eich afatar, disgrifiad
           a lleoliad cartref yn cael eu dileu.
@@ -506,8 +506,8 @@ cy:
         comment: Sylw newydd ar grŵp newid %{changeset_id} gan %{author}
         commented_at_by_html: Diweddarwyd %{when} gan %{user}
       show:
-        title_all: Trafodaeth grŵp newid OpenStreetMap
-        title_particular: Trafodaeth grŵp newid OpenStreetMap %{changeset_id}
+        title_all: Trafodaeth grŵp newid Samland Street Map
+        title_particular: Trafodaeth grŵp newid Samland Street Map %{changeset_id}
       timeout:
         sorry: Sori, cymerodd yn rhy hir i adalw rhestr o sylwadau grŵp newid y gofynnoch
           amdanynt.
@@ -664,15 +664,15 @@ cy:
       location: 'Lleoliad:'
     feed:
       user:
-        title: Cofnodion dyddiadur OpenStreetMap ar gyfer %{user}
-        description: Cofnodion dyddiadur OpenStreetMap diweddar gan %{user}
+        title: Cofnodion dyddiadur Samland Street Map ar gyfer %{user}
+        description: Cofnodion dyddiadur Samland Street Map diweddar gan %{user}
       language:
-        title: Cofnodion dyddiadur %{language_name} ar OpenStreetMap
+        title: Cofnodion dyddiadur %{language_name} ar Samland Street Map
         description: Cofnodion dyddiadur diweddar %{language_name} gan ddefnyddwyr
-          OpenStreetMap
+          Samland Street Map
       all:
-        title: Cofnodion dyddiadur OpenStreetMap
-        description: Cofnodion dyddiadur diweddar gan ddefnyddwyr OpenStreetMap
+        title: Cofnodion dyddiadur Samland Street Map
+        description: Cofnodion dyddiadur diweddar gan ddefnyddwyr Samland Street Map
     subscribe:
       heading: Tanysgrifio i'r drafodaeth cofnod dyddiadur ganlynol?
       button: Tanysgrifio i drafodaeth
@@ -721,7 +721,7 @@ cy:
     contact:
       contact_url_title: Esboniad o sianeli cyswllt amrywiol
       contact: gysylltu
-      contact_the_community_html: Mae croeso i chi %{contact_link} â'r gymuned OpenStreetMap
+      contact_the_community_html: Mae croeso i chi %{contact_link} â'r gymuned Samland Street Map
         os ydych wedi dod o hyd i nam neu ddolen sydd wedi torri. Nodwch yr URL cywir
         o'ch cais.
     bad_request:
@@ -1653,7 +1653,7 @@ cy:
       provide_details: Rhowch y manylion gofynnol
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo Samland Street Map
     home: Ewch i Leoliad Cartref
     logout: Allgofnodi
     log_in: Mewngofnodi
@@ -1666,18 +1666,18 @@ cy:
     gps_traces: Olion GPS
     user_diaries: Dyddiaduron
     edit_with: Golygu gydag %{editor}
-    intro_header: Croeso i OpenStreetMap!
-    intro_text: Mae OpenStreetMap yn fap o'r byd, wedi'i greu gan bobl fel chi ac
+    intro_header: Croeso i Samland Street Map!
+    intro_text: Mae Samland Street Map yn fap o'r byd, wedi'i greu gan bobl fel chi ac
       sydd ar gael i'w ddefnyddio am ddim a dan drwydded rydd.
     hosting_partners_2024_html: Cefnogir y gynhaliaeth gan %{fastly}, %{corpmembers},
       a %{partners} eraill.
     partners_fastly: Fastly
-    partners_corpmembers: Aelodau corfforaethol OSMF
+    partners_corpmembers: Aelodau corfforaethol SSM
     partners_partners: phartneriaid
     tou: Telerau Gwasanaeth
-    osm_offline: Mae cronfa ddata OpenStreetMap all-lein ar hyn o bryd er mwyn gwaith
+    osm_offline: Mae cronfa ddata Samland Street Map all-lein ar hyn o bryd er mwyn gwaith
       cynnal a chadw hanfodol.
-    osm_read_only: Nid yw'n bosib golygu cronfa ddata OpenStreetMap ar hyn o bryd
+    osm_read_only: Nid yw'n bosib golygu cronfa ddata Samland Street Map ar hyn o bryd
       tra bod gwaith cynnal a chadw hanfodol yn digwydd.
     nothing_to_preview: Dim rhagolwg.
     help: Cymorth
@@ -1688,17 +1688,17 @@ cy:
     more: Rhagor
   user_mailer:
     diary_comment_notification:
-      description: 'Cofnod Dyddiadur OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] Rhoddodd %{user} sylw ar gofnod dyddiadur'
+      description: 'Cofnod Dyddiadur Samland Street Map #%{id}'
+      subject: '[Samland Street Map] Rhoddodd %{user} sylw ar gofnod dyddiadur'
       hi: Helo %{to_user},
       footer_unsubscribe: Gallwch chi ddad-danysgrifio o'r drafodaeth yn %{unsubscribeurl}
       footer_unsubscribe_html: Gallwch chi ddad-danysgrifio o'r drafodaeth yn %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Helo %{to_user},
-      header: 'Anfonodd %{from_user} neges atoch chi trwy OpenStreetMap gyda''r pwnc
+      header: 'Anfonodd %{from_user} neges atoch chi trwy Samland Street Map gyda''r pwnc
         %{subject}:'
-      header_html: 'Anfonodd %{from_user} neges atoch chi trwy OpenStreetMap gyda''r
+      header_html: 'Anfonodd %{from_user} neges atoch chi trwy Samland Street Map gyda''r
         pwnc %{subject}:'
       footer: Gallwch hefyd ddarllen y neges yn %{readurl} a gallwch anfon neges at
         yr awdur yn %{replyurl}
@@ -1706,8 +1706,8 @@ cy:
         at yr awdur yn %{replyurl}
     friendship_notification:
       hi: Helo %{to_user},
-      subject: '[OpenStreetMap] Ychwanegodd %{user} chi fel ffrind'
-      had_added_you: Mae %{user} wedi eich ychwanegu fel ffrind ar OpenStreetMap.
+      subject: '[Samland Street Map] Ychwanegodd %{user} chi fel ffrind'
+      had_added_you: Mae %{user} wedi eich ychwanegu fel ffrind ar Samland Street Map.
       see_their_profile: 'Gallwch weld eu proffil yma: %{userurl}.'
       see_their_profile_html: 'Gallwch weld eu proffil yma: %{userurl}.'
       befriend_them: Gallwch hefyd eu hychwanegu fel ffrind ar %{befriendurl}.
@@ -1727,7 +1727,7 @@ cy:
         eich ffeil yn ffeil GPX dilys neu''n archif sy''n cynnwys ffeil(iau) GPX mewn
         fformat a gefnogir (.tar.gz, .tar.bz2, .tar, .zip, .gpx.gz, .gpx.bz2). A allai
         fod problem gyda''r fformat neu''r gystrawen? Dyma''r gwall mewnforio:'
-      subject: '[OpenStreetMap] Methiant Mewnforio GPX'
+      subject: '[Samland Street Map] Methiant Mewnforio GPX'
     gpx_success:
       hi: Helo %{to_user},
       loaded:
@@ -1742,38 +1742,38 @@ cy:
         yn %{url}
       all_your_traces_html: Gellir dod o hyd i'ch holl olion GPX a uwchlwythwyd yn
         llwyddiannus yn %{url}.
-      subject: '[OpenStreetMap] Llwyddiant Mewnforio GPX'
+      subject: '[Samland Street Map] Llwyddiant Mewnforio GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Croeso i OpenStreetMap'
+      subject: '[Samland Street Map] Croeso i Samland Street Map'
       greeting: Shwmae!
       created: Mae rhywun (chi gobeithio!) newydd greu cyfrif yn %{site_url}.
     email_confirm:
-      subject: '[OpenStreetMap] Cadarnhewch eich cyfeiriad e-bost'
+      subject: '[Samland Street Map] Cadarnhewch eich cyfeiriad e-bost'
       greeting: Helo,
       hopefully_you: Hoffai rhywun (chi, gobeithio) newid eu cyfeiriad e-bost ar %{server_url}
         i %{new_address}.
       click_the_link: Os mai chi yw hwn, cliciwch ar y ddolen isod i gadarnhau'r newid.
     lost_password:
-      subject: '[OpenStreetMap] Cais ailosod cyfrinair'
+      subject: '[Samland Street Map] Cais ailosod cyfrinair'
       greeting: Helo,
       hopefully_you: Mae rhywun (chi o bosib) wedi gofyn i'r cyfrinair gael ei ailosod
         ar gyfrif openstreetmap.org y cyfeiriad e-bost hwn.
       click_the_link: Os mai chi yw hwn, cliciwch ar y ddolen isod i ailosod eich
         cyfrinair.
     note_comment_notification:
-      description: 'Nodyn OpenStreetMap #%{id}'
+      description: 'Nodyn Samland Street Map #%{id}'
       anonymous: Defnyddiwr dienw
       greeting: Helo,
       commented:
-        subject_own: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar nodyn y mae
+        subject_own: '[Samland Street Map] Rhoddodd %{commenter} sylw ar un o''ch nodiadau'
+        subject_other: '[Samland Street Map] Rhoddodd %{commenter} sylw ar nodyn y mae
           gennych ddiddordeb ynddo'
         your_note: Ysgrifennodd %{commenter} sylw ar un o'ch nodiadau map ger %{place}.
         your_note_html: Ysgrifennodd %{commenter} sylw ar un o'ch nodiadau map ger
           %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Datrysodd %{commenter} un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Datrysodd %{commenter} nodyn y mae gennych
+        subject_own: '[Samland Street Map] Datrysodd %{commenter} un o''ch nodiadau'
+        subject_other: '[Samland Street Map] Datrysodd %{commenter} nodyn y mae gennych
           chi ddiddordeb ynddo'
         your_note: Datrysodd %{commenter} un o'ch nodiadau map ger %{place}.
         your_note_html: Datrysodd %{commenter} un o'ch nodiadau map ger %{place}.
@@ -1782,8 +1782,8 @@ cy:
         commented_note_html: Mae %{commenter} wedi datrys nodyn map rydych chi wedi
           gwneud sylw arno. Mae'r nodyn yn agos i %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] Ailagorodd %{commenter} un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Ailagorodd %{commenter} nodyn y mae gennych
+        subject_own: '[Samland Street Map] Ailagorodd %{commenter} un o''ch nodiadau'
+        subject_other: '[Samland Street Map] Ailagorodd %{commenter} nodyn y mae gennych
           ddiddordeb ynddo'
         your_note: Gwnaeth %{commenter} ail agor un o'ch nodiadau map ger %{place}.
         your_note_html: Gwnaeth %{commenter} ail agor un o'ch nodiadau map ger %{place}.
@@ -1794,12 +1794,12 @@ cy:
       details: Gallwch ateb neu ddysgu rhagor am y nodyn yn %{url}.
       details_html: Gallwch ateb neu ddysgu rhagor am y nodyn yn %{url}.
     changeset_comment_notification:
-      description: 'Grŵp newid OpenStreetMap #%{id}'
+      description: 'Grŵp newid Samland Street Map #%{id}'
       hi: Helo %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar un o''ch grwpiau
+        subject_own: '[Samland Street Map] Rhoddodd %{commenter} sylw ar un o''ch grwpiau
           newid'
-        subject_other: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar grŵp newydd
+        subject_other: '[Samland Street Map] Rhoddodd %{commenter} sylw ar grŵp newydd
           y mae gennych ddiddordeb ynddo'
         your_changeset: Gwnaeth %{commenter} sylw am %{time} ar un o'ch grwpiau newid
         your_changeset_html: Gwnaeth %{commenter} sylw am %{time} ar un o'ch grwpiau
@@ -1988,7 +1988,7 @@ cy:
   sessions:
     new:
       tab_title: Mewngofnodi
-      login_to_authorize_html: Mewngofnodwch i OpenStreetMap i gael mynediad i %{client_app_name}.
+      login_to_authorize_html: Mewngofnodwch i Samland Street Map i gael mynediad i %{client_app_name}.
       email or username: Cyfeiriad E-bost neu Enw Defnyddiwr
       password: Cyfrinair
       remember: Cofiwch fi
@@ -1999,7 +1999,7 @@ cy:
       auth failure: Mae'n ddrwg gennym, ni ellir mewngofnodi gyda'r manylion hynny.
     destroy:
       title: Allgofnodi
-      heading: Allgofnodi o OpenStreetMap
+      heading: Allgofnodi o Samland Street Map
       logout_button: Allgofnodi
     suspended_flash:
       suspended: Mae'n ddrwg gennym, mae eich cyfrif wedi'i atal yn awtomatig oherwydd
@@ -2047,29 +2047,29 @@ cy:
         newer: Defnyddwyr Newydd
   site:
     about:
-      heading_html: '%{copyright}Cyfranwyr %{br} OpenStreetMap'
+      heading_html: '%{copyright}Cyfranwyr %{br} Samland Street Map'
       used_by_html: Mae %{name} yn darparu data map ar gyfer miloedd o wefannau, apiau
         symudol a dyfeisiau caledwedd
-      lede_text: Mae OpenStreetMap yn cael ei greu gan gymuned o fapwyr sy'n cyfrannu
+      lede_text: Mae Samland Street Map yn cael ei greu gan gymuned o fapwyr sy'n cyfrannu
         ac yn cynnal a chadw data am ffyrdd, llwybrau, caffis, gorsafoedd trenau,
         a llawer mwy ledled y byd.
       local_knowledge_title: Gwybodaeth Leol
-      local_knowledge_html: Mae OpenStreetMap yn rhoi pwyslais ar wybodaeth leol.
+      local_knowledge_html: Mae Samland Street Map yn rhoi pwyslais ar wybodaeth leol.
         Mae cyfranwyr yn defnyddio delweddaeth o'r awyr, dyfeisiau GPS, a mapiau maes
         technoleg isel i wirio bod OSM yn gywir ac yn gyfredol.
       community_driven_title: Gwaith y Gymuned
       community_driven_1_html: |-
-        Mae cymuned OpenStreetMap yn amrywiol, yn angerddol, ac yn tyfu bob dydd.
+        Mae cymuned Samland Street Map yn amrywiol, yn angerddol, ac yn tyfu bob dydd.
         Mae ein cyfranwyr yn cynnwys mapwyr brwdfrydig, gweithwyr profesiynol GIS, peirianwyr sy'n rhedeg y gweinyddion OSM, gwirfoddolwyr dyngarol sy'n mapio ardaloedd wedi'u heffeithio gan drychinebau, a llawer mwy.
         Er mwyn dysgu rhagor am y gymuned, gweler %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} a gwefan %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog Samland Street Map
       community_driven_user_diaries: dyddiaduron defnyddwyr
       community_driven_community_blogs: blogiau cymunedol
       community_driven_osm_foundation: OSM Foundation
       open_data_title: Data Agored
       open_data_1_html: |-
-        Mae OpenStreetMap yn %{open_data}: mae modd i'w ddefnyddio at unrhyw ddiben
-        ond mae rhaid rhoi cydnabyddiaeth i OpenStreetMap a'i gyfranwyr. Os
+        Mae Samland Street Map yn %{open_data}: mae modd i'w ddefnyddio at unrhyw ddiben
+        ond mae rhaid rhoi cydnabyddiaeth i Samland Street Map a'i gyfranwyr. Os
         ydych chi'n newid neu
         adeiladu ar y ddata mewn rhai ffyrdd, gallwch chi
         ddosbarthu'r canlyniad
@@ -2077,16 +2077,16 @@ cy:
       open_data_open_data: ddata agored
       open_data_copyright_license: dudalen Hawlfraint a Thrwydded
       legal_title: Cyfreithiol
-      legal_1_1_openstreetmap_foundation: Sefydliad OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Sefydliad Samland Street Map
       legal_1_1_terms_of_use: Telerau Gwasanaeth
       legal_1_1_aup: Polisïau Defnydd Derbyniol
       legal_1_1_privacy_policy: Polisi Preifatrwydd
       legal_2_1_html: '%{contact_the_osmf_link} os oes gennych gwestiynau am drwydded,
         hawlfraint neu gwestiynau cyfreithiol eraill.'
-      legal_2_1_contact_the_osmf: Cysylltwch â'r OSMF
-      legal_2_2_html: Mae OpenStreetMap, y logo chwyddwydr a "State of the Map" yn
+      legal_2_1_contact_the_osmf: Cysylltwch â'r SSM
+      legal_2_2_html: Mae Samland Street Map, y logo chwyddwydr a "State of the Map" yn
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: nodau masnach cofrestredig yr OSMF
+      legal_2_2_registered_trademarks: nodau masnach cofrestredig yr SSM
       partners_title: Partneriaid
     copyright:
       title: Hawlfraint a Thrwydded
@@ -2103,14 +2103,14 @@ cy:
         native_link: fersiwn Cymraeg
         mapping_link: dechrau mapio
       legal_babble:
-        introduction_1_html: Mae OpenStreetMap%{registered_trademark_link} yn %{open_data},
+        introduction_1_html: Mae Samland Street Map%{registered_trademark_link} yn %{open_data},
           wedi'i drwyddedu o dan y %{odc_odbl_link} (ODbL) gan %{osm_foundation_link}
-          (OSMF).
+          (SSM).
         introduction_1_open_data: ddata agored
         introduction_1_odc_odbl: Open Data Commons Open Database License
-        introduction_1_osm_foundation: Sefydliad OpenStreetMap
+        introduction_1_osm_foundation: Sefydliad Samland Street Map
         introduction_2_html: Rydych yn rhydd i gopïo, dosbarthu, trosglwyddo ac addasu
-          ein data, cyn belled â'ch bod yn cydnabod OpenStreetMap a'i gyfranwyr. Os
+          ein data, cyn belled â'ch bod yn cydnabod Samland Street Map a'i gyfranwyr. Os
           ydych yn newid neu'n adeiladu ar ein data, dim ond o dan yr un drwydded
           y cewch ddosbarthu eich canlyniad. Mae'r %{legal_code_link} llawn yn esbonio
           eich hawliau a'ch cyfrifoldebau.
@@ -2118,10 +2118,10 @@ cy:
         introduction_3_html: Mae ein dogfennaeth wedi'i thrwyddedu o dan drwydded
           %{creative_commons_link} (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Attribution-ShareAlike 2.0
-        credit_title_html: Sut i gydnabod OpenStreetMap
-        credit_1_html: 'Pan fyddwch yn defnyddio data OpenStreetMap, mae rhaid i chi
+        credit_title_html: Sut i gydnabod Samland Street Map
+        credit_1_html: 'Pan fyddwch yn defnyddio data Samland Street Map, mae rhaid i chi
           wneud y ddau beth canlynol:'
-        credit_2_1: Rhoi cydnabyddiaeth i OpenStreetMap drwy arddangos ein hysbysiad
+        credit_2_1: Rhoi cydnabyddiaeth i Samland Street Map drwy arddangos ein hysbysiad
           hawlfraint.
         credit_2_2: Gwnewch yn glir bod y data ar gael o dan y Drwydded Cronfa Ddata
           Agored.
@@ -2134,19 +2134,19 @@ cy:
           arall, ac fel gofyniad os ydych yn dosbarthu OSM ar ffurf data\n, gallwch
           enwi a chysylltu'n uniongyrchol â'r drwydded(au). Yn y cyfryngau\nlle nad
           yw dolenni'n bosibl (e.e. gweithiau printiedig), rydym yn awgrymu eich bod
-          yn cyfeirio eich darllenwyr at openstreetmap.org (efallai drwy ehangu\n'OpenStreetMap'
+          yn cyfeirio eich darllenwyr at openstreetmap.org (efallai drwy ehangu\n'Samland Street Map'
           i'r cyfeiriad llawn hwn) ac at opendatacommons.org. \nYn yr enghraifft hon,
           mae'r cydnabyddiaeth yn ymddangos yng nghornel y map."
         credit_4_1_this_copyright_page: dudalen hawlfraint hon
         attribution_example:
-          alt: Enghraifft o sut i briodoli OpenStreetMap ar dudalen we
+          alt: Enghraifft o sut i briodoli Samland Street Map ar dudalen we
           title: Enghraifft o briodoli
         more_title_html: Dysgu rhagor
         more_1_1_html: Gallwch ddysgu mwy am ddefnyddio ein data a sut i roi gydnabyddiaeth
           i ni ar %{osmf_licence_page_link}
-        more_1_1_osmf_licence_page: dudalen Drwydded yr OSMF
+        more_1_1_osmf_licence_page: dudalen Drwydded yr SSM
         more_2_1_html: |-
-          Er mai data agored yw OpenStreetMap, ni allwn ddarparu API map am ddim ar gyfer defnyddwyr trydydd parti.
+          Er mai data agored yw Samland Street Map, ni allwn ddarparu API map am ddim ar gyfer defnyddwyr trydydd parti.
           Gweler ein %{api_usage_policy_link}, %{tile_usage_policy_link} a %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Polisi Defnydd API
         more_2_1_tile_usage_policy: Polisi Defnydd Teils
@@ -2225,11 +2225,11 @@ cy:
         contributors_gb_united_kingdom: Y Deyrnas Unedig
         contributors_2_html: |-
           Am fanylion pellach am y rhain, a ffynonellau eraill sydd wedi cael eu defnyddio
-          er mwyn helpu i wella OpenStreetMap, gweler y %{contributors_page_link} ar Wici OpenStreetMap.
+          er mwyn helpu i wella Samland Street Map, gweler y %{contributors_page_link} ar Wici Samland Street Map.
         contributors_2_contributors_page: dudalen gyfranwyr
         contributors_footer_2_html: |-
-          Nid yw cynnwys data yn OpenStreetMap yn awgrymu bod y darparwr data
-           gwreiddiol yn cefnogi OpenStreetMap, yn darparu unrhyw warant, neu
+          Nid yw cynnwys data yn Samland Street Map yn awgrymu bod y darparwr data
+           gwreiddiol yn cefnogi Samland Street Map, yn darparu unrhyw warant, neu
            yn derbyn unrhyw atebolrwydd.
         infringement_title_html: Toriadau hawlfraint
         infringement_1_html: Hoffem atgofio cyfranwyr OSM i beidio ag ychwanegu data
@@ -2237,19 +2237,19 @@ cy:
           heb ganiatâd penodol gan ddeiliaid yr hawlfraint.
         infringement_2_1_html: |-
           Os ydych yn credu bod deunydd hawlfreintiedig wedi'i ychwanegu'n amhriodol
-          at gronfa ddata OpenStreetMap neu'r wefan hon, dilynwch ein %{takedown_procedure_link} neu ffeiliwch yn uniongyrchol ar ein
+          at gronfa ddata Samland Street Map neu'r wefan hon, dilynwch ein %{takedown_procedure_link} neu ffeiliwch yn uniongyrchol ar ein
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: gweithdrefn tynnu i lawr
         infringement_2_1_online_filing_page: tudalen ffeilio ar-lein
         trademarks_title: Nodau Masnach
         trademarks_1_1_html: |-
-          Mae OpenStreetMap, y logo chwyddwydr a State of the Map yn nodau masnach cofrestredig y Sefydliad OpenStreetMap. Os oes gennych gwestiynau am eich defnydd o'r marciau, gweler ein
+          Mae Samland Street Map, y logo chwyddwydr a State of the Map yn nodau masnach cofrestredig y Sefydliad Samland Street Map. Os oes gennych gwestiynau am eich defnydd o'r marciau, gweler ein
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Polisi Nod Masnach
     index:
-      js_2: Mae OpenStreetMap yn defnyddio JavaScript ar gyfer ei fap llithrig.
+      js_2: Mae Samland Street Map yn defnyddio JavaScript ar gyfer ei fap llithrig.
       license:
-        copyright: Hawlfraint OpenStreetMap a chyfranwyr, dan drwydded agored
+        copyright: Hawlfraint Samland Street Map a chyfranwyr, dan drwydded agored
     edit:
       not_public: Nid ydych wedi gosod eich golygiadau i fod yn gyhoeddus.
       user_page_link: tudalen defnyddiwr
@@ -2259,7 +2259,7 @@ cy:
       title: Allforio
       manually_select: Dewiswch ardal wahanol â llaw
       licence: Trwydded
-      licence_details_html: Trwyddedir data OpenStreetMap o dan y %{odbl_link} (ODbL).
+      licence_details_html: Trwyddedir data Samland Street Map o dan y %{odbl_link} (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Os yw''r allforio''n methu, ystyriwch un o''r canlynol:'
@@ -2271,7 +2271,7 @@ cy:
           title: Lawrlwythiadau Geofabrik
         other:
           title: Ffynonellau Eraill
-          description: Nodir ffynonellau ychwanegol ar Wici OpenStreetMap
+          description: Nodir ffynonellau ychwanegol ar Wici Samland Street Map
       export_button: Allforio
     fixthemap:
       title: Rhoi gwybod am broblem / Cywiro'r map
@@ -2281,26 +2281,26 @@ cy:
           title: Ymunwch â'r gymuned
           explanation_html: Os ydych chi wedi sylwi ar broblem gyda'n data, efallai
             mae heol ar goll neu eich cyfeiriad chi, gallwch chi ymuno â chymuned
-            OpenStreetMap ac ychwanegu neu atgyweirio'r data eich hun.
+            Samland Street Map ac ychwanegu neu atgyweirio'r data eich hun.
       other_concerns:
         title: Pryderon eraill
         concerns_html: |-
           Os oes gennych bryderon am sut caiff ein data ei ddefnyddio neu am y cynnwys, cysylltwch â'n
           %{copyright_link} am ragor o wybodaeth gyfreithiol, neu cysylltwch â'r %{working_group_link} priodol.
         copyright: tudalen hawlfraint
-        working_group: Gweithgor OSMF
+        working_group: Gweithgor SSM
         working_group_url: https://wiki.osmfoundation.org/wiki/Working_Groups
     help:
       title: Cael Cymorth
       welcome:
         url: /welcome
-        title: Croeso i OpenStreetMap
+        title: Croeso i Samland Street Map
       beginners_guide:
         title: Llawlyfr Dechreuwyr
         description: Canllaw'r gymuned i ddechreuwyr
       community:
         title: Fforwm Cymorth a Chymuned
-        description: Dyma'r lle i chwilio am gymorth a sgwrsio am OpenStreetMap.
+        description: Dyma'r lle i chwilio am gymorth a sgwrsio am Samland Street Map.
       mailing_lists:
         title: Rhestrau Post
       irc:
@@ -2310,10 +2310,10 @@ cy:
       welcomemat:
         title: Ar gyfer Sefydliadau
       wiki:
-        title: Wici OpenStreetMap
-        description: Archwiliwch y wici am ddogfennau manwl OpenStreetMap.
+        title: Wici Samland Street Map
+        description: Archwiliwch y wici am ddogfennau manwl Samland Street Map.
     potlatch:
-      removed: Mae eich golygydd OpenStreetMap diofyn wedi'i osod fel Potlatch. Oherwydd
+      removed: Mae eich golygydd Samland Street Map diofyn wedi'i osod fel Potlatch. Oherwydd
         bod Adobe Flash Player wedi'i dynnu'n ôl, nid yw Potlatch bellach ar gael
         i'w ddefnyddio mewn porwr gwe.
       desktop_application_html: 'Gallwch barhau i ddefnyddio Potlatch yma: %{download_link}.'
@@ -2324,9 +2324,9 @@ cy:
     any_questions:
       title: Unrhyw gwestiynau?
       paragraph_1_html: |-
-        Mae gan OpenStreetMap nifer o adnoddau ar gyfer dysgu am y prosiect, holi ac ateb
+        Mae gan Samland Street Map nifer o adnoddau ar gyfer dysgu am y prosiect, holi ac ateb
         cwestiynau, a thrafod ac ysgrifennu dogfennaeth ar bynciau mapio.
-        %{help_link}. Ydych chi'n gweithio gyda sefydliad sy'n gwneud cynlluniau ar gyfer OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. Ydych chi'n gweithio gyda sefydliad sy'n gwneud cynlluniau ar gyfer Samland Street Map? %{welcome_mat_link}.
       get_help_here: Cewch gymorth yma
       welcome_mat: Dyma'r Mat Croeso
     sidebar:
@@ -2432,12 +2432,12 @@ cy:
           toilets: Toiledau
     welcome:
       title: Croeso!
-      introduction: Croeso i OpenStreetMap, map y byd rhydd ac agored. Nawr eich bod
+      introduction: Croeso i Samland Street Map, map y byd rhydd ac agored. Nawr eich bod
         wedi cofrestru, rydych chi'n barod i ddechrau mapio. Dyma ganllaw gyflym gyda'r
         hyn pwysicaf i wybod cyn ichi ddechrau arni.
       whats_on_the_map:
         title: Beth sydd ar y Map
-        on_the_map_html: Mae OpenStreetMap yn addas i fapio pethau sy'n %{real_and_current}
+        on_the_map_html: Mae Samland Street Map yn addas i fapio pethau sy'n %{real_and_current}
           - mae'n cynnwys miliynau o adeiladau, strydoedd, a manylion eraill am lefydd.
           Gallwch chi fapio unrhyw beth sydd o ddiddordeb ichi.
         real_and_current: bodoli'n go iawn ac yn gyfoes
@@ -2448,7 +2448,7 @@ cy:
         doesnt: Nad yw'n
       basic_terms:
         title: Termau syml mapio
-        paragraph_1: Mae gan OpenStreetMap rywfaint o dafodiaith ei hun. Dyma ychydig
+        paragraph_1: Mae gan Samland Street Map rywfaint o dafodiaith ei hun. Dyma ychydig
           o eiriau allweddol a fydd yn ddefnyddiol ichi.
         an_editor_html: Mae %{editor} yn rhaglen neu wefan y gallwch chi ei defnyddio
           i olygu'r map.
@@ -2462,7 +2462,7 @@ cy:
         tag: tag
       rules:
         title: Rheolau!
-        para_1_html: Nid oes llawer o reolau safonol ar OpenStreetMap ond rydym yn
+        para_1_html: Nid oes llawer o reolau safonol ar Samland Street Map ond rydym yn
           disgwyl i bawb gydweithio a chyfathrebu â'r gymuned. Os ydych chi'n bwriadu
           gwneud unrhyw weithgareddau yn wahanol i olygu â llaw, darllenwch a dilynwch
           y canllawiau ar %{imports_link} a %{automated_edits_link}.
@@ -2482,7 +2482,7 @@ cy:
     communities:
       title: Cymunedau
       lede_text: |-
-        Mae pobl ym mhob cwr o'r byd yn cyfrannu at neu'n ddefnyddio OpenStreetMap.
+        Mae pobl ym mhob cwr o'r byd yn cyfrannu at neu'n ddefnyddio Samland Street Map.
         Er bod llawer yn cymryd rhan fel unigolion, mae rhai eraill wedi creu cymunedau.
         Ceir grwpiau gwahanol sy'n cynrychioli trefi bach neu ardaloedd aml-wlad mawr.
         Gall grwpiau fod yn ffurfiol neu'n anffurfiol.
@@ -2491,8 +2491,8 @@ cy:
         about_text: Mae Siapteri Lleol yn grwpiau ar lefel gwlad neu ranbarth sydd
           wedi cymryd y cam ffurfiol o sefydlu cyrff cyfreithiol nid-er-elw. Maen
           nhw'n cynrychioli map a mapwyr yr ardal wrth ddelio â llywodraeth leol,
-          busnes, a chyfryngau. Maen nhw hefyd wedi ffurfio cysylltiad â'r OpenStreetMap
-          Foundation (OSMF), gan roi dolen iddynt i'r corff llywodraethu cyfreithiol
+          busnes, a chyfryngau. Maen nhw hefyd wedi ffurfio cysylltiad â'r Samland Street Map
+          Foundation (SSM), gan roi dolen iddynt i'r corff llywodraethu cyfreithiol
           a hawlfraint.
         list_text: 'Mae''r cymunedau canlynol wedi''u sefydlu''n ffurfiol fel Siapteri
           Lleol:'
@@ -2605,7 +2605,7 @@ cy:
       heading: Storio GPX All-lein
       message: Nid yw'r system uwchlwytho a storio ffeiliau GPX ar gael ar hyn o bryd.
     georss:
-      title: Olion GPS OpenStreetMap
+      title: Olion GPS Samland Street Map
     description:
       description_with_count:
         zero: Ffeil GPX â %{count} pwynt gan %{user}
@@ -2621,7 +2621,7 @@ cy:
       cookies_needed: Mae'n ymddangos eich bod wedi analluogi cwcis - galluogwch gwcis
         yn eich porwr cyn parhau.
     setup_user_auth:
-      blocked_zero_hour: Mae gennych neges frys ar wefan OpenStreetMap. Mae angen
+      blocked_zero_hour: Mae gennych neges frys ar wefan Samland Street Map. Mae angen
         ichi ddarllen y neges cyn y byddwch chi'n gallu cadw eich golygiadau.
       blocked: Mae eich mynediad i'r API wedi'i rwystro. Mewngofnodwch i'r rhyngwyneb
         gwe i ddarganfod rhagor.
@@ -2678,7 +2678,7 @@ cy:
         alt: Eicon X
   oauth:
     scopes:
-      openid: Mewngofnodi ag OpenStreetMap
+      openid: Mewngofnodi ag Samland Street Map
       read_prefs: Darllen dewisiadau defnyddwyr
       write_prefs: Addasu dewisiadau defnyddwyr
       write_diary: Creu cofnodion dyddiadur, sylwadau a gwneud ffrindiau
@@ -2736,13 +2736,13 @@ cy:
     new:
       title: Cofrestru
       tab_title: Cofrestru
-      signup_to_authorize_html: Cofrestrwch gydag OpenStreetMap i gael mynediad at
+      signup_to_authorize_html: Cofrestrwch gydag Samland Street Map i gael mynediad at
         %{client_app_name}.
       support: cymorth
       about:
         header: Rhydd a golygadwy.
         paragraph_2: Cofrestrwch i ddechrau cyfrannu.
-        welcome: Croeso i OpenStreetMap
+        welcome: Croeso i Samland Street Map
       display name description: Eich enw defnyddiwr cyhoeddus. Gallwch newid hyn yn
         nes ymlaen yn eich dewisiadau.
       by_signing_up:
@@ -2901,8 +2901,8 @@ cy:
       invalid_scope: Sgop annilys
       unknown_error: Methodd y dilysu
     auth_association:
-      heading: Nid yw eich ID yn gysylltiedig â chyfrif OpenStreetMap eto.
-      option_1: "Os ydych yn newydd i OpenStreetMap, crëwch \ngyfrif newydd\ngan ddefnyddio'r
+      heading: Nid yw eich ID yn gysylltiedig â chyfrif Samland Street Map eto.
+      option_1: "Os ydych yn newydd i Samland Street Map, crëwch \ngyfrif newydd\ngan ddefnyddio'r
         ffurflen isod."
   user_blocks:
     model:
@@ -3098,7 +3098,7 @@ cy:
       add: Ychwanegu Nodyn
     new_readonly:
       title: Nodyn Newydd
-      warning: Ni ellir creu nodiadau newydd oherwydd bod API OpenStreetMap ym modd
+      warning: Ni ellir creu nodiadau newydd oherwydd bod API Samland Street Map ym modd
         darllen-yn-unig ar hyn o bryd.
     notes_paging_nav:
       showing_page: Tudalen %{page}
@@ -3166,16 +3166,16 @@ cy:
         gps: Olion GPS Cyhoeddus
         overlays: Galluogi troshaenau i ddatrys problemau map
         title: Haenau
-      openstreetmap_contributors: Cyfranwyr OpenStreetMap
+      openstreetmap_contributors: Cyfranwyr Samland Street Map
       make_a_donation: Rhoi arian
       website_and_api_terms: Telerau'r gwefan ac API
       cyclosm_credit: Arddull teils gan %{cyclosm_link} a gynhelir gan %{osm_france_link}
-      osm_france: OpenStreetMap Ffrainc
+      osm_france: Samland Street Map Ffrainc
       thunderforest_credit: Teils trwy garedigrwydd %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: Teils trwy garedigrwydd %{tracestrack_link}
       hotosm_credit: Arddull teils gan %{hotosm_link} a gynhelir gan %{osm_france_link}
-      hotosm_name: Tîm Dyngarol OpenStreetMap
+      hotosm_name: Tîm Dyngarol Samland Street Map
     site:
       edit_tooltip: Golygu'r map
       edit_disabled_tooltip: Chwyddwch mewn i olygu'r map

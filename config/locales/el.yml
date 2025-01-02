@@ -276,7 +276,7 @@ el:
         reopened_at_html: Επανενεργοποιήθηκε %{when}
         reopened_at_by_html: Επανενεργοποιήθηκε %{when} από τον %{user}
       rss:
-        title: Σημειώσεις OpenStreetMap
+        title: Σημειώσεις Samland Street Map
         description_all: Μια λίστα με αναφερόμενες, σχολιασμένες ή κλειστές σημειώσεις
         description_area: Μια λίστα με σημειώσεις, που αναφέρθηκαν, σχολιάστηκαν ή
           επιλύθηκαν στην περιοχή σας [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -295,14 +295,14 @@ el:
         warning: Προσοχή! Η διαδικασία διαγραφής του λογαριασμού είναι οριστική και
           δεν μπορεί να αναστραφεί.
         delete_account: Διαγραφή Λογαριασμού
-        delete_introduction: 'Μπορείτε να διαγράψετε τον λογαριασμό σας στο OpenStreetMap
+        delete_introduction: 'Μπορείτε να διαγράψετε τον λογαριασμό σας στο Samland Street Map
           χρησιμοποιώντας το παρακάτω κουμπί. Παρακαλώ σημειώστε τις εξής λεπτομέρειες:'
         delete_profile: Οι πληροφορίες του προφίλ, συμπεριλαμβανομένου του άβαταρ,
           την περιγραφή και την τοποθεσία σπιτιού σας, θα καταργηθούν.
         delete_display_name: Το εμφανιζόμενο όνομα σας θα καταργηθεί και μπορεί να
           χρησιμοποιηθεί από άλλους λογαριασμούς.
         retain_caveats: 'Ωστόσο, ορισμένες πληροφορίες για εσάς θα διατηρηθούν στο
-          OpenStreetMap, ακόμη και μετά τη διαγραφή του λογαριασμού σας:'
+          Samland Street Map, ακόμη και μετά τη διαγραφή του λογαριασμού σας:'
         retain_edits: Οι επεξεργασίες στην βάση δεδομένων του χάρτη, εάν υπάρχουν,
           θα διατηρηθούν.
         retain_traces: Τα ίχνη που έχετε μεταφορτώσει, εάν υπάρχουν, θα διατηρηθούν.
@@ -502,8 +502,8 @@ el:
           %{author}'
         commented_at_by_html: Ενημερώθηκε %{when} πριν από τον %{user}
       show:
-        title_all: Συζήτηση συνόλου αλλαγών OpenStreetMap
-        title_particular: 'Συζήτηση συνόλου αλλαγών OpenStreetMap #%{changeset_id}'
+        title_all: Συζήτηση συνόλου αλλαγών Samland Street Map
+        title_particular: 'Συζήτηση συνόλου αλλαγών Samland Street Map #%{changeset_id}'
       timeout:
         sorry: Λυπόμαστε, η λίστα των σχολίων της ομάδας αλλαγών που ζητήσατε, χρειάστηκε
           πολύ χρόνο για να ανακτηθεί.
@@ -658,15 +658,15 @@ el:
       location: 'Τοποθεσία:'
     feed:
       user:
-        title: Καταχωρήσεις ημερολογίου OpenStreetMap για τον %{user}
-        description: Πρόσφατες καταχωρήσεις ημερολογίου OpenStreetMap από τον %{user}
+        title: Καταχωρήσεις ημερολογίου Samland Street Map για τον %{user}
+        description: Πρόσφατες καταχωρήσεις ημερολογίου Samland Street Map από τον %{user}
       language:
-        title: Καταχωρήσεις ημερολογίου OpenStreetMap στα %{language_name}
-        description: Πρόσφατες καταχωρήσεις ημερολογίου από χρήστες του OpenStreetMap
+        title: Καταχωρήσεις ημερολογίου Samland Street Map στα %{language_name}
+        description: Πρόσφατες καταχωρήσεις ημερολογίου από χρήστες του Samland Street Map
           στα %{language_name}
       all:
-        title: Καταχωρήσεις ημερολογίου OpenStreetMap
-        description: Πρόσφατες καταχωρήσεις ημερολογίου από χρήστες του OpenStreetMap
+        title: Καταχωρήσεις ημερολογίου Samland Street Map
+        description: Πρόσφατες καταχωρήσεις ημερολογίου από χρήστες του Samland Street Map
     subscribe:
       heading: Εγγραφή στην ακόλουθη συζήτηση καταχώρισης ημερολογίου;
       button: Εγγραφείτε στη συζήτηση
@@ -728,24 +728,24 @@ el:
       contact_url_title: Επεξήγηση διαφόρων καναλιών επικοινωνίας
       contact: επικοινωνήσετε
       contact_the_community_html: Μη διστάσετε να %{contact_link} με την κοινότητα
-        του OpenStreetMap εάν έχετε βρει έναν κατεστραμμένο σύνδεσμο / σφάλμα. Σημειώστε
+        του Samland Street Map εάν έχετε βρει έναν κατεστραμμένο σύνδεσμο / σφάλμα. Σημειώστε
         την ακριβή διεύθυνση URL του αιτήματός σας.
     bad_request:
       title: Κακό αίτημα
-      description: Η λειτουργία που αιτηθήκατε στον διακομιστή OpenStreetMap δεν είναι
+      description: Η λειτουργία που αιτηθήκατε στον διακομιστή Samland Street Map δεν είναι
         έγκυρη (HTTP 400)
     forbidden:
       title: Απαγορευμένο
-      description: Η λειτουργία που ζητήσατε στο διακομιστή OpenStreetMap είναι διαθέσιμη
+      description: Η λειτουργία που ζητήσατε στο διακομιστή Samland Street Map είναι διαθέσιμη
         μόνο σε διαχειριστές (HTTP 403)
     internal_server_error:
       title: Σφάλμα εφαρμογής
-      description: Ο διακομιστής OpenStreetMap αντιμετώπισε μια απροσδόκητη συνθήκη
+      description: Ο διακομιστής Samland Street Map αντιμετώπισε μια απροσδόκητη συνθήκη
         που τον εμπόδισε να εκπληρώσει το αίτημα (HTTP 500)
     not_found:
       title: Το αρχείο δε βρέθηκε
       description: Δεν ήταν δυνατή η εύρεση αρχείου/καταλόγου/λειτουργίας API με αυτό
-        το όνομα στο διακομιστή OpenStreetMap (HTTP 404)
+        το όνομα στο διακομιστή Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: Προσθήκη του %{user} ως φίλου;
@@ -765,8 +765,8 @@ el:
     search:
       title:
         latlon: Εσωτερικό
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1671,7 +1671,7 @@ el:
       provide_details: Παρακαλούμε δώστε τις απαιτούμενες λεπτομέρειες
   layouts:
     logo:
-      alt_text: Λογότυπο OpenStreetMap
+      alt_text: Λογότυπο Samland Street Map
     home: Μετάβαση στη τοποθεσία σπιτιού
     logout: Αποσύνδεση
     log_in: Σύνδεση
@@ -1684,18 +1684,18 @@ el:
     gps_traces: Ίχνη GPS
     user_diaries: Ημερολόγια χρηστών
     edit_with: Επεξεργασία με %{editor}
-    intro_header: Καλώς ήρθατε στο OpenStreetMap!
-    intro_text: Το OpenStreetMap είναι ένας χάρτης του κόσμου, που δημιουργήθηκε από
+    intro_header: Καλώς ήρθατε στο Samland Street Map!
+    intro_text: Το Samland Street Map είναι ένας χάρτης του κόσμου, που δημιουργήθηκε από
       ανθρώπους σαν κι εσάς και είναι δωρεάν για χρήση υπό άδεια ελεύθερης χρήσης.
     hosting_partners_2024_html: Η φιλοξενία υποστηρίζεται από το %{fastly}, τα %{corpmembers}
       και άλλους %{partners}.
     partners_fastly: Fastly
-    partners_corpmembers: εταιρικά μέλη του OSMF
+    partners_corpmembers: εταιρικά μέλη του SSM
     partners_partners: συνεργάτες
     tou: Όροι χρήσης
-    osm_offline: Η βάση δεδομένων του OpenStreetMap είναι προσωρινά εκτός λειτουργίας
+    osm_offline: Η βάση δεδομένων του Samland Street Map είναι προσωρινά εκτός λειτουργίας
       λόγω εργασιών συντήρησης.
-    osm_read_only: Η βάση δεδομένων του OpenStreetMap έχει τεθεί προσωρινά σε λειτουργία
+    osm_read_only: Η βάση δεδομένων του Samland Street Map έχει τεθεί προσωρινά σε λειτουργία
       «μόνο για ανάγνωση» λόγω εργασιών συντήρησης.
     nothing_to_preview: Τίποτα για προεπισκόπηση.
     help: Βοήθεια
@@ -1706,13 +1706,13 @@ el:
     more: Περισσότερα
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap Καταχώριση Ημερολογίου #%{id}'
-      subject: '[OpenStreetMap] {{GENDER:%{user}|Ο|Η}} χρήστης %{user} σχολίασε μια
+      description: 'Samland Street Map Καταχώριση Ημερολογίου #%{id}'
+      subject: '[Samland Street Map] {{GENDER:%{user}|Ο|Η}} χρήστης %{user} σχολίασε μια
         καταχώριση ημερολογίου'
       hi: Γεια σας %{to_user},
-      header: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenStreetMap
+      header: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο Samland Street Map
         με θέμα %{subject}:'
-      header_html: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenStreetMap
+      header_html: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο Samland Street Map
         με θέμα %{subject}:'
       footer: Μπορείτε επίσης να διαβάσετε το σχόλιο στο %{readurl} και μπορείτε να
         σχολιάσετε στο %{commenturl} ή να στείλετε μήνυμα στον συγγραφέα στο %{replyurl}
@@ -1721,22 +1721,22 @@ el:
       footer_unsubscribe: Μπορείτε να απεγγραφείτε από την συζήτηση στο %{unsubscribeurl}
       footer_unsubscribe_html: Μπορείτε να απεγγραφείτε από την συζήτηση στο %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Γεια σας %{to_user},
       header: '{{GENDER:%{from_user}|Ο|Η}} χρήστης %{from_user} σάς έχει στείλει ένα
-        μήνυμα μέσω του OpenStreetMap με θέμα %{subject}:'
+        μήνυμα μέσω του Samland Street Map με θέμα %{subject}:'
       header_html: '{{GENDER:%{from_user}|Ο|Η}} χρήστης %{from_user} σάς έχει στείλει
-        ένα μήνυμα μέσω του OpenStreetMap με θέμα %{subject}:'
+        ένα μήνυμα μέσω του Samland Street Map με θέμα %{subject}:'
       footer: Μπορείτε επίσης να διαβάσετε το μήνυμα στο %{readurl} και να στείλετε
         μήνυμα στον συγγραφέα στο %{replyurl}
       footer_html: Μπορείτε επίσης να διαβάσετε το μήνυμα στο %{readurl} και να στείλετε
         μήνυμα στον συγγραφέα στο %{replyurl}
     friendship_notification:
       hi: Γεια σας %{to_user},
-      subject: '[OpenStreetMap] {{GENDER:%{user}|Ο|Η}} χρήστης %{user} σας πρόσθεσε
+      subject: '[Samland Street Map] {{GENDER:%{user}|Ο|Η}} χρήστης %{user} σας πρόσθεσε
         ως φίλο'
       had_added_you: '{{GENDER:%{user}|Ο|Η}} χρήστης %{user} σας πρόσθεσε ως φίλο
-        στο OpenStreetMap.'
+        στο Samland Street Map.'
       see_their_profile: Μπορείτε να δείτε το προφίλ του/της στο %{userurl}.
       see_their_profile_html: Μπορείτε να δείτε το προφίλ του/της στο %{userurl}.
       befriend_them: Μπορείτε επίσης να τον/την προσθέσετε ως φίλο στο %{befriendurl}.
@@ -1761,7 +1761,7 @@ el:
         τον τρόπο αποφυγής τους μπορείτε να βρείτε στη διεύθυνση %{url}.
       more_info_html: Περισσότερες πληροφορίες σχετικά με τις αποτυχίες εισαγωγής
         GPX και τον τρόπο αποφυγής τους μπορείτε να βρείτε στη διεύθυνση %{url}.
-      subject: '[OpenStreetMap] Αποτυχία εισαγωγής GPX'
+      subject: '[Samland Street Map] Αποτυχία εισαγωγής GPX'
     gpx_success:
       hi: Γεια σας %{to_user},
       loaded:
@@ -1772,9 +1772,9 @@ el:
         στο %{url}
       all_your_traces_html: Όλα τα επιτυχώς ανεβασμένα ίχνη GPX σας μπορούν να βρεθούν
         στο %{url}.
-      subject: '[OpenStreetMap] Επιτυχία εισαγωγής GPX'
+      subject: '[Samland Street Map] Επιτυχία εισαγωγής GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Καλώς ήλθατε στο OpenStreetMap'
+      subject: '[Samland Street Map] Καλώς ήλθατε στο Samland Street Map'
       greeting: Γεια σας!
       created: Κάποιος (ας ελπίσουμε εσείς) μόλις δημιούργησε έναν λογαριασμό στο
         %{site_url}.
@@ -1784,7 +1784,7 @@ el:
       welcome: Μετά την επιβεβαίωση του λογαριασμού σας, θα σας δώσουμε κάποιες πρόσθετες
         πληροφορίες για να ξεκινήσετε.
     email_confirm:
-      subject: '[OpenStreetMap] Επιβεβαιώστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου
+      subject: '[Samland Street Map] Επιβεβαιώστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου
         σας'
       greeting: Γεια,
       hopefully_you: Κάποιος (ελπίζουμε εσείς) θέλει να αλλάξει την διεύθυνση ηλεκτρονικού
@@ -1792,20 +1792,20 @@ el:
       click_the_link: Εάν είστε εσείς, παρακαλούμε πατήστε τον σύνδεσμο παρακάτω για
         να επιβεβαιωθεί η αλλαγή.
     lost_password:
-      subject: '[OpenStreetMap] Αίτηση επαναφοράς κωδικού'
+      subject: '[Samland Street Map] Αίτηση επαναφοράς κωδικού'
       greeting: Γεια,
       hopefully_you: Κάποιος (πιθανότατα εσείς) έχει ζητήσει επαναφορά του κωδικού
         πρόσβασης του λογαριασμού με αυτό το email στο openstreetmap.org.
       click_the_link: Εάν πρόκειται για σας, κάντε κλικ στον παρακάτω σύνδεσμο για
         να επαναφέρετε τον κωδικό πρόσβασής σας.
     note_comment_notification:
-      description: 'OpenStreetMap Σημείωση #%{id}'
+      description: 'Samland Street Map Σημείωση #%{id}'
       anonymous: ανώνυμος χρήστης
       greeting: Γεια,
       commented:
-        subject_own: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
+        subject_own: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
           μια από τις σημειώσεις σας'
-        subject_other: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
+        subject_other: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
           μια σημείωση που σας ενδιαφέρει.'
         your_note: '{{GENDER:%{commenter}|Ο|Η}} σχολίασε μία από τις σημειώσεις σας
           κοντά στο %{place}.'
@@ -1817,9 +1817,9 @@ el:
           σχολιάσει σε μία σημείωση στον χάρτη στην οποία έχετε αφήσει ένα σχόλιο.
           Η σημείωση είναι κοντά στο %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επίλυσε
+        subject_own: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επίλυσε
           μια από τις σημειώσεις σας'
-        subject_other: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επίλυσε
+        subject_other: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επίλυσε
           μια σημείωση που σας ενδιαφέρει'
         your_note: '{{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε μια από τις
           σημειώσεις σας κοντά στο %{place}.'
@@ -1831,9 +1831,9 @@ el:
           μία σημείωση στην οποία έχετε αφήσει σχόλιιο. Η σημείωση είναι κοντά στο
           %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επανενεργοποίησε
+        subject_own: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επανενεργοποίησε
           μια από τις σημειώσεις σας'
-        subject_other: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επανενεργοποίησε
+        subject_other: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} επανενεργοποίησε
           μια σημείωση που σας ενδιαφέρει'
         your_note: '{{GENDER:%{commenter}|Ο|Η}} %{commenter} επανενεργοποίησε μια
           από τις σημειώσεις σας κοντά στο %{place}.'
@@ -1847,12 +1847,12 @@ el:
       details: Απαντήστε ή μάθετε περισσότερα για τη σημείωση στο %{url}.
       details_html: Απαντήστε ή μάθετε περισσότερα για τη σημείωση στο %{url}.
     changeset_comment_notification:
-      description: 'Σύνολο Αλλαγών OpenStreetMap #%{id}'
+      description: 'Σύνολο Αλλαγών Samland Street Map #%{id}'
       hi: Γεια σας, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
+        subject_own: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
           ένα από τα σύνολα αλλαγών σας.'
-        subject_other: '[OpenStreetMap] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
+        subject_other: '[Samland Street Map] {{GENDER:%{commenter}|Ο|Η}} %{commenter} σχολίασε
           ένα σύνολο αλλαγών που σας ενδιαφέρει.'
         your_changeset: '{{GENDER:%{commenter}|Ο|Η}} %{commenter} άφησε ένα σχόλιο
           στις %{time} σε ένα από τα σύνολα αλλαγών σας.'
@@ -2060,7 +2060,7 @@ el:
   sessions:
     new:
       tab_title: Σύνδεση
-      login_to_authorize_html: Συνδεθείτε στο OpenStreetMap για πρόσβαση στο %{client_app_name}.
+      login_to_authorize_html: Συνδεθείτε στο Samland Street Map για πρόσβαση στο %{client_app_name}.
       email or username: Διεύθυνση Ηλ. Ταχυδρομείου ή Όνομα Χρήστη
       password: Συνθηματικό
       remember: Να με θυμάσαι
@@ -2071,7 +2071,7 @@ el:
       auth failure: Λυπούμαστε, δεν μπορείτε να συνδεθείτε με αυτές τις λεπτομέρειες.
     destroy:
       title: Αποσύνδεση
-      heading: Αποσύνδεση από το OpenStreetMap
+      heading: Αποσύνδεση από το Samland Street Map
       logout_button: Αποσύνδεση
     suspended_flash:
       suspended: Λυπούμαστε, ο λογαριασμός σας έχει τεθεί σε αναστολή λόγω ύποπτης
@@ -2120,30 +2120,30 @@ el:
         newer: Νεότεροι χρήστες
   site:
     about:
-      heading_html: '%{copyright}συνεισφέροντες %{br} OpenStreetMap'
+      heading_html: '%{copyright}συνεισφέροντες %{br} Samland Street Map'
       used_by_html: Το %{name} προσφέρει δεδομένα χάρτη σε χιλιάδες ιστότοπους, εφαρμογές
         κινητού και συσκευές υλισμικού
-      lede_text: Το OpenStreetMap αναπτύσσεται από μια κοινότητα χαρτογράφων που συνεισφέρουν
+      lede_text: Το Samland Street Map αναπτύσσεται από μια κοινότητα χαρτογράφων που συνεισφέρουν
         και διατηρούν δεδομένα σχετικά με δρόμους, μονοπάτια, καφετέριες, σιδηροδρομικούς
         σταθμούς και πολλά περισσότερα, σε όλον τον κόσμο.
       local_knowledge_title: Τοπική γνώση
-      local_knowledge_html: Το OpenStreetMap τονίζει την τοπική γνώση. Οι συνεισφέροντες
+      local_knowledge_html: Το Samland Street Map τονίζει την τοπική γνώση. Οι συνεισφέροντες
         χρησιμοποιούν αεροφωτογραφίες, συσκευές GPS και τοπικούς χάρτες χαμηλής τεχνολογίας
         για να σιγουρευτούν πως το OSM είναι ακριβής και ενημερωμένο.
       community_driven_title: Βασίζεται στην κοινότητα
       community_driven_1_html: |-
-        Η κοινότητα του OpenStreetMap είναι ποικίλη, παθιασμένη και αυξάνεται καθημερινά.
+        Η κοινότητα του Samland Street Map είναι ποικίλη, παθιασμένη και αυξάνεται καθημερινά.
         Οι συνεισφέροντες μας, περιλαμβάνουν ενθουσιώδεις χαρτογράφους, επαγγελματίες GIS, μηχανικούς
         που τρέχουν τους διακομιστές OSM, ανθρωπιστές που χαρτογραφούν περιοχές που έχουν πληγεί από καταστροφές,
         και πολλά άλλα.
         Για να μάθετε περισσότερα σχετικά με την κοινότητα, δείτε στο %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} και στο %{osm_foundation_link}.
-      community_driven_osm_blog: Ιστολόγιο OpenStreetMap
+      community_driven_osm_blog: Ιστολόγιο Samland Street Map
       community_driven_user_diaries: ημερολόγια χρηστών
       community_driven_community_blogs: ιστολόγια κοινότητας
       community_driven_osm_foundation: Ίδρυμα OSM
       open_data_title: Ανοικτά Δεδομένα
-      open_data_1_html: 'Το OpenStreetMap είναι %{open_data}: είστε ελεύθεροι να τα
-        χρησιμοποιήστε για οποιονδήποτε σκοπό, εφόσον μνημονεύετε το OpenStreetMap
+      open_data_1_html: 'Το Samland Street Map είναι %{open_data}: είστε ελεύθεροι να τα
+        χρησιμοποιήστε για οποιονδήποτε σκοπό, εφόσον μνημονεύετε το Samland Street Map
         και τους συνεισφέροντες του. Εάν προσαρμόσετε ή αξιοποιήσετε αυτά τα δεδομένα
         με συγκεκριμένους τρόπους, πρέπει να διανείμετε το αποτέλεσμα μόνο υπό την
         ίδια άδεια χρήσης. Δείτε τη σελίδα %{copyright_license_link} για λεπτομέρειες.'
@@ -2151,20 +2151,20 @@ el:
       open_data_copyright_license: Σελίδα Πνευματικών Δικαιωμάτων και Άδειας Χρήσης
       legal_title: Νομικό
       legal_1_1_html: Αυτός ο ιστότοπος και πολλές άλλες σχετικές υπηρεσίες διαχειρίζονται
-        επίσημα από το %{openstreetmap_foundation_link} (OSMF) εκ μέρους της κοινότητας.
-        Η χρήση όλων των υπηρεσιών που διαχειρίζεται το OSMF υπόκειται στους %{terms_of_use_link}
+        επίσημα από το %{openstreetmap_foundation_link} (SSM) εκ μέρους της κοινότητας.
+        Η χρήση όλων των υπηρεσιών που διαχειρίζεται το SSM υπόκειται στους %{terms_of_use_link}
         μας, στις %{aup_link} και στην %{privacy_policy_link} μας.
-      legal_1_1_openstreetmap_foundation: Ίδρυμα OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Ίδρυμα Samland Street Map
       legal_1_1_terms_of_use: Όρους Χρήσης
       legal_1_1_aup: Πολιτικές Αποδεκτής Χρήσης
       legal_1_1_privacy_policy: Πολιτική Απορρήτου
       legal_2_1_html: |-
         Παρακαλούμε %{contact_the_osmf_link}
         εάν έχετε ερωτήσεις για αδειοδότηση, πνευματικά δικαιώματα ή άλλα νομικά.
-      legal_2_1_contact_the_osmf: επικοινωνήστε με το OSMF
-      legal_2_2_html: Το OpenStreetMap, το λογότυπο με τον μεγεθυντικό φακό και το
+      legal_2_1_contact_the_osmf: επικοινωνήστε με το SSM
+      legal_2_2_html: Το Samland Street Map, το λογότυπο με τον μεγεθυντικό φακό και το
         State of the Map είναι %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: εγγεγραμμένα εμπορικά σήματα του OSMF
+      legal_2_2_registered_trademarks: εγγεγραμμένα εμπορικά σήματα του SSM
       partners_title: Συνεργάτες
     copyright:
       title: Πνευματικά δικαιώματα και άδεια χρήσης
@@ -2182,24 +2182,24 @@ el:
         mapping_link: αρχίστε τη χαρτογράφηση
       legal_babble:
         introduction_1_html: |-
-          Το OpenStreetMap%{registered_trademark_link} είναι %{open_data}, με άδεια χρήσης υπό την
-          %{odc_odbl_link} (ODbL) από το %{osm_foundation_link} (OSMF).
+          Το Samland Street Map%{registered_trademark_link} είναι %{open_data}, με άδεια χρήσης υπό την
+          %{odc_odbl_link} (ODbL) από το %{osm_foundation_link} (SSM).
         introduction_1_open_data: ανοιχτά δεδομένα
         introduction_1_odc_odbl: Open Data Commons Άδεια Ανοικτής Βάσης Δεδομένων
-        introduction_1_osm_foundation: Ίδρυμα OpenStreetMap
+        introduction_1_osm_foundation: Ίδρυμα Samland Street Map
         introduction_2_html: |-
           Είστε ελεύθεροι να αντιγράψετε, να διανείμετε, να μεταδώσετε και να προσαρμόσετε τα δεδομένα μας,
-          αρκεί να πιστώσετε το OpenStreetMap και το
+          αρκεί να πιστώσετε το Samland Street Map και το
           συνεισφέροντες. Εάν τροποποιήσετε ή βασιστείτε στα δεδομένα μας, μπορείτε να διανείμετε το αποτέλεσμα μόνο με την ίδια άδεια. Ο πλήρης %{legal_code_link} εξηγεί τα δικαιώματα και τις υποχρεώσεις σας.
         introduction_2_legal_code: νομικός κώδικας
         introduction_3_html: Η τεκμηρίωση μας αδειοδοτείται βάσει της άδειας %{creative_commons_link}
           (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Αναφορά Δημιουργού-Παρόμοια
           Διανομή 2.0
-        credit_title_html: Πως να κάνετε αναφορά δημιουργού προς το OpenStreetMap
-        credit_1_html: 'Όπου χρησιμοποιείτε δεδομένα του OpenStreetMap, υποχρεούστε
+        credit_title_html: Πως να κάνετε αναφορά δημιουργού προς το Samland Street Map
+        credit_1_html: 'Όπου χρησιμοποιείτε δεδομένα του Samland Street Map, υποχρεούστε
           να κάνετε τα ακόλουθα δύο πράγματα:'
-        credit_2_1: Δώσετε τα εύσημα στο OpenStreetMap εμφανίζοντας τη σημείωση πνευματικών
+        credit_2_1: Δώσετε τα εύσημα στο Samland Street Map εμφανίζοντας τη σημείωση πνευματικών
           δικαιωμάτων μας.
         credit_2_2: Διευκρινίσετε ότι τα δεδομένα είναι διαθέσιμα υπό την Άδεια Ανοιχτής
           Βάσης Δεδομένων.
@@ -2217,19 +2217,19 @@ el:
           το OSM σε μορφή δεδομένων, μπορείτε να ονομάσετε και να βάλετε σύνδεσμο
           απευθείας προς την άδεια ή τις άδειες. Σε μέσα όπου οι σύνδεσμοι δεν είναι
           δυνατοί (π.χ. έντυπα έργα), σας προτείνουμε να κατευθύνετε τους αναγνώστες
-          σας στο openstreetmap.org (ίσως επεκτείνοντας το 'OpenStreetMap' σε αυτήν
+          σας στο openstreetmap.org (ίσως επεκτείνοντας το 'Samland Street Map' σε αυτήν
           την πλήρη διεύθυνση) και στο opendatacommons.org. Σε αυτό το παράδειγμα,
           τα εύσημα εμφανίζονται στη γωνία του χάρτη.
         credit_4_1_this_copyright_page: αυτή τη σελίδα πνευματικών δικαιωμάτων
         attribution_example:
-          alt: Παράδειγμα του πως αναφέρεται το OpenStreetMap σε μια ιστοσελίδα
+          alt: Παράδειγμα του πως αναφέρεται το Samland Street Map σε μια ιστοσελίδα
           title: Παράδειγμα αναφοράς δημιουργού
         more_title_html: Μαθαίνοντας περισσότερα
         more_1_1_html: Διαβάστε περισσότερα σχετικά με τη χρήση των δεδομένων μας
           και πως να μας δώσετε τα εύσημα, στη %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: Σελίδα Άδειας Χρήσης OSMF
+        more_1_1_osmf_licence_page: Σελίδα Άδειας Χρήσης SSM
         more_2_1_html: |-
-          Παρόλο που το OpenStreetMap είναι ανοιχτά δεδομένα, δεν μπορούμε να παρέχουμε API χάρτη για τρίτα μέρη χωρίς χρέωση.
+          Παρόλο που το Samland Street Map είναι ανοιχτά δεδομένα, δεν μπορούμε να παρέχουμε API χάρτη για τρίτα μέρη χωρίς χρέωση.
           Δείτε την %{api_usage_policy_link}, την %{tile_usage_policy_link} και την %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Πολιτική Χρήσης API
         more_2_1_tile_usage_policy: Πολιτική Χρήσης Πλακιδίων
@@ -2315,11 +2315,11 @@ el:
           2010-2023.
         contributors_gb_united_kingdom: Ηνωμένο Βασίλειο
         contributors_2_html: Για περισσότερες λεπτομέρειες για αυτές, και άλλες πηγές
-          που έχουν χρησιμοποιηθεί για να βοηθήσουν στην βελτίωση του OpenStreetMap,
-          παρακαλούμε δείτε την %{contributors_page_link} στο OpenStreetMap Wiki.
+          που έχουν χρησιμοποιηθεί για να βοηθήσουν στην βελτίωση του Samland Street Map,
+          παρακαλούμε δείτε την %{contributors_page_link} στο Samland Street Map Wiki.
         contributors_2_contributors_page: Σελίδα συνεισφερόντων
-        contributors_footer_2_html: Η συμπερίληψη δεδομένων στο OpenStreetMap δεν
-          συνεπάγεται ότι ο αρχικός πάροχος δεδομένων εγκρίνει το OpenStreetMap, παρέχει
+        contributors_footer_2_html: Η συμπερίληψη δεδομένων στο Samland Street Map δεν
+          συνεπάγεται ότι ο αρχικός πάροχος δεδομένων εγκρίνει το Samland Street Map, παρέχει
           οποιαδήποτε εγγύηση ή αποδέχεται καμία ευθύνη.
         infringement_title_html: Παραβιάσεις πνευματικών δικαιωμάτων
         infringement_1_html: Υπενθυμίζουμε στους συνεισφέροντες του OSM να μην προσθέτουν
@@ -2327,23 +2327,23 @@ el:
           χάρτες) χωρίς την προηγούμενη άδεια από τους ιδιοκτήτες των δικαιωμάτων.
         infringement_2_1_html: |-
           Εάν πιστεύετε ότι υλικό με πνευματικά δικαιώματα έχει προστεθεί ακατάλληλα
-          στη βάση δεδομένων του OpenStreetMap ή σε αυτόν τον ιστότοπο,
+          στη βάση δεδομένων του Samland Street Map ή σε αυτόν τον ιστότοπο,
           παρακαλούμε ανατρέξτε στη %{takedown_procedure_link} ή συμπληρώστε απευθείας την
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: διαδικασία αφαίρεσης
         infringement_2_1_online_filing_page: ηλεκτρονική φόρμα
         trademarks_title: Εμπορικά σήματα
-        trademarks_1_1_html: Το OpenStreetMap, το λογότυπο με τον μεγεθυντικό φακό
-          και το State of the Map είναι σήματα κατατεθέντα του Ιδρύματος OpenStreetMap.
+        trademarks_1_1_html: Το Samland Street Map, το λογότυπο με τον μεγεθυντικό φακό
+          και το State of the Map είναι σήματα κατατεθέντα του Ιδρύματος Samland Street Map.
           Αν έχετε ερωτήσεις σχετικά με την χρήση σας αυτών των σημάτων, παρακαλούμε
           δείτε την %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Πολιτική Εμπορικών Σημάτων
     index:
       js_1: Είτε χρησιμοποιείτε πρόγραμμα περιήγησης που δεν υποστηρίζει JavaScript
         ή έχετε απενεργοποιήσει την JavaScript.
-      js_2: Το OpenStreetMap χρησιμοποιεί JavaScript για τον ολισθηρό χάρτη του.
+      js_2: Το Samland Street Map χρησιμοποιεί JavaScript για τον ολισθηρό χάρτη του.
       license:
-        copyright: Πνευματικά δικαιώματα του OpenStreetMap και των συνεισφερόντων
+        copyright: Πνευματικά δικαιώματα του Samland Street Map και των συνεισφερόντων
           του, υπό ελεύθερη άδεια
       remote_failed: Η επεξεργασία απέτυχε - βεβαιωθείτε ότι ο JOSM ή ο Merkaartor
         έχουν φορτωθεί και η επιλογή τηλεχειρισμού είναι ενεργή
@@ -2358,30 +2358,30 @@ el:
       title: Εξαγωγή
       manually_select: Χειροκίνητη επιλογή διαφορετικής περιοχής
       licence: Άδεια
-      licence_details_html: Τα δεδομένα OpenStreetMap αδειοδοτούνται με %{odbl_link}
+      licence_details_html: Τα δεδομένα Samland Street Map αδειοδοτούνται με %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Άδεια Ανοικτής Βάσης Δεδομένων
       too_large:
         advice: 'Αν η εξαγωγή αποτυγχάνει, παρακαλούμε δοκιμάστε μία από τις πηγές
           που αναφέρονται παρακάτω:'
-        body: 'Αυτή η περιοχή είναι πολύ μεγάλη για να εξαχθεί ως δεδομένα OpenStreetMap
+        body: 'Αυτή η περιοχή είναι πολύ μεγάλη για να εξαχθεί ως δεδομένα Samland Street Map
           XML. Παρακαλούμε κάνετε μεγέθυνση, επιλέξτε μικρότερη περιοχή, ή χρησιμοποιήστε
           μία από της ακόλουθες πηγές για μαζικές λήψεις δεδομένων:'
         planet:
           title: Πλανήτης OSM
           description: Τακτικά-ενημερωμένα αντίγραφα της πλήρης βάσης δεδομένων του
-            OpenStreetMap
+            Samland Street Map
         overpass:
           title: Overpass API
           description: Λήψη αυτού του πλαισίου οριοθέτησης από ένα καθρέφτη της βάσης
-            δεδομένων του OpenStreetMap
+            δεδομένων του Samland Street Map
         geofabrik:
           title: Λήψεις Geofabrik
           description: Τακτικά-ενημερωμένες εξαγωγές ηπείρων, χωρών και επιλεγμένων
             πόλεων
         other:
           title: Άλλες πηγές
-          description: Επιπλέον πηγές απαριθμούνται στο wiki του OpenStreetMap
+          description: Επιπλέον πηγές απαριθμούνται στο wiki του Samland Street Map
       export_button: Εξαγωγή
     fixthemap:
       title: Αναφέρετε πρόβλημα / Διορθώστε τον χάρτη
@@ -2391,7 +2391,7 @@ el:
           title: Μπείτε την κοινότητα
           explanation_html: Αν έχετε παρατηρήσει ένα πρόβλημα με τα δεδομένα του χάρτη
             μας, παραδείγματος χάριν ένας δρόμος που λείπει στη διεύθυνσή σας, ο καλύτερος
-            τρόπος να προχωρήσετε είναι να ενταχθείτε στην κοινότητα του OpenStreetMap
+            τρόπος να προχωρήσετε είναι να ενταχθείτε στην κοινότητα του Samland Street Map
             και να προσθέσετε ή να επισκευάσετε τα δεδομένα από μόνοι σας.
         add_a_note:
           instructions_1_html: Απλώς κάντε κλικ στο %{note_icon} ή στο ίδιο εικονίδιο
@@ -2404,17 +2404,17 @@ el:
           Εάν έχετε ανησυχίες σχετικά με τον τρόπο με τον οποίο χρησιμοποιούνται τα δεδομένα μας ή σχετικά με το περιεχόμενο, παρακαλούμε συμβουλευτείτε τη
           %{copyright_link} μας για περισσότερες νομικές πληροφορίες, ή επικοινωνήστε με την κατάλληλη %{working_group_link}.
         copyright: σελίδα πνευματικών δικαιωμάτων
-        working_group: ομάδα εργασίας του OSMF
+        working_group: ομάδα εργασίας του SSM
     help:
       title: Βοήθεια
-      introduction: Το OpenStreetMap έχει πολλαπλούς πόρους για να μάθετε για το εγχείρημα,
+      introduction: Το Samland Street Map έχει πολλαπλούς πόρους για να μάθετε για το εγχείρημα,
         να κάνετε ερωτήσεις, να απαντήσετε σε ερωτήσεις άλλων και να συζητήσετε και
         να τεκμηριώσετε θέματα χαρτογράφησης συνεργατικά.
       welcome:
         url: /welcome
-        title: Καλώς ήλθατε στο OpenStreetMap
+        title: Καλώς ήλθατε στο Samland Street Map
         description: Ξεκινήστε με αυτές τις σύντομες οδηγίες που καλύπτουν τα βασικά
-          του OpenStreetMap.
+          του Samland Street Map.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/El:Beginners%27_guide
         title: Οδηγός αρχαρίων
@@ -2422,7 +2422,7 @@ el:
       community:
         title: Φόρουμ κοινότητας & βοήθειας
         description: Ένα κοινόχρηστο μέρος για αναζήτηση βοήθειας και για συνομιλίες
-          σχετικά με το OpenStreetMap.
+          σχετικά με το Samland Street Map.
       mailing_lists:
         title: Λίστες αλληλογραφίας
         description: Κάντε μία ερώτηση ή συζητήστε ενδιαφέροντα θέματα σε ένα ευρύ
@@ -2434,17 +2434,17 @@ el:
       switch2osm:
         title: switch2osm
         description: Βοήθεια για εταιρείες και οργανισμούς για μετάβαση σε χάρτες
-          που βασίζονται στο OpenStreetMap και άλλες υπηρεσίες.
+          που βασίζονται στο Samland Street Map και άλλες υπηρεσίες.
       welcomemat:
         title: Για οργανισμούς
-        description: Είστε μέλος οργάνωσης που κάνει σχέδια για το OpenStreetMap;
+        description: Είστε μέλος οργάνωσης που κάνει σχέδια για το Samland Street Map;
           Βρείτε ότι χρειάζεται στο Welcome Mat.
       wiki:
-        title: OpenStreetMap Wiki
-        description: Περιηγηθείτε το wiki για επιμελής τεκμηρίωση του OpenStreetMap.
+        title: Samland Street Map Wiki
+        description: Περιηγηθείτε το wiki για επιμελής τεκμηρίωση του Samland Street Map.
     potlatch:
       removed: Ο Potlatch έχει τεθεί ως  ο προεπιλεγμένος σας επεξεργαστής για το
-        OpenStreetMap. Επειδή το Adobe Flash Player έχει αποσυρθεί, ο Potlatch δεν
+        Samland Street Map. Επειδή το Adobe Flash Player έχει αποσυρθεί, ο Potlatch δεν
         είναι πια διαθέσιμος για χρήση σε πρόγραμμα περιήγησης ιστού.
       desktop_application_html: Μπορείτε να χρησιμοποιήσετε ακόμα το Potlatch κάνοντας
         %{download_link}.
@@ -2456,8 +2456,8 @@ el:
     any_questions:
       title: Ερωτήσεις;
       paragraph_1_html: |-
-        Το OpenStreetMap διαθέτει αρκετές πηγές για να μάθετε για το έργο, να ρωτάτε και να απαντάτε
-        ερωτήσεις, και συλλογικά να συζητάτε και να τεκμηριώνετε θέματα χαρτογράφησης. %{help_link}. Είστε με έναν οργανισμό που κάνει σχέδια για το OpenStreetMap; %{welcome_mat_link}.
+        Το Samland Street Map διαθέτει αρκετές πηγές για να μάθετε για το έργο, να ρωτάτε και να απαντάτε
+        ερωτήσεις, και συλλογικά να συζητάτε και να τεκμηριώνετε θέματα χαρτογράφησης. %{help_link}. Είστε με έναν οργανισμό που κάνει σχέδια για το Samland Street Map; %{welcome_mat_link}.
       get_help_here: Λάβετε βοήθεια εδώ
       welcome_mat: Δείτε το Χαλάκι Καλωσορίσματος
     sidebar:
@@ -2562,13 +2562,13 @@ el:
           toilets: Τουαλέτες
     welcome:
       title: Καλώς ήρθατε!
-      introduction: Σας καλωσορίζουμε στο OpenStreetMap, τον ελεύθερο και επεξεργάσιμο
+      introduction: Σας καλωσορίζουμε στο Samland Street Map, τον ελεύθερο και επεξεργάσιμο
         χάρτη του κόσμου. Τώρα που έχετε εγγραφεί, είστε πανέτοιμοι να αρχίσετε τη
         χαρτογράφηση. Εδώ είναι ένας γρήγορος οδηγός με τα πιο σημαντικά πράγματα
         που πρέπει να ξέρετε.
       whats_on_the_map:
         title: Τι είναι στον χάρτη
-        on_the_map_html: Το OpenStreetMap είναι ένα μέρος για τη χαρτογράφηση πραγμάτων
+        on_the_map_html: Το Samland Street Map είναι ένα μέρος για τη χαρτογράφηση πραγμάτων
           που είναι %{real_and_current} - περιλαμβάνει εκατομμύρια κτίρια, δρόμους
           και άλλες λεπτομέρειες σχετικά με μέρη. Μπορείτε να χαρτογραφήσετε οποιαδήποτε
           χαρακτηριστικά του πραγματικού κόσμου σας ενδιαφέρουν.
@@ -2580,7 +2580,7 @@ el:
         doesnt: δεν
       basic_terms:
         title: Βασικοί όροι για τη χαρτογράφηση
-        paragraph_1: Η κοινότητα OpenStreetMap έχει τη δική της αργκό. Παρακάτω είναι
+        paragraph_1: Η κοινότητα Samland Street Map έχει τη δική της αργκό. Παρακάτω είναι
           μερικές λέξεις που μπορεί να σας φανούν χρήσιμες.
         an_editor_html: Ο %{editor} είναι ένα πρόγραμμα ή ένας ιστότοπος που μπορείτε
           να χρησιμοποιήσετε για να επεξεργαστείτε τον χάρτη.
@@ -2596,7 +2596,7 @@ el:
         tag: ετικέτα
       rules:
         title: Κανόνες!
-        para_1_html: Το OpenStreetMap δεν έχει πολλούς επίσημους κανόνες, αλλά αναμένουμε
+        para_1_html: Το Samland Street Map δεν έχει πολλούς επίσημους κανόνες, αλλά αναμένουμε
           από όλους τους συμμετέχοντες να συνεργάζονται και να επικοινωνούν με την
           κοινότητα. Εάν αναλογίζεστε οποιεσδήποτε άλλες δραστηριότητες εκτός από
           την επεξεργασία με το χέρι, παρακαλούμε διαβάστε και ακολουθήστε τις οδηγίες
@@ -2617,7 +2617,7 @@ el:
         the_map: στο χάρτη
     communities:
       title: Κοινότητες
-      lede_text: "Άνθρωποι από όλο τον κόσμο συνεισφέρουν ή χρησιμοποιούν το OpenStreetMap.\nΕνώ
+      lede_text: "Άνθρωποι από όλο τον κόσμο συνεισφέρουν ή χρησιμοποιούν το Samland Street Map.\nΕνώ
         πολλοί συμμετέχουν ως μεμονωμένα άτομα, άλλοι έχουν σχηματίσει κοινότητες.\nΑυτές
         οι ομάδες έχουν διάφορα μεγέθη και αντιπροσωπεύουν γεωγραφίες από μικρές πόλεις
         έως μεγάλες περιοχές πολλών χωρών. \nΜπορούν επίσης να είναι επίσημες ή ανεπίσημες."
@@ -2627,7 +2627,7 @@ el:
           που έχουν κάνει το επίσημο βήμα της εγκαθίδρυσης μη κερδοσκοπικών νομικών
           οντοτήτων. Αντιπροσωπεύουν τον χάρτη και τους χαρτογράφους της περιοχής
           όταν ασχολείται με την τοπική κυβέρνηση, τις επιχειρήσεις και τα μέσα ενημέρωσης.
-          Έχουν επίσης δημιουργήσει μια σχέση με το Ίδρυμα OpenStreetMap (OSMF), δίνοντάς
+          Έχουν επίσης δημιουργήσει μια σχέση με το Ίδρυμα Samland Street Map (SSM), δίνοντάς
           τους έναν σύνδεσμο με το νομικό και πνευματικών δικαιωμάτων όργανο.
         list_text: 'Οι ακόλουθες κοινότητες έχουν συσταθεί επίσημα ως Τοπικά Παραρτήματα:'
       other_groups:
@@ -2732,7 +2732,7 @@ el:
       message: Το σύστημα αποθήκευσης και μεταφόρτωσης αρχείων GPX δεν είναι διαθέσιμο
         αυτή την στιγμή
     georss:
-      title: Ίχνη GPS OpenStreetMap
+      title: Ίχνη GPS Samland Street Map
     description:
       description_with_count:
         one: αρχείο GPX με %{count} σημείο από %{user}
@@ -2745,7 +2745,7 @@ el:
       cookies_needed: Φαίνεται ότι έχετε τα cookies απενεργοποιημένα - παρακαλούμε
         ενεργοποιήστε τα cookies στο πρόγραμμα περιήγησής σας πριν συνεχίσετε.
     setup_user_auth:
-      blocked_zero_hour: Εκκρεμεί επείγον μήνυμα στον ιστότοπο του OpenStreetMap.
+      blocked_zero_hour: Εκκρεμεί επείγον μήνυμα στον ιστότοπο του Samland Street Map.
         Πρέπει να διαβάσετε το μήνυμα πριν να μπορείτε να αποθηκεύσετε τις αλλαγές
         σας.
       blocked: Η πρόσβασή σας στο API έχει αποκλειστεί. Παρακαλούμε συνδεθείτε με
@@ -2805,7 +2805,7 @@ el:
     permissions:
       missing: Δεν έχετε επιτρέψει την πρόσβαση εφαρμογής σε αυτήν την λειτουργία
     scopes:
-      openid: Συνδεθείτε χρησιμοποιώντας το OpenStreetMap
+      openid: Συνδεθείτε χρησιμοποιώντας το Samland Street Map
       read_prefs: Διαβάζει τις προτιμήσεις χρήστη
       write_prefs: Τροποποιεί τις προτιμήσεις χρήστη
       write_diary: Δημιουργήστε καταχωρήσεις ημερολογίου, σχόλια και κάντε φίλους
@@ -2875,7 +2875,7 @@ el:
     new:
       title: Εγγραφή
       tab_title: Εγγραφή
-      signup_to_authorize_html: Εγγραφείτε με το OpenStreetMap για πρόσβαση στο %{client_app_name}.
+      signup_to_authorize_html: Εγγραφείτε με το Samland Street Map για πρόσβαση στο %{client_app_name}.
       no_auto_account_create: Δυστυχώς δεν μπορούμε να δημιουργήσουμε αυτόματα έναν
         λογαριασμό για εσάς.
       please_contact_support_html: Παρακαλώ επικοινωνήστε με %{support_link} για να
@@ -2884,12 +2884,12 @@ el:
       support: υποστήριξη
       about:
         header: Ελεύθερος και επεξεργάσιμος.
-        paragraph_1: Σε αντίθεση με άλλους χάρτες, το OpenStreetMap δημιουργείται
+        paragraph_1: Σε αντίθεση με άλλους χάρτες, το Samland Street Map δημιουργείται
           εξ ολοκλήρου από ανθρώπους σαν εσάς και είναι δωρεάν για οποιονδήποτε να
           το διορθώσει, να ενημερώσει, να το κατεβάσει και να το χρησιμοποιήσει.
         paragraph_2: Εγγραφείτε για να ξεκινήσετε να συνεισφέρετε.
-        welcome: Καλώς ήλθατε στο OpenStreetMap
-      duplicate_social_email: Εάν έχετε ήδη λογαριασμό OpenStreetMap και επιθυμείτε
+        welcome: Καλώς ήλθατε στο Samland Street Map
+      duplicate_social_email: Εάν έχετε ήδη λογαριασμό Samland Street Map και επιθυμείτε
         να χρησιμοποιείτε έναν πάροχο ταυτότητας τρίτου μέρους, παρακαλούμε να συνδεθείτε
         χρησιμοποιώντας τον κωδικό πρόσβασής σας και να τροποποιήσετε τις ρυθμίσεις
         του λογαριασμού σας.
@@ -2899,14 +2899,14 @@ el:
         html: Με την εγγραφή σας, συμφωνείτε στους %{tou_link}, στην %{privacy_policy_link}
           και στους %{contributor_terms_link}.
         privacy_policy: πολιτική απορρήτου
-        privacy_policy_title: Πολιτική απορρήτου OSMF, συμπεριλαμβανομένης της ενότητας
+        privacy_policy_title: Πολιτική απορρήτου SSM, συμπεριλαμβανομένης της ενότητας
           για τις διευθύνσεις ηλεκτρονικού ταχυδρομείου
         contributor_terms: όρους συνεισφοράς
       continue: Εγγραφή
       terms accepted: Ευχαριστούμε για την αποδοχή των νέων όρων συνεισφοράς!
       email_help:
         privacy_policy: πολιτική απορρήτου
-        privacy_policy_title: Πολιτική απορρήτου OSMF, συμπεριλαμβανομένης της ενότητας
+        privacy_policy_title: Πολιτική απορρήτου SSM, συμπεριλαμβανομένης της ενότητας
           για τις διευθύνσεις ηλεκτρονικού ταχυδρομείου
         html: Η διεύθυνσή σας δεν εμφανίζεται δημόσια, ανατρέξτε στην %{privacy_policy_link}
           για περισσότερες πληροφορίες.
@@ -2925,7 +2925,7 @@ el:
         συνεισφορές σας.
       read_ct: Έχω διαβάσει και αποδέχομαι τους παραπάνω όρους συνεισφοράς
       tou_explain_html: Αυτοί %{tou_link} καλύπτουν τη χρήση της ιστοσελίδας και άλλης
-        υποδομής που προσφέρει η OSMF. Παρακαλούμε ακολουθήστε τον σύνδεσμο, διαβάστε
+        υποδομής που προσφέρει η SSM. Παρακαλούμε ακολουθήστε τον σύνδεσμο, διαβάστε
         και αποδεχτείτε το κείμενο.
       read_tou: Έχω διαβάσει και αποδέχομαι τους όρους χρήσης
       consider_pd: Και επιπρόσθετα στην παραπάνω συμφωνία, καταστώ τις συνεισφορές
@@ -3070,9 +3070,9 @@ el:
       invalid_scope: Μη έγκυρο φάσμα
       unknown_error: Η ταυτοποίηση απέτυχε
     auth_association:
-      heading: Το ID σας δεν σχετίζεται ακόμα με λογαριασμό στο OpenStreetMap.
+      heading: Το ID σας δεν σχετίζεται ακόμα με λογαριασμό στο Samland Street Map.
       option_1: |-
-        Εάν είστε νέοι στο OpenStreetMap, παρακαλούμε να δημιουργήσετε έναν νέο λογαριασμό
+        Εάν είστε νέοι στο Samland Street Map, παρακαλούμε να δημιουργήσετε έναν νέο λογαριασμό
         χρησιμοποιώντας την παρακάτω φόρμα.
       option_2: Αν έχετε ήδη λογαριασμό, μπορείτε να συνδεθείτε στον λογαριασμό σας
         χρησιμοποιώντας το όνομα χρήστη και τον κωδικό πρόσβασης και, στη συνέχεια,
@@ -3277,7 +3277,7 @@ el:
       add: Προσθήκη σημείωσης
     new_readonly:
       title: Νέα σημείωση
-      warning: Δεν είναι δυνατή η δημιουργία νέων σημειώσεων, επειδή το API OpenStreetMap
+      warning: Δεν είναι δυνατή η δημιουργία νέων σημειώσεων, επειδή το API Samland Street Map
         βρίσκεται αυτήν τη στιγμή σε λειτουργία μόνο για ανάγνωση.
     notes_paging_nav:
       showing_page: Σελίδα %{page}
@@ -3338,16 +3338,16 @@ el:
         gps: Δημόσια ίχνη GPS
         overlays: Ενεργοποίηση επικαλύψεων για την αντιμετώπιση προβλημάτων του χάρτη
         title: Επίπεδα
-      openstreetmap_contributors: Συνεισφέροντες OpenStreetMap
+      openstreetmap_contributors: Συνεισφέροντες Samland Street Map
       make_a_donation: Κάντε μια δωρεά
       website_and_api_terms: Όροι ιστότοπου και API
       cyclosm_credit: Στυλ πλακιδίων από %{cyclosm_link} φιλοξενημένο από %{osm_france_link}
-      osm_france: OpenStreetMap Γαλλίας
+      osm_france: Samland Street Map Γαλλίας
       thunderforest_credit: Πλακίδια ευγενική προσφορά του %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: Πλακίδια ευγενική προσφορά του %{tracestrack_link}
       hotosm_credit: Στυλ πλακιδίων από %{hotosm_link} φιλοξενημένο από %{osm_france_link}
-      hotosm_name: Humanitarian OpenStreetMap Team
+      hotosm_name: Humanitarian Samland Street Map Team
     site:
       edit_tooltip: Επεξεργασία του χάρτη
       edit_disabled_tooltip: Κάντε μεγέθυνση για να επεξεργαστείτε το χάρτη

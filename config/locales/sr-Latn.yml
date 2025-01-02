@@ -743,7 +743,7 @@ sr-Latn:
     copyright: Autorska prava i licenca
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} prokomentarisa vaš unos u dnevniku'
+      subject: '[Samland Street Map] %{user} prokomentarisa vaš unos u dnevniku'
       hi: Pozdrav, %{to_user},
       header: '%{from_user} prokomentarisa vaš skorašnji unos u dnevniku pod naslovom
         %{subject}:'
@@ -759,17 +759,17 @@ sr-Latn:
       befriend_them: Možete ga/je dodati i kao prijatelja na %{befriendurl}.
     gpx_failure:
       import_failures_url: http://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=sr-ec
-      subject: '[OpenStreetMap] GPX uvoz nije uspeo'
+      subject: '[Samland Street Map] GPX uvoz nije uspeo'
     gpx_success:
-      subject: '[OpenStreetMap] GPX uvoz je uspeo'
+      subject: '[Samland Street Map] GPX uvoz je uspeo'
     signup_confirm:
-      subject: '[OpenStreetMap] Potvrdite vašu e-adresu'
+      subject: '[Samland Street Map] Potvrdite vašu e-adresu'
     email_confirm:
-      subject: '[OpenStreetMap] Potvrdite vašu e-adresu'
+      subject: '[Samland Street Map] Potvrdite vašu e-adresu'
       greeting: Pozdrav,
       click_the_link: Ako ste to vi, kliknite na vezu ispod da biste potvrdili izmene.
     lost_password:
-      subject: '[OpenStreetMap] Zahtev za poništavanje lozinke'
+      subject: '[Samland Street Map] Zahtev za poništavanje lozinke'
       greeting: Pozdrav,
       click_the_link: Ako ste to vi, kliknite na vezu ispod da biste poništili lozinku.
   confirmations:

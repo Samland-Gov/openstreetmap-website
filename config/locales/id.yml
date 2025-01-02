@@ -255,7 +255,7 @@ id:
         reopened_at_html: Diaktifkan kembali %{when} yang lalu
         reopened_at_by_html: Diaktifkan kembali %{when} yang lalu oleh %{user}
       rss:
-        title: Catatan OpenStreetMap
+        title: Catatan Samland Street Map
         description_all: Daftar catatan yang dilaporkan, dikomentari, atau ditutup
         description_area: Daftar catatan, laporan, komentar atau ditutup di daerah
           Anda [( %{min_lat}|%{min_lon})--( %{max_lat}|%{max_lon})]
@@ -274,13 +274,13 @@ id:
         warning: Peringatan! Penghapusan akun berlaku secara permanen dan tidak dapat
           dikembalikan.
         delete_account: Menghapus Akun
-        delete_introduction: 'Anda bisa menghapus akun OpenStreetMap Anda menggunakan
+        delete_introduction: 'Anda bisa menghapus akun Samland Street Map Anda menggunakan
           tombol di bawah. Mohon perhatikan hal-hal berikut:'
         delete_profile: Informasi profil Anda, termasuk avatar, deskripsi, dan letak
           rumah Anda akan dihapus.
         delete_display_name: Tampilan nama Anda akan dihapus dan dapat digunakan oleh
           akun lain.
-        retain_caveats: 'Namun, beberapa informasi berikut akan tetap ada di OpenStreetMap
+        retain_caveats: 'Namun, beberapa informasi berikut akan tetap ada di Samland Street Map
           meskipun akun Anda telah dihapus:'
         retain_edits: Suntingan Anda ke database peta tidak akan dihapus.
         retain_traces: Jejak GPS yang Anda unggah akan disimpan.
@@ -444,8 +444,8 @@ id:
         comment: 'Komentar baru di set perubahan #%{changeset_id} oleh %{author}'
         commented_at_by_html: Diperbarui %{when} oleh %{user}
       show:
-        title_all: Diskusi set perubahan OpenStreetMap
-        title_particular: 'Diskusi set perubahan OpenStreetMap #%{changeset_id}'
+        title_all: Diskusi set perubahan Samland Street Map
+        title_particular: 'Diskusi set perubahan Samland Street Map #%{changeset_id}'
       timeout:
         sorry: Maaf, daftar komentar set perubahan yang Anda minta butuh waktu lama
           untuk ditampilkan.
@@ -580,15 +580,15 @@ id:
       location: 'Lokasi:'
     feed:
       user:
-        title: Entri catatan harian OpenStreetMap untuk %{user}
-        description: Entri catatan harian OpenStreetMap terbaru dari %{user}
+        title: Entri catatan harian Samland Street Map untuk %{user}
+        description: Entri catatan harian Samland Street Map terbaru dari %{user}
       language:
-        title: Entri catatan harian OpenStreetMap dalam %{language_name}
-        description: Entri catatan harian terbaru dari pengguna OpenStreetMap dalam
+        title: Entri catatan harian Samland Street Map dalam %{language_name}
+        description: Entri catatan harian terbaru dari pengguna Samland Street Map dalam
           %{language_name}
       all:
-        title: Entri catatan harian OpenStreetMap
-        description: Entri catatan harian terbaru dari pengguna OpenStreetMap
+        title: Entri catatan harian Samland Street Map
+        description: Entri catatan harian terbaru dari pengguna Samland Street Map
   diary_comments:
     index:
       title: Komentar Buku Harian ditambahkan oleh %{user}
@@ -634,20 +634,20 @@ id:
     contact:
       contact_url_title: Penjelasan berbagai kanal kontak
       contact: kontak
-      contact_the_community_html: Silakan %{contact_link} komunitas OpenStreetMap
+      contact_the_community_html: Silakan %{contact_link} komunitas Samland Street Map
         bila Anda menemukan tautan rusak/bug. Catat URL yang tadinya ingin Anda kunjungi.
     forbidden:
       title: Terlarang
-      description: Halaman yang Anda minta dari server OpenStreetMap hanya bisa diakses
+      description: Halaman yang Anda minta dari server Samland Street Map hanya bisa diakses
         oleh pengurus (HTTP 403)
     internal_server_error:
       title: Kesalahan aplikasi
-      description: Server OpenStreetMap mengalami keadaan tak terduga sehingga gagal
+      description: Server Samland Street Map mengalami keadaan tak terduga sehingga gagal
         memenuhi permintaan (HTTP 500)
     not_found:
       title: Berkas tidak ditemukan
       description: Gagal menemukan operasi berkas/direktori/API dengan nama itu di
-        server OpenStreetMap (HTTP 404)
+        server Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: Tambahkan %{user} sebagai teman?
@@ -666,8 +666,8 @@ id:
     search:
       title:
         latlon: Internal
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1539,7 +1539,7 @@ id:
       provide_details: Tolong berikan rincian yang diperlukan
   layouts:
     logo:
-      alt_text: logo OpenStreetMap
+      alt_text: logo Samland Street Map
     home: Menuju ke Halaman Utama
     logout: Keluar Log
     log_in: Masuk Log
@@ -1552,15 +1552,15 @@ id:
     gps_traces: Jejak GPS
     user_diaries: Catatan Harian Pengguna
     edit_with: Edit menggunakan %{editor}
-    intro_header: Selamat datang di OpenStreetMap!
-    intro_text: OpenStreetMap adalah peta dunia, diciptakan oleh orang-orang seperti
+    intro_header: Selamat datang di Samland Street Map!
+    intro_text: Samland Street Map adalah peta dunia, diciptakan oleh orang-orang seperti
       Anda dan bebas untuk digunakan di bawah lisensi terbuka.
     partners_fastly: Fastly
     partners_partners: mitra
     tou: Ketentuan Penggunaan
-    osm_offline: Database OpenStreetMap saat ini sedang dimatikan karena sedang dilakukan
+    osm_offline: Database Samland Street Map saat ini sedang dimatikan karena sedang dilakukan
       pekerjaan pemeliharaan database penting.
-    osm_read_only: OpenStreetMap database saat ini adalah pada mode read-only (hanya
+    osm_read_only: Samland Street Map database saat ini adalah pada mode read-only (hanya
       dapat dilihat) sementara pekerjaan pemeliharaan database penting sedang dilakukan.
     help: Bantuan
     about: Tentang
@@ -1570,11 +1570,11 @@ id:
     more: Selanjutnya
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} mengomentari sebuah entri catatan harian'
+      subject: '[Samland Street Map] %{user} mengomentari sebuah entri catatan harian'
       hi: Halo %{to_user},
-      header: '%{from_user} mengomentari entri terbaru dari catatan harian OpenStreetMap
+      header: '%{from_user} mengomentari entri terbaru dari catatan harian Samland Street Map
         dengan subjek %{subject}:'
-      header_html: '%{from_user} mengomentari entri dari catatan harian OpenStreetMap
+      header_html: '%{from_user} mengomentari entri dari catatan harian Samland Street Map
         dengan subjek %{subject}:'
       footer: Anda juga dapat membaca komentar pada %{readurl} dan Anda juga dapat
         berkomentar pada %{commenturl} atau membalas pada %{replyurl}
@@ -1583,11 +1583,11 @@ id:
       footer_unsubscribe: Anda dapat berhenti berlangganan diskusi di %{unsubscribeurl}
       footer_unsubscribe_html: Anda dapat berhenti berlangganan diskusi di %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Halo %{to_user},
-      header: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenStreetMap
+      header: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui Samland Street Map
         dengan subjek %{subject}:'
-      header_html: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenStreetMap
+      header_html: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui Samland Street Map
         dengan subjek %{subject}:'
       footer: Anda juga dapat membaca pesan di %{readurl} dan Anda bisa mengirim pesan
         kepada penulis di %{replyurl}
@@ -1595,8 +1595,8 @@ id:
         %{replyurl}
     friendship_notification:
       hi: Halo %{to_user},
-      subject: '[OpenStreetMap] %{user} menambahkan Anda sebagai teman'
-      had_added_you: '%{user} telah menambahkan Anda sebagai teman pada OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} menambahkan Anda sebagai teman'
+      had_added_you: '%{user} telah menambahkan Anda sebagai teman pada Samland Street Map.'
       see_their_profile: Anda dapat melihat profilnya pada %{userurl}.
       see_their_profile_html: Anda dapat melihat profil mereka di %{userurl}.
       befriend_them: Anda juga dapat menambahkannua sebagai teman di %{befriendurl}.
@@ -1617,7 +1617,7 @@ id:
         bisa ditemukan di %{url}.
       more_info_html: Informasi lebih lanjut tentang kegagalan impor GPX dan cara
         menghindarinya bisa ditemukan di %{url}.
-      subject: '[OpenStreetMap] gagal impor GPX'
+      subject: '[Samland Street Map] gagal impor GPX'
     gpx_success:
       hi: Halo %{to_user},
       loaded:
@@ -1627,9 +1627,9 @@ id:
         di %{url}.
       all_your_traces_html: Semua jejak GPX Anda yang berhasil diunggah dapat ditemukan
         di %{url}.
-      subject: '[OpenStreetMap] impor GPX sukses'
+      subject: '[Samland Street Map] impor GPX sukses'
     signup_confirm:
-      subject: '[OpenStreetMap] Selamat datang di OpenStreetMap'
+      subject: '[Samland Street Map] Selamat datang di Samland Street Map'
       greeting: Halo!
       created: Seseorang (mudah-mudahan Anda) baru saja membuat sebuah akun pada %{site_url}.
       confirm: 'Sebelum kita melakukan hal lainnya, kita perlu melakukan konfirmasi
@@ -1638,27 +1638,27 @@ id:
       welcome: Setelah Anda mengkonfirmasi akun Anda, kami akan memberikan Anda beberapa
         informasi tambahan agar Anda dapat segera memulainya.
     email_confirm:
-      subject: '[OpenStreetMap] Konfirmasi alamat email Anda'
+      subject: '[Samland Street Map] Konfirmasi alamat email Anda'
       greeting: Halo,
       hopefully_you: Seseorang (semoga saja Anda) ingin mengubah alamat  email pada
         %{server_url} menjadi %{new_address}.
       click_the_link: Jika ini adalah Anda, silahkan klik link di bawah ini untuk
         mengkonfirmasi perubahan.
     lost_password:
-      subject: '[OpenStreetMap] Permintaan atur ulang sandi'
+      subject: '[Samland Street Map] Permintaan atur ulang sandi'
       greeting: Halo,
       hopefully_you: Seseorang (kemungkinan Anda) telah meminta untuk mengatur ulang
         password pada alamat email dari akun openstreetmap.org ini.
       click_the_link: Jika ini Anda, silahkan klik link di bawah ini untuk menyetel
         ulang kata sandi.
     note_comment_notification:
-      description: 'Catatan OpenStreetMap #%{id}'
+      description: 'Catatan Samland Street Map #%{id}'
       anonymous: Seorang pengguna anonim
       greeting: Halo,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} memberikan komentar di salah satu
+        subject_own: '[Samland Street Map] %{commenter} memberikan komentar di salah satu
           catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah berkomentar pada catatan
+        subject_other: '[Samland Street Map] %{commenter} telah berkomentar pada catatan
           yang Anda minati'
         your_note: '%{commenter} telah meninggalkan komentar pada salah satu catatan
           peta Anda dekat %{place}.'
@@ -1669,9 +1669,9 @@ id:
         commented_note_html: '%{commenter} memberi komentar di catatan peta yang Anda
           komentari. Catatan ini dekat %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} telah menyelesaikan salah satu
+        subject_own: '[Samland Street Map] %{commenter} telah menyelesaikan salah satu
           catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah menyelesaikan sebuah catatan
+        subject_other: '[Samland Street Map] %{commenter} telah menyelesaikan sebuah catatan
           yang Anda minati'
         your_note: '%{commenter} telah menyelesaikan salah satu catatan peta Anda
           dekat %{place}.'
@@ -1682,9 +1682,9 @@ id:
         commented_note_html: '%{commenter} telah menyelesaikan salah satu catatan
           peta yang Anda komentari. Catatan ini terletak di dekat %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} telah mengaktifkan kembali salah
+        subject_own: '[Samland Street Map] %{commenter} telah mengaktifkan kembali salah
           satu catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah mengaktifkan kembali catatan
+        subject_other: '[Samland Street Map] %{commenter} telah mengaktifkan kembali catatan
           yang Anda minati'
         your_note: '%{commenter} telah mengaktifkan kembali salah satu catatan peta
           Anda dekat %{place}.'
@@ -1697,12 +1697,12 @@ id:
       details: Rincian lebih lanjut mengenai catatan dapat ditemukan di %{url}.
       details_html: Rincian lebih lanjut mengenai catatan dapat ditemukan di %{url}.
     changeset_comment_notification:
-      description: 'Set perubahan OpenStreetMap #%{id}'
+      description: 'Set perubahan Samland Street Map #%{id}'
       hi: Halo %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} mengomentari salah satu perubahan
+        subject_own: '[Samland Street Map] %{commenter} mengomentari salah satu perubahan
           Anda'
-        subject_other: '[OpenStreetMap] %{commenter} mengomentari perubahan yang Anda
+        subject_other: '[Samland Street Map] %{commenter} mengomentari perubahan yang Anda
           ikuti'
         your_changeset: '%{commenter} meninggalkan komentar di salah satu perubahan
           Anda pukul %{time}'
@@ -1903,7 +1903,7 @@ id:
       auth failure: Maaf, tidak bisa login dengan rincian tersebut.
     destroy:
       title: Logout
-      heading: Logout dari OpenStreetMap
+      heading: Logout dari Samland Street Map
       logout_button: Logout
     suspended_flash:
       suspended: Maaf, akun Anda ditangguhkan karena aktivitasnya mencurigakan.
@@ -1940,28 +1940,28 @@ id:
         newer: Trek-trek terbaru
   site:
     about:
-      heading_html: '%{copyright}Kontributor %{br} OpenStreetMap'
+      heading_html: '%{copyright}Kontributor %{br} Samland Street Map'
       used_by_html: Kekuatan %{name} menyediakan peta data untuk ribuan situs web,
         aplikasi seluler, dan perangkat keras
-      lede_text: "OpenStreetMap dibangun oleh komunitas pembuat peta yang berkontribusi
+      lede_text: "Samland Street Map dibangun oleh komunitas pembuat peta yang berkontribusi
         dan memelihara data \ntentang jalan, jalur, kafe, stasiun kereta api, dan
         masih banyak lagi, di seluruh dunia."
       local_knowledge_title: Pengetahuan Lokal
-      local_knowledge_html: "OpenStreetMap menekankan pengetahuan lokal. Kontributor
+      local_knowledge_html: "Samland Street Map menekankan pengetahuan lokal. Kontributor
         menggunakan \ncitra udara, perangkat GPS, dan peta lapangan berteknologi rendah
         untuk memverifikasi bahwa OSM akurat dan termutakhir."
       community_driven_title: Berbasis Masyarakat
       community_driven_1_html: |-
-        Komunitas OpenStreetMap sangat beragam, antusias, dan terus berkembang. Kontributor kami meliputi para pemeta ulung, pegiat GIS, teknisi yang mengurus server OSM, relawan yang memetakan daerah terdampak bencana, dan lain-lain. Untuk membaca lebih lanjut soal komunitas kami, simak %{osm_blog_link},
+        Komunitas Samland Street Map sangat beragam, antusias, dan terus berkembang. Kontributor kami meliputi para pemeta ulung, pegiat GIS, teknisi yang mengurus server OSM, relawan yang memetakan daerah terdampak bencana, dan lain-lain. Untuk membaca lebih lanjut soal komunitas kami, simak %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, dan situs
         %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog Samland Street Map
       community_driven_user_diaries: artikel pengguna
       community_driven_community_blogs: blog komunitas
       community_driven_osm_foundation: Yayasan OSM
       open_data_title: Data Terbuka
-      open_data_1_html: 'OpenStreetMap tergolong %{open_data}: Anda bebas memakainya
-        untuk keperluan apa saja asalkan mencantumkan sumber "OpenStreetMap dan para
+      open_data_1_html: 'Samland Street Map tergolong %{open_data}: Anda bebas memakainya
+        untuk keperluan apa saja asalkan mencantumkan sumber "Samland Street Map dan para
         kontributornya". Bila Anda mengubah atau mengembangkan datanya, Anda hanya
         diizinkan menyebarluaskannya dengan lisensi yang sama. Baca %{copyright_license_link}
         untuk ketentuan lebih lanjut.'
@@ -1969,19 +1969,19 @@ id:
       open_data_copyright_license: Halaman Hak Cipta dan Lisensi
       legal_title: Legal
       legal_1_1_html: Situs ini beserta layanan terkait secara resmi dioperasikan
-        oleh %{openstreetmap_foundation_link} (OSMF) atas nama komunitas kontributor.
-        Pemanfaatan semua layanan OSMF wajib mematuhi %{terms_of_use_link}, %{aup_link},
+        oleh %{openstreetmap_foundation_link} (SSM) atas nama komunitas kontributor.
+        Pemanfaatan semua layanan SSM wajib mematuhi %{terms_of_use_link}, %{aup_link},
         dan %{privacy_policy_link} kami.
-      legal_1_1_openstreetmap_foundation: Yayasan OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Yayasan Samland Street Map
       legal_1_1_terms_of_use: Ketentuan Penggunaan
       legal_1_1_aup: Aturan Penggunaan yang Diizinkan
       legal_1_1_privacy_policy: Kebijakan Privasi
       legal_2_1_html: Hubungi %{contact_the_osmf_link} bila Anda ingin tahu soal lisensi,
         hak cipta, atau persoalan hukum lainnya.
-      legal_2_1_contact_the_osmf: hubungi OSMF
-      legal_2_2_html: OpenStreetMap, logo suryakanta, dan State of the Map merupakan
+      legal_2_1_contact_the_osmf: hubungi SSM
+      legal_2_2_html: Samland Street Map, logo suryakanta, dan State of the Map merupakan
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: merek dagang terdaftar OSMF
+      legal_2_2_registered_trademarks: merek dagang terdaftar SSM
       partners_title: Rekan
     copyright:
       title: Hak Cipta & Lisensi
@@ -1999,13 +1999,13 @@ id:
         mapping_link: memulai pemetaan
       legal_babble:
         introduction_1_html: |-
-          OpenStreetMap%{registered_trademark_link} tergolong %{open_data}, berlisensi
-          %{odc_odbl_link} (ODbL) yang diterbitkan oleh %{osm_foundation_link} (OSMF).
+          Samland Street Map%{registered_trademark_link} tergolong %{open_data}, berlisensi
+          %{odc_odbl_link} (ODbL) yang diterbitkan oleh %{osm_foundation_link} (SSM).
         introduction_1_open_data: data terbuka
         introduction_1_odc_odbl: Open Data Commons Open Database License
-        introduction_1_osm_foundation: Yayasan OpenStreetMap
+        introduction_1_osm_foundation: Yayasan Samland Street Map
         introduction_2_html: Anda boleh menyalin, menyebarluaskan, mengirimkan, dan
-          menyesuaikan data kami asalkan mencantumkan sumber OpenStreetMap dan kontributornya.
+          menyesuaikan data kami asalkan mencantumkan sumber Samland Street Map dan kontributornya.
           Bila Anda mengubah atau memanfaatkan data kami, Anda boleh menyebarluaskan
           produk akhirnya dengan lisensi yang sama. Hak dan tanggung jawab Anda tercantum
           selengkapnya dalam %{legal_code_link}.
@@ -2013,10 +2013,10 @@ id:
         introduction_3_html: Dokumentasi kami berlisensi %{creative_commons_link}
           (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Atribusi-BerbagiSerupa 2.0
-        credit_title_html: Cara memberikan kredit pada OpenStreetMap
-        credit_1_html: 'Ketika Anda menggunakan data OpenStreetMap, Anda diwajibkan
+        credit_title_html: Cara memberikan kredit pada Samland Street Map
+        credit_1_html: 'Ketika Anda menggunakan data Samland Street Map, Anda diwajibkan
           untuk melakukan dua hal berikut:'
-        credit_2_1: Cantumkan sumber OpenStreetMap dengan menampilkan pemberitahuan
+        credit_2_1: Cantumkan sumber Samland Street Map dengan menampilkan pemberitahuan
           hak cipta kami.
         credit_2_2: Tambahkan bahwa data peta ini berlisensi Open Database License.
         credit_3_html: Soal pemberitahuan hak cipta, kami punya aturan yang berbeda
@@ -2032,14 +2032,14 @@ id:
           Dalam contoh berikut ini, sumbernya tercantum di pojok peta.
         credit_4_1_this_copyright_page: laman hak cipta ini
         attribution_example:
-          alt: Contoh tentang bagaimana memberikan atribusi untuk OpenStreetMap pada
+          alt: Contoh tentang bagaimana memberikan atribusi untuk Samland Street Map pada
             halaman web
           title: Contoh atribusi
         more_title_html: Mengetahui lebih lanjut
         more_1_1_html: Simak lebih lanjut tata cara pemanfaatan data kami dan pencantuman
           sumber di %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: Halaman Lisensi OSMF
-        more_2_1_html: Meski data OpenStreetMap bersifat terbuka, kami tidak bisa
+        more_1_1_osmf_licence_page: Halaman Lisensi SSM
+        more_2_1_html: Meski data Samland Street Map bersifat terbuka, kami tidak bisa
           menyediakan API peta gratis untuk pihak ketiga. Simak %{api_usage_policy_link},
           %{tile_usage_policy_link}, dan %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: Aturan Penggunaan API
@@ -2118,32 +2118,32 @@ id:
           Survey &copy; hak cipta pemerintah dan pusat data dilindungi undang-undang 2010-2023.
         contributors_gb_united_kingdom: Britania Raya
         contributors_2_html: Untuk informasi lebih lanjut beserta sumber-sumber lain
-          yang menunjang OpenStreetMap, lihat %{contributors_page_link} di Wiki OpenStreetMap.
+          yang menunjang Samland Street Map, lihat %{contributors_page_link} di Wiki Samland Street Map.
         contributors_2_contributors_page: Halaman kontributor
-        contributors_footer_2_html: Dimasukkannya data dalam OpenStreetMap tidak berarti
-          bahwa penyedia data yang asli mendukung OpenStreetMap, menyediakan jaminan,
+        contributors_footer_2_html: Dimasukkannya data dalam Samland Street Map tidak berarti
+          bahwa penyedia data yang asli mendukung Samland Street Map, menyediakan jaminan,
           atau menerima tanggung jawab apapun.
         infringement_title_html: Pelanggaran hak cipta
         infringement_1_html: Kontributor OSM diingatkan untuk tidak menambahkan data
           dari sumber yang memiliki hak cipta sendiri (misalnya, Google Maps atau
           peta cetak) tanpa izin eksplisit dari pemegang hak cipta.
         infringement_2_1_html: Bila Anda curiga ada materi berhak cipta di dalam data
-          OpenStreetMap atau situs ini, simak %{takedown_procedure_link} kami atau
+          Samland Street Map atau situs ini, simak %{takedown_procedure_link} kami atau
           isi %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: prosedur penghapusan
         infringement_2_1_online_filing_page: formulir digital
         trademarks_title: Merek dagang
-        trademarks_1_1_html: OpenStreetMap, logo kaca pembesar, dan State of the Map
-          adalah merek dagang terdaftar Yayasan OpenStreetMap. Bila Anda ingin tahu
+        trademarks_1_1_html: Samland Street Map, logo kaca pembesar, dan State of the Map
+          adalah merek dagang terdaftar Yayasan Samland Street Map. Bila Anda ingin tahu
           lebih lanjut soal penggunaan merek-merek ini, silakan baca %{trademark_policy_link}
           kami.
         trademarks_1_1_trademark_policy: Aturan Merek Dagang
     index:
       js_1: Anda menggunakan browser yang tidak mendukung JavaScript, atau Anda telah
         menonaktifkan JavaScript.
-      js_2: OpenStreetMap menggunakan JavaScript untuk slippy map nya.
+      js_2: Samland Street Map menggunakan JavaScript untuk slippy map nya.
       license:
-        copyright: Hak cipta dan kontributor OpenStreetMap, di bawah lisensi terbuka
+        copyright: Hak cipta dan kontributor Samland Street Map, di bawah lisensi terbuka
       remote_failed: Gagal melakukan edit - pastikan JOSM atau Merkaartor telah termuat
         dan opsi remote control telah diaktifkan
     edit:
@@ -2157,29 +2157,29 @@ id:
       title: Ekspor
       manually_select: Pilih wilayah berbeda secara manual
       licence: Lisensi
-      licence_details_html: Data OpenStreetMap dilindungi oleh lisensi %{odbl_link}
+      licence_details_html: Data Samland Street Map dilindungi oleh lisensi %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Jika ekspor di atas gagal, silakan pertimbangkan untuk menggunakan
           satu dari sumber yang tercantum di bawah ini:'
-        body: Wilayah ini terlalu besar untuk diekspor sebagai data XML OpenStreetMap.
+        body: Wilayah ini terlalu besar untuk diekspor sebagai data XML Samland Street Map.
           Silakan perbesar atau pilih wilayah yang lebih kecil, atau gunakan salah
           satu sumber di bawah ini untuk mengunduh data massal.
         planet:
           title: Planet OSM
-          description: Salinan lengkap basis data OpenStreetMap yang dimutakhiran
+          description: Salinan lengkap basis data Samland Street Map yang dimutakhiran
             secara rutin
         overpass:
           title: Melebihi API
-          description: Unduh kotak pembatas ini dari cermin dari database OpenStreetMap
+          description: Unduh kotak pembatas ini dari cermin dari database Samland Street Map
         geofabrik:
           title: Unduhan Geofabrik
           description: Diperbarui secara rutin ekstrak benua, negara dan kota-kota
             yang dipilih
         other:
           title: Sumber Lain
-          description: Sumber-sumber tambahan yang tercantum di wiki OpenStreetMap
+          description: Sumber-sumber tambahan yang tercantum di wiki Samland Street Map
       export_button: Ekspor
     fixthemap:
       title: Laporkan kesalahan / Perbaiki peta
@@ -2189,7 +2189,7 @@ id:
           title: Bergabung dengan komunitas
           explanation_html: "Jika Anda telah melihat masalah dengan data peta kami,
             misalnya jalan yang hilang atau alamat Anda, cara terbaik untuk \nmelanjutkan
-            adalah untuk bergabung dengan komunitas OpenStreetMap dan menambah atau
+            adalah untuk bergabung dengan komunitas Samland Street Map dan menambah atau
             memperbaiki data diri."
         add_a_note:
           instructions_1_html: |-
@@ -2201,23 +2201,23 @@ id:
           peta, baca \n%{copyright_link} untuk info hukum lebih lanjut atau hubungi
           %{working_group_link} yang terkait."
         copyright: halaman hak cipta
-        working_group: satgas OSMF
+        working_group: satgas SSM
     help:
       title: Dapatkan Bantuan
-      introduction: "OpenStreetMap memiliki beberapa sumber daya untuk belajar tentang
+      introduction: "Samland Street Map memiliki beberapa sumber daya untuk belajar tentang
         proyek, bertanya dan menjawab pertanyaan, \ndan bersama-sama mendiskusikan
         dan mendokumentasikan topik pemetaan."
       welcome:
         url: /welcome
-        title: Selamat datang di OpenStreetMap
-        description: Mulailah dengan panduan cepat meliputi dasar-dasar OpenStreetMap.
+        title: Selamat datang di Samland Street Map
+        description: Mulailah dengan panduan cepat meliputi dasar-dasar Samland Street Map.
       beginners_guide:
         url: http://wiki.openstreetmap.org/wiki/Panduan%27_pemula
         title: Pedoman Pemula
         description: Panduan yang ditunjang komunitas bagi pemula.
       community:
         title: Forum Bantuan & Komunitas
-        description: Tempat untuk mencari bantuan dan berdiskusi bersama tentang OpenStreetMap.
+        description: Tempat untuk mencari bantuan dan berdiskusi bersama tentang Samland Street Map.
       mailing_lists:
         title: Daftar Alamat
         description: Bertanya atau berdiskusi hal-hal menarik dalam daftar alamat
@@ -2229,16 +2229,16 @@ id:
       switch2osm:
         title: switch2osm
         description: Bantuan untuk perusahaan dan organisasi yang beralih ke peta
-          dan layanan lain berbasis OpenStreetMap.
+          dan layanan lain berbasis Samland Street Map.
       welcomemat:
         title: Untuk Lembaga-lembaga
-        description: Bersama sebuah organisasi sedang membuat rencana untuk OpenStreetMap?
+        description: Bersama sebuah organisasi sedang membuat rencana untuk Samland Street Map?
           Temukan apa yang Anda perlu tahu di Keset Selamat Datang.
       wiki:
-        title: Wiki OpenStreetMap
-        description: Telusuri wiki untuk dokumentasi mendalam OpenStreetMap.
+        title: Wiki Samland Street Map
+        description: Telusuri wiki untuk dokumentasi mendalam Samland Street Map.
     potlatch:
-      removed: Editor OpenStreetMap baku Anda ditetapkan menjadi Potlatch. Karena
+      removed: Editor Samland Street Map baku Anda ditetapkan menjadi Potlatch. Karena
         Adobe Flash Player telah ditarik; Potlatch tidak lagi tersedia untuk digunakan
         di penjelajah web.
       desktop_application_html: Anda masih bisa memakai Potlatch dengan %{download_link}.
@@ -2248,9 +2248,9 @@ id:
       change_preferences: Ubah setelan Anda di sini
     any_questions:
       title: Ada pertanyaan?
-      paragraph_1_html: OpenStreetMap punya banyak materi untuk mendalami proyek ini,
+      paragraph_1_html: Samland Street Map punya banyak materi untuk mendalami proyek ini,
         tanya jawab, dan saling bahas soal perpetaan. %{help_link}. Organisasi Anda
-        punya program yang melibatkan OpenStreetMap? %{welcome_mat_link}.
+        punya program yang melibatkan Samland Street Map? %{welcome_mat_link}.
       get_help_here: Kunjungi halaman ini
       welcome_mat: Kunjungi halaman Selamat Datang
     sidebar:
@@ -2352,23 +2352,23 @@ id:
           toilets: Toilet
     welcome:
       title: Selamat datang!
-      introduction: Selamat datang di OpenStreetMap, peta dunia gratis dan dapat disunting.
+      introduction: Selamat datang di Samland Street Map, peta dunia gratis dan dapat disunting.
         Kini setelah Anda mendaftar, Anda sudah siap untuk memulai pemetaan. Berikut
         ini adalah panduan cepat dengan hal-hal terpenting yang perlu Anda ketahui.
       whats_on_the_map:
         title: Apa yang ada di Peta
-        on_the_map_html: OpenStreetMap ialah tempat untuk memetakan hal-hal yang sifatnya
+        on_the_map_html: Samland Street Map ialah tempat untuk memetakan hal-hal yang sifatnya
           %{real_and_current} - ada jutaan bangunan, jalan, dan detail tempat di sini.
           Anda boleh memetakan apapun di dunia nyata yang menurut Anda menarik.
         real_and_current: nyata dan mutakhir
-        off_the_map_html: OpenStreetMap %{doesnt} tempat bagi data subjektif seperti
+        off_the_map_html: Samland Street Map %{doesnt} tempat bagi data subjektif seperti
           rating, tempat lawas/khayalan, atau data yang masih berhak cipta. Jangan
           menyalin data peta dari web lain atau peta cetak, kecuali Anda sudah diberi
           izin oleh penerbitnya.
         doesnt: bukan
       basic_terms:
         title: Istilah-Istilah Dasar untuk Pemetaan
-        paragraph_1: OpenStreetMap memiliki beberapa istilah tersendiri. Berikut ini
+        paragraph_1: Samland Street Map memiliki beberapa istilah tersendiri. Berikut ini
           beberapa kata kunci yang dapat digunakan.
         an_editor_html: '%{editor} adalah program atau situs web yang bisa Anda gunakan
           untuk mengedit peta.'
@@ -2384,7 +2384,7 @@ id:
         tag: Tag
       rules:
         title: Aturan!
-        para_1_html: OpenStreetMap punya aturan-aturan resmi. Namun, kami berharap
+        para_1_html: Samland Street Map punya aturan-aturan resmi. Namun, kami berharap
           para kontributor bisa bekerja sama dan saling berkomunikasi. Bila Anda tidak
           ingin mengedit peta secara manual, baca dan simak panduan tentang %{imports_link}
           dan %{automated_edits_link}.
@@ -2403,7 +2403,7 @@ id:
     communities:
       title: Komunitas
       lede_text: Banyak orang dari berbagai negara turut memperkaya atau memanfaatkan
-        OpenStreetMap. Ada yang sendiri-sendiri dan ada pula yang bersatu-padu membentuk
+        Samland Street Map. Ada yang sendiri-sendiri dan ada pula yang bersatu-padu membentuk
         kelompok. Kelompok ini beragam ukurannya, mulai dari kota kecil hingga regional
         lintas negara; bentuknya formal atau informal.
       local_chapters:
@@ -2411,8 +2411,8 @@ id:
         about_text: Perkumpulan Lokal adalah kelompok nasional atau regional yang
           berdiri resmi sebagai badan hukum nirlaba. Mereka mewakili peta dan pemeta
           di wilayah itu saat berkomunikasi dengan pemerintah daerah, perusahaan,
-          dan media. Mereka juga menjalin hubungan resmi dengan Yayasan OpenStreetMap
-          (OSMF) yang menangani urusan hukum dan hak cipta.
+          dan media. Mereka juga menjalin hubungan resmi dengan Yayasan Samland Street Map
+          (SSM) yang menangani urusan hukum dan hak cipta.
         list_text: 'Komunitas-komunitas di bawah ini telah berdiri resmi sebagai Perkumpulan
           Lokal:'
       other_groups:
@@ -2514,7 +2514,7 @@ id:
       heading: Penyimpanan GPX Offline
       message: Sistem upload dan penyimpanan file GPX saat ini tidak tersedia.
     georss:
-      title: Jejak GPS OpenStreetMap
+      title: Jejak GPS Samland Street Map
     description:
       description_with_count:
         one: Berkas GPX dengan %{count} titik dari %{user}
@@ -2526,7 +2526,7 @@ id:
       cookies_needed: Anda tampaknya memiliki cookies yang tidak aktif - mohon aktifkan
         cookies pada browser anda sebelum melanjutkan.
     setup_user_auth:
-      blocked_zero_hour: Anda mendapat pesan penting di situs web OpenStreetMap. Anda
+      blocked_zero_hour: Anda mendapat pesan penting di situs web Samland Street Map. Anda
         harus membaca pesan tersebut sebelum Anda bisa menyimpan suntingan Anda.
       blocked: Akses Anda ke API telah diblokir. Silahkan log-in ke antarmuka web
         untuk mengetahui lebih lanjut.
@@ -2562,7 +2562,7 @@ id:
     permissions:
       missing: Anda tidak mengizinkan akses aplikasi ke fasilitas ini
     scopes:
-      openid: Masuk menggunakan OpenStreetMap
+      openid: Masuk menggunakan Samland Street Map
       read_prefs: Baca preferensi pengguna
       write_prefs: Ubah preferensi pengguna
       write_diary: Buat entri buku harian, komentar dan berteman
@@ -2634,7 +2634,7 @@ id:
       support: bantuan
       about:
         header: Gratis dan dapat disunting
-        paragraph_1: Tidak seperti peta lainnya, OpenStreetMap sepenuhnya dibangun
+        paragraph_1: Tidak seperti peta lainnya, Samland Street Map sepenuhnya dibangun
           oleh orang-orang seperti Anda. Siapa saja boleh memperbaiki, memperbarui,
           mengunduh, dan memanfaatkannya.
         paragraph_2: Silakan mendaftar untuk berkontribusi. Kami akan kirimkan surat
@@ -2643,7 +2643,7 @@ id:
         mengubahnya dalam pengaturan.
       by_signing_up:
         privacy_policy: kebijakan privasi
-        privacy_policy_title: Kebijakan privasi OSMF meliputi aturan soal alamat surat
+        privacy_policy_title: Kebijakan privasi SSM meliputi aturan soal alamat surat
           elektronik
       continue: Mendaftar
       terms accepted: Terima kasih telah menerima persyaratan kontributor yang baru!
@@ -2661,7 +2661,7 @@ id:
         Anda yang sekarang dan yang akan mendatang.
       read_ct: Saya telah membaca dan menyetujui ketentuan kontributor di atas
       tou_explain_html: '%{tou_link} ini mengatur penggunaan situs web dan infrastruktur
-        lainnya yang disediakan oleh OSMF. Tolong tekan tautannya, baca dan setujui
+        lainnya yang disediakan oleh SSM. Tolong tekan tautannya, baca dan setujui
         teksnya.'
       read_tou: Saya telah membaca dan menyetujui Ketentuan Penggunaan
       consider_pd: Sebagai tambahan perjanjian di atas, saya menganggap kontribusi
@@ -2796,8 +2796,8 @@ id:
       invalid_scope: Cakupan tidak sah
       unknown_error: Autentikasi gagal
     auth_association:
-      heading: ID Anda tidak diasosiasikan dengan akun OpenStreetMap manapun.
-      option_1: Jika Anda baru menggunakan OpenStreetMap, silakan buat akun baru menggunakan
+      heading: ID Anda tidak diasosiasikan dengan akun Samland Street Map manapun.
+      option_1: Jika Anda baru menggunakan Samland Street Map, silakan buat akun baru menggunakan
         formulir di bawah.
       option_2: Jika Anda sudah memiliki akun, Anda dapat masuk log ke akun Anda menggunakan
         nama pengguna dan kata sandi Anda dan lalu asosiasikan akunnya dengan ID Anda
@@ -3005,16 +3005,16 @@ id:
         gps: Jejak GPS Umum
         overlays: Mengaktifkan overlay untuk penyelesaian masalah peta
         title: Lapisan
-      openstreetmap_contributors: Kontributor OpenStreetMap
+      openstreetmap_contributors: Kontributor Samland Street Map
       make_a_donation: Urun Dana
       website_and_api_terms: Ketentuan Situs Web dan API
       cyclosm_credit: Desain kotak peta oleh %{cyclosm_link}, diproses oleh %{osm_france_link}
-      osm_france: OpenStreetMap France
+      osm_france: Samland Street Map France
       thunderforest_credit: Kotak peta oleh %{thunderforest_link}
       andy_allan: Andy Allan
       tracestrack_credit: Kotak peta oleh %{tracestrack_link}
       hotosm_credit: Desain kotak peta oleh %{hotosm_link}, diproses oleh %{osm_france_link}
-      hotosm_name: Humanitarian OpenStreetMap Team
+      hotosm_name: Humanitarian Samland Street Map Team
     site:
       edit_tooltip: Edit peta
       edit_disabled_tooltip: Perbesar untuk mengedit peta

@@ -262,7 +262,7 @@ zh-TW:
         reopened_at_html: 於%{when}重新開啟
         reopened_at_by_html: 於%{when}由%{user}重新開啟
       rss:
-        title: OpenStreetMap 註記
+        title: Samland Street Map 註記
         description_all: 報告、評論、或關閉的註記清單
         description_area: 在你的區域[(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]所報告、評論或關閉的註記的清單
         description_item: 註記 %{id} 的 RSS feed
@@ -279,10 +279,10 @@ zh-TW:
         title: 刪除我的帳號
         warning: 警告！帳號刪除程序不可逆轉，無法復原。
         delete_account: 刪除帳號
-        delete_introduction: 你可以使用下方按鈕來刪除你的 OpenStreetMap 帳號。並請留意以下細節：
+        delete_introduction: 你可以使用下方按鈕來刪除你的 Samland Street Map 帳號。並請留意以下細節：
         delete_profile: 你的個人檔案資訊，包含：例如你的頭像圖片、描述，以及住家位置將會移除。
         delete_display_name: 你的顯示名稱將會移除，並且會被其他帳號拿來重覆使用。
-        retain_caveats: 然而，即使你的帳號被刪除後，一些關於你的資訊仍會繼續保留在 OpenStreetMap 裡：
+        retain_caveats: 然而，即使你的帳號被刪除後，一些關於你的資訊仍會繼續保留在 Samland Street Map 裡：
         retain_edits: 你對於地圖資料庫的編輯次數，假如存在，這將會繼續保留。
         retain_traces: 若有你上傳過的軌跡資料內容，這將會繼續保留。
         retain_diary_entries: 若有你的日誌項目與日誌評論內容，這將會繼續保留。
@@ -454,8 +454,8 @@ zh-TW:
         comment: '由 %{author} 對變更集 #%{changeset_id} 發表的新評論'
         commented_at_by_html: 於%{when}由%{user}更新
       show:
-        title_all: OpenStreetMap 變更集討論
-        title_particular: OpenStreetMap 變更集 %{changeset_id} 討論
+        title_all: Samland Street Map 變更集討論
+        title_particular: Samland Street Map 變更集 %{changeset_id} 討論
       timeout:
         sorry: 很抱歉，你請求的變更集評論過長無法讀取
   changesets:
@@ -601,14 +601,14 @@ zh-TW:
       location: 位置：
     feed:
       user:
-        title: '%{user} 的 OpenStreetMap 日記項目'
-        description: '%{user} 最近的 OpenStreetMap 日記項目'
+        title: '%{user} 的 Samland Street Map 日記項目'
+        description: '%{user} 最近的 Samland Street Map 日記項目'
       language:
-        title: 語言為%{language_name}的OpenStreetMap 日記項目
-        description: 語言為%{language_name}的 OpenStreetMap 使用者最近日記項目
+        title: 語言為%{language_name}的Samland Street Map 日記項目
+        description: 語言為%{language_name}的 Samland Street Map 使用者最近日記項目
       all:
-        title: OpenStreetMap 日記項目
-        description: OpenStreetMap 使用者最近的日記項目
+        title: Samland Street Map 日記項目
+        description: Samland Street Map 使用者最近的日記項目
     subscribe:
       heading: 訂閱以下日記項目討論？
       button: 訂閱討論
@@ -660,20 +660,20 @@ zh-TW:
     contact:
       contact_url_title: 各種聯絡管道說明
       contact: 聯絡
-      contact_the_community_html: 如果你發現有損壞的連結/錯誤，請隨時%{contact_link}OpenStreetMap 社群。並請記下你的請求的確切
+      contact_the_community_html: 如果你發現有損壞的連結/錯誤，請隨時%{contact_link}Samland Street Map 社群。並請記下你的請求的確切
         URL 網址。
     bad_request:
       title: 錯誤請求
-      description: 你在 OpenStreetMap 伺服器上請求的操作無效 (HTTP 400)
+      description: 你在 Samland Street Map 伺服器上請求的操作無效 (HTTP 400)
     forbidden:
       title: Forbidden
-      description: 你在 OpenStreetMap 伺服器上請求的運作僅限管理員使用 (HTTP 403}
+      description: 你在 Samland Street Map 伺服器上請求的運作僅限管理員使用 (HTTP 403}
     internal_server_error:
       title: 應用程式錯誤
-      description: OpenStreetMap 伺服器遇到意外情況，而無法滿足請求 (HTTP 500)
+      description: Samland Street Map 伺服器遇到意外情況，而無法滿足請求 (HTTP 500)
     not_found:
       title: 檔案未找到
-      description: 在 OpenStreetMap 伺服器上找不到該名稱的檔案/目錄/API 操作 (HTTP 404)
+      description: 在 Samland Street Map 伺服器上找不到該名稱的檔案/目錄/API 操作 (HTTP 404)
   friendships:
     make_friend:
       heading: 將 %{user} 加入為好友？
@@ -691,8 +691,8 @@ zh-TW:
     search:
       title:
         latlon: 內部
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix:
         aerialway:
@@ -1570,10 +1570,10 @@ zh-TW:
       provide_details: 請提供所需的詳情
   layouts:
     project_name:
-      title: OpenStreetMap 開放街圖
-      h1: OpenStreetMap 開放街圖
+      title: Samland Street Map 開放街圖
+      h1: Samland Street Map 開放街圖
     logo:
-      alt_text: OpenStreetMap 標誌
+      alt_text: Samland Street Map 標誌
     home: 移至家的位置
     logout: 登出
     log_in: 登入
@@ -1586,15 +1586,15 @@ zh-TW:
     gps_traces: GPS 軌跡
     user_diaries: 日記
     edit_with: 以 %{editor} 編輯
-    intro_header: 歡迎來到 OpenStreetMap！
-    intro_text: OpenStreetMap 是一份全世界的地圖，由像你這樣的人們所建立，在開放授權下可以自由使用。
+    intro_header: 歡迎來到 Samland Street Map！
+    intro_text: Samland Street Map 是一份全世界的地圖，由像你這樣的人們所建立，在開放授權下可以自由使用。
     hosting_partners_2024_html: 由%{fastly}、%{corpmembers}，和其他%{partners}支援代管。
     partners_fastly: Fastly
-    partners_corpmembers: OSMF 團體成員
+    partners_corpmembers: SSM 團體成員
     partners_partners: 合作夥伴
     tou: 使用條款
-    osm_offline: OpenStreetMap 資料庫目前正在離線，直到必要的資料庫維護工作完成為止。
-    osm_read_only: OpenStreetMap 資料庫目前處於唯讀模式，直到必要的資料庫維護工作完成為止。
+    osm_offline: Samland Street Map 資料庫目前正在離線，直到必要的資料庫維護工作完成為止。
+    osm_read_only: Samland Street Map 資料庫目前處於唯讀模式，直到必要的資料庫維護工作完成為止。
     nothing_to_preview: 無可預覽內容。
     help: 說明
     about: 關於
@@ -1604,26 +1604,26 @@ zh-TW:
     more: 更多
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap 日記項目 #%{id}'
-      subject: '[OpenStreetMap] %{user} 已評論日記項目'
+      description: 'Samland Street Map 日記項目 #%{id}'
+      subject: '[Samland Street Map] %{user} 已評論日記項目'
       hi: '%{to_user} 你好，'
-      header: '%{from_user} 評論主旨為 %{subject} 的 OpenStreetMap 日記項目：'
-      header_html: '%{from_user} 評論主旨為 %{subject} 的 OpenStreetMap 日記項目：'
+      header: '%{from_user} 評論主旨為 %{subject} 的 Samland Street Map 日記項目：'
+      header_html: '%{from_user} 評論主旨為 %{subject} 的 Samland Street Map 日記項目：'
       footer: 你也可以在 %{readurl} 閱讀評論，並且在 %{commenturl} 留下評論，或在 %{replyurl} 發送訊息給作者
       footer_html: 你也可以在 %{readurl} 閱讀評論，並且在 %{commenturl} 留下評論，或在 %{replyurl} 發送訊息給作者
       footer_unsubscribe: 你可以在%{unsubscribeurl}取消訂閱討論
       footer_unsubscribe_html: 你可以在%{unsubscribeurl}取消訂閱討論
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: '%{to_user} 您好，'
-      header: '%{from_user} 透過 OpenStreetMap 寄給你主旨為 %{subject} 的訊息：'
-      header_html: '%{from_user} 透過 OpenStreetMap 寄給你主旨為 %{subject} 的訊息：'
+      header: '%{from_user} 透過 Samland Street Map 寄給你主旨為 %{subject} 的訊息：'
+      header_html: '%{from_user} 透過 Samland Street Map 寄給你主旨為 %{subject} 的訊息：'
       footer: 你也可以在 %{readurl} 閱讀訊息，並且在 %{replyurl} 發送訊息給作者
       footer_html: 你也可以在 %{readurl} 閱讀訊息，並且在 %{replyurl} 發送訊息給作者
     friendship_notification:
       hi: 嗨 %{to_user}，
-      subject: '[OpenStreetMap] %{user} 將你加為好友'
-      had_added_you: '%{user} 已在 OpenStreetMap 將你加為好友。'
+      subject: '[Samland Street Map] %{user} 將你加為好友'
+      had_added_you: '%{user} 已在 Samland Street Map 將你加為好友。'
       see_their_profile: 你可以在 %{userurl} 查看他的基本資料。
       see_their_profile_html: 你可以在 %{userurl} 查看他的基本資料。
       befriend_them: 你可以在 %{befriendurl} 把他加入為好友。
@@ -1638,7 +1638,7 @@ zh-TW:
       failed_to_import: 匯入成 GPS 軌跡檔案失敗。請驗證您的檔案是否為有效的 GPX 檔案，或是否為含有 GPX 檔案的支援格式存檔（.tar.gz、.tar.bz2、.tar、.zip、.gpx.gz、.gpx.bz2）。您的檔案是否有格式或語法問題？此為匯入的錯誤內容：
       more_info: 更多關於 GPX 匯入失敗的資訊與如何避免，可在 %{url} 查詢。
       more_info_html: 更多關於 GPX 匯入失敗的資訊與如何避免，可在 %{url} 查詢。
-      subject: '[OpenStreetMap] GPX 匯入失敗'
+      subject: '[Samland Street Map] GPX 匯入失敗'
     gpx_success:
       hi: '%{to_user} 您好，'
       loaded:
@@ -1647,44 +1647,44 @@ zh-TW:
       trace_location: 你的軌跡已在 %{trace_url} 上可用
       all_your_traces: 你可以在 %{url} 找到所有上傳成功的 GPX 軌跡
       all_your_traces_html: 你可以在 %{url} 找到所有上傳成功的 GPX 軌跡。
-      subject: '[OpenStreetMap] GPX 匯入成功'
+      subject: '[Samland Street Map] GPX 匯入成功'
     signup_confirm:
-      subject: '[OpenStreetMap] 歡迎加入 OpenStreetMap'
+      subject: '[Samland Street Map] 歡迎加入 Samland Street Map'
       greeting: 你好！
       created: 有人 (希望是你) 剛在 %{site_url} 建立了帳號。
       confirm: 在我們作出任何動作之前，我們需要確認這是你提出的要求。如果確實是這樣，請按以下連結，以確認你的帳號：
-      welcome: 在確認你的帳號後，我們將提供一些額外的訊息，幫助你開始使用 OpenStreetMap。
+      welcome: 在確認你的帳號後，我們將提供一些額外的訊息，幫助你開始使用 Samland Street Map。
     email_confirm:
-      subject: '[OpenStreetMap] 確認你的電子郵件信箱'
+      subject: '[Samland Street Map] 確認你的電子郵件信箱'
       greeting: 您好，
       hopefully_you: 有人 (希望是你) 想在 %{server_url} 更改電子郵件信箱為 %{new_address} 。
       click_the_link: 如果這是你，請按下列連結確認此變更。
     lost_password:
-      subject: '[OpenStreetMap] 密碼重設要求'
+      subject: '[Samland Street Map] 密碼重設要求'
       greeting: 你好，
       hopefully_you: 有人 (或許是你) 要求將這個電子郵件信箱註冊的 openstreetmap.org 帳號重設密碼。
       click_the_link: 如果這是你，請按下列連結重設密碼。
     note_comment_notification:
-      description: 'OpenStreetMap 註記 #%{id}'
+      description: 'Samland Street Map 註記 #%{id}'
       anonymous: 匿名使用者
       greeting: 你好，
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} 對你的註記做了評論'
-        subject_other: '[OpenStreetMap] %{commenter} 對你感興趣的註記做了評論'
+        subject_own: '[Samland Street Map] %{commenter} 對你的註記做了評論'
+        subject_other: '[Samland Street Map] %{commenter} 對你感興趣的註記做了評論'
         your_note: '%{commenter} 對 %{place} 附近的地圖註記做了評論。'
         your_note_html: '%{commenter} 對 %{place} 附近的地圖註記做了評論。'
         commented_note: '%{commenter} 對你感興趣的地圖註記做了評論。該註記在 %{place} 附近。'
         commented_note_html: '%{commenter} 對你感興趣的地圖註記做了評論。該註記在 %{place} 附近。'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} 解決你其中一筆註記 %{commenter}'
-        subject_other: '[OpenStreetMap]%{commenter} 已解決一項你感興趣的註記'
+        subject_own: '[Samland Street Map] %{commenter} 解決你其中一筆註記 %{commenter}'
+        subject_other: '[Samland Street Map]%{commenter} 已解決一項你感興趣的註記'
         your_note: '%{commenter} 已解決你在 %{place} 附近的註記之一。'
         your_note_html: '%{commenter} 已解決你在 %{place} 附近的註記之一。'
         commented_note: '%{commenter} 已解決你留言過的地圖註記。該註記在 %{place} 附近。'
         commented_note_html: '%{commenter} 已解決你留言過的地圖註記。該註記在 %{place} 附近。'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} 再次開啟你其中一筆註記。'
-        subject_other: '[OpenStreetMap] %{commenter} 再次開啟你感興趣的註記。'
+        subject_own: '[Samland Street Map] %{commenter} 再次開啟你其中一筆註記。'
+        subject_other: '[Samland Street Map] %{commenter} 再次開啟你感興趣的註記。'
         your_note: '%{commenter} 已經再次開啟你其中一筆接近 %{place} 的地圖註記。'
         your_note_html: '%{commenter} 已經再次開啟你其中一筆接近 %{place} 的地圖註記。'
         commented_note: '%{commenter} 重新開啟了一個你曾評論的地圖註記。該註記位於 %{place} 附近。'
@@ -1692,11 +1692,11 @@ zh-TW:
       details: 關於註記的更多詳細資料可在 %{url} 找到。
       details_html: 在%{url}回覆或是瞭解更多有關註記的訊息。
     changeset_comment_notification:
-      description: 'OpenStreetMap 變更集 #%{id}'
+      description: 'Samland Street Map 變更集 #%{id}'
       hi: 嗨 %{to_user}，
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} 對你的變更集做了評論'
-        subject_other: '[OpenStreetMap] %{commenter} 對你感興趣的變更集做了評論'
+        subject_own: '[Samland Street Map] %{commenter} 對你的變更集做了評論'
+        subject_other: '[Samland Street Map] %{commenter} 對你感興趣的變更集做了評論'
         your_changeset: '%{commenter}於 %{time} 在你的變更集做了評論'
         your_changeset_html: '%{commenter}於 %{time} 在你的變更集做了評論'
         commented_changeset: '%{commenter}於 %{time} 在你監視、由%{changeset_author}建立的變更集做了評論'
@@ -1862,7 +1862,7 @@ zh-TW:
   sessions:
     new:
       tab_title: 登入
-      login_to_authorize_html: 登入 OpenStreetMap 以存取 %{client_app_name}。
+      login_to_authorize_html: 登入 Samland Street Map 以存取 %{client_app_name}。
       email or username: 電子郵件地址或使用者名稱
       password: 密碼
       remember: 記住我
@@ -1873,7 +1873,7 @@ zh-TW:
       auth failure: 很抱歉，無法以這些資料登入。
     destroy:
       title: 登出
-      heading: 從 OpenStreetMap 登出
+      heading: 從 Samland Street Map 登出
       logout_button: 登出
     suspended_flash:
       suspended: 抱歉，由於可疑活動，你的帳戶已被暫停。
@@ -1920,39 +1920,39 @@ zh-TW:
         newer: 新使用者
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} 貢獻者'
+      heading_html: '%{copyright}Samland Street Map %{br} 貢獻者'
       used_by_html: '%{name} 為數以千計的網站、行動應用程式和硬體提供地圖資料'
-      lede_text: OpenStreetMap 是由製圖者社群所建立，他們提供及不斷更新包括有關世界各地的道路、路徑、咖啡館、火車站等等的資料。
+      lede_text: Samland Street Map 是由製圖者社群所建立，他們提供及不斷更新包括有關世界各地的道路、路徑、咖啡館、火車站等等的資料。
       local_knowledge_title: 地方知識
       local_knowledge_html: |-
-        OpenStreetMap 強調地方知識。貢獻者們使用
+        Samland Street Map 強調地方知識。貢獻者們使用
         航照圖、GPS 裝置與低技術的實地考察製圖，來檢驗 OSM
         是準確而且最新的。
       community_driven_title: 社群推動
       community_driven_1_html: |-
-        OpenStreetMap 的社群多元化、懷有熱情，而且日益壯大。我們的貢獻者包括地圖製作愛好者，地理訊息系統的專業人員，提供 OSM 伺服器的工程師，為受災害影響區域製圖的人道主義志願人士，以及其他各界人士。
+        Samland Street Map 的社群多元化、懷有熱情，而且日益壯大。我們的貢獻者包括地圖製作愛好者，地理訊息系統的專業人員，提供 OSM 伺服器的工程師，為受災害影響區域製圖的人道主義志願人士，以及其他各界人士。
         想進一步了解這個社群，請參閱%{osm_blog_link}、%{user_diaries_link}、
         %{community_blogs_link}，以及%{osm_foundation_link}網站。
-      community_driven_osm_blog: OpenStreetMap 部落格
+      community_driven_osm_blog: Samland Street Map 部落格
       community_driven_user_diaries: 使用者日記
       community_driven_community_blogs: 社群部落格
       community_driven_osm_foundation: OSM 基金會
       open_data_title: 開放資料
-      open_data_1_html: OpenStreetMap 是%{open_data}的：你可以自由地使用作任何用途，前提是必須標明作者為 OpenStreetMap
+      open_data_1_html: Samland Street Map 是%{open_data}的：你可以自由地使用作任何用途，前提是必須標明作者為 Samland Street Map
         及其貢獻者。若你在我們的資料上作修改或以之透過某些方式衍生其他資料，則只可依相同授權條款散佈有關成果。詳情請參閱%{copyright_license_link}。
       open_data_open_data: 開放資料
       open_data_copyright_license: 版權與授權條款頁面
       legal_title: 法律資訊
-      legal_1_1_html: 本站以及許多相關的服務正式由%{openstreetmap_foundation_link} (OSMF) 代表社群所營運。所有使用的
-        OSMF 運行服務皆符合我們的%{terms_of_use_link}、%{aup_link}、和%{privacy_policy_link}。
-      legal_1_1_openstreetmap_foundation: OpenStreetMap 基金會
+      legal_1_1_html: 本站以及許多相關的服務正式由%{openstreetmap_foundation_link} (SSM) 代表社群所營運。所有使用的
+        SSM 運行服務皆符合我們的%{terms_of_use_link}、%{aup_link}、和%{privacy_policy_link}。
+      legal_1_1_openstreetmap_foundation: Samland Street Map 基金會
       legal_1_1_terms_of_use: 使用條款
       legal_1_1_aup: 可接受使用方針
       legal_1_1_privacy_policy: 隱私權政策
       legal_2_1_html: 若你有授權、版權、或其他法律上的問題，請%{contact_the_osmf_link}。
-      legal_2_1_contact_the_osmf: 聯絡 OSMF
-      legal_2_2_html: OpenStreetMap，查看地圖狀態的放大鏡模樣標誌是%{registered_trademarks_link}。
-      legal_2_2_registered_trademarks: OSMF 的註冊商標
+      legal_2_1_contact_the_osmf: 聯絡 SSM
+      legal_2_2_html: Samland Street Map，查看地圖狀態的放大鏡模樣標誌是%{registered_trademarks_link}。
+      legal_2_2_registered_trademarks: SSM 的註冊商標
       partners_title: 合作夥伴
     copyright:
       title: 版權與授權條款
@@ -1966,35 +1966,35 @@ zh-TW:
         native_link: 繁體中文版
         mapping_link: 開始製圖
       legal_babble:
-        introduction_1_html: OpenStreetMap%{registered_trademark_link}是%{open_data}，透過%{osm_foundation_link}
-          (OSMF) 在%{odc_odbl_link}（ODbL）下授權。
+        introduction_1_html: Samland Street Map%{registered_trademark_link}是%{open_data}，透過%{osm_foundation_link}
+          (SSM) 在%{odc_odbl_link}（ODbL）下授權。
         introduction_1_open_data: 開放資料
         introduction_1_odc_odbl: 開放資料共享開放資料庫授權
-        introduction_1_osm_foundation: OpenStreetMap 基金會
-        introduction_2_html: 你可以自由複製、散布、傳輸及修改我們的資料，前提是必須標明作者為 OpenStreetMap 及其貢獻者。若在我們的資料上作變動或以此來建立其他資料，你只能依照相同授權條款來散佈成果。%{legal_code_link}有詳述你的權責。
+        introduction_1_osm_foundation: Samland Street Map 基金會
+        introduction_2_html: 你可以自由複製、散布、傳輸及修改我們的資料，前提是必須標明作者為 Samland Street Map 及其貢獻者。若在我們的資料上作變動或以此來建立其他資料，你只能依照相同授權條款來散佈成果。%{legal_code_link}有詳述你的權責。
         introduction_2_legal_code: 法律條款
         introduction_3_html: 我們的文件是依據 %{creative_commons_link} 授權條款（CC BY-SA 2.0）獲得許可。
         introduction_3_creative_commons: 創用 CC 姓名標示-相同方式分享
         introduction_3_creative_commons_url: https://creativecommons.org/licenses/by-sa/2.0/deed.zh_TW
-        credit_title_html: 如何標明作者是 OpenStreetMap
-        credit_1_html: 當你使用 OpenStreetMap 的資料，你會被要求遵循兩件事：
-        credit_2_1: 透過顯示我們的版權聲明為 OpenStreetMap 提供屬名。
+        credit_title_html: 如何標明作者是 Samland Street Map
+        credit_1_html: 當你使用 Samland Street Map 的資料，你會被要求遵循兩件事：
+        credit_2_1: 透過顯示我們的版權聲明為 Samland Street Map 提供屬名。
         credit_2_2: 明確資料在開放資料共享開放資料庫授權下可用。
         credit_3_html: 對於版權聲明的顯示，我們會依據你如何使用我們的資料，而有不同的要求。例如：不同的規則要如何顯示版權聲明，具體取決於你是否有建立可瀏覽的地圖、列印的地圖、或靜態圖片。完整的詳細資訊要求可以在%{attribution_guidelines_link}上查看。
         credit_3_attribution_guidelines: 姓名標示指南
         credit_4_1_html: |-
           請明確表示資料在開放資料庫授權條款下可用，你可以連結到%{this_copyright_page_link}。
-          相對地，如果你以資料表來分發 OSM，你可以命名並直接連結到授權條款。在一些無法作出連結的媒體 (例如印刷品)，我們建議引導你的讀者到 openstreetmap.org (像是註明「OpenStreetMap」的完整網址) 以及 opendatacommons.org。
+          相對地，如果你以資料表來分發 OSM，你可以命名並直接連結到授權條款。在一些無法作出連結的媒體 (例如印刷品)，我們建議引導你的讀者到 openstreetmap.org (像是註明「Samland Street Map」的完整網址) 以及 opendatacommons.org。
           在此範例中，版權相關聲明會出現在地圖的角落處。
         credit_4_1_this_copyright_page: 此版權頁面
         attribution_example:
-          alt: 如何在網頁上署名 OpenStreetMap 的例子
+          alt: 如何在網頁上署名 Samland Street Map 的例子
           title: 姓名標示例子
         more_title_html: 尋找更多
         more_1_1_html: 在%{osmf_licence_page_link}閱讀更多關於使用我們的資料，以及如何屬名我們的方式。
-        more_1_1_osmf_licence_page: OSMF 授權條款頁面
+        more_1_1_osmf_licence_page: SSM 授權條款頁面
         more_2_1_html: |-
-          儘管 OpenStreetMap 是開放資料，我們不對第三方提供免費的地圖 API。
+          儘管 Samland Street Map 是開放資料，我們不對第三方提供免費的地圖 API。
           請參閱我們的%{api_usage_policy_link}、%{tile_usage_policy_link}、和%{nominatim_usage_policy_link}。
         more_2_1_api_usage_policy: API 使用方針
         more_2_1_tile_usage_policy: 圖磚使用方針
@@ -2059,25 +2059,25 @@ zh-TW:
         contributors_za_ngi: 總局：國家地理空間資訊局
         contributors_gb_credit_html: '%{united_kingdom}：包含軍械調查資料&copy;皇家版權與資料庫版權 2010-2023。'
         contributors_gb_united_kingdom: 英國
-        contributors_2_html: 關於這些的進一步詳細資訊，與其他已使用來改善 OpenStreetMap 的來源，請參閱 OpenStreetMap
+        contributors_2_html: 關於這些的進一步詳細資訊，與其他已使用來改善 Samland Street Map 的來源，請參閱 Samland Street Map
           Wiki 上的%{contributors_page_link}。
         contributors_2_contributors_page: 貢獻者頁面
-        contributors_footer_2_html: OpenStreetMap 收錄一項資料，並不意味原本的資料提供者認可 OpenStreetMap、提供任何保證或承擔任何法律責任。
+        contributors_footer_2_html: Samland Street Map 收錄一項資料，並不意味原本的資料提供者認可 Samland Street Map、提供任何保證或承擔任何法律責任。
         infringement_title_html: 侵犯版權
         infringement_1_html: OSM 的貢獻者會被提醒，絕不要在沒有版權所有人的明確淮許下，加入來自任何有版權的來源的資料 (如 Google
           地圖或印刷地圖)。
-        infringement_2_1_html: 如果你認為有受版權保護的素材被不恰當地加到 OpenStreetMap 資料庫或本網站，請參考我們的%{takedown_procedure_link}，或直接在我們的%{online_filing_page_link}反應。
+        infringement_2_1_html: 如果你認為有受版權保護的素材被不恰當地加到 Samland Street Map 資料庫或本網站，請參考我們的%{takedown_procedure_link}，或直接在我們的%{online_filing_page_link}反應。
         infringement_2_1_takedown_procedure: 侵權處理程序
         infringement_2_1_online_filing_page: 線上申請頁面
         trademarks_title: 商標
-        trademarks_1_1_html: OpenStreetMap、網站上的放大鏡標誌，和 State of the Map 是 OpenStreetMap
+        trademarks_1_1_html: Samland Street Map、網站上的放大鏡標誌，和 State of the Map 是 Samland Street Map
           基金會的註冊商標。如果你對商標的使用有任何疑問，請參閱我們的%{trademark_policy_link}。
         trademarks_1_1_trademark_policy: 商標方針
     index:
       js_1: 你使用不支援 JavaScript 的瀏覽器，或者停用了 JavaScript。
-      js_2: OpenStreetMap 使用 JavaScript 讓地圖更平順。
+      js_2: Samland Street Map 使用 JavaScript 讓地圖更平順。
       license:
-        copyright: 版權所有，由 OpenStreetMap 及貢獻者根據開放的授權協議提供
+        copyright: 版權所有，由 Samland Street Map 及貢獻者根據開放的授權協議提供
       remote_failed: 編輯失敗 - 請確定已載入 JOSM 或 Merkaartor 並開啟遠端控制選項
     edit:
       not_public: 你尚未將你的編輯設為公開。
@@ -2094,19 +2094,19 @@ zh-TW:
       odbl: 開放資料共享開放資料庫授權
       too_large:
         advice: 若以上匯出失敗，請考慮使用下列來源：
-        body: 這個區域太大，無法匯出 OpenStreetMap XML 資料。請放大或選擇一個較小的區域，或使用下列大量資料下載源：
+        body: 這個區域太大，無法匯出 Samland Street Map XML 資料。請放大或選擇一個較小的區域，或使用下列大量資料下載源：
         planet:
           title: 地球 OSM
-          description: 定期更新的完整 OpenStreetMap 資料庫副本
+          description: 定期更新的完整 Samland Street Map 資料庫副本
         overpass:
           title: Overpass API
-          description: 從 OpenStreetMap 資料庫的鏡像，下載此區域
+          description: 從 Samland Street Map 資料庫的鏡像，下載此區域
         geofabrik:
           title: Geofabrik 下載
           description: 定期更新的洲、國家及特定城市之摘錄資料
         other:
           title: 其他來源
-          description: OpenStreetMap wiki 上列出的其他來源
+          description: Samland Street Map wiki 上列出的其他來源
       export_button: 匯出
     fixthemap:
       title: 回報問題／改進地圖
@@ -2114,7 +2114,7 @@ zh-TW:
         title: 如何協助
         join_the_community:
           title: 加入社群
-          explanation_html: 如果你發現我們的地圖資料有問題，例如缺少某條道路或者你的地址，最好的方法就是加入 OpenStreetMap
+          explanation_html: 如果你發現我們的地圖資料有問題，例如缺少某條道路或者你的地址，最好的方法就是加入 Samland Street Map
             社群，然後自己加入或者改進資料。
         add_a_note:
           instructions_1_html: |-
@@ -2124,10 +2124,10 @@ zh-TW:
         title: 其他問題
         concerns_html: 如果你對我們的資料使用方面或內容有所疑慮，請參考我們的%{copyright_link}來了解更多法律資訊，或是聯繫相應的%{working_group_link}。
         copyright: 版權頁面
-        working_group: OSMF 工作小組
+        working_group: SSM 工作小組
     help:
       title: 取得協助
-      introduction: OpenStreetMap 有一些資源，可用於學習本專案、提出和回答問題，以及討論和紀錄與製作地圖相關的話題。
+      introduction: Samland Street Map 有一些資源，可用於學習本專案、提出和回答問題，以及討論和紀錄與製作地圖相關的話題。
       welcome:
         url: /welcome
         title: 歡迎來到開放街圖
@@ -2138,7 +2138,7 @@ zh-TW:
         description: 社群維護的新手指南
       community:
         title: 幫助與社群論壇
-        description: 尋求幫助與討論有關 OpenStreetMap 的分享場所。
+        description: 尋求幫助與討論有關 Samland Street Map 的分享場所。
       mailing_lists:
         title: 郵件論壇
         description: 在不同主題或是地區的郵件論壇問問題或是討論有趣的事物。
@@ -2147,10 +2147,10 @@ zh-TW:
         description: 使用各種不同語言在各種主題聊天互動。
       switch2osm:
         title: switch2osm
-        description: 協助公司與組織改用 OpenStreetMap 為基礎的地圖與相關服務。
+        description: 協助公司與組織改用 Samland Street Map 為基礎的地圖與相關服務。
       welcomemat:
         title: 對於組織
-        description: 想要以組織來對 OpenStreetMap 製作計劃嗎？請在 Welcome Mat 查找你所需要的事項。
+        description: 想要以組織來對 Samland Street Map 製作計劃嗎？請在 Welcome Mat 查找你所需要的事項。
       wiki:
         title: 開放街圖 Wiki
         description: 瀏覽 wiki，取得詳盡的開放街圖文件。
@@ -2269,7 +2269,7 @@ zh-TW:
           toilets: 廁所
     welcome:
       title: 歡迎！
-      introduction: 歡迎來到 OpenStreetMap，自由和可編輯的世界地圖。你目前已經登入，可以開始繪製地圖。這裡有一份你必須知道的最重要事項的快速指南。
+      introduction: 歡迎來到 Samland Street Map，自由和可編輯的世界地圖。你目前已經登入，可以開始繪製地圖。這裡有一份你必須知道的最重要事項的快速指南。
       whats_on_the_map:
         title: 地圖上有什麼
         on_the_map_html: |-
@@ -2282,7 +2282,7 @@ zh-TW:
         doesnt: 不會
       basic_terms:
         title: 繪製地圖的基本術語
-        paragraph_1: OpenStreetMap 有自己的術語。以下是一些常用的關鍵詞。
+        paragraph_1: Samland Street Map 有自己的術語。以下是一些常用的關鍵詞。
         an_editor_html: '%{editor}是你可以用於編輯地圖的程式或網站。'
         a_node_html: '%{node}是地圖上的一個點，例如一間餐廳或是一棵樹。'
         a_way_html: '%{way}是一條線或是區域，例如一條道路、一條溪、一個湖泊或是一棟建築物。'
@@ -2294,7 +2294,7 @@ zh-TW:
       rules:
         title: 規則！
         para_1_html: |-
-          OpenStreetMap 幾乎沒有正式規則，但我們希望所有參與者都能與社群合作與溝通！。如果你正在考慮
+          Samland Street Map 幾乎沒有正式規則，但我們希望所有參與者都能與社群合作與溝通！。如果你正在考慮
           除手動編輯之外的任何活動，請閱讀並遵循
           %{imports_link} 和 %{automated_edits_link}指南。
         imports: 匯入
@@ -2312,14 +2312,14 @@ zh-TW:
     communities:
       title: 社群
       lede_text: |-
-        來自世界各地的人們都在貢獻或使用 OpenStreetMap。
+        來自世界各地的人們都在貢獻或使用 Samland Street Map。
         雖然許多人以個人身份參與，但其他人則組成了社群。
         這些團體的規模各不相同，代表了小到城鎮大到大型多國地區的地域。
         它們也可以是正式的或非正式的。
       local_chapters:
         title: 地方分會
         about_text: 地方分會是已採取正式步驟建立非營利法人實體的國家級或地區級團體。在與地方政府、企業和媒體打交道時，他們代表該地區的地圖和製圖者。他們還與
-          OpenStreetMap 基金會 (OSMF) 締結聯繫，使他們能夠與法律和版權管理機構建立聯繫。
+          Samland Street Map 基金會 (SSM) 締結聯繫，使他們能夠與法律和版權管理機構建立聯繫。
         list_text: 以下社群已經正式成立地方分會：
       other_groups:
         title: 其他團體
@@ -2409,7 +2409,7 @@ zh-TW:
       heading: GPX 離線儲存
       message: GPX 檔案儲存，上傳系統目前無法使用。
     georss:
-      title: OpenStreetMap GPS 軌跡
+      title: Samland Street Map GPS 軌跡
     description:
       description_with_count:
         one: 由 %{user} 上傳的 GPX 檔案，含有 %{count} 點
@@ -2420,7 +2420,7 @@ zh-TW:
     require_cookies:
       cookies_needed: 你似乎已停用 cookies - 請在瀏覽器中開啟 cookies 後再繼續。
     setup_user_auth:
-      blocked_zero_hour: 你在 OpenStreetMap 網站有一個緊急訊息。在儲存你的編輯內容前請先閱讀該訊息。
+      blocked_zero_hour: 你在 Samland Street Map 網站有一個緊急訊息。在儲存你的編輯內容前請先閱讀該訊息。
       blocked: 你已經被封鎖使用 API。請登入網頁介面以瞭解更多資訊。
       need_to_see_terms: 我們已暫時中止你使用 API 的權限，請登入網頁介面查閱貢獻者條款，你不需要同意有關條款，但必須查閱它們。
     settings_menu:
@@ -2453,7 +2453,7 @@ zh-TW:
     permissions:
       missing: 你尚未允許應用程式來訪問此設施
     scopes:
-      openid: 使用 OpenStreetMap 登入
+      openid: 使用 Samland Street Map 登入
       read_prefs: 讀取使用者偏好設定
       write_prefs: 修改使用者偏好設定
       write_diary: 建立日記、評論和加入好友
@@ -2519,7 +2519,7 @@ zh-TW:
     new:
       title: 註冊
       tab_title: 註冊
-      signup_to_authorize_html: 註冊 OpenStreetMap 以存取 %{client_app_name}。
+      signup_to_authorize_html: 註冊 Samland Street Map 以存取 %{client_app_name}。
       no_auto_account_create: 很不幸的，我們現在無法自動為你建立帳號。
       please_contact_support_html: 請聯繫 %{support_link} 來安排建立帳號 - 我們會盡快處理這份請求。
       support: 支援
@@ -2527,20 +2527,20 @@ zh-TW:
         header: 自由且可編輯。
         paragraph_1: 不像其他地圖，開放街圖是完全由像你我這類創建，而且任何都能修正、更新、下載與使用。
         paragraph_2: 註冊並開始貢獻。
-        welcome: 歡迎來到 OpenStreetMap
-      duplicate_social_email: 若你已有 OpenStreetMap 帳號，並希望使用第三方身份提供者，請使用你的密碼登入並修改帳號的設定。
+        welcome: 歡迎來到 Samland Street Map
+      duplicate_social_email: 若你已有 Samland Street Map 帳號，並希望使用第三方身份提供者，請使用你的密碼登入並修改帳號的設定。
       display name description: 你公開顯示的使用者名稱，之後可以在偏好設定中改變它。
       by_signing_up:
         html: 註冊即表示你同意我們的 %{tou_link}、%{privacy_policy_link} 與 %{contributor_terms_link}。
         privacy_policy: 隱私權政策
-        privacy_policy_title: OSMF 隱私權政策包含電子郵件地址部份
+        privacy_policy_title: SSM 隱私權政策包含電子郵件地址部份
         contributor_terms_url: https://wiki.osmfoundation.org/wiki/Licence/Contributor_Terms
         contributor_terms: 貢獻者條款
       continue: 註冊
       terms accepted: 感謝你接受新的貢獻條款！
       email_help:
         privacy_policy: 隱私權政策
-        privacy_policy_title: OSMF 隱私權政策包含電子郵件地址部份
+        privacy_policy_title: SSM 隱私權政策包含電子郵件地址部份
         html: 你的地址不會公開顯示，請參閱我們的%{privacy_policy_link}來了解更多資訊。
       consider_pd_html: 我認為我的貢獻屬於 %{consider_pd_link}。
       consider_pd: 公有領域
@@ -2554,7 +2554,7 @@ zh-TW:
       read and accept with tou: 請閱讀貢獻者協議與使用條款，勾選兩項方框後點擊繼續按鈕。
       contributor_terms_explain: 此協議適用於你現有與往後貢獻的條款。
       read_ct: 我已閱讀過並同意以上的貢獻者條款
-      tou_explain_html: 這些%{tou_link}適用於網站方面的使用，與其它由 OSMF 提供的基礎內容。請在連結上點擊，閱讀並同意該文字。
+      tou_explain_html: 這些%{tou_link}適用於網站方面的使用，與其它由 SSM 提供的基礎內容。請在連結上點擊，閱讀並同意該文字。
       read_tou: 我已經閱讀過並同意使用條款
       consider_pd: 除上述內容之外，我同意將我的貢獻放到公共領域
       consider_pd_why: 這是什麼？
@@ -2688,8 +2688,8 @@ zh-TW:
       invalid_scope: 無效範圍
       unknown_error: 驗證失敗
     auth_association:
-      heading: 你的 ID 尚未與 OpenStreetMap 帳號關聯。
-      option_1: 如果你是新來到 OpenStreetMap，請使用下方表單建立一個帳號。
+      heading: 你的 ID 尚未與 Samland Street Map 帳號關聯。
+      option_1: 如果你是新來到 Samland Street Map，請使用下方表單建立一個帳號。
       option_2: 如果你已擁有一個帳號，可以用你的使用者名稱與密碼登入你的帳號，並在使用者設定中關連你的 ID。
   user_role:
     filter:
@@ -2903,17 +2903,17 @@ zh-TW:
         gps: 公開GPS軌跡
         overlays: 開啟覆蓋層，以為地圖解決問題
         title: 圖層
-      openstreetmap_contributors: OpenStreetMap 貢獻者
+      openstreetmap_contributors: Samland Street Map 貢獻者
       make_a_donation: 捐款
       website_and_api_terms: 網站和 API 條款
       cyclosm_credit: 由 %{osm_france_link} 代管的 %{cyclosm_link} 所提供圖磚樣式
-      osm_france: OpenStreetMap 法國
+      osm_france: Samland Street Map 法國
       thunderforest_credit: '%{thunderforest_link} 提供的圖磚'
       andy_allan: Andy Allan
       tracestrack_credit: '%{tracestrack_link} 提供的圖磚'
       tracestrack: 蹤跡地圖
       hotosm_credit: 由 %{osm_france_link} 代管的 %{hotosm_link} 所提供圖磚樣式
-      hotosm_name: OpenStreetMap 人道主義團隊
+      hotosm_name: Samland Street Map 人道主義團隊
     site:
       edit_tooltip: 編輯地圖
       edit_disabled_tooltip: 放大以編輯地圖

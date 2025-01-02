@@ -722,7 +722,7 @@ ka:
       more_results: მეტი შედეგი
   layouts:
     logo:
-      alt_text: OpenStreetMap-ის ლოგო
+      alt_text: Samland Street Map-ის ლოგო
     home: საწყის ადგილზე დაბრუნება
     logout: გასვლა
     log_in: შესვლა
@@ -739,17 +739,17 @@ ka:
     more: მეტი
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap]-ის მომხმარებელმა %{user} თქვენს დღიურში დატოვა კომენტარი'
+      subject: '[Samland Street Map]-ის მომხმარებელმა %{user} თქვენს დღიურში დატოვა კომენტარი'
       hi: გამარჯობა %{to_user},
     message_notification:
       hi: გამარჯობა %{to_user},
     friendship_notification:
-      subject: '[OpenStreetMap]-ის მომხმარებელმა %{user} დაგამატათ მეგობრებში'
+      subject: '[Samland Street Map]-ის მომხმარებელმა %{user} დაგამატათ მეგობრებში'
     signup_confirm:
-      subject: '[OpenStreetMap] მოგესალმებით OpenStreetMap-ში'
+      subject: '[Samland Street Map] მოგესალმებით Samland Street Map-ში'
       greeting: გამარჯობა!
     email_confirm:
-      subject: '[OpenStreetMap] დაადასტურეთ თქვენი ელ.ფოსტის მისამართი'
+      subject: '[Samland Street Map] დაადასტურეთ თქვენი ელ.ფოსტის მისამართი'
       greeting: გამარჯობა,
     lost_password:
       greeting: გამარჯობა,
@@ -852,7 +852,7 @@ ka:
       login_button: შესვლა
     destroy:
       title: გასვლა
-      heading: OpenStreetMap-დან გასვლა
+      heading: Samland Street Map-დან გასვლა
       logout_button: გასვლა
   shared:
     pagination:

@@ -242,7 +242,7 @@ ba:
         reopened_at_html: Кире асылды %{when}
         reopened_at_by_html: Кире асылды %{when} ҡулланыусы %{user}
       rss:
-        title: OpenStreetMap Яҙмалары
+        title: Samland Street Map Яҙмалары
         description_all: Яһалған, комментарий бирелгән йәки ябыҡ иҫкәрмәләр исемлеге
         description_area: Һеҙҙең өлкәлә яһалған, комментарий бирелгән йәки ябылған
           яҙмалар исемлеге [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -260,13 +260,13 @@ ba:
         title: Минең иҫәп яҙманы юйырға
         warning: Иғтибар! Аккаунтты юйыу процесы һуңғы, һәм кире ҡайтарып булмай.
         delete_account: Аккаунтты юйырға
-        delete_introduction: 'Түбәндәге төймә ярҙамында OpenStreetMap аккаунтты юйырға
+        delete_introduction: 'Түбәндәге төймә ярҙамында Samland Street Map аккаунтты юйырға
           мөмкин. Түбәндәге нескәлектәргә иғтибар итегеҙ:'
         delete_profile: Һеҙҙең профилегеҙҙең мәғлүмәттәре, шул иҫәптән аватар, тасуирлама
           һәм өй адресы юйыласаҡ.
         delete_display_name: Һеҙҙең күрһәтелгән исемегеҙ юйыласаҡ, һәм уны башҡа аккаунттар
           ҡуллана аласаҡ.
-        retain_caveats: 'Шулай ҙа, һеҙҙең аккаунт юйылғандан һуң да, OpenStreetMap-та
+        retain_caveats: 'Шулай ҙа, һеҙҙең аккаунт юйылғандан һуң да, Samland Street Map-та
           һеҙ хаҡында ҡайһы бер мәғлүмәттәр һаҡланасаҡ:'
         retain_edits: Карта базаһына индергән төҙәтмәләрегеҙ, әгәр ҙә бар икән, һаҡланасаҡ.
         retain_traces: Ебәрелгән тректарығыҙ, әгәр ҙә бар икән, һаҡланасаҡ.
@@ -438,8 +438,8 @@ ba:
         comment: '%{author} тарафынан төҙәтмәләр пакетына %{changeset_id} яңы комментарий'
         commented_at_by_html: Яңыртылған %{when} ҡулланыусы %{user} тарафынан
       show:
-        title_all: OpenStreetMap төҙәтмәләр пакеты буйынса фекерләшеү
-        title_particular: ' OpenStreetMap #%{changeset_id} төҙәтмәләр пакеты буйынса
+        title_all: Samland Street Map төҙәтмәләр пакеты буйынса фекерләшеү
+        title_particular: ' Samland Street Map #%{changeset_id} төҙәтмәләр пакеты буйынса
           фекерләшеү'
       timeout:
         sorry: Ҡыҙғанысҡа ҡаршы, һеҙ һораған төҙәтмә пакеттары исемлеген алыу өсөн
@@ -593,14 +593,14 @@ ba:
       location: Урын
     feed:
       user:
-        title: '%{user} OpenStreetMap көндәлеге яҙмаһы'
-        description: '%{user}  OpenStreetMap көндәлек яҙмаһының һуңғыһы'
+        title: '%{user} Samland Street Map көндәлеге яҙмаһы'
+        description: '%{user}  Samland Street Map көндәлек яҙмаһының һуңғыһы'
       language:
-        title: '%{language_name} OpenStreetMap көндәлек яҙмаһы'
-        description: OpenStreetMap ҡулланыусыларының %{language_name}тағы һуңғы яҙмалары
+        title: '%{language_name} Samland Street Map көндәлек яҙмаһы'
+        description: Samland Street Map ҡулланыусыларының %{language_name}тағы һуңғы яҙмалары
       all:
-        title: OpenStreetMap көндәлек яҙмаһы
-        description: OpenStreetMap ҡулланысыларының һуңғы көндәлек яҙмалары
+        title: Samland Street Map көндәлек яҙмаһы
+        description: Samland Street Map ҡулланысыларының һуңғы көндәлек яҙмалары
     subscribe:
       heading: Көндәлек яҙмаһы буйынса фекер алышыуға яҙылырға теләйһегеҙме?
       button: Фекер алышыуға яҙылырға
@@ -655,23 +655,23 @@ ba:
       contact_url_title: Төрлө бәйләнеш каналдары аңлатмаһы
       contact: контакт
       contact_the_community_html: Әгәр ҙә боҙоҡ һылтанма/хаталыҡ тапһағыҙ, %{contact_link}
-        OpenStreetMap берләшмәһе менән бәйләнешкә сығырға ҡурҡмағыҙ. Үтенесегеҙҙең
+        Samland Street Map берләшмәһе менән бәйләнешкә сығырға ҡурҡмағыҙ. Үтенесегеҙҙең
         теүәл URL-адресын яҙып ҡуйығыҙ.
     bad_request:
       title: Хаталы һорау
-      description: OpenStreetMap серверында һораған операцияғыҙ дөрөҫ түгел (HTTP
+      description: Samland Street Map серверында һораған операцияғыҙ дөрөҫ түгел (HTTP
         400)
     forbidden:
       title: Тыйылған
-      description: OpenStreetMap серверында һораған операцияғыҙ тик администраторҙар
+      description: Samland Street Map серверында һораған операцияғыҙ тик администраторҙар
         өсөн генә мөмкин (HTTP 403)
     internal_server_error:
       title: Ҡушымта хатаһы
-      description: OpenStreetMap серверында һорауҙы үтәүгә ҡамасаулаған көтөлмәгән
+      description: Samland Street Map серверында һорауҙы үтәүгә ҡамасаулаған көтөлмәгән
         шарттар килеп сыҡты (HTTP 500)
     not_found:
       title: Файл табылманы
-      description: OpenStreetMap серверында был исем менән файл/директория/API операцияһы
+      description: Samland Street Map серверында был исем менән файл/директория/API операцияһы
         табылманы (HTTP 404)
   friendships:
     make_friend:
@@ -1570,7 +1570,7 @@ ba:
       provide_details: Зинһар, кәрәкле мәғлүмәттәрҙе бирегеҙ
   layouts:
     logo:
-      alt_text: OpenStreetMap логотибы
+      alt_text: Samland Street Map логотибы
     home: Төп урынға күсеү
     logout: Сығыу
     log_in: Инеү
@@ -1583,18 +1583,18 @@ ba:
     gps_traces: GPS-тректар
     user_diaries: Ҡулланыусылар көндәлектәре
     edit_with: '%{editor} менән мөхәррирләү'
-    intro_header: OpenStreetMap-ҡа рәхим итегеҙ!
-    intro_text: OpenStreetMap — был донъя картаһы, ул һеҙҙең кеүек кешеләр тарафынан
+    intro_header: Samland Street Map-ҡа рәхим итегеҙ!
+    intro_text: Samland Street Map — был донъя картаһы, ул һеҙҙең кеүек кешеләр тарафынан
       төҙөлә һәм асыҡ лицензия аҫтында ирекле ҡулланыу өсөн тәғәйенләнгән.
     hosting_partners_2024_html: Хостингты %{fastly}, %{corpmembers} һәм башҡа %{partners}
       ярҙам итә.
     partners_fastly: Fastly
-    partners_corpmembers: OSMF корпоратив ағзалары
+    partners_corpmembers: SSM корпоратив ағзалары
     partners_partners: партнерҙары
     tou: Ҡулланыу шарттары
-    osm_offline: OpenStreetMap базаһы әлеге ваҡытта ҡулланыу өсөн ябыҡ, сөнки мөһим
+    osm_offline: Samland Street Map базаһы әлеге ваҡытта ҡулланыу өсөн ябыҡ, сөнки мөһим
       техник эштәр башҡарыла.
-    osm_read_only: OpenStreetMap базаһы әлеге ваҡытта тик уҡыу өсөн генә асыҡ, сөнки
+    osm_read_only: Samland Street Map базаһы әлеге ваҡытта тик уҡыу өсөн генә асыҡ, сөнки
       кәрәкле техник хеҙмәтләндереү эштәре алып барыла.
     nothing_to_preview: Күрһәтерлек бер нәмә лә юҡ.
     help: Ярҙам
@@ -1605,12 +1605,12 @@ ba:
     more: Тағы
   user_mailer:
     diary_comment_notification:
-      description: OpenStreetMap көндәлек яҙмаһы №%{id}
-      subject: '[OpenStreetMap] %{user} көндәлек яҙмаһына аңлатма бирҙе'
+      description: Samland Street Map көндәлек яҙмаһы №%{id}
+      subject: '[Samland Street Map] %{user} көндәлек яҙмаһына аңлатма бирҙе'
       hi: Сәләм, %{to_user},
-      header: '%{from_user} OpenStreetMap көндәлек яҙмаһына %{subject} темаһы буйынса
+      header: '%{from_user} Samland Street Map көндәлек яҙмаһына %{subject} темаһы буйынса
         аңлатма бирҙе:'
-      header_html: '%{from_user} OpenStreetMap көндәлек яҙмаһына \"%{subject}\" темаһы
+      header_html: '%{from_user} Samland Street Map көндәлек яҙмаһына \"%{subject}\" темаһы
         буйынса аңлатма бирҙе:'
       footer: Комментарийҙы %{readurl} адресы буйынса уҡый алаһығыҙ, %{commenturl}
         адресы буйынса аңлатма ҡалдыра алаһығыҙ йәки авторға %{replyurl} адресы буйынса
@@ -1623,11 +1623,11 @@ ba:
       footer_unsubscribe_html: Һөйләшеүҙән яҙылыуҙы %{unsubscribeurl} адресы буйынса
         туҡтата алаһығыҙ
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: Сәләм, %{to_user},
-      header: '%{from_user} һеҙгә OpenStreetMap аша "%{subject}" темаһы менән хәбәр
+      header: '%{from_user} һеҙгә Samland Street Map аша "%{subject}" темаһы менән хәбәр
         ебәрҙе:'
-      header_html: '%{from_user} һеҙгә OpenStreetMap аша "%{subject}" темаһы менән
+      header_html: '%{from_user} һеҙгә Samland Street Map аша "%{subject}" темаһы менән
         хәбәр ебәрҙе:'
       footer: Хәбәрҙе шулай уҡ %{readurl} адресы буйынса уҡый алаһығыҙ һәм авторға
         %{replyurl} адресы буйынса яуап ебәрә алаһығыҙ
@@ -1635,8 +1635,8 @@ ba:
         %{replyurl} адресы буйынса хәбәр ебәрә алаһығыҙ
     friendship_notification:
       hi: Сәләм, %{to_user},
-      subject: '[OpenStreetMap] %{user} һеҙҙе дуҫ итеп өҫтәне'
-      had_added_you: '%{user} OpenStreetMap-та һеҙҙе дуҫ итеп өҫтәне.'
+      subject: '[Samland Street Map] %{user} һеҙҙе дуҫ итеп өҫтәне'
+      had_added_you: '%{user} Samland Street Map-та һеҙҙе дуҫ итеп өҫтәне.'
       see_their_profile: Уның профилен %{userurl} адресы буйынса ҡарай алаһығыҙ.
       see_their_profile_html: Уларҙың профилен %{userurl} адресы буйынса ҡарай алаһығыҙ.
       befriend_them: Һеҙ уларҙы дуҫ итеп %{befriendurl} адресы буйынса өҫтәй алаһығыҙ.

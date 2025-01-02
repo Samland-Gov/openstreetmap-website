@@ -234,7 +234,7 @@ en:
         reopened_at_html: "Reactivated %{when}"
         reopened_at_by_html: "Reactivated %{when} by %{user}"
       rss:
-        title: "OpenStreetMap Notes"
+        title: "Samland Street Map Notes"
         description_all: "A list of reported, commented on or closed notes"
         description_area: "A list of notes, reported, commented on or closed in your area [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]"
         description_item: "An rss feed for note %{id}"
@@ -251,10 +251,10 @@ en:
         title: Delete My Account
         warning: Warning! The account deletion process is final, and cannot be reversed.
         delete_account: Delete Account
-        delete_introduction: "You can delete your OpenStreetMap account using the button below. Please note the following details:"
+        delete_introduction: "You can delete your Samland Street Map account using the button below. Please note the following details:"
         delete_profile: Your profile information, including your avatar, description and home location will be removed.
         delete_display_name: Your display name will be removed, and can be reused by other accounts.
-        retain_caveats: "However, some information about you will be retained on OpenStreetMap, even after your account is deleted:"
+        retain_caveats: "However, some information about you will be retained on Samland Street Map, even after your account is deleted:"
         retain_edits: Your edits to the map database, if any, will be retained.
         retain_traces: Your uploaded traces, if any, will be retained.
         retain_diary_entries: Your diary entries and diary comments, if any, will be retained but hidden from view.
@@ -433,8 +433,8 @@ en:
         comment: "New comment on changeset #%{changeset_id} by %{author}"
         commented_at_by_html: "Updated %{when} by %{user}"
       show:
-        title_all: OpenStreetMap changeset discussion
-        title_particular: "OpenStreetMap changeset #%{changeset_id} discussion"
+        title_all: Samland Street Map changeset discussion
+        title_particular: "Samland Street Map changeset #%{changeset_id} discussion"
       timeout:
         sorry: "Sorry, the list of changeset comments you requested took too long to retrieve."
   changesets:
@@ -581,14 +581,14 @@ en:
       coordinates: "%{latitude}; %{longitude}"
     feed:
       user:
-        title: "OpenStreetMap diary entries for %{user}"
-        description: "Recent OpenStreetMap diary entries from %{user}"
+        title: "Samland Street Map diary entries for %{user}"
+        description: "Recent Samland Street Map diary entries from %{user}"
       language:
-        title: "OpenStreetMap diary entries in %{language_name}"
-        description: "Recent diary entries from users of OpenStreetMap in %{language_name}"
+        title: "Samland Street Map diary entries in %{language_name}"
+        description: "Recent diary entries from users of Samland Street Map in %{language_name}"
       all:
-        title: "OpenStreetMap diary entries"
-        description: "Recent diary entries from users of OpenStreetMap"
+        title: "Samland Street Map diary entries"
+        description: "Recent diary entries from users of Samland Street Map"
     subscribe:
       heading: Subscribe to the following diary entry discussion?
       button: Subscribe to discussion
@@ -638,19 +638,19 @@ en:
       contact_url: https://wiki.openstreetmap.org/wiki/Contact
       contact_url_title: Various contact channels explained
       contact: contact
-      contact_the_community_html: Feel free to %{contact_link} the OpenStreetMap community if you have found a broken link / bug. Make a note of the exact URL of your request.
+      contact_the_community_html: Feel free to %{contact_link} the Samland Street Map community if you have found a broken link / bug. Make a note of the exact URL of your request.
     bad_request:
       title: Bad request
-      description: The operation you requested on the OpenStreetMap server is not valid (HTTP 400)
+      description: The operation you requested on the Samland Street Map server is not valid (HTTP 400)
     forbidden:
       title: Forbidden
-      description: The operation you requested on the OpenStreetMap server is only available to administrators (HTTP 403)
+      description: The operation you requested on the Samland Street Map server is only available to administrators (HTTP 403)
     internal_server_error:
       title: Application error
-      description: The OpenStreetMap server encountered an unexpected condition that prevented it from fulfilling the request (HTTP 500)
+      description: The Samland Street Map server encountered an unexpected condition that prevented it from fulfilling the request (HTTP 500)
     not_found:
       title: File not found
-      description: Couldn't find a file/directory/API operation by that name on the OpenStreetMap server (HTTP 404)
+      description: Couldn't find a file/directory/API operation by that name on the Samland Street Map server (HTTP 404)
   friendships:
     make_friend:
       heading: "Add %{user} as a friend?"
@@ -668,8 +668,8 @@ en:
     search:
       title:
         latlon: Internal
-        osm_nominatim: OpenStreetMap Nominatim
-        osm_nominatim_reverse: OpenStreetMap Nominatim
+        osm_nominatim: Samland Street Map Nominatim
+        osm_nominatim_reverse: Samland Street Map Nominatim
     search_osm_nominatim:
       prefix_format: "%{name}"
       prefix:
@@ -1574,11 +1574,11 @@ en:
   layouts:
     project_name:
       # in <title>
-      title: OpenStreetMap
+      title: Samland Street Map
       # in <h1>
-      h1: OpenStreetMap
+      h1: Samland Street Map
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: Samland Street Map logo
     home: Go to Home Location
     logout: Log Out
     log_in: Log In
@@ -1591,15 +1591,15 @@ en:
     gps_traces: GPS Traces
     user_diaries: User Diaries
     edit_with: Edit with %{editor}
-    intro_header: Welcome to OpenStreetMap!
-    intro_text: OpenStreetMap is a map of the world, created by people like you and free to use under an open license.
+    intro_header: Welcome to Samland Street Map!
+    intro_text: Samland Street Map is a map of the world, created by people like you and free to use under an open license.
     hosting_partners_2024_html: "Hosting is supported by %{fastly}, %{corpmembers}, and other %{partners}."
     partners_fastly: "Fastly"
-    partners_corpmembers: "OSMF corporate members"
+    partners_corpmembers: "SSM corporate members"
     partners_partners: "partners"
     tou: "Terms of Use"
-    osm_offline: "The OpenStreetMap database is currently offline while essential database maintenance work is carried out."
-    osm_read_only: "The OpenStreetMap database is currently in read-only mode while essential database maintenance work is carried out."
+    osm_offline: "The Samland Street Map database is currently offline while essential database maintenance work is carried out."
+    osm_read_only: "The Samland Street Map database is currently in read-only mode while essential database maintenance work is carried out."
     nothing_to_preview: "Nothing to preview."
     help: Help
     about: About
@@ -1609,26 +1609,26 @@ en:
     more: More
   user_mailer:
     diary_comment_notification:
-      description: "OpenStreetMap Diary Entry #%{id}"
-      subject: "[OpenStreetMap] %{user} commented on a diary entry"
+      description: "Samland Street Map Diary Entry #%{id}"
+      subject: "[Samland Street Map] %{user} commented on a diary entry"
       hi: "Hi %{to_user},"
-      header: "%{from_user} has commented on the OpenStreetMap diary entry with the subject %{subject}:"
-      header_html: "%{from_user} has commented on the OpenStreetMap diary entry with the subject %{subject}:"
+      header: "%{from_user} has commented on the Samland Street Map diary entry with the subject %{subject}:"
+      header_html: "%{from_user} has commented on the Samland Street Map diary entry with the subject %{subject}:"
       footer: "You can also read the comment at %{readurl} and you can comment at %{commenturl} or send a message to the author at %{replyurl}"
       footer_html: "You can also read the comment at %{readurl} and you can comment at %{commenturl} or send a message to the author at %{replyurl}"
       footer_unsubscribe: "You can unsubscribe from the discussion at %{unsubscribeurl}"
       footer_unsubscribe_html: "You can unsubscribe from the discussion at %{unsubscribeurl}"
     message_notification:
-      subject: "[OpenStreetMap] %{message_title}"
+      subject: "[Samland Street Map] %{message_title}"
       hi: "Hi %{to_user},"
-      header: "%{from_user} has sent you a message through OpenStreetMap with the subject %{subject}:"
-      header_html: "%{from_user} has sent you a message through OpenStreetMap with the subject %{subject}:"
+      header: "%{from_user} has sent you a message through Samland Street Map with the subject %{subject}:"
+      header_html: "%{from_user} has sent you a message through Samland Street Map with the subject %{subject}:"
       footer: "You can also read the message at %{readurl} and you can send a message to the author at %{replyurl}"
       footer_html: "You can also read the message at %{readurl} and you can send a message to the author at %{replyurl}"
     friendship_notification:
       hi: "Hi %{to_user},"
-      subject: "[OpenStreetMap] %{user} added you as a friend"
-      had_added_you: "%{user} has added you as a friend on OpenStreetMap."
+      subject: "[Samland Street Map] %{user} added you as a friend"
+      had_added_you: "%{user} has added you as a friend on Samland Street Map."
       see_their_profile: "You can see their profile at %{userurl}."
       see_their_profile_html: "You can see their profile at %{userurl}."
       befriend_them: "You can also add them as a friend at %{befriendurl}."
@@ -1644,7 +1644,7 @@ en:
       more_info: "More information about GPX import failures and how to avoid them can be found at %{url}."
       more_info_html: "More information about GPX import failures and how to avoid them can be found at %{url}."
       import_failures_url: "https://wiki.openstreetmap.org/wiki/GPX_Import_Failures"
-      subject: "[OpenStreetMap] GPX Import failure"
+      subject: "[Samland Street Map] GPX Import failure"
     gpx_success:
       hi: "Hi %{to_user},"
       loaded:
@@ -1653,44 +1653,44 @@ en:
       trace_location: "Your trace is available at %{trace_url}"
       all_your_traces: "All your successfully uploaded GPX traces can be found at %{url}"
       all_your_traces_html: "All your successfully uploaded GPX traces can be found at %{url}."
-      subject: "[OpenStreetMap] GPX Import success"
+      subject: "[Samland Street Map] GPX Import success"
     signup_confirm:
-      subject: "[OpenStreetMap] Welcome to OpenStreetMap"
+      subject: "[Samland Street Map] Welcome to Samland Street Map"
       greeting: "Hi there!"
       created: "Someone (hopefully you) just created an account at %{site_url}."
       confirm: "Before we do anything else, we need to confirm that this request came from you, so if it did then please click the link below to confirm your account:"
       welcome: "After you confirm your account, we'll provide you with some additional information to get you started."
     email_confirm:
-      subject: "[OpenStreetMap] Confirm your email address"
+      subject: "[Samland Street Map] Confirm your email address"
       greeting: "Hi,"
       hopefully_you: "Someone (hopefully you) would like to change their email address over at %{server_url} to %{new_address}."
       click_the_link: "If this is you, please click the link below to confirm the change."
     lost_password:
-      subject: "[OpenStreetMap] Password reset request"
+      subject: "[Samland Street Map] Password reset request"
       greeting: "Hi,"
       hopefully_you: "Someone (possibly you) has asked for the password to be reset on this email address's openstreetmap.org account."
       click_the_link: "If this is you, please click the link below to reset your password."
     note_comment_notification:
-      description: "OpenStreetMap Note #%{id}"
+      description: "Samland Street Map Note #%{id}"
       anonymous: An anonymous user
       greeting: "Hi,"
       commented:
-        subject_own: "[OpenStreetMap] %{commenter} has commented on one of your notes"
-        subject_other: "[OpenStreetMap] %{commenter} has commented on a note you are interested in"
+        subject_own: "[Samland Street Map] %{commenter} has commented on one of your notes"
+        subject_other: "[Samland Street Map] %{commenter} has commented on a note you are interested in"
         your_note: "%{commenter} has left a comment on one of your map notes near %{place}."
         your_note_html: "%{commenter} has left a comment on one of your map notes near %{place}."
         commented_note: "%{commenter} has left a comment on a map note you have commented on. The note is near %{place}."
         commented_note_html: "%{commenter} has left a comment on a map note you have commented on. The note is near %{place}."
       closed:
-        subject_own: "[OpenStreetMap] %{commenter} has resolved one of your notes"
-        subject_other: "[OpenStreetMap] %{commenter} has resolved a note you are interested in"
+        subject_own: "[Samland Street Map] %{commenter} has resolved one of your notes"
+        subject_other: "[Samland Street Map] %{commenter} has resolved a note you are interested in"
         your_note: "%{commenter} has resolved one of your map notes near %{place}."
         your_note_html: "%{commenter} has resolved one of your map notes near %{place}."
         commented_note: "%{commenter} has resolved a map note you have commented on. The note is near %{place}."
         commented_note_html: "%{commenter} has resolved a map note you have commented on. The note is near %{place}."
       reopened:
-        subject_own: "[OpenStreetMap] %{commenter} has reactivated one of your notes"
-        subject_other: "[OpenStreetMap] %{commenter} has reactivated a note you are interested in"
+        subject_own: "[Samland Street Map] %{commenter} has reactivated one of your notes"
+        subject_other: "[Samland Street Map] %{commenter} has reactivated a note you are interested in"
         your_note: "%{commenter} has reactivated one of your map notes near %{place}."
         your_note_html: "%{commenter} has reactivated one of your map notes near %{place}."
         commented_note: "%{commenter} has reactivated a map note you have commented on. The note is near %{place}."
@@ -1698,11 +1698,11 @@ en:
       details: "Reply or learn more about the note at %{url}."
       details_html: "Reply or learn more about the note at %{url}."
     changeset_comment_notification:
-      description: "OpenStreetMap Changeset #%{id}"
+      description: "Samland Street Map Changeset #%{id}"
       hi: "Hi %{to_user},"
       commented:
-        subject_own: "[OpenStreetMap] %{commenter} has commented on one of your changesets"
-        subject_other: "[OpenStreetMap] %{commenter} has commented on a changeset you are interested in"
+        subject_own: "[Samland Street Map] %{commenter} has commented on one of your changesets"
+        subject_other: "[Samland Street Map] %{commenter} has commented on a changeset you are interested in"
         your_changeset: "%{commenter} left a comment at %{time} on one of your changesets"
         your_changeset_html: "%{commenter} left a comment at %{time} on one of your changesets"
         commented_changeset: "%{commenter} left a comment at %{time} on a changeset you are watching created by %{changeset_author}"
@@ -1883,7 +1883,7 @@ en:
   sessions:
     new:
       tab_title: "Log in"
-      login_to_authorize_html: "Log in to OpenStreetMap to access %{client_app_name}."
+      login_to_authorize_html: "Log in to Samland Street Map to access %{client_app_name}."
       email or username: "Email Address or Username"
       password: "Password"
       remember: "Remember me"
@@ -1894,7 +1894,7 @@ en:
       auth failure: "Sorry, could not log in with those details."
     destroy:
       title: "Logout"
-      heading: "Logout from OpenStreetMap"
+      heading: "Logout from Samland Street Map"
       logout_button: "Logout"
     suspended_flash:
       suspended: Sorry, your account has been suspended due to suspicious activity.
@@ -1943,27 +1943,27 @@ en:
         newer: Newer Users
   site:
     about:
-      heading_html: "%{copyright}OpenStreetMap %{br} contributors"
+      heading_html: "%{copyright}Samland Street Map %{br} contributors"
       copyright_symbol_html: "&copy;"
       used_by_html: "%{name} provides map data for thousands of websites, mobile apps, and hardware devices"
       lede_text: |
-        OpenStreetMap is built by a community of mappers that contribute and maintain data
+        Samland Street Map is built by a community of mappers that contribute and maintain data
         about roads, trails, cafés, railway stations, and much more, all over the world.
       local_knowledge_title: Local Knowledge
       local_knowledge_html: |
-        OpenStreetMap emphasizes local knowledge. Contributors use
+        Samland Street Map emphasizes local knowledge. Contributors use
         aerial imagery, GPS devices, and low-tech field maps to verify that OSM
         is accurate and up to date.
       community_driven_title: Community Driven
       community_driven_1_html: |
-        OpenStreetMap's community is diverse, passionate, and growing every day.
+        Samland Street Map's community is diverse, passionate, and growing every day.
         Our contributors include enthusiast mappers, GIS professionals, engineers
         running the OSM servers, humanitarians mapping disaster-affected areas,
         and many more.
         To learn more about the community, see the %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, and the
         %{osm_foundation_link} website.
-      community_driven_osm_blog: OpenStreetMap Blog
+      community_driven_osm_blog: Samland Street Map Blog
       community_driven_osm_blog_url: https://blog.openstreetmap.org
       community_driven_user_diaries: user diaries
       community_driven_community_blogs: community blogs
@@ -1972,8 +1972,8 @@ en:
       community_driven_osm_foundation_url: https://www.osmfoundation.org/
       open_data_title: Open Data
       open_data_1_html: |
-        OpenStreetMap is %{open_data}: you are free to use it for any purpose
-        as long as you credit OpenStreetMap and its contributors. If you alter or
+        Samland Street Map is %{open_data}: you are free to use it for any purpose
+        as long as you credit Samland Street Map and its contributors. If you alter or
         build upon the data in certain ways, you may distribute the result only
         under the same licence. See the %{copyright_license_link} for details.
       open_data_open_data: open data
@@ -1981,10 +1981,10 @@ en:
       legal_title: Legal
       legal_1_1_html: |
         This site and many other related services are formally operated by the
-        %{openstreetmap_foundation_link} (OSMF)
-        on behalf of the community. Use of all OSMF operated services is subject
+        %{openstreetmap_foundation_link} (SSM)
+        on behalf of the community. Use of all SSM operated services is subject
         to our %{terms_of_use_link}, %{aup_link} and our %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: Samland Street Map
       legal_1_1_openstreetmap_foundation_url: https://osmfoundation.org/
       legal_1_1_terms_of_use: Terms of Use
       legal_1_1_terms_of_use_url: https://osmfoundation.org/wiki/Terms_of_Use
@@ -1995,11 +1995,11 @@ en:
       legal_2_1_html: |
         Please %{contact_the_osmf_link}
         if you have licensing, copyright or other legal questions.
-      legal_2_1_contact_the_osmf: contact the OSMF
+      legal_2_1_contact_the_osmf: contact the SSM
       legal_2_1_contact_the_osmf_url: https://osmfoundation.org/Contact
       legal_2_2_html: |
-        OpenStreetMap, the magnifying glass logo and State of the Map are %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: registered trademarks of the OSMF
+        Samland Street Map, the magnifying glass logo and State of the Map are %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: registered trademarks of the SSM
       legal_2_2_registered_trademarks_url: https://osmfoundation.org/wiki/Trademark_Policy
       partners_title: Partners
     copyright:
@@ -2015,17 +2015,17 @@ en:
         mapping_link: start mapping
       legal_babble:
         introduction_1_html: |
-          OpenStreetMap%{registered_trademark_link} is %{open_data}, licensed under the
-          %{odc_odbl_link} (ODbL) by the %{osm_foundation_link} (OSMF).
+          Samland Street Map%{registered_trademark_link} is %{open_data}, licensed under the
+          %{odc_odbl_link} (ODbL) by the %{osm_foundation_link} (SSM).
         introduction_1_registered_trademark_html: "&reg;"
         introduction_1_open_data: open data
         introduction_1_odc_odbl: Open Data Commons Open Database License
         introduction_1_odc_odbl_url: https://opendatacommons.org/licenses/odbl/
-        introduction_1_osm_foundation: OpenStreetMap Foundation
+        introduction_1_osm_foundation: Samland Street Map
         introduction_1_osm_foundation_url: https://osmfoundation.org/
         introduction_2_html: |
           You are free to copy, distribute, transmit and adapt our data,
-          as long as you credit OpenStreetMap and its
+          as long as you credit Samland Street Map and its
           contributors. If you alter or build upon our data, you
           may distribute the result only under the same licence. The
           full %{legal_code_link} explains your rights and responsibilities.
@@ -2035,10 +2035,10 @@ en:
           Our documentation is licensed under the %{creative_commons_link} license (CC BY-SA 2.0).
         introduction_3_creative_commons: Creative Commons Attribution-ShareAlike 2.0
         introduction_3_creative_commons_url: https://creativecommons.org/licenses/by-sa/2.0/
-        credit_title_html: How to credit OpenStreetMap
+        credit_title_html: How to credit Samland Street Map
         credit_1_html: |
-          Where you use OpenStreetMap data, you are required to do the following two things:
-        credit_2_1: Provide credit to OpenStreetMap by displaying our copyright notice.
+          Where you use Samland Street Map data, you are required to do the following two things:
+        credit_2_1: Provide credit to Samland Street Map by displaying our copyright notice.
         credit_2_2: Make clear that the data is available under the Open Database License.
         credit_3_html: |
          For the copyright notice, we have different requirements on how this should be
@@ -2055,18 +2055,18 @@ en:
           data form, you can name and link directly to the license(s). In media
           where links are not possible (e.g. printed works), we suggest you
           direct your readers to openstreetmap.org (perhaps by expanding
-          'OpenStreetMap' to this full address) and to opendatacommons.org.
+          'Samland Street Map' to this full address) and to opendatacommons.org.
           In this example, the credit appears in the corner of the map.
         credit_4_1_this_copyright_page: this copyright page
         attribution_example:
-          alt: Example of how to attribute OpenStreetMap on a webpage
+          alt: Example of how to attribute Samland Street Map on a webpage
           title: Attribution example
         more_title_html: Finding out more
         more_1_1_html: Read more about using our data, and how to credit us, at the %{osmf_licence_page_link}.
-        more_1_1_osmf_licence_page: OSMF Licence page
+        more_1_1_osmf_licence_page: SSM Licence page
         more_1_1_osmf_licence_page_url: https://osmfoundation.org/Licence
         more_2_1_html: |
-          Although OpenStreetMap is open data, we cannot provide a
+          Although Samland Street Map is open data, we cannot provide a
           free-of-charge map API for third-parties.
           See our %{api_usage_policy_link}, %{tile_usage_policy_link} and %{nominatim_usage_policy_link}.
         more_2_1_api_usage_policy: API Usage Policy
@@ -2185,12 +2185,12 @@ en:
         contributors_gb_united_kingdom: United Kingdom
         contributors_2_html: |
           For further details of these, and other sources that have been used
-          to help improve OpenStreetMap, please see the %{contributors_page_link} on the OpenStreetMap Wiki.
+          to help improve Samland Street Map, please see the %{contributors_page_link} on the Samland Street Map Wiki.
         contributors_2_contributors_page: Contributors page
         contributors_2_contributors_page_url: https://wiki.openstreetmap.org/wiki/Contributors
         contributors_footer_2_html: |
-          Inclusion of data in OpenStreetMap does not imply that the original
-          data provider endorses OpenStreetMap, provides any warranty, or
+          Inclusion of data in Samland Street Map does not imply that the original
+          data provider endorses Samland Street Map, provides any warranty, or
           accepts any liability.
         infringement_title_html: Copyright infringement
         infringement_1_html: |
@@ -2199,7 +2199,7 @@ en:
           explicit permission from the copyright holders.
         infringement_2_1_html: |
           If you believe that copyrighted material has been inappropriately
-          added to the OpenStreetMap database or this site, please refer
+          added to the Samland Street Map database or this site, please refer
           to our %{takedown_procedure_link} or file directly at our
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: takedown procedure
@@ -2208,16 +2208,16 @@ en:
         infringement_2_1_online_filing_page_url: https://dmca.openstreetmap.org/
         trademarks_title: Trademarks
         trademarks_1_1_html: |
-          OpenStreetMap, the magnifying glass logo and State of the Map are registered trademarks of the
-          OpenStreetMap Foundation. If you have questions about your use of the marks, please see our
+          Samland Street Map, the magnifying glass logo and State of the Map are registered trademarks of the
+          Samland Street Map. If you have questions about your use of the marks, please see our
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Trademark Policy
         trademarks_1_1_trademark_policy_url: https://osmfoundation.org/wiki/Trademark_Policy
     index:
       js_1: "You are either using a browser that does not support JavaScript, or you have disabled JavaScript."
-      js_2: "OpenStreetMap uses JavaScript for its slippy map."
+      js_2: "Samland Street Map uses JavaScript for its slippy map."
       license:
-        copyright: "Copyright OpenStreetMap and contributors, under an open license"
+        copyright: "Copyright Samland Street Map and contributors, under an open license"
         license_url: "https://openstreetmap.org/copyright"
         project_url: "https://openstreetmap.org"
       remote_failed: "Editing failed - make sure JOSM or Merkaartor is loaded and the remote control option is enabled"
@@ -2233,24 +2233,24 @@ en:
       title: "Export"
       manually_select: "Manually select a different area"
       licence: "Licence"
-      licence_details_html: OpenStreetMap data is licensed under the %{odbl_link} (ODbL).
+      licence_details_html: Samland Street Map data is licensed under the %{odbl_link} (ODbL).
       odbl: Open Data Commons Open Database License
       odbl_url: https://opendatacommons.org/licenses/odbl/1.0/
       too_large:
         advice: "If the above export fails, please consider using one of the sources listed below:"
-        body: "This area is too large to be exported as OpenStreetMap XML Data. Please zoom in or select a smaller area, or use one of the sources listed below for bulk data downloads."
+        body: "This area is too large to be exported as Samland Street Map XML Data. Please zoom in or select a smaller area, or use one of the sources listed below for bulk data downloads."
         planet:
           title: "Planet OSM"
-          description: "Regularly-updated copies of the complete OpenStreetMap database"
+          description: "Regularly-updated copies of the complete Samland Street Map database"
         overpass:
           title: "Overpass API"
-          description: "Download this bounding box from a mirror of the OpenStreetMap database"
+          description: "Download this bounding box from a mirror of the Samland Street Map database"
         geofabrik:
           title: "Geofabrik Downloads"
           description: "Regularly-updated extracts of continents, countries, and selected cities"
         other:
           title: "Other Sources"
-          description: "Additional sources listed on the OpenStreetMap Wiki"
+          description: "Additional sources listed on the Samland Street Map Wiki"
       export_button: "Export"
     fixthemap:
       title: Report a problem / Fix the map
@@ -2260,7 +2260,7 @@ en:
           title: Join the community
           explanation_html: |
             If you have noticed a problem with our map data, for example a road is missing or your address, the best way to
-            proceed is to join the OpenStreetMap community and add or repair the data yourself.
+            proceed is to join the Samland Street Map community and add or repair the data yourself.
         add_a_note:
           instructions_1_html: |
             Just click %{note_icon} or the same icon on the map display.
@@ -2272,17 +2272,17 @@ en:
           If you have concerns about how our data is being used or about the contents please consult our
           %{copyright_link} for more legal information, or contact the appropriate %{working_group_link}.
         copyright: copyright page
-        working_group: OSMF working group
+        working_group: SSM working group
         working_group_url: https://osmfoundation.org/wiki/Working_Groups
     help:
       title: Getting Help
       introduction: |
-        OpenStreetMap has several resources for learning about the project, asking and answering questions,
+        Samland Street Map has several resources for learning about the project, asking and answering questions,
         and collaboratively discussing and documenting mapping topics.
       welcome:
         url: /welcome
-        title: Welcome to OpenStreetMap
-        description: Start with this quick guide covering the OpenStreetMap basics.
+        title: Welcome to Samland Street Map
+        description: Start with this quick guide covering the Samland Street Map basics.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Beginners%27_guide
         title: Beginners' Guide
@@ -2290,7 +2290,7 @@ en:
       community:
         url: https://community.openstreetmap.org/
         title: Help & Community Forum
-        description: A shared place for to seek help and have conversations about OpenStreetMap.
+        description: A shared place for to seek help and have conversations about Samland Street Map.
       mailing_lists:
         url: https://lists.openstreetmap.org/
         title: Mailing Lists
@@ -2302,17 +2302,17 @@ en:
       switch2osm:
         url: https://switch2osm.org/
         title: switch2osm
-        description: Help for companies and organisations switching to OpenStreetMap based maps and other services.
+        description: Help for companies and organisations switching to Samland Street Map based maps and other services.
       welcomemat:
         url: https://welcome.openstreetmap.org/
         title: For Organizations
-        description: With an organization making plans for OpenStreetMap? Find what you need to know in the Welcome Mat.
+        description: With an organization making plans for Samland Street Map? Find what you need to know in the Welcome Mat.
       wiki:
         url: https://wiki.openstreetmap.org/
-        title: OpenStreetMap Wiki
-        description: Browse the wiki for in-depth OpenStreetMap documentation.
+        title: Samland Street Map Wiki
+        description: Browse the wiki for in-depth Samland Street Map documentation.
     potlatch:
-      removed: Your default OpenStreetMap editor is set as Potlatch. Because Adobe Flash Player has been withdrawn, Potlatch is no longer available to use in a web browser.
+      removed: Your default Samland Street Map editor is set as Potlatch. Because Adobe Flash Player has been withdrawn, Potlatch is no longer available to use in a web browser.
       desktop_application_html: You can still use Potlatch by %{download_link}.
       download: downloading the desktop application for Mac and Windows
       download_url: https://www.systemed.net/potlatch/
@@ -2321,9 +2321,9 @@ en:
     any_questions:
       title: Any questions?
       paragraph_1_html: |
-        OpenStreetMap has several resources for learning about the project, asking and answering
+        Samland Street Map has several resources for learning about the project, asking and answering
         questions, and collaboratively discussing and documenting mapping topics.
-        %{help_link}. With an organization making plans for OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. With an organization making plans for Samland Street Map? %{welcome_mat_link}.
       get_help_here: Get help here
       welcome_mat: Check out the Welcome Mat
       welcome_mat_url: https://welcome.openstreetmap.org/
@@ -2430,13 +2430,13 @@ en:
     welcome:
       title: Welcome!
       introduction: |
-        Welcome to OpenStreetMap, the free and editable map of the world. Now that you're signed
+        Welcome to Samland Street Map, the free and editable map of the world. Now that you're signed
         up, you're all set to get started mapping. Here's a quick guide with the most important
         things you need to know.
       whats_on_the_map:
         title: What's on the Map
         on_the_map_html: |
-          OpenStreetMap is a place for mapping things that are both %{real_and_current} -
+          Samland Street Map is a place for mapping things that are both %{real_and_current} -
           it includes millions of buildings, roads, and other details about places. You can map
           whatever real-world features are interesting to you.
         real_and_current: real and current
@@ -2448,7 +2448,7 @@ en:
       basic_terms:
         title: Basic Terms For Mapping
         paragraph_1: |
-          OpenStreetMap has some of its own lingo. Here are a few key words that'll come in handy.
+          Samland Street Map has some of its own lingo. Here are a few key words that'll come in handy.
         an_editor_html: An %{editor} is a program or website you can use to edit the map.
         a_node_html: A %{node} is a point on the map, like a single restaurant or a tree.
         a_way_html: A %{way} is a line or area, like a road, stream, lake or building.
@@ -2460,7 +2460,7 @@ en:
       rules:
         title: Rules!
         para_1_html: |
-          OpenStreetMap has few formal rules but we expect all participants to collaborate
+          Samland Street Map has few formal rules but we expect all participants to collaborate
           with, and communicate with, the community. If you are considering
           any activities other than editing by hand, please read and follow the guidelines on
           %{imports_link} and %{automated_edits_link}.
@@ -2483,7 +2483,7 @@ en:
     communities:
       title: Communities
       lede_text: |
-        People from all over the world contribute to or use OpenStreetMap.
+        People from all over the world contribute to or use Samland Street Map.
         While many participate as individuals, others have formed communities.
         These groups come in a range of sizes and represent geographies from small towns to large multi-country regions.
         They can also be formal or informal.
@@ -2493,7 +2493,7 @@ en:
           Local Chapters are country-level or region-level groups that have taken the formal step of
           establishing not-for-profit legal entities. They represent the area's map and mappers when
           dealing with local government, business, and media. They have also formed an affiliation
-          with the OpenStreetMap Foundation (OSMF), giving them a link to the legal and copyright
+          with the Samland Street Map (SSM), giving them a link to the legal and copyright
           governing body.
         list_text: |
           The following communities are formally established as Local Chapters:
@@ -2592,7 +2592,7 @@ en:
       heading: "GPX Storage Offline"
       message: "The GPX file storage and upload system is currently unavailable."
     georss:
-      title: "OpenStreetMap GPS Traces"
+      title: "Samland Street Map GPS Traces"
     description:
       description_with_count:
         one: "GPX file with %{count} point from %{user}"
@@ -2603,7 +2603,7 @@ en:
     require_cookies:
       cookies_needed: "You appear to have cookies disabled - please enable cookies in your browser before continuing."
     setup_user_auth:
-      blocked_zero_hour: "You have an urgent message on the OpenStreetMap website. You need to read the message before you will be able to save your edits."
+      blocked_zero_hour: "You have an urgent message on the Samland Street Map website. You need to read the message before you will be able to save your edits."
       blocked: "Your access to the API has been blocked. Please log-in to the web interface to find out more."
       need_to_see_terms: "Your access to the API is temporarily suspended. Please log-in to the web interface to view the Contributor Terms. You do not need to agree, but you must view them."
     settings_menu:
@@ -2658,7 +2658,7 @@ en:
     permissions:
       missing: "You have not permitted the application access to this facility"
     scopes:
-      openid: Sign-in using OpenStreetMap
+      openid: Sign-in using Samland Street Map
       read_prefs: Read user preferences
       write_prefs: Modify user preferences
       write_diary: Create diary entries, comments and make friends
@@ -2725,22 +2725,22 @@ en:
     new:
       title: "Sign Up"
       tab_title: "Sign up"
-      signup_to_authorize_html: "Sign up with OpenStreetMap to access %{client_app_name}."
+      signup_to_authorize_html: "Sign up with Samland Street Map to access %{client_app_name}."
       no_auto_account_create: "Unfortunately we are not currently able to create an account for you automatically."
       please_contact_support_html: 'Please contact %{support_link} to arrange for an account to be created - we will try and deal with the request as quickly as possible.'
       support: support
       about:
         header: Free and editable.
-        paragraph_1: Unlike other maps, OpenStreetMap is completely created by people like you, and it's free for anyone to fix, update, download and use.
+        paragraph_1: Unlike other maps, Samland Street Map is completely created by people like you, and it's free for anyone to fix, update, download and use.
         paragraph_2: Sign up to get started contributing.
-        welcome: "Welcome to OpenStreetMap"
-      duplicate_social_email: "If you already have an OpenStreetMap account and wish to use a 3rd party identity provider, please log in using your password and modify the settings of your account."
+        welcome: "Welcome to Samland Street Map"
+      duplicate_social_email: "If you already have an Samland Street Map account and wish to use a 3rd party identity provider, please log in using your password and modify the settings of your account."
       display name description: "Your publicly displayed username. You can change this later in the preferences."
       by_signing_up:
         html: "By signing up, you agree to our %{tou_link}, %{privacy_policy_link} and %{contributor_terms_link}."
         privacy_policy: privacy policy
         privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy
-        privacy_policy_title: OSMF privacy policy including section on email addresses
+        privacy_policy_title: SSM privacy policy including section on email addresses
         contributor_terms_url: "https://osmfoundation.org/wiki/Licence/Contributor_Terms"
         contributor_terms: "contributor terms"
       continue: Sign Up
@@ -2748,7 +2748,7 @@ en:
       email_help:
         privacy_policy: privacy policy
         privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy
-        privacy_policy_title: OSMF privacy policy including section on email addresses
+        privacy_policy_title: SSM privacy policy including section on email addresses
         html: 'Your address is not displayed publicly, see our %{privacy_policy_link} for more information.'
       consider_pd_html: "I consider my contributions to be in the %{consider_pd_link}."
       consider_pd: "public domain"
@@ -2762,7 +2762,7 @@ en:
       read and accept with tou: "Please read the contributor agreement and the terms of use, check both checkboxes when done and then press the continue button."
       contributor_terms_explain: "This agreement governs the terms for your existing and future contributions."
       read_ct: "I have read and agree to the above contributor terms"
-      tou_explain_html: "These %{tou_link} govern the use of the website and other infrastructure provided by the OSMF. Please click on the link, read and agree to the text."
+      tou_explain_html: "These %{tou_link} govern the use of the website and other infrastructure provided by the SSM. Please click on the link, read and agree to the text."
       read_tou: "I have read and agree to the Terms of Use"
       consider_pd: "In addition to the above, I consider my contributions to be in the Public Domain"
       consider_pd_why: "what's this?"
@@ -2899,9 +2899,9 @@ en:
       invalid_scope: Invalid scope
       unknown_error: Authentication failed
     auth_association:
-      heading: Your ID is not associated with a OpenStreetMap account yet.
+      heading: Your ID is not associated with a Samland Street Map account yet.
       option_1: |
-        If you are new to OpenStreetMap, please create a new account
+        If you are new to Samland Street Map, please create a new account
         using the form below.
       option_2: |
         If you already have an account, you can log in to your account
@@ -3086,7 +3086,7 @@ en:
       add: Add Note
     new_readonly:
       title: "New Note"
-      warning: "New notes cannot be created because the OpenStreetMap API is currently in read-only mode."
+      warning: "New notes cannot be created because the Samland Street Map API is currently in read-only mode."
     notes_paging_nav:
       showing_page: "Page %{page}"
       next: "Next"
@@ -3146,18 +3146,18 @@ en:
         overlays: Enable overlays for troubleshooting the map
         title: "Layers"
       copyright_text: "© %{copyright_link}"
-      openstreetmap_contributors: "OpenStreetMap contributors"
+      openstreetmap_contributors: "Samland Street Map contributors"
       make_a_donation: Make a Donation
       website_and_api_terms: Website and API terms
       cyclosm_credit: "Tiles style by %{cyclosm_link} hosted by %{osm_france_link}"
       cyclosm_name: CyclOSM
-      osm_france: OpenStreetMap France
+      osm_france: Samland Street Map France
       thunderforest_credit: "Tiles courtesy of %{thunderforest_link}"
       andy_allan: Andy Allan
       tracestrack_credit: "Tiles courtesy of %{tracestrack_link}"
       tracestrack: Tracestrack
       hotosm_credit: "Tiles style by %{hotosm_link} hosted by %{osm_france_link}"
-      hotosm_name: Humanitarian OpenStreetMap Team
+      hotosm_name: Humanitarian Samland Street Map Team
     site:
       edit_tooltip: Edit the map
       edit_disabled_tooltip: Zoom in to edit the map

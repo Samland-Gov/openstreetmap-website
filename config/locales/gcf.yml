@@ -86,11 +86,11 @@ gcf:
           pésa woutini-y ankò.
         delete_account: Néyantizé on kont
         delete_introduction: |-
-          Ou pé NÉYANTIZÉ kont OpenStreetMap a-w èvè bouton-la.
+          Ou pé NÉYANTIZÉ kont Samland Street Map a-w èvè bouton-la.
           Kanmensa ou pou sav sa:
         delete_display_name: Tinon a-w la ké néyantizé, é nenpòt kimoun ké pé sèvi
           épi-y èvè on dòt kont.
-        retain_caveats: 'Kanmenmsa, OpenStreetMap ké woutyenn dotwa kamo asi-w, menmsi
+        retain_caveats: 'Kanmenmsa, Samland Street Map ké woutyenn dotwa kamo asi-w, menmsi
           sé aprédavwa ou néyantizé kont a-w la:'
         retain_email: Nou ké chonjé email a-w la.
         recent_editing_html: |-
@@ -448,12 +448,12 @@ gcf:
     export: Voyé déwò
     gps_traces: Chimen GPS
     user_diaries: Jounal
-    intro_header: Kontan vwè-w asi OpenStreetMap!
+    intro_header: Kontan vwè-w asi Samland Street Map!
     intro_text: Openstreetmap, sé on kat a lèmonn-la ki fèt parapòt a moun kon-w é
       lib pou sèvi épi-y évè on lisans lib.
-    osm_offline: Base a doné a OpenStreetMap dékonekté atchelman ; Yo ka fè on gwo
+    osm_offline: Base a doné a Samland Street Map dékonekté atchelman ; Yo ka fè on gwo
       travay enpòtan asi-y pou-y maché bien.
-    osm_read_only: Atchelman ou pé li selamn base a doné a OpenStreetMap ; Yo ka fè
+    osm_read_only: Atchelman ou pé li selamn base a doné a Samland Street Map ; Yo ka fè
       on gwo travay enpòtan asi-y pou-y maché bien.
     help: Anmwé
     more: Plis
@@ -464,8 +464,8 @@ gcf:
       hi: Yéla %{to_user},
     friendship_notification:
       hi: Yéla %{to_user},
-      subject: '[OpenStreetMap] %{user} jouté-w kon on zanmi'
-      had_added_you: '%{user} jouté-w kontèl on zanmi adan OpenStreetMap.'
+      subject: '[Samland Street Map] %{user} jouté-w kon on zanmi'
+      had_added_you: '%{user} jouté-w kontèl on zanmi adan Samland Street Map.'
     gpx_failure:
       hi: Yéla %{to_user},
     gpx_success:
@@ -477,9 +477,9 @@ gcf:
     note_comment_notification:
       greeting: Yéla,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on biten
+        subject_own: '[Samland Street Map] %{commenter} voyé on komantasyon asi on biten
           ou maké'
-        subject_other: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on maké
+        subject_other: '[Samland Street Map] %{commenter} voyé on komantasyon asi on maké
           ki ka kriyé-w'
         your_note: '%{commenter} kité on komantasyon asi on biten ou maké asi kat-la
           ora a %{place}'
@@ -490,9 +490,9 @@ gcf:
     changeset_comment_notification:
       hi: Yéla %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} voyé on komantasyon asi yonn a
+        subject_own: '[Samland Street Map] %{commenter} voyé on komantasyon asi yonn a
           krèy a modifikasyon a-w'
-        subject_other: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on modifikasyon
+        subject_other: '[Samland Street Map] %{commenter} voyé on komantasyon asi on modifikasyon
           i ka kriyé-w'
   confirmations:
     confirm:
@@ -558,7 +558,7 @@ gcf:
     index:
       js_1: Ou ka sèvi èvè on navigatè ki pa ka sipòté Javascript ouben Javascript
         éten.
-      js_2: OpenStreetMap ka sèvi èvè Javascript pou kat glisad.
+      js_2: Samland Street Map ka sèvi èvè Javascript pou kat glisad.
     edit:
       not_public: Ou pé pa réglé édision aw pou yo piblik.
       not_public_description_html: Pou modifié kat la fok édision aw piblik. Ou pé
@@ -570,7 +570,7 @@ gcf:
         title: Kijan pou ba on pal
     help:
       welcome:
-        title: Kontan vwè-w asi OpenStreetMap
+        title: Kontan vwè-w asi Samland Street Map
     sidebar:
       search_results: Rézilta a chèché aw
     search:

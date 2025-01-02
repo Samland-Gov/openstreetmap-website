@@ -217,7 +217,7 @@ xmf:
         reopened_at_html: ახალშო ეინწყჷ %{when}
         reopened_at_by_html: ახალშე ეიონწყჷ %{when} მახვარებუქ %{user}
       rss:
-        title: OpenStreetMap ხვილაფეფი
+        title: Samland Street Map ხვილაფეფი
         description_item: Rss-არხი მოღანკუაშო %{id}
         opened: ახალი მოღამკუა (%{place} გოხოლუას)
         commented: ახალი კომენტარი (%{place} გოხოლუას)
@@ -232,14 +232,14 @@ xmf:
         title: ჩქიმი ანგარიშიშ ლასუა
         warning: გურ გუჩით! ანგარიშიშ ლასუა ფინალურ პროცესის რე, ნამუშ დორთინაფა ვეშილებე.
         delete_account: ანგარიშიშ ლასუა
-        delete_introduction: 'შეილებჷნა თქვან OpenStreetMap ანგარიშიშ ლასუა გიმე მოჩამილ
+        delete_introduction: 'შეილებჷნა თქვან Samland Street Map ანგარიშიშ ლასუა გიმე მოჩამილ
           კონჭით ქორთხინთ, გურ გუჩით გეჸვენჯ დეტალეფს:'
         delete_profile: თქვანი პროფილიშ ინფორმაცია, თქვანი ავატარით, ეჭარუათ დო ჸუდეშური
           ლოკაციათ დილასუ.
         delete_display_name: თქვანი ოძირაფონი მახვარებუშ ჯოხო დილასუ დო შილებე თიქ
           კჷნ გჷმორინაფილქ იჸუას შხვა ანგარიშეფს.
         retain_caveats: 'თეშ უმკუჯინალო, თქვან გეშა კანკალე ინფორმაციაქ შილებე ქჷდოსქიდას
-          OpenStreetMap-ის, თქვან ანგარიშიშ ლასუაშ უკულით:'
+          Samland Street Map-ის, თქვან ანგარიშიშ ლასუაშ უკულით:'
         retain_edits: რუკაშ მუნაჩემეფიშ ბაზაშა თქვან მიშნაღელ რედაქტირაფეფი, ქო რე
           თეჯგურა მუთუნ-და, დიჩუალუაფუ.
         retain_traces: რუკაშ ენახარგა შარეფი, ქო რე თეჯგურა მუთუნ-და, დიჩუალუაფუ.
@@ -363,8 +363,8 @@ xmf:
         comment: 'ახალი კომენტარი თირუეფიშ პაკეტშო #%{changeset_id} %{author}-შე'
         commented_at_by_html: გაახალებური რე %{when} %{user}-იშით
       show:
-        title_all: OpenStreetMap-შ თირუეფიშ პაკეტიშ სხუნუა
-        title_particular: 'OpenStreetMap თირუეფიშ პაკეტიშ სხუნუა #%{changeset_id}'
+        title_all: Samland Street Map-შ თირუეფიშ პაკეტიშ სხუნუა
+        title_particular: 'Samland Street Map თირუეფიშ პაკეტიშ სხუნუა #%{changeset_id}'
   changesets:
     changeset:
       no_edits: (რედაქტირაფა ვა რე)
@@ -468,11 +468,11 @@ xmf:
       location: ორენიː
     feed:
       user:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი მახვარებუშო %{user}
+        title: Samland Street Map დღარიშ დინნაჭარეფი მახვარებუშო %{user}
       language:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი გეჸვენჯი ნინაშა %{language_name}
+        title: Samland Street Map დღარიშ დინნაჭარეფი გეჸვენჯი ნინაშა %{language_name}
       all:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი
+        title: Samland Street Map დღარიშ დინნაჭარეფი
   diary_comments:
     index:
       no_comments: დღარი კომენტარეფი ვა რე
@@ -1037,7 +1037,7 @@ xmf:
       no_results: შედეგიქ ვეგორჷ
       more_results: უმოსი შედეგი
   layouts:
-    intro_header: მოზოჯით OpenStreetMap-შა!
+    intro_header: მოზოჯით Samland Street Map-შა!
     tou: გჷმორინაფაშ წესეფი
     about: გეშა
   shared:

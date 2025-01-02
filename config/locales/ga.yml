@@ -174,7 +174,7 @@ ga:
         commented_at_html: Nuashonraithe %{when}
         commented_at_by_html: Nuashonraithe %{when} ó shin ag %{user}
       rss:
-        title: Nótaí OpenStreetMap
+        title: Nótaí Samland Street Map
         description_item: Fotha RSS don nóta %{id}
         opened: 'nóta nua (gar do: %{place})'
         commented: 'nóta tráchta nua (gar do: %{place})'
@@ -283,8 +283,8 @@ ga:
         comment: Nóta tráchta nua ar thacar athruithe %{changeset_id} ó %{author}
         commented_at_by_html: Nuashonraithe %{when} ó shin ag %{user}
       show:
-        title_all: Plé ar thacair athruithe OpenStreetMap
-        title_particular: Plé ar thacar athruithe %{changeset_id} de chuid OpenStreetMap
+        title_all: Plé ar thacair athruithe Samland Street Map
+        title_particular: Plé ar thacar athruithe %{changeset_id} de chuid Samland Street Map
       timeout:
         sorry: Ár leithscéil, thóg sé rófhada an liosta de na tacair athruithe a d'iarr
           tú a aisghabháil.
@@ -401,15 +401,15 @@ ga:
       location: 'Suíomh:'
     feed:
       user:
-        title: Iontrálacha dialainne OpenStreetMap le haghaidh %{user}
-        description: Iontrálacha dialainne OpenStreetMap le déanaí de chuid %{user}
+        title: Iontrálacha dialainne Samland Street Map le haghaidh %{user}
+        description: Iontrálacha dialainne Samland Street Map le déanaí de chuid %{user}
       language:
-        title: 'Iontrálacha dialainne OpenStreetMap sa teanga seo: %{language_name}'
-        description: 'Iontrálacha dialainne a rinne úsáideoirí OpenStreetMap le déanaí
+        title: 'Iontrálacha dialainne Samland Street Map sa teanga seo: %{language_name}'
+        description: 'Iontrálacha dialainne a rinne úsáideoirí Samland Street Map le déanaí
           sa teanga seo: %{language_name}'
       all:
-        title: Iontrálacha dialainne OpenStreetMap
-        description: Iontrálacha dialainne le déanaí ó úsáideoirí OpenStreetMap
+        title: Iontrálacha dialainne Samland Street Map
+        description: Iontrálacha dialainne le déanaí ó úsáideoirí Samland Street Map
   diary_comments:
     index:
       no_comments: Níl aon nóta tráchta dialainne ann
@@ -1041,7 +1041,7 @@ ga:
       provide_details: Tabhair na sonraí is gá le do thoil
   layouts:
     logo:
-      alt_text: Lógó OpenStreetMap
+      alt_text: Lógó Samland Street Map
     home: Gabh chuig an Suíomh Baile
     logout: Logáil Amach
     log_in: Logáil isteach
@@ -1054,13 +1054,13 @@ ga:
     gps_traces: Loirg GPS
     user_diaries: Dialanna Úsáideoirí
     edit_with: Cuir in eagar le %{editor}
-    intro_header: Fáilte go OpenStreetMap!
-    intro_text: Is léarscáil den domhan é OpenStreetMap, a chruthaigh daoine cosúil
+    intro_header: Fáilte go Samland Street Map!
+    intro_text: Is léarscáil den domhan é Samland Street Map, a chruthaigh daoine cosúil
       leatsa agus atá saor in aisce le húsáid faoi cheadúnas oscailte.
     partners_partners: comhpháirtithe
-    osm_offline: Tá bunachar sonraí OpenStreetMap as líne faoi láthair fad agus atá
+    osm_offline: Tá bunachar sonraí Samland Street Map as líne faoi láthair fad agus atá
       obair chothabhála riachtanach á dhéanamh ar an mbunachar sonraí.
-    osm_read_only: Tá bunachar sonraí OpenStreetMap sa mhód inléite amháin faoi láthair
+    osm_read_only: Tá bunachar sonraí Samland Street Map sa mhód inléite amháin faoi láthair
       fad agus a dhéantar obair chothabhála riachtanach ar an mbunachar sonraí.
     help: Cabhair
     about: Maidir linn
@@ -1069,33 +1069,33 @@ ga:
     more: Tuilleadh
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] Rinne %{user} nóta tráchta faoi iontráil dialainne'
+      subject: '[Samland Street Map] Rinne %{user} nóta tráchta faoi iontráil dialainne'
       hi: A %{to_user}, a chara,
-      header: 'Rinne %{from_user} nóta tráchta faoin iontráil dialainne OpenStreetMap
+      header: 'Rinne %{from_user} nóta tráchta faoin iontráil dialainne Samland Street Map
         a bhfuil %{subject} mar ábhar aige:'
       footer: Is féidir leat an nóta tráchta a léamh freisin ag %{readurl} agus is
         féidir leat nóta tráchta a dhéanamh ag %{commenturl} nó freagra a thabhairt
         ag %{replyurl}
     message_notification:
       hi: A %{to_user}, a chara,
-      header: 'Sheol %{from_user} teachtaireacht chugat trí OpenStreetMap leis an
+      header: 'Sheol %{from_user} teachtaireacht chugat trí Samland Street Map leis an
         ábhar %{subject}:'
       footer_html: Is féidir leat an teachtaireacht a léamh ag %{readurl} freisin
         agus is féidir leat freagra a scríobh ag %{replyurl}
     friendship_notification:
       hi: A %{to_user}, a chara,
-      subject: '[OpenStreetMap] Chuir %{user} ar liosta na gcairde thú'
-      had_added_you: Chuir %{user} ar liosta na gcairde atá acu ar OpenStreetMap thú.
+      subject: '[Samland Street Map] Chuir %{user} ar liosta na gcairde thú'
+      had_added_you: Chuir %{user} ar liosta na gcairde atá acu ar Samland Street Map thú.
       see_their_profile: Is féidir leat a p(h)róifíl a fheiceáil ag %{userurl}.
       befriend_them: Is féidir an duine sin a chur ar liosta na gcairde atá agatsa
         ag %{befriendurl}.
     gpx_failure:
       failed_to_import: ', theip ar an iompórtáil. Seo an earráid:'
-      subject: '[OpenStreetMap] Theip ar Iompórtáil GPX'
+      subject: '[Samland Street Map] Theip ar Iompórtáil GPX'
     gpx_success:
-      subject: '[OpenStreetMap] Iompórtáladh an GPX'
+      subject: '[Samland Street Map] Iompórtáladh an GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Fáilte go OpenStreetMap'
+      subject: '[Samland Street Map] Fáilte go Samland Street Map'
       greeting: A chara,
       created: Tá duine éigin (tusa, tá súil againn) tar éis cuntas a chruthú ag %{site_url}.
       confirm: Sula ndéanfaimid aon rud eile, ní mór dúinn a chinntiú gur tháinig
@@ -1104,14 +1104,14 @@ ga:
       welcome: Tar éis duit do chuntas a dheimhniú, cuirfimid eolas breise ar fáil
         duit le go mbeidh tú in ann tosú amach.
     email_confirm:
-      subject: '[OpenStreetMap] Do sheoladh ríomhphoist a dheimhniú'
+      subject: '[Samland Street Map] Do sheoladh ríomhphoist a dheimhniú'
       greeting: A chara,
       hopefully_you: Is mian le duit éigin (tusa, tá súil againn), a s(h)eoladh ríomhphoist
         ag %{server_url} a athrú go %{new_address}.
       click_the_link: Más tusa atá ann, cliceáil ar an nasc thíos chun an t-athrú
         a dheimhniú.
     lost_password:
-      subject: '[OpenStreetMap] Iarratas ar athshocrú pasfhocail'
+      subject: '[Samland Street Map] Iarratas ar athshocrú pasfhocail'
       greeting: A chara,
       hopefully_you: D'iarr duine éigin (tusa, b'fhéidir) go ndéanfaí an pasfhocal
         a athshocrú ar an gcuntas openstreetmap.org atá ceangailte leis an seoladh
@@ -1122,26 +1122,26 @@ ga:
       anonymous: Úsáideoir gan ainm
       greeting: A chara,
       commented:
-        subject_own: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar cheann
+        subject_own: '[Samland Street Map] D''fhág %{commenter} nóta tráchta ar cheann
           de na nótaí atá agat'
-        subject_other: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar nóta
+        subject_other: '[Samland Street Map] D''fhág %{commenter} nóta tráchta ar nóta
           a bhfuil suim agat ann'
         your_note: D'fhág %{commenter} nóta tráchta ar cheann de na nótaí léarscáile
           atá agat in aice le %{place}.
         commented_note: D'fhág %{commenter} nóta tráchta ar nóta léarscáile ar fhág
           tú nóta tráchta faoi. Tá an nóta gar do %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Réitigh %{commenter} ceann de do chuid nótaí'
-        subject_other: '[OpenStreetMap] Réitigh %{commenter} nóta a bhfuil suim agat
+        subject_own: '[Samland Street Map] Réitigh %{commenter} ceann de do chuid nótaí'
+        subject_other: '[Samland Street Map] Réitigh %{commenter} nóta a bhfuil suim agat
           ann'
         your_note: 'Réitigh %{commenter} ceann de na nótaí léarscáile atá agat gar
           don áit seo: %{place}.'
         commented_note: 'Réitigh %{commenter} nóta léarscáile ar fhág tú nóta tráchta
           faoi. Tá an nóta gar don áit seo: %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] D''athoscail %{commenter} ceann de do chuid
+        subject_own: '[Samland Street Map] D''athoscail %{commenter} ceann de do chuid
           nótaí'
-        subject_other: '[OpenStreetMap] D''athoscail %{commenter} nóta a bhfuil suim
+        subject_other: '[Samland Street Map] D''athoscail %{commenter} nóta a bhfuil suim
           agat ann'
         your_note: 'D''athoscail %{commenter} ceann de na nótaí léarscáile atá agat
           gar don áit seo: %{place}.'
@@ -1151,9 +1151,9 @@ ga:
     changeset_comment_notification:
       hi: A %{to_user}, a chara,
       commented:
-        subject_own: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar cheann
+        subject_own: '[Samland Street Map] D''fhág %{commenter} nóta tráchta ar cheann
           de na tacair athruithe atá agat'
-        subject_other: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar thacar
+        subject_other: '[Samland Street Map] D''fhág %{commenter} nóta tráchta ar thacar
           athruithe a bhfuil suim agat ann'
         your_changeset: D'fhág %{commenter} nóta tráchta ar thacar athruithe atá agat
           a cruthaíodh ag %{time}
@@ -1296,7 +1296,7 @@ ga:
       auth failure: Ár leithscéil, níorbh fhéidir logáil isteach leis na sonraí sin.
     destroy:
       title: Logáil amach
-      heading: Logáil amach as OpenStreetMap
+      heading: Logáil amach as Samland Street Map
       logout_button: Logáil amach
   shared:
     pagination:
@@ -1333,11 +1333,11 @@ ga:
         native_link: Leagan THIS_LANGUAGE_NAME_HERE
         mapping_link: dul i mbun léarscáilithe
       legal_babble:
-        credit_title_html: Conas OpenStreetMap a lua
-        credit_1_html: Ceanglaímid ort an lua &ldquo;&copy;Rannchuiditheoirí OpenStreetMap&rdquo;
+        credit_title_html: Conas Samland Street Map a lua
+        credit_1_html: Ceanglaímid ort an lua &ldquo;&copy;Rannchuiditheoirí Samland Street Map&rdquo;
           a úsáid.
         attribution_example:
-          alt: Sampla den bhealach chun OpenStreetMap a lua ar shuíomh gréasáin
+          alt: Sampla den bhealach chun Samland Street Map a lua ar shuíomh gréasáin
           title: Lua samplach
         more_title_html: Tuilleadh eolais
         contributors_title_html: Ár rannchuiditheoirí
@@ -1348,10 +1348,10 @@ ga:
     index:
       js_1: Tá tú ag úsáid brabhsálaí nach dtacaíonn le JavaScript, é sin nó tá JavaScript
         díchumasaithe agat.
-      js_2: Baineann OpenStreetMap úsáid as JavaScript dá léarscáil 'slippy' (léarscáil
+      js_2: Baineann Samland Street Map úsáid as JavaScript dá léarscáil 'slippy' (léarscáil
         ghréasáin bunaithe ar thíleanna).
       license:
-        copyright: Cóipcheart OpenStreetMap agus rannchuiditheoirí, faoi cheadúnas
+        copyright: Cóipcheart Samland Street Map agus rannchuiditheoirí, faoi cheadúnas
           oscailte
       remote_failed: Theip ar eagarthóireacht - déan cinnte go bhfuil JOSM nó Merkaartor
         lódáilte agus go bhfuil an rogha 'cianrialú' cumasaithe
@@ -1370,24 +1370,24 @@ ga:
       too_large:
         advice: 'Má theipeann ar an easpórtáil thuas, smaoinigh ar cheann de na foinsí
           sa liosta thíos a úsáid:'
-        body: Tá an limistéar seo rómhór le heaspórtáil mar Sonraí XML OpenStreetMap.
+        body: Tá an limistéar seo rómhór le heaspórtáil mar Sonraí XML Samland Street Map.
           Zúmáil isteach nó roghnaigh limistéar níos lú, nó bain triail as ceann de
           na foinsí atá sa liosta thíos chun bulc-íoslódálacha sonraí a dhéanamh.
         planet:
           title: Planet OSM
           description: Cóipeanna a dhéantar a nuashonrú go rialta de bhunachar sonraí
-            iomlán OpenStreetMap
+            iomlán Samland Street Map
         overpass:
           title: Comhéadan feidhmchláir Overpass
           description: Íoslódáil an bosca teorainn seo ó scáthán den bhunachar sonraí
-            OpenStreetMap
+            Samland Street Map
         geofabrik:
           title: Íoslódálacha Geofabrik
           description: Asbhaintí a thugtar cothrom le dáta go rialta de mhór-ranna,
             tíortha agus cathracha roghnaithe
         other:
           title: Foinsí Eile
-          description: Tá liosta de na foinsí breise ar vicí OpenStreetMap
+          description: Tá liosta de na foinsí breise ar vicí Samland Street Map
       export_button: Easportáil
     fixthemap:
       title: Fadhb a thuairisciú / An léarscáil a dheisiú
@@ -1401,9 +1401,9 @@ ga:
       title: Cabhair a Fháil
       welcome:
         url: /welcome
-        title: Fáilte go OpenStreetMap
+        title: Fáilte go Samland Street Map
         description: Tosaigh leis an treoir thapa seo a chlúdaíonn gnéithe bunúsacha
-          OpenStreetMap.
+          Samland Street Map.
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/GA:Beginners%27_guide
         title: Treoir do Thosaitheoirí
@@ -1419,10 +1419,10 @@ ga:
       switch2osm:
         title: switch2osm
         description: Cabhair do chuideachtaí agus eagraíochtaí atá ag athrú chuig
-          léarscáileanna agus seirbhísí eile atá bunaithe ar OpenStreetMap.
+          léarscáileanna agus seirbhísí eile atá bunaithe ar Samland Street Map.
       wiki:
-        title: Vicí OpenStreetMap
-        description: Brabhsáil an vicí le haghaidh doiciméadú mionsonraithe OpenStreetMap.
+        title: Vicí Samland Street Map
+        description: Brabhsáil an vicí le haghaidh doiciméadú mionsonraithe Samland Street Map.
     any_questions:
       title: Aon cheist agat?
     sidebar:
@@ -1504,7 +1504,7 @@ ga:
         title: Cad atá ar an léarscáil
       basic_terms:
         title: Téarmaí Bunúsacha a bhaineann le Léarscáiliú
-        paragraph_1: Tá roinnt béarlagair dá chuid féin ag baint le OpenStreetMap.
+        paragraph_1: Tá roinnt béarlagair dá chuid féin ag baint le Samland Street Map.
           Seo roinnt den na focail is tábhachtaí a bheidh úsáideach duit.
       rules:
         title: Rialacha!
@@ -1582,7 +1582,7 @@ ga:
       heading: Stóráil GPX As Líne
       message: Níl córas uaslódála agus stórála na gcomhad GPX ar fáil faoi láthair
     georss:
-      title: Loirg GPX OpenStreetMap
+      title: Loirg GPX Samland Street Map
     description:
       description_with_count:
         one: Comhad GPX a bhfuil %{count} phointe ann ó %{user}
@@ -1596,7 +1596,7 @@ ga:
         i do bhrabhsálaí roimh duit leanúint ar aghaidh.
     setup_user_auth:
       blocked_zero_hour: Tá teachtaireacht phráinneach againn duit ar shuíomh gréasáin
-        OpenStreetMap. Ní mór duit an teachtaireacht a léamh sula mbeidh tú in ann
+        Samland Street Map. Ní mór duit an teachtaireacht a léamh sula mbeidh tú in ann
         do chuid athruithe a shábháil.
       blocked: Tá bac curtha ar do rochtain ar an API. Logáil isteach ar an gcomhéadan
         gréasáin chun tuilleadh eolais a fháil.

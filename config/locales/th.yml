@@ -228,7 +228,7 @@ th:
         reopened_at_html: เปิดใหม่เมื่อ %{when}
         reopened_at_by_html: เปิดใหม่เมื่อ %{when} โดย %{user}
       rss:
-        title: โน้ต OpenStreetMap
+        title: โน้ต Samland Street Map
         description_all: รายการของการรายงาน หรือความคิดเห็นบนโน้ตที่ปิดเรื่องไปแล้ว
         description_area: รายชื่อโน้ตที่มีการรายงาน แสดงความคิดเห็น ที่เปิดอยู่หรือถูกปิดเรื่องไปแล้วในพื้นที่ของคุณ
           [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -246,11 +246,11 @@ th:
         title: ลบบัญชีของฉัน
         warning: คำเตือน! ขั้นตอนการลบบัญชีถือเป็นที่สิ้นสุด และไม่สามารถย้อนกลับได้
         delete_account: ลบบัญชี
-        delete_introduction: 'คุณสามารถลบบัญชี OpenStreetMap ของคุณโดยใช้ปุ่มด้านล่าง
+        delete_introduction: 'คุณสามารถลบบัญชี Samland Street Map ของคุณโดยใช้ปุ่มด้านล่าง
           โปรดทราบรายละเอียดต่อไปนี้:'
         delete_profile: ข้อมูลโปรไฟล์ของคุณ รวมถึงภาพอวาตาร์ คำอธิบาย และตำแหน่งบ้านจะถูกลบออก
         delete_display_name: ชื่อที่แสดงของคุณจะถูกลบออก และบัญชีอื่นสามารถนำชื่อนั้นไปใช้ได้
-        retain_caveats: 'อย่างไรก็ตาม ข้อมูลเกี่ยวกับคุณบางอย่างจะยังคงอยู่บน OpenStreetMap
+        retain_caveats: 'อย่างไรก็ตาม ข้อมูลเกี่ยวกับคุณบางอย่างจะยังคงอยู่บน Samland Street Map
           แม้ว่าบัญชีของคุณจะถูกลบไปแล้วก็ตาม:'
         retain_edits: การแก้ไขของคุณในฐานข้อมูลแผนที่ ถ้ามีจะยังคงถูกเก็บไว้
         retain_traces: รอยทางที่อัพโหลดไป ถ้ามีจะยังคงถูกเก็บไว้
@@ -406,8 +406,8 @@ th:
         comment: 'ความคิดเห็นใหม่ที่มีต่อชุดการเปลี่ยนแปลง #%{changeset_id} โดย %{author}'
         commented_at_by_html: ปรับปรุงเมื่อ %{when} โดย %{user}
       show:
-        title_all: การอภิปรายชุดการเปลี่ยนแปลงของ OpenStreetMap
-        title_particular: 'การอภิปรายชุดการเปลี่ยนแปลง OpenStreetMap #%{changeset_id}'
+        title_all: การอภิปรายชุดการเปลี่ยนแปลงของ Samland Street Map
+        title_particular: 'การอภิปรายชุดการเปลี่ยนแปลง Samland Street Map #%{changeset_id}'
       timeout:
         sorry: ขออภัย รายการชุดการเปลี่ยนแปลงที่ร้องขอใช้เวลานานเกินสมควรในการสืบค้น
   changesets:
@@ -554,14 +554,14 @@ th:
       location: 'ที่ตั้ง:'
     feed:
       user:
-        title: รายการบันทึก OpenStreetMap สำหรับ %{user}
-        description: รายการบันทึกล่าสุด OpenStreetMap จาก %{user}
+        title: รายการบันทึก Samland Street Map สำหรับ %{user}
+        description: รายการบันทึกล่าสุด Samland Street Map จาก %{user}
       language:
-        title: รายการบันทึก OpenStreetMap ในภาษา%{language_name}
-        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenStreetMap ในภาษา%{language_name}
+        title: รายการบันทึก Samland Street Map ในภาษา%{language_name}
+        description: รายการบันทึกล่าสุดจากผู้ใช้ Samland Street Map ในภาษา%{language_name}
       all:
-        title: รายการบันทึก OpenStreetMap
-        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenStreetMap
+        title: รายการบันทึก Samland Street Map
+        description: รายการบันทึกล่าสุดจากผู้ใช้ Samland Street Map
     subscribe:
       heading: ติดตามการอภิปรายเซ็ตการแก้ไขต่อไปนี้หรือไม่
       button: ติดตามการอภิปราย
@@ -612,24 +612,24 @@ th:
     contact:
       contact_url_title: อธิบายช่องทางการติดต่อต่าง ๆ
       contact: ช่องทางติดต่อ
-      contact_the_community_html: อย่าลังเลที่จะ%{contact_link}ชุมชน OpenStreetMap
+      contact_the_community_html: อย่าลังเลที่จะ%{contact_link}ชุมชน Samland Street Map
         หากคุณพบลิงก์ที่เสียหาย หรือข้อบกพร่อง จดโน้ตไปยัง URL ที่แน่นอนของคำขอของคุณ
     bad_request:
       title: คำขอไม่ถูกต้อง
-      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenStreetMap ไม่ถูกต้อง
+      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ Samland Street Map ไม่ถูกต้อง
         (HTTP 400)
     forbidden:
       title: ถูกต้องห้าม
-      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenStreetMap นั้นใช้ได้เฉพาะผู้ดูแลระบบเท่านั้น
+      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ Samland Street Map นั้นใช้ได้เฉพาะผู้ดูแลระบบเท่านั้น
         (HTTP 403)
     internal_server_error:
       title: แอพพลิเคชันเกิดข้อผิดพลาด
-      description: เซิร์ฟเวอร์ OpenStreetMap พบเงื่อนไขที่ไม่คาดคิดซึ่งทำให้ไม่สามารถดำเนินการตามคำขอได้
+      description: เซิร์ฟเวอร์ Samland Street Map พบเงื่อนไขที่ไม่คาดคิดซึ่งทำให้ไม่สามารถดำเนินการตามคำขอได้
         (HTTP 500)
     not_found:
       title: ไม่พบไฟล์
       description: ไม่พบการดำเนินการของไฟล์/ไดเรกทอรี/API ตามชื่อนั้นบนเซิร์ฟเวอร์
-        OpenStreetMap (HTTP 404)
+        Samland Street Map (HTTP 404)
   friendships:
     make_friend:
       heading: เพิ่มผู้ใช้ %{user} ในรายการเพื่อนหรือไม่?
@@ -1514,7 +1514,7 @@ th:
       provide_details: กรุณาระบุรายละเอียด
   layouts:
     logo:
-      alt_text: ตราสัญลักษณ์ OpenStreetMap
+      alt_text: ตราสัญลักษณ์ Samland Street Map
     home: กลับไปที่ตำแหน่งบ้าน
     logout: ออกจากระบบ
     log_in: ลงชื่อเข้าใช้
@@ -1527,16 +1527,16 @@ th:
     gps_traces: รอยทาง GPS
     user_diaries: บันทึกของผู้ใช้
     edit_with: แก้ไขด้วย %{editor}
-    intro_header: ยินดีต้อนรับสู่ OpenStreetMap!
-    intro_text: OpenStreetMap เป็นแผนที่โลกที่สร้างโดยผู้คนเช่นท่าน และใช้งานได้ไม่เสียค่าใช้จ่ายภายใต้สัญญาอนุญาตแบบเปิด
+    intro_header: ยินดีต้อนรับสู่ Samland Street Map!
+    intro_text: Samland Street Map เป็นแผนที่โลกที่สร้างโดยผู้คนเช่นท่าน และใช้งานได้ไม่เสียค่าใช้จ่ายภายใต้สัญญาอนุญาตแบบเปิด
     hosting_partners_2024_html: โฮสติ้งได้รับการสนับสนุนโดย %{fastly}, %{corpmembers}
       และ %{partners}
     partners_fastly: Fastly
-    partners_corpmembers: สมาชิกองค์กร OSMF
+    partners_corpmembers: สมาชิกองค์กร SSM
     partners_partners: องค์กรพันธมิตร
     tou: ข้อกำหนดการใช้งาน
-    osm_offline: ฐานข้อมูลของ OpenStreetMap กำลังออฟไลน์เพื่อให้สามารถดำเนินการบำรุงรักษาตามปกติได้
-    osm_read_only: ฐานข้อมูลของ OpenStreetMap กำลังอยู่ในโหมดอ่านอย่างเดียวเพื่อให้สามารถดำเนินการบำรุงรักษาตามปกติได้
+    osm_offline: ฐานข้อมูลของ Samland Street Map กำลังออฟไลน์เพื่อให้สามารถดำเนินการบำรุงรักษาตามปกติได้
+    osm_read_only: ฐานข้อมูลของ Samland Street Map กำลังอยู่ในโหมดอ่านอย่างเดียวเพื่อให้สามารถดำเนินการบำรุงรักษาตามปกติได้
     help: วิธีใช้
     about: เกี่ยวกับ
     copyright: ลิขสิทธิ์
@@ -1545,12 +1545,12 @@ th:
     more: เพิ่มเติม
   user_mailer:
     diary_comment_notification:
-      description: 'รายการบันทึก OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] ผู้ใช้ %{user} แสดงความคิดเห็นต่อรายการบันทึก'
+      description: 'รายการบันทึก Samland Street Map #%{id}'
+      subject: '[Samland Street Map] ผู้ใช้ %{user} แสดงความคิดเห็นต่อรายการบันทึก'
       hi: เรียนคุณ %{to_user},
-      header: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenStreetMap หัวเรื่อง
+      header: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก Samland Street Map หัวเรื่อง
         %{subject}:'
-      header_html: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenStreetMap
+      header_html: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก Samland Street Map
         หัวเรื่อง %{subject}:'
       footer: คุณสามารถอ่านความคิดเห็นได้ที่ลิงก์ %{readurl} และแสดงความคิดเห็นตอบได้ที่
         %{commenturl} หรือตอบกลับได้ที่ %{replyurl}
@@ -1559,11 +1559,11 @@ th:
       footer_unsubscribe: คุณสามารถยกเลิกการสมัครรับการอภิปรายได้ที่ %{unsubscribeurl}
       footer_unsubscribe_html: คุณสามารถยกเลิกการสมัครรับการอภิปรายได้ที่ %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[Samland Street Map] %{message_title}'
       hi: เรียนคุณ %{to_user},
-      header: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenStreetMap โดยมีหัวเรื่อง
+      header: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง Samland Street Map โดยมีหัวเรื่อง
         %{subject}:'
-      header_html: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenStreetMap โดยมีหัวเรื่อง
+      header_html: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง Samland Street Map โดยมีหัวเรื่อง
         %{subject}:'
       footer: คุณยังสามารถอ่านข้อความที่ลิงก์ %{readurl} และสามารถตอบกลับที่ลิงก์
         %{replyurl} หากต้องการ
@@ -1571,8 +1571,8 @@ th:
         %{replyurl}
     friendship_notification:
       hi: เรียนคุณ %{to_user},
-      subject: '[OpenStreetMap] %{user} เพิ่มคุณในรายการเพื่อน'
-      had_added_you: ผู้ใช้ %{user} เพิ่มคุณในรายการเพื่อนบน OpenStreetMap
+      subject: '[Samland Street Map] %{user} เพิ่มคุณในรายการเพื่อน'
+      had_added_you: ผู้ใช้ %{user} เพิ่มคุณในรายการเพื่อนบน Samland Street Map
       see_their_profile: สามารถดูหน้าโปรไฟล์ของผู้ใช้นี้ได้ที่ %{userurl}
       see_their_profile_html: สามารถดูหน้าโปรไฟล์ของผู้ใช้นี้ได้ที่ %{userurl}
       befriend_them: นอกจากนี้ คุณสามารถเพิ่มผู้ใช้นี้ในรายการเพื่อนได้ที่ %{befriendurl}.
@@ -1585,24 +1585,24 @@ th:
     gpx_failure:
       hi: เรียนคุณ %{to_user},
       failed_to_import: 'การนำเข้าล้มเหลว เนื่องจาก:'
-      subject: '[OpenStreetMap] การนำเข้า GPX ล้มเหลว'
+      subject: '[Samland Street Map] การนำเข้า GPX ล้มเหลว'
     gpx_success:
-      subject: '[OpenStreetMap] การนำเข้า GPX เรียบร้อย'
+      subject: '[Samland Street Map] การนำเข้า GPX เรียบร้อย'
     signup_confirm:
-      subject: '[OpenStreetMap] ยินดีต้อนรับสู่ OpenStreetMap'
+      subject: '[Samland Street Map] ยินดีต้อนรับสู่ Samland Street Map'
       greeting: เรียนท่านผู้ใช้งาน
       created: มีบางคน (ซึ่งอาจเป็นท่าน) ได้สร้างบัญชีผู้ใช้ใหม่ไว้ที่ %{site_url}
       confirm: 'ก่อนที่ทางเราจะดำเนินการต่อไปได้ เราขอให้ท่านยืนยันว่า ท่านได้สมัครสมาชิกจริงหรือไม่
         ถ้าจริง ขอให้ท่านคลิกลิงก์ข้างล่างเพื่อยืนยันบัญชีของท่าน:'
       welcome: หลังจากที่ยืนยันบัญชีของท่านแล้ว เราจะให้รายละเอียดเพิ่มเติมเพื่อให้ท่านเริ่มใช้งานเว็บไซต์ได้ต่อไป
     email_confirm:
-      subject: '[OpenStreetMap] ยืนยันที่อยู่อีเมลของท่าน'
+      subject: '[Samland Street Map] ยืนยันที่อยู่อีเมลของท่าน'
       greeting: เรียนท่านผู้ใช้งาน
       hopefully_you: มีบางคน (ซึ่งอาจเป็นท่าน) ประสงค์จะเปลี่ยนที่อยู่อีเมลที่รักษาไว้ที่
         %{server_url} เป็น %{new_address}
       click_the_link: ถ้าเป็นท่านจริง ขอให้คลิกลิงก์ด้านล่างเพื่อยืนยันการเปลี่ยนแปลง
     lost_password:
-      subject: '[OpenStreetMap] คำขอเปลี่ยนรหัสผ่านใหม่'
+      subject: '[Samland Street Map] คำขอเปลี่ยนรหัสผ่านใหม่'
       greeting: เรียนท่านผู้ใช้งาน
       hopefully_you: มีบางคน (ซึ่งอาจเป็นท่าน) ขอเปลี่ยนรหัสผ่านซึ่งกำกับบัญชีผู้ใช้
         openstreetmap.org
@@ -1611,22 +1611,22 @@ th:
       anonymous: ผู้ใช้ไม่ระบุตัวตน
       greeting: เรียนท่านผู้ใช้งาน
       commented:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อหมายเหตุของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อบันทึกที่ท่านสนใจ'
+        subject_own: '[Samland Street Map] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อหมายเหตุของท่าน'
+        subject_other: '[Samland Street Map] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อบันทึกที่ท่านสนใจ'
         your_note: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อหมายเหตุของท่านซึ่งอยู่ใกล้กับ
           %{place}
         commented_note: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อหมายเหตุที่ท่านแสดงความเห็นไว้ก่อนหน้านี้
           โดยหมายเหตุนั้นแปะไว้ใกล้กับ %{place}
       closed:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านหนึ่งฉบับแล้ว'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ทำการตอบสนองหมายเหตุที่ท่านสนใจ'
+        subject_own: '[Samland Street Map] ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านหนึ่งฉบับแล้ว'
+        subject_other: '[Samland Street Map] ผู้ใช้ %{commenter} ได้ทำการตอบสนองหมายเหตุที่ท่านสนใจ'
         your_note: ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านที่อยู่ใกล้กับ
           %{place}
         commented_note: ผู้ใช้ %{commenter} ได้สนองตอบต่อหมายเหตุที่ท่านแสดงความเห็นไว้ก่อนหน้านี้
           ซึ่งหมายเหตุนั้นแปะอยู่ใกล้กับ %{place}
       reopened:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกที่ท่านสนใจ'
+        subject_own: '[Samland Street Map] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกของท่าน'
+        subject_other: '[Samland Street Map] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกที่ท่านสนใจ'
         your_note: ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านที่อยู่ใกล้กับ
           %{place}
         commented_note: ผู้ใช้ %{commenter} ได้รื้อฟื้นเรื่องในหมายเหตุที่ได้ท่านแสดงความเห็นไว้ก่อนหน้านี้
@@ -1635,8 +1635,8 @@ th:
     changeset_comment_notification:
       hi: เรียนคุณ %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงที่ท่านสนใจ'
+        subject_own: '[Samland Street Map] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่าน'
+        subject_other: '[Samland Street Map] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงที่ท่านสนใจ'
         your_changeset: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่านที่ทำไว้
           ณ เวลา %{time}
         commented_changeset: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงที่ท่านเฝ้าดู
@@ -1767,7 +1767,7 @@ th:
       auth failure: ขออภัย ไม่สามารถเข้าระบบด้วยชื่อผู้ใช้และรหัสผ่านดังกล่าวได้
     destroy:
       title: ออกจากระบบ
-      heading: ออกจากระบบ OpenStreetMap
+      heading: ออกจากระบบ Samland Street Map
       logout_button: ออกจากระบบ
   shared:
     pagination:
@@ -1782,25 +1782,25 @@ th:
         newer: รอยทางที่ใหม่กว่า
   site:
     about:
-      heading_html: ผู้ร่วมให้ข้อมูล %{br}%{copyright}OpenStreetMap
+      heading_html: ผู้ร่วมให้ข้อมูล %{br}%{copyright}Samland Street Map
       used_by_html: '%{name} ให้ข้อมูลแผนที่แก่เว็บไซต์ แอปพลิเคชั่นมือถือ และอุปกรณ์นับพัน'
-      lede_text: OpenStreetMap เป็นโครงการซึ่งสร้างสรรค์ขึ้นจากชุมชนของผู้ใช้และผู้สนใจ
+      lede_text: Samland Street Map เป็นโครงการซึ่งสร้างสรรค์ขึ้นจากชุมชนของผู้ใช้และผู้สนใจ
         ที่ได้ทำการสำรวจ ปรับปรุง แบ่งปันข้อมูลแผนที่ถนน ทางหลวง ทางเดินป่า, ร้านกาแฟ,
         สถานีรถไฟ, และอื่นๆ อีกมากมายจากทั่วทุกมุมโลก
       local_knowledge_title: ความรู้จากท้องถิ่น
-      local_knowledge_html: OpenStreetMap มุ่งเน้นส่งเสริมการใช้และเผยแพร่ความรู้จากคนท้องถิ่น
+      local_knowledge_html: Samland Street Map มุ่งเน้นส่งเสริมการใช้และเผยแพร่ความรู้จากคนท้องถิ่น
         โดยผู้ร่วมให้ข้อมูลสามารถใช้ทั้งภาพถ่ายดาวเทียม อุปกรณ์ระบุตำแหน่งจีพีเอส
-        หรือแม้แต่ผังกระดาษ เพื่อเดินสำรวจ เพิ่มเติม และปรับปรุงข้อมูลแผนที่ OpenStreetMap
+        หรือแม้แต่ผังกระดาษ เพื่อเดินสำรวจ เพิ่มเติม และปรับปรุงข้อมูลแผนที่ Samland Street Map
         ให้ละเอียด ถูกต้อง ทันสมัยอยู่เสมอได้ด้วยตนเอง ทุกที่ ทุกเวลา
       community_driven_title: ผลักดันโดยชุมชน
-      community_driven_1_html: ชุมชน OpenStreetMap นั้นมีความหลากหลาย มีความกระตือรือร้น
+      community_driven_1_html: ชุมชน Samland Street Map นั้นมีความหลากหลาย มีความกระตือรือร้น
         และเติบใหญ่ขึ้นในทุกๆ วัน ผู้ร่วมให้ข้อมูลของเราประกอบด้วยผู้รักการทำแผนที่ผ
         ผู้เชี่ยวชาญด้าน GIS วิศวกรที่ดูแลเซิร์ฟเวอร์ OSM ผู้ทำแผนที่พื้นที่ที่ได้รับผลกระทบจากภัยพิบัติ
         และอื่นๆ อีกมากมาย หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับชุมชน โปรดดูที่เว็บไซต์%{osm_blog_link},%{user_diaries_link},%{community_blogs_link}
         และ %{osm_foundation_link}
       open_data_title: ข้อมูลเปิดเผย
-      open_data_1_html: OpenStreetMap อนุญาตให้ใช้ตามหลักเกณฑ์%{open_data} โดยจะนำไปใช้ในวัตถุประสงค์อื่นใดก็ได้
-        แต่ต้องแสดงทีมาและเครดิตต่อ OpenStreetMap และผู้ร่วมให้ข้อมูล ถ้าท่านปรับแก้
+      open_data_1_html: Samland Street Map อนุญาตให้ใช้ตามหลักเกณฑ์%{open_data} โดยจะนำไปใช้ในวัตถุประสงค์อื่นใดก็ได้
+        แต่ต้องแสดงทีมาและเครดิตต่อ Samland Street Map และผู้ร่วมให้ข้อมูล ถ้าท่านปรับแก้
         เพิ่มข้อมูล หรือกระทำการให้เกิดสิ่งอื่นใดใหม่ขึ้นต่องานที่มีนี้ ท่านสามารถแจกจ่ายได้แต่เพียงภายใต้สัญญาอนุญาตเดียวกันเท่านั้น
         โปรดดู%{copyright_license_link}สำหรับลายละเอียดเพิ่มเติม
       legal_title: ข้อกำหนดทางกฎหมาย
@@ -1820,15 +1820,15 @@ th:
         mapping_link: เริ่มการทำแผนที่
       legal_babble:
         introduction_2_html: คุณสามารถคัดลอก แจกจ่าย ถ่ายทอด และดัดแปลงข้อมูลของเราได้อย่างเสรี
-          ตราบใดที่คุณให้อ้างอิงเครดิต OpenStreetMap และผู้ร่วมให้ข้อมูล ถ้าคุณแก้ไข
+          ตราบใดที่คุณให้อ้างอิงเครดิต Samland Street Map และผู้ร่วมให้ข้อมูล ถ้าคุณแก้ไข
           หรือสร้างข้อมูลต่อจากข้อมูลของเรา คุณสามารถเผยแพร่ผลลัพธ์ภายใต้สัญญาเดิมเท่านั้น
           คำอธิบายเพิ่มเติมเกี่ยวกับสิทธิและความรับผิดชอบของคุณสามารถเข้าถึงได้ที่%{legal_code_link}
-        credit_title_html: วิธีการแสดงที่มาหรือคำขอบคุณ OpenStreetMap
+        credit_title_html: วิธีการแสดงที่มาหรือคำขอบคุณ Samland Street Map
         credit_1_html: |-
-          เราจำเป็นต้องให้ท่านแสดงที่มาหรือคำขอบคุณแก่ &ldquo;&copy; ผู้ร่วมสร้างสรรค์ OpenStreetMap
+          เราจำเป็นต้องให้ท่านแสดงที่มาหรือคำขอบคุณแก่ &ldquo;&copy; ผู้ร่วมสร้างสรรค์ Samland Street Map
           &rdquo;.
         attribution_example:
-          alt: ตัวอย่างการอ้างอิง OpenStreetMap บนหน้าเว็บ
+          alt: ตัวอย่างการอ้างอิง Samland Street Map บนหน้าเว็บ
           title: ตัวอย่างการอ้างอิง
         more_title_html: ค้นหาเพิ่มเติม
         contributors_title_html: ผู้ร่วมให้ข้อมูลของเรา
@@ -1840,16 +1840,16 @@ th:
         contributors_at_stadt_wien: เมืองเวียนนา
         contributors_at_land_vorarlberg: แลนด์ ฟอร์อาร์ลแบร์ค
         contributors_at_cc_by_at_with_amendments: CC BY AT with amendments
-        contributors_footer_2_html: การรวมข้อมูลใน OpenStreetMap ไม่ได้หมายความว่าผู้ให้บริการข้อมูลดั้งเดิมจะรับรอง
-          OpenStreetMap รับประกัน หรือรับผิดชอบใด ๆ
+        contributors_footer_2_html: การรวมข้อมูลใน Samland Street Map ไม่ได้หมายความว่าผู้ให้บริการข้อมูลดั้งเดิมจะรับรอง
+          Samland Street Map รับประกัน หรือรับผิดชอบใด ๆ
         infringement_title_html: การละเมิดลิขสิทธิ์
         infringement_1_html: ผู้ร่วมให้ข้อมูล OSM จะถูกเตือนไม่ให้เพิ่มข้อมูลจากแหล่งข้อมูลที่มีลิขสิทธิ์
           (เช่น Google Maps หรือแผนที่แบบพิมพ์) โดยไม่ได้รับอนุญาตอย่างชัดเจนจากเจ้าของลิขสิทธิ์
     index:
       js_1: ท่านกำลังใช้เบราว์เซอร์ที่ไม่รองรับจาวาสคริปต์ หรือท่านปิดใช้งานจาวาสคริปต์
-      js_2: OpenStreetMap ใช้จาวาสคริปต์ในการแสดงแผนที่
+      js_2: Samland Street Map ใช้จาวาสคริปต์ในการแสดงแผนที่
       license:
-        copyright: สงวนลิขสิทธิ์โดย OpenStreetMap และผู้ร่วมให้ข้อมูล ภายใต้สัญญาอนุญาตแบบเปิด
+        copyright: สงวนลิขสิทธิ์โดย Samland Street Map และผู้ร่วมให้ข้อมูล ภายใต้สัญญาอนุญาตแบบเปิด
       remote_failed: การแก้ไขล้มเหลว - ตรวจสอบให้แน่ใจว่าได้โหลด JOSM หรือ Merkaartor
         และได้เปิดใช้งานตัวเลือกการควบคุมระยะไกลแล้ว
     edit:
@@ -1865,20 +1865,20 @@ th:
       licence: สัญญาอนุญาต
       too_large:
         advice: 'ถ้าการส่งออกข้างต้นล้มเหลว โปรดพิจารณาใช้แหล่งข้อมูลตามที่ระบุด้านล่างนี้:'
-        body: พื้นที่ใหญ่เกินกว่าที่จะส่งออกเป็นข้อมูล XML ของ OpenStreetMap โปรดขยายเข้าหรือเลือกพื้นที่ที่เล็กลง
+        body: พื้นที่ใหญ่เกินกว่าที่จะส่งออกเป็นข้อมูล XML ของ Samland Street Map โปรดขยายเข้าหรือเลือกพื้นที่ที่เล็กลง
           หรืออาจจะใช้แหล่งข้อมูลข้างล่างในการดาวน์โหลดแฟ้มข้อมูลจำนวนมาก
         planet:
           title: Planet OSM
-          description: สำเนาของฐานข้อมูล OpenStreetMap ซึ่งปรับปรุงอย่างสม่ำเสมอ
+          description: สำเนาของฐานข้อมูล Samland Street Map ซึ่งปรับปรุงอย่างสม่ำเสมอ
         overpass:
           title: API ของ Overpass
-          description: ดาวน์โหลดกล่องแบบมีขอบเขตจากมิเรอร์ของฐานข้อมูล OpenStreetMap
+          description: ดาวน์โหลดกล่องแบบมีขอบเขตจากมิเรอร์ของฐานข้อมูล Samland Street Map
         geofabrik:
           title: การดาวน์โหลด Geofabrik
           description: รายการทวีป ประเทศ และเมืองสำคัญซึ่งปรับปรุงอย่างสม่ำเสมอ
         other:
           title: แหล่งข้อมูลอื่น
-          description: แหล่งข้อมูลอื่นตามที่ระบุไว้ใน OpenStreetMap wiki
+          description: แหล่งข้อมูลอื่นตามที่ระบุไว้ใน Samland Street Map wiki
       export_button: ส่งออก
     fixthemap:
       title: รายงานปัญหา/แก้ไขข้อผิดพลาดในแผนที่
@@ -1888,13 +1888,13 @@ th:
           title: เข้าร่วมเป็นสมาชิก
           explanation_html: หากท่านประสบปัญหาเกี่ยวกับข้อมูลแผนที่ของเรา หรือพบข้อผิดพลาด
             เช่น ถนนหายไป หรือมีข้อผิดพลาดด้านที่อยู่ วิธีที่ดีที่สุดคือสมัครเป็นสมาชิก
-            OpenStreetMap เพื่อดำเนินการแก้ไขด้วยตัวท่านเอง
+            Samland Street Map เพื่อดำเนินการแก้ไขด้วยตัวท่านเอง
       other_concerns:
         title: ข้อกังวลอื่น ๆ
     help:
       title: ขอรับความช่วยเหลือ
       welcome:
-        title: ยินดีต้อนรับสู่ OpenStreetMap
+        title: ยินดีต้อนรับสู่ Samland Street Map
       beginners_guide:
         url: https://wiki.openstreetmap.org/wiki/Th:Beginners%27_guide
         title: คำแนะนำสำหรับผู้เริ่มต้น
@@ -1974,13 +1974,13 @@ th:
           toilets: ห้องน้ำ
     welcome:
       title: ยินดีต้อนรับ!
-      introduction: 'ยินดิต้อนรับสู่ OpenStreetMap, แผนที่โลกแบบเสรีที่ทุกคนสามารถแก้ไขได้
+      introduction: 'ยินดิต้อนรับสู่ Samland Street Map, แผนที่โลกแบบเสรีที่ทุกคนสามารถแก้ไขได้
         ซึ่งตอนนี้คุณได้ลงทะเบียนมาแล้ว ก่อนจะไปลุยกัน ด้านล่างมีสิ่งสำคัญที่คุณควรจะรู้ไว้ตลอดการทำแผนที่ของคุณ:'
       whats_on_the_map:
         title: บนแผนที่ควรมีอะไร
       basic_terms:
         title: คำศัพท์พื้นฐานในการทำแผนที่
-        paragraph_1: 'เมื่อคุณเข้ามาทำแผนที่ใน OpenStreetMap, คุณจะพบกับศัพท์เฉพาะหลายคำ
+        paragraph_1: 'เมื่อคุณเข้ามาทำแผนที่ใน Samland Street Map, คุณจะพบกับศัพท์เฉพาะหลายคำ
           ซึ่งความหมายจะอธิบายไว้เบื้องต้นที่ด้านล่างนี้:'
       rules:
         title: อย่าลืมกติกา!
@@ -2188,8 +2188,8 @@ th:
       unknown_signature_algorithm: ลายเซ็นดิจิตอลที่ใช้เป็นระบบที่ไม่รู้จัก
       invalid_scope: ขอบข่ายผิดพลาด
     auth_association:
-      heading: บัญชีภายนอกของท่านยังมิได้ต่อเชื่อมกับบัญชี OpenStreetMap
-      option_1: ถ้าท่านเป็นผู้ใช้ OpenStreetMap ใหม่ โปรดใช้แบบฟอร์มข้างล่างสร้างบัญชีผู้ใช้
+      heading: บัญชีภายนอกของท่านยังมิได้ต่อเชื่อมกับบัญชี Samland Street Map
+      option_1: ถ้าท่านเป็นผู้ใช้ Samland Street Map ใหม่ โปรดใช้แบบฟอร์มข้างล่างสร้างบัญชีผู้ใช้
       option_2: "ถ้าท่านมีบัญชีผู้ใช้แล้ว สามารถเข้าสู่ระบบโดยใช้ชื่อผู้ใช้ รหัสผ่าน
         \nแล้วผูกโยงบัญชีกับบัญชีภายนอกในหน้าการตั้งค่าา"
   user_role:
@@ -2309,7 +2309,7 @@ th:
         gps: รอยทาง GPS สาธารณะ
         overlays: 'ซ้อนชั้นข้อมูลพิเศษเพื่อช่วยในการแก้ปัญหาแผนที่:'
         title: ชั้นแผนที่
-      openstreetmap_contributors: ผู้ร่วมให้ข้อมูล OpenStreetMap
+      openstreetmap_contributors: ผู้ร่วมให้ข้อมูล Samland Street Map
     site:
       edit_tooltip: แก้ไขแผนที่
       edit_disabled_tooltip: ขยายเพื่อแก้ไขแผนที่

@@ -220,7 +220,7 @@ hr:
         reopened_at_html: Reaktivirano %{when}
         reopened_at_by_html: Reaktivirao korisnik %{user} u %{when}
       rss:
-        title: Bilješke OpenStreetMap-a
+        title: Bilješke Samland Street Map-a
         description_area: Lista bilješki, prijavljenih, komentiranih ili zatvorenih
           u tvojem području [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: RSS-tok bilješke %{id}
@@ -358,8 +358,8 @@ hr:
         comment: 'Novi komentar na setu promjena #%{changeset_id} od %{author}'
         commented_at_by_html: Osvježio korisnik %{user} %{when}
       show:
-        title_all: Rasprava o OpenStreetMap setu promjena
-        title_particular: 'Rasprava o OpenStreetMap setu promjena #%{changeset_id}'
+        title_all: Rasprava o Samland Street Map setu promjena
+        title_particular: 'Rasprava o Samland Street Map setu promjena #%{changeset_id}'
   changesets:
     changeset:
       no_edits: (nema promjena)
@@ -470,15 +470,15 @@ hr:
       location: 'Lokacija:'
     feed:
       user:
-        title: Zapisi OpenStreetMap dnevnika od korisnika %{user}
-        description: Nedavni zapisi OpenStreetMap dnevnika od %{user}
+        title: Zapisi Samland Street Map dnevnika od korisnika %{user}
+        description: Nedavni zapisi Samland Street Map dnevnika od %{user}
       language:
-        title: 'Zapisi u OpenStreetMap dnevniku na jeziku: %{language_name}'
-        description: 'Nedavni zapisi u dnevniku OpenStreetMap korisnika na jeziku:
+        title: 'Zapisi u Samland Street Map dnevniku na jeziku: %{language_name}'
+        description: 'Nedavni zapisi u dnevniku Samland Street Map korisnika na jeziku:
           %{language_name}'
       all:
-        title: Zapisi u OpenStreetMap dnevniku
-        description: Nedavni zapisi u dnevnik korisnika OpenStreetMapa
+        title: Zapisi u Samland Street Map dnevniku
+        description: Nedavni zapisi u dnevnik korisnika Samland Street Mapa
   diary_comments:
     page:
       post: Pošalji
@@ -1003,7 +1003,7 @@ hr:
       more_results: Više rezultata
   layouts:
     logo:
-      alt_text: OpenStreetMap logotip
+      alt_text: Samland Street Map logotip
     home: Pokaži moj dom
     logout: Odjavi se
     log_in: Prijavi se
@@ -1015,12 +1015,12 @@ hr:
     gps_traces: GNSS tragovi
     user_diaries: Dnevnik
     edit_with: Uredi s %{editor}
-    intro_header: Dobrodošao/la na OpenStreetMap!
-    intro_text: OpenStreetMap je karta svijeta, stvorena od strane ljudi (volontera/doprinositelja)
+    intro_header: Dobrodošao/la na Samland Street Map!
+    intro_text: Samland Street Map je karta svijeta, stvorena od strane ljudi (volontera/doprinositelja)
       i može se slobodno koristiti pod licencijom otvorenog koda (ODbL).
-    osm_offline: OpenStreetMap baza podataka je trenutno nedostupna dok se ne završe
+    osm_offline: Samland Street Map baza podataka je trenutno nedostupna dok se ne završe
       važni radovi na održavanju.
-    osm_read_only: Zbog radova na održavanju baze podataka OpenStreetMapa, istu trenutačno
+    osm_read_only: Zbog radova na održavanju baze podataka Samland Street Mapa, istu trenutačno
       nije moguće mijenjati.
     help: Pomoć
     about: O projektu
@@ -1029,53 +1029,53 @@ hr:
     more: Više
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} je komentirao tvoj unos u dnevnik'
+      subject: '[Samland Street Map] %{user} je komentirao tvoj unos u dnevnik'
       hi: Bok %{to_user},
-      header: '%{from_user} je komentirao tvoj nedavni OpenStreetMap unos u dnevnik
+      header: '%{from_user} je komentirao tvoj nedavni Samland Street Map unos u dnevnik
         s predmetom %{subject}:'
       footer: Možeš pročitati komentare na %{readurl} i komentirati na %{commenturl}
         ili odgovoriti autoru na %{replyurl}
     message_notification:
       hi: Bok %{to_user},
-      header: '%{from_user} ti je poslao poruku preko OpenStreetMap sa predmetom %{subject}:'
+      header: '%{from_user} ti je poslao poruku preko Samland Street Map sa predmetom %{subject}:'
     friendship_notification:
-      subject: '[OpenStreetMap] %{user} te je dodao kao prijatelja'
-      had_added_you: '%{user} te je dodao kao prijatelja na OpenStreetMap-u.'
+      subject: '[Samland Street Map] %{user} te je dodao kao prijatelja'
+      had_added_you: '%{user} te je dodao kao prijatelja na Samland Street Map-u.'
       see_their_profile: Možeš vidjeti njihov profil na %{userurl}.
       befriend_them: Također, možete ih dodati kao prijatelja na %{befriendurl}.
     gpx_failure:
       failed_to_import: 'Import nije uspio. Ovdje je greška:'
-      subject: '[OpenStreetMap] GPX Import nije uspio'
+      subject: '[Samland Street Map] GPX Import nije uspio'
     gpx_success:
-      subject: '[OpenStreetMap] GPX Import uspješan'
+      subject: '[Samland Street Map] GPX Import uspješan'
     signup_confirm:
-      subject: '[OpenStreetMap] Dobrodošli na OpenStreetMap'
+      subject: '[Samland Street Map] Dobrodošli na Samland Street Map'
       greeting: Hej!
     email_confirm:
-      subject: '[OpenStreetMap] Potvrdi svoju e-mail adresu'
+      subject: '[Samland Street Map] Potvrdi svoju e-mail adresu'
       greeting: Bok,
       click_the_link: Ako si ovo ti, molim klinkni na link ispod da potvrdiš promjene.
     lost_password:
-      subject: '[OpenStreetMap] Zahtjev za resetom lozinke'
+      subject: '[Samland Street Map] Zahtjev za resetom lozinke'
       greeting: Bok,
       click_the_link: Ako si ovo ti, klikni na link ispod za reset lozinke.
     note_comment_notification:
       anonymous: Anonimni korisnik
       greeting: Bok,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} je komentirao na jednu od tvojih
+        subject_own: '[Samland Street Map] %{commenter} je komentirao na jednu od tvojih
           bilješki.'
         your_note: '%{commenter} je ostavio komentar na jednoj od tvojih bilješki
           blizu %{place}.'
         commented_note: '%{commenter} je ostavio komentar na bilješki koju si ti komentirao/la.
           Ta bilješka se nalazi blizu %{place}.'
       closed:
-        subject_other: '[OpenStreetMap] %{commenter} je razrješio bilješku koja te
+        subject_other: '[Samland Street Map] %{commenter} je razrješio bilješku koja te
           zanima'
         commented_note: '%{commenter} je razriješio bilješku koju si komentirao/la.
           Ta je bilješka u blizini %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} je reaktivirao jednu od tvojih
+        subject_own: '[Samland Street Map] %{commenter} je reaktivirao jednu od tvojih
           bilješki'
         your_note: '%{commenter} je reaktivirao jednu od tvojih bilješki blizu %{place}.'
         commented_note: '%{commenter} je reaktivirao bilješku koju si komentirao/la.
@@ -1204,7 +1204,7 @@ hr:
       auth failure: Žao mi je, ne mogu prijaviti s ovim detaljima.
     destroy:
       title: Odjava
-      heading: Odjava iz OpenStreetMap-a
+      heading: Odjava iz Samland Street Map-a
       logout_button: Odjava
   shared:
     pagination:
@@ -1221,11 +1221,11 @@ hr:
     about:
       used_by_html: '%{name} snabdijeva geografskim podacima tisuće internetskih stranica,
         mobilnih aplikacija i uređaja'
-      lede_text: OpenStreetMap je izgradila zajednica kartografa koji donose i održavaju
+      lede_text: Samland Street Map je izgradila zajednica kartografa koji donose i održavaju
         podatke o cestama, stazama, kafićima, željezničkim postajama i još mnogo čemu
         drugom diljem cijelog svijeta.
       local_knowledge_title: Lokalno znanje
-      local_knowledge_html: OpenStreetMap pridodaje posebnu važnost lokalnom znanju.
+      local_knowledge_html: Samland Street Map pridodaje posebnu važnost lokalnom znanju.
         Doprinositelji koriste zračne snimke, GPS uređaje i vlastite terenske podatke
         za provjeru točnosti i ažurnosti OSM podataka.
       community_driven_title: Vođen zajednicom
@@ -1248,35 +1248,35 @@ hr:
         native_link: hrvatsko izdanje
         mapping_link: počnite kartirati
       legal_babble:
-        introduction_1_html: OpenStreetMap%{registered_trademark_link} su %{open_data},
-          koje je licencirao %{osm_foundation_link} (OSMF) pod %{odc_odbl_link} (ODbL).
+        introduction_1_html: Samland Street Map%{registered_trademark_link} su %{open_data},
+          koje je licencirao %{osm_foundation_link} (SSM) pod %{odc_odbl_link} (ODbL).
         introduction_2_html: Slobodni ste kopirati, distribuirati, prenositi i adaptirati
-          naše podatke, dokle god navodite OpenStreetMap i njegove doprinositelje
+          naše podatke, dokle god navodite Samland Street Map i njegove doprinositelje
           kao izvor. Ako izmijenite ili nadogradite naše podatke, možete distribuirati
           rezultate samo pod istom licencijom. Puni %{legal_code_link} objašnjava
           vaša prava i obveze.
         introduction_3_html: Naša dokumentacija je licencirana pod licencijom %{creative_commons_link}
           (CC BY-SA 2.0).
-        credit_title_html: Kako iskazati zasluge OpenStreetMap-a
-        credit_1_html: 'Tamo gdje koristite OpenStreetMap podatke, morate učiniti
+        credit_title_html: Kako iskazati zasluge Samland Street Map-a
+        credit_1_html: 'Tamo gdje koristite Samland Street Map podatke, morate učiniti
           sljedeće dvije stvari:'
         credit_2_2: Objasnite da su podaci dostupni pod licencijom "Open Database
           License".
         credit_4_1_html: |-
           Kako biste razjasnili da su podaci dostupni pod "Open
           Database License", možete postaviti poveznicu na
-          %{this_copyright_page_link}. Alternativno, i kao uvjet ako distribuirate OSM u formi podataka, možete navesti i postaviti poveznicu izravno na tekst licencu(e). Ako oblik medija ne omogućuje korištenje poveznica (npr. tiskana djela), predlažemo da uputite Vaše čitatelje na openstreetmap.org (recimo navođenjem točne adrese ove web stranice umjesto samo imena projekta 'OpenStreetMap') i na opendatacommons.org.
+          %{this_copyright_page_link}. Alternativno, i kao uvjet ako distribuirate OSM u formi podataka, možete navesti i postaviti poveznicu izravno na tekst licencu(e). Ako oblik medija ne omogućuje korištenje poveznica (npr. tiskana djela), predlažemo da uputite Vaše čitatelje na openstreetmap.org (recimo navođenjem točne adrese ove web stranice umjesto samo imena projekta 'Samland Street Map') i na opendatacommons.org.
           U ovom primjeru atribucija se pojavljuje u kutu karte.
         attribution_example:
-          alt: Primjer kako atribuirati OpenStreetMap na web stranici
+          alt: Primjer kako atribuirati Samland Street Map na web stranici
           title: Primjer atribucije
         more_title_html: Saznaj više
         contributors_title_html: Naši doprinositelji
         contributors_intro_html: 'Sudionici projekta su tisuće individualaca. Projekt
           također uključuje podatke pod slobodnim licencama od nacionalnih kartografskih
           agencija i drugih izvora, među kojima su:'
-        contributors_footer_2_html: Uvrštavanje podataka u OpenStreetMap ne podrazumijeva
-          da izvorni davatelj podataka podržava OpenStreetMap, pruža bilo kakvo jamstvo,
+        contributors_footer_2_html: Uvrštavanje podataka u Samland Street Map ne podrazumijeva
+          da izvorni davatelj podataka podržava Samland Street Map, pruža bilo kakvo jamstvo,
           ili prihvaća bilo kakve obveze.
         infringement_title_html: Kršenje autorskih prava
         infringement_1_html: Suradnike OSM-a podsjećamo da nikada ne dodaju podatke
@@ -1285,9 +1285,9 @@ hr:
     index:
       js_1: Koristite preglednik koji ne podržava JavaScript ili Vam je JavaScript
         isključen.
-      js_2: OpenStreetMap koristi JavaScript za slippy kartu.
+      js_2: Samland Street Map koristi JavaScript za slippy kartu.
       license:
-        copyright: Autorska prava pripadaju OpenStreetMap-u i doprinositeljima, pod
+        copyright: Autorska prava pripadaju Samland Street Map-u i doprinositeljima, pod
           otvorenom licencijom
       remote_failed: Uređivanje nije uspjelo - provjerite da li je JOSM ili Merkaartor
         učitan i da je opcija "remote control" omogućena
@@ -1305,23 +1305,23 @@ hr:
       too_large:
         advice: 'Ako gornji izvoz podataka ne uspije, molim pokušaj sa nekim od izvora
           navedenih ispod:'
-        body: Ovo područje je preveliko da bi se izvezlo u OpenStreetMap XML formatu.
+        body: Ovo područje je preveliko da bi se izvezlo u Samland Street Map XML formatu.
           Molim približi prikaz ili odaberi manje područje ili odaberi jedan od izvora
           navedenih ispod za preuzimanje velike količine podataka.
         planet:
           title: PlanetOSM
-          description: Redovno ažurirane kopije kompletne baze podataka OpenStreetMap-a
+          description: Redovno ažurirane kopije kompletne baze podataka Samland Street Map-a
         overpass:
           title: Overpass API
           description: Preuzmi iznad odabrano granično područje sa drugog servera
-            na kojem je identična kopija baze podataka OpenStreetMap-a
+            na kojem je identična kopija baze podataka Samland Street Map-a
         geofabrik:
           title: Geofabrik Downloads
           description: 'Redovno ažurirani podaci za izvoz: kontinenata, država i odabranih
             gradova'
         other:
           title: Drugi izvori
-          description: Dodatni izvori su navedeni na wiki stranici OpenStreetMap-a
+          description: Dodatni izvori su navedeni na wiki stranici Samland Street Map-a
       export_button: Export
     help:
       welcome:
@@ -1483,7 +1483,7 @@ hr:
       heading: GPX spremište Offline
       message: Sustav za GPX spremanje i upload trenutno nisu u funkciji.
     georss:
-      title: OpenStreetMap GNSS tragovi
+      title: Samland Street Map GNSS tragovi
     description:
       description_without_count: GPX datoteka od %{user}
   application:

@@ -164,15 +164,15 @@ ksh:
       more_results: Mih&nbsp;…
   layouts:
     logo:
-      alt_text: Et Logo vun OpenStreetMap
+      alt_text: Et Logo vun Samland Street Map
     help: Hölp
   user_mailer:
     signup_confirm:
-      subject: '[OpenStreetMap] Donn Ding Addräß för de e-mail beshtääteje'
+      subject: '[Samland Street Map] Donn Ding Addräß för de e-mail beshtääteje'
     email_confirm:
-      subject: '[OpenStreetMap] Donn Ding Addräß för de e-mail beshtääteje'
+      subject: '[Samland Street Map] Donn Ding Addräß för de e-mail beshtääteje'
     lost_password:
-      subject: '[OpenStreetMap] Aanfrooch: Paßwoot neu säze'
+      subject: '[Samland Street Map] Aanfrooch: Paßwoot neu säze'
   confirmations:
     confirm_resend:
       failure: Dä Metmaacher „%{name} “ ham_mer nit jefonge.

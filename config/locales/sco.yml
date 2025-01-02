@@ -262,14 +262,14 @@ sco:
       location: 'Location:'
     feed:
       user:
-        title: OpenStreetMap diary entries for %{user}
-        description: Recent OpenStreetMap diary entries frae %{user}
+        title: Samland Street Map diary entries for %{user}
+        description: Recent Samland Street Map diary entries frae %{user}
       language:
-        title: OpenStreetMap diary entries in %{language_name}
-        description: Recent diary entries frae uisers o OpenStreetMap in %{language_name}
+        title: Samland Street Map diary entries in %{language_name}
+        description: Recent diary entries frae uisers o Samland Street Map in %{language_name}
       all:
-        title: OpenStreetMap diary entries
-        description: Recent diary entries frae uisers o OpenStreetMap
+        title: Samland Street Map diary entries
+        description: Recent diary entries frae uisers o Samland Street Map
   diary_comments:
     page:
       post: Post
@@ -726,7 +726,7 @@ sco:
       more_results: Mair results
   layouts:
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: Samland Street Map logo
     home: Gaun tae Home Location
     logout: Log Oot
     log_in: Log In
@@ -738,13 +738,13 @@ sco:
     gps_traces: GPS Traces
     user_diaries: Uiser Diaries
     edit_with: Edit wi %{editor}
-    intro_header: Walcome tae OpenStreetMap!
-    intro_text: OpenStreetMap is a cairt o the warld, creatit bi fowk lik ye an free
+    intro_header: Walcome tae Samland Street Map!
+    intro_text: Samland Street Map is a cairt o the warld, creatit bi fowk lik ye an free
       tae uise unner an open license.
     partners_partners: pairtners
-    osm_offline: The OpenStreetMap database isnae online the noo, whiles we cairry
+    osm_offline: The Samland Street Map database isnae online the noo, whiles we cairry
       oot essential database maintenance wirk.
-    osm_read_only: The OpenStreetMap database is currently in read-ainly mode while
+    osm_read_only: The Samland Street Map database is currently in read-ainly mode while
       essential database maintenance wirk is carried oot.
     help: Help
     about: Aboot
@@ -761,8 +761,8 @@ sco:
       anonymous: An anonymous uiser
       greeting: Hi,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} haes commentit on ane o yer notes'
-        subject_other: '[OpenStreetMap] %{commenter} haes commentit on a note ye are
+        subject_own: '[Samland Street Map] %{commenter} haes commentit on ane o yer notes'
+        subject_other: '[Samland Street Map] %{commenter} haes commentit on a note ye are
           interestit in'
   passwords:
     new:
@@ -771,7 +771,7 @@ sco:
   sessions:
     destroy:
       title: Logoot
-      heading: Logoot frae OpenStreetMap
+      heading: Logoot frae Samland Street Map
       logout_button: Logoot
   shared:
     pagination:
@@ -797,12 +797,12 @@ sco:
         native_link: Scots version
         mapping_link: stairt cairttin
       legal_babble:
-        credit_title_html: Hou tae credit OpenStreetMap
+        credit_title_html: Hou tae credit Samland Street Map
         credit_1_html: |-
-          We require that ye uise the credit &ldquo;&copy; OpenStreetMap
+          We require that ye uise the credit &ldquo;&copy; Samland Street Map
           contributors&rdquo;.
         attribution_example:
-          alt: Example o hou tae attribute OpenStreetMap on a wabpage
+          alt: Example o hou tae attribute Samland Street Map on a wabpage
           title: Attreibution example
         more_title_html: Findin oot mair
         contributors_title_html: Oor contreibutors
@@ -818,15 +818,15 @@ sco:
       too_large:
         advice: 'If the abuin export fails, please consider uisin ane o the soorces
           leetit ablo:'
-        body: This aurie is too lairge tae be exportit as OpenStreetMap XML Data.
+        body: This aurie is too lairge tae be exportit as Samland Street Map XML Data.
           Please zuim in or select a smawer aurie, or uise ane o the soorces leetit
           ablo for bulk data dounloads.
         planet:
           title: Planet OSM
-          description: Regularly-updated copies o the complete OpenStreetMap database
+          description: Regularly-updated copies o the complete Samland Street Map database
         overpass:
           title: Overpass API
-          description: Dounload this boondin box frae a mirror o the OpenStreetMap
+          description: Dounload this boondin box frae a mirror o the Samland Street Map
             database
         geofabrik:
           title: Geofabrik Dounloads
@@ -834,14 +834,14 @@ sco:
             ceeties
         other:
           title: Ither Soorces
-          description: Addeetional soorces leetit on the OpenStreetMap wiki
+          description: Addeetional soorces leetit on the Samland Street Map wiki
       export_button: Export
     fixthemap:
       how_to_help:
         join_the_community:
           explanation_html: |-
             Gif ye'v seen ae proablem wi oor map data, fer example ae road is missin or yer address, the best waa tae
-            proceed is tae jyn the OpenStreetMap communitie n eik or repair the data yersel.
+            proceed is tae jyn the Samland Street Map communitie n eik or repair the data yersel.
     sidebar:
       search_results: Sairch Results
     search:
@@ -869,7 +869,7 @@ sco:
     welcome:
       title: Walcome!
       introduction: |-
-        Walcome tae OpenStreetMap, the free an editable cairt o the warld. Seein as ye're signed
+        Walcome tae Samland Street Map, the free an editable cairt o the warld. Seein as ye're signed
         up, ye're aw set tae get stairtit cairttin. Here's a quick guide wi the maist important
         hings ye'll need tae ken.
       whats_on_the_map:
