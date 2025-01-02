@@ -47,7 +47,7 @@ L.OSM.Map = L.Map.extend({
     this.dataLayer = new L.OSM.DataLayer(null);
     this.dataLayer.options.code = "D";
 
-    this.gpsLayer = new L.OSM.GPS({
+    this.gpsLayer = new L.OSM.Dynmap({
       pane: "overlayPane",
       code: "G"
     });
