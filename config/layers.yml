@@ -1,7 +1,7 @@
-- leafletOsmId: "Dynmap"
-  code: "D"
-  layerId: "dynmap"
-  nameId: "dynmap"
+- leafletOsmId: "SatelliteMap"
+  code: "S"
+  layerId: "satellite_map"
+  nameId: "satellite_map"
   canEmbed: true
   credit:
-    id: "dynmap_credit"
+    id: "satellite_map_credit"

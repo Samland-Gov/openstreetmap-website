@@ -30,7 +30,7 @@ $(document).ready(function () {
       zoomControl: false,
       preferCanvas: true,
       noWrap: true
-    }).addLayer(new L.OSM.Dynmap());
+    }).addLayer(new L.OSM.SatelliteMap());
 
     L.OSM.zoom({ position: position })
       .addTo(map);

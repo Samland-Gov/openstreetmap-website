@@ -14,7 +14,7 @@ $(document).ready(function () {
     map = L.map("map", {
       attributionControl: false,
       zoomControl: false
-    }).addLayer(new L.OSM.Dynmap());
+    }).addLayer(new L.OSM.SatelliteMap());
 
     var position = $("html").attr("dir") === "rtl" ? "topleft" : "topright";
 

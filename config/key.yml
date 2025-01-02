@@ -1,4 +1,4 @@
-dynmap:
+satellite_map:
   # transportation: roads.mss
   - { min_zoom:  6, name: motorway, width: 52, height:  1, line: "#e66e89", line-width: 1 }
   - { min_zoom:  7, name: motorway, width: 52, height:  3, line: "#e66e89", line-width: 1.5 }

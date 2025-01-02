@@ -60,7 +60,7 @@ L.OSM.TileLayer = L.TileLayer.extend({
   }
 });
 
-L.OSM.Dynmap = L.OSM.TileLayer;
+L.OSM.SatelliteMap = L.OSM.TileLayer;
 
 L.OSM.DataLayer = L.FeatureGroup.extend({
   options: {
