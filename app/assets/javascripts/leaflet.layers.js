@@ -129,7 +129,7 @@ L.OSM.layers = function (options) {
         });
 
         map.on("zoomend", function () {
-          var disabled = map.getBounds().getSize() >= maxArea;
+          var disabled = false;
           $(input).prop("disabled", disabled);
 
           if (disabled && $(input).is(":checked")) {
