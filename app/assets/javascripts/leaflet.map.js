@@ -1,15 +1,15 @@
 //= require qs/dist/qs
 
-// L.extend(L.LatLngBounds.prototype, {
-//   getSize: function () {
-//     return (this._northEast.lat - this._southWest.lat) *
-//            (this._northEast.lng - this._southWest.lng);
-//   },
+L.extend(L.LatLngBounds.prototype, {
+  getSize: function () {
+    return (this._northEast.lat - this._southWest.lat) *
+           (this._northEast.lng - this._southWest.lng);
+  },
 
-//   wrap: function () {
-//     return new L.LatLngBounds(this._southWest.wrap(), this._northEast.wrap());
-//   }
-// });
+  wrap: function () {
+    return new L.LatLngBounds(this._southWest.wrap(), this._northEast.wrap());
+  }
+});
 
 L.OSM.Map = L.Map.extend({
   initialize: function (id, options) {
