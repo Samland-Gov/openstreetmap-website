@@ -30,7 +30,9 @@ $(document).ready(function () {
     layerControl: false,
     contextmenu: true,
     worldCopyJump: false,
-    crs: L.CRS.Simple
+    crs: L.CRS.Simple,
+    preferCanvas: true,
+    noWrap: true
   });
 
   OSM.loadSidebarContent = function (path, callback) {

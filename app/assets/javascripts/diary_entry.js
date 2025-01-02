@@ -27,8 +27,10 @@ $(document).ready(function () {
 
     map = L.map("map", {
       attributionControl: false,
-      zoomControl: false
-    }).addLayer(new L.OSM.Mapnik());
+      zoomControl: false,
+      preferCanvas: true,
+      noWrap: true
+    }).addLayer(new L.OSM.Dynmap());
 
     L.OSM.zoom({ position: position })
       .addTo(map);
