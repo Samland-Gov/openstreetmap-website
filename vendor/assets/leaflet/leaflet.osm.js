@@ -2,7 +2,7 @@ L.OSM = {};
 
 L.OSM.TileLayer = L.TileLayer.extend({
   options: {
-    url: 'https://files.minersonline.uk/tiles/m_cmp1/{z}/{x}/{y}.png',
+    url: 'https://files.minersonline.uk/tiles/m_cmp1/tiles/minecraft_overworld/{z}/{x}_{y}.png',
     attribution: '© <a href="https://minersonline.uk" target="_blank">Miners Online</a>',
     crs: L.CRS.Simple,
     maxZoom: 3
