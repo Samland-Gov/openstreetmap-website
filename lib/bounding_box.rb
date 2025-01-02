@@ -1,8 +1,8 @@
 class BoundingBox
   attr_reader :min_lon, :min_lat, :max_lon, :max_lat
 
-  LON_LIMIT = 180.0
-  LAT_LIMIT = 90.0
+  LON_LIMIT = 30000000
+  LAT_LIMIT = 30000000
   SCALED_LON_LIMIT = LON_LIMIT * GeoRecord::SCALE
   SCALED_LAT_LIMIT = LAT_LIMIT * GeoRecord::SCALE
 
