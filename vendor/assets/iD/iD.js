@@ -20137,7 +20137,7 @@
   var package_default = {
     name: "iD",
     version: "2.30.4",
-    description: "A friendly editor for OpenStreetMap",
+    description: "A friendly editor for Samland Street Map",
     main: "dist/iD.min.js",
     repository: "github:openstreetmap/iD",
     homepage: "https://github.com/openstreetmap/iD",
