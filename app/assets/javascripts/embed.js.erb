@@ -46,7 +46,7 @@ window.onload = function () {
   } else if (args.layer === "hot") {
     new L.OSM.HOT().addTo(map);
   } else {
-    new L.OSM.Mapnik(mapnikOptions).addTo(map);
+    new L.OSM.SatelliteMap(mapnikOptions).addTo(map);
   }
 
   if (args.marker) {

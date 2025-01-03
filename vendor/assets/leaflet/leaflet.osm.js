@@ -8,9 +8,7 @@ L.OSM.TileLayer = L.TileLayer.extend({
     tileSize: 512,
     minNativeZoom: 0,
     maxNativeZoom: 5,
-    errorTileUrl: 'https://files.minersonline.uk/tiles/m_cmp1/images/clear.png',
-    preferCanvas: true,
-    noWrap: true
+    errorTileUrl: 'https://files.minersonline.uk/tiles/m_cmp1/images/clear.png'
   },
 
   initialize: function (options) {

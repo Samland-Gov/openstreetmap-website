@@ -25,7 +25,34 @@
 //= require qs/dist/qs
 
 $(document).ready(function () {
+  const Coords = L.Control.extend({
+    _container: null,
+    options: {
+      position: 'bottomleft'
+    },
+    onAdd: function () {
+      const coords = L.DomUtil.create('div', 'leaflet-control-layers coordinates');
+      this._coords = coords;
+      if (!show) {
+        this._coords.style.display = "none";
+      }
+      return coords;
+    },
+    update: function (html, point) {
+      this.x = point == null ? "---" : Math.floor(point.x);
+      this.z = point == null ? "---" : Math.floor(point.y);
+      if (html != null) {
+        this._coords.innerHTML = html
+          .replace(/{x}/g, this.x)
+          .replace(/{z}/g, this.z);
+      }
+    }
+  });
+
+  var coordsUI = new Coords();
+
   var map = new L.OSM.Map("map", {
+    center: [0, 0],
     zoomControl: false,
     layerControl: false,
     contextmenu: true,
@@ -150,10 +177,10 @@ $(document).ready(function () {
     })
   ]);
 
-  L.control.scale()
-    .addTo(map);
+  map.addControl(coordsUI);
+  L.control.scale().addTo(map);
 
-  OSM.initializeContextMenu(map);
+    OSM.initializeContextMenu(map);
 
   if (OSM.STATUS !== "api_offline" && OSM.STATUS !== "database_offline") {
     OSM.initializeNotesLayer(map);
