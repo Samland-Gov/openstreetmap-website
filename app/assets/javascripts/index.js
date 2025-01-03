@@ -33,9 +33,6 @@ $(document).ready(function () {
     onAdd: function () {
       const coords = L.DomUtil.create('div', 'leaflet-control-layers coordinates');
       this._coords = coords;
-      if (!show) {
-        this._coords.style.display = "none";
-      }
       return coords;
     },
     update: function (html, point) {
